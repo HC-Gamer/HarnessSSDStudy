@@ -1,0 +1,78 @@
+name: daily-publish
+
+on:
+  schedule:
+    - cron: '30 13 * * *'   # 13:30 UTC = 21:30 CST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish next blog post
+        run: |
+          # Find blog files sorted by number prefix, excluding already published ones
+          for f in $(ls -v blogs/blog[0-9]*.md 2>/dev/null); do
+            basename=$(basename "$f")
+            # Skip if already listed in README
+            if grep -q "$basename" README.md; then
+              echo "Already published: $basename"
+              continue
+            fi
+
+            echo "Publishing: $basename"
+
+            # Extract title from file
+            title=$(head -1 "$f" | sed 's/^# //')
+
+            # Extract date from filename
+            date_part=$(echo "$basename" | sed 's/.*_\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\)\.md$/\1/')
+
+            # Extract excerpt: first non-empty, non-header line after title
+            excerpt=$(awk 'NR>1 && !/^$|^#/ {print; exit}' "$f" | head -c 120)
+
+            # Find the last numbered entry in the series section preceding "## 关于"
+            # We insert right before "## 关于" — works for any series
+            last_num=$(awk '
+              /^## 关于/ { found=1; next }
+              found { next }
+              /^[0-9]+\\. / { last = $0 }
+              END { print last }
+            ' README.md | sed 's/^\([0-9]*\)\..*/\1/')
+
+            if [ -z "$last_num" ]; then
+              last_num=0
+            fi
+            new_num=$((last_num + 1))
+
+            # Build entry
+            entry="\n${new_num}. [${title}](blogs/${basename}) *(${date_part})*\n\n   ${excerpt}"
+
+            # Insert before "## 关于" section
+            awk -v entry="$entry" '
+              /^## 关于/ { print entry; print; next }
+              { print }
+            ' README.md > README.tmp && mv README.tmp README.md
+
+            echo "Done: $basename"
+            break
+          done
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet README.md; then
+            echo "No new blog posts to publish today."
+            exit 0
+          fi
+          git config user.name "blog-publisher[bot]"
+          git config user.email "blog-publisher[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Publish next blog post (daily auto-publish)"
+          git push
