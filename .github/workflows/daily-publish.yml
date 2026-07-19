@@ -17,58 +17,79 @@ jobs:
           fetch-depth: 0
 
       - name: Publish next blog post
+        shell: bash
         run: |
-          # Find blog files sorted by number prefix, excluding already published ones
-          for f in $(ls -v blogs/blog[0-9]*.md 2>/dev/null); do
-            basename=$(basename "$f")
-            # Skip if already listed in README
-            if grep -q "$basename" README.md; then
-              echo "Already published: $basename"
-              continue
-            fi
+          published_any=false
 
-            echo "Publishing: $basename"
+          # ---- Series 1: HarnessSSD Study ----
+          publish_series() {
+            local section_heading="$1"
+            local section_end="$2"
+            local dir="$3"
 
-            # Extract title from file
-            title=$(head -1 "$f" | sed 's/^# //')
+            for f in $(ls -v "$dir"/blog[0-9]*.md 2>/dev/null); do
+              basename=$(basename "$f")
+              if grep -q "$basename" README.md; then
+                echo "Already published: $basename"
+                continue
+              fi
 
-            # Extract date from filename
-            date_part=$(echo "$basename" | sed 's/.*_\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\)\.md$/\1/')
+              echo "Publishing: $basename"
 
-            # Extract excerpt: first non-empty, non-header line after title
-            excerpt=$(awk 'NR>1 && !/^$|^#/ {print; exit}' "$f" | head -c 120)
+              title=$(head -1 "$f" | sed 's/^# //')
+              date_part=$(echo "$basename" | sed 's/.*_\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\)\.md$/\1/')
+              excerpt=$(awk 'NR>1 && !/^$|^#/ {print; exit}' "$f" | head -c 120)
 
-            # Find the last numbered entry in the series section preceding "## 关于"
-            # We insert right before "## 关于" — works for any series
-            last_num=$(awk '
-              /^## 关于/ { found=1; next }
-              found { next }
-              /^[0-9]+\\. / { last = $0 }
-              END { print last }
-            ' README.md | sed 's/^\([0-9]*\)\..*/\1/')
+              # Find last numbered entry in the section
+              last_num=$(awk -v head="$section_heading" -v end="$section_end" '
+                BEGIN { in_section=0 }
+                $0 ~ "^"head"$" { in_section=1; next }
+                in_section && $0 ~ "^"end"$" { exit }
+                in_section && /^[0-9]+\. / { last = $0 }
+                END { print last }
+              ' README.md | sed 's/^\([0-9]*\)\..*/\1/')
 
-            if [ -z "$last_num" ]; then
-              last_num=0
-            fi
-            new_num=$((last_num + 1))
+              if [ -z "$last_num" ]; then
+                last_num=0
+              fi
+              new_num=$((last_num + 1))
 
-            # Build entry
-            entry="\n${new_num}. [${title}](blogs/${basename}) *(${date_part})*\n\n   ${excerpt}"
+              # Build and insert entry before section_end
+              # Use awk to insert: match section_end, print entry first, then section_end
+              awk -v num="$new_num" -v ttl="$title" -v fn="$f" -v dt="$date_part" -v exc="$excerpt" -v end="$section_end" '
+                $0 ~ "^"end"$" {
+                  print ""
+                  printf "%d. [%s](%s) (%s)\n", num, ttl, fn, dt
+                  print ""
+                  printf "   %s\n", exc
+                  print
+                  next
+                }
+                { print }
+              ' README.md > README.tmp && mv README.tmp README.md
 
-            # Insert before "## 关于" section
-            awk -v entry="$entry" '
-              /^## 关于/ { print entry; print; next }
-              { print }
-            ' README.md > README.tmp && mv README.tmp README.md
+              echo "Done: $basename"
+              published_any=true
+              break
+            done
+          }
 
-            echo "Done: $basename"
-            break
-          done
+          # Publish from HarnessSSD Study series first (if any)
+          publish_series "## 博客索引" "## Agent 设计模式之美系列" "blogs/harness-study"
+
+          # Then from Agent Design Patterns series (if harness-study had nothing)
+          if [ "$published_any" = false ]; then
+            publish_series "## Agent 设计模式之美系列" "## 关于" "blogs/agent-design-patterns"
+          fi
+
+          if [ "$published_any" = false ]; then
+            echo "No new blog posts to publish today."
+          fi
 
       - name: Commit and push
         run: |
           if git diff --quiet README.md; then
-            echo "No new blog posts to publish today."
+            echo "No changes to commit."
             exit 0
           fi
           git config user.name "blog-publisher[bot]"
