@@ -52,6 +52,10 @@
 
    双轴不是分类表而是坐标系——42 格矩阵、Pattern Selection Card 选型三步法、双轴评审五问、Compound Error 公理，以及为什么空格比填满更有信息量。
 
+4. [拿逆向五步法拆自己项目的源码：我把 Hermes Agent 当标本解剖了](blogs/agent-design-patterns/blog4_逆向五步法拆源码_2025-07-19.md) *(2025-07-19)*
+
+   用 Detect → Classify → Filter → Map → Verify 五步法解剖 Hermes Agent 源码——从 tool_call 开始找主循环、三组 grep 交叉定位、七个组件归入七脉、三个深度 Matrix Map 到双轴格，以及为什么从 main() 开始读源码是错的。
+
 ---
 
 ## 关于
