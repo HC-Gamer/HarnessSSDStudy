@@ -56,6 +56,10 @@
 
    用 Detect → Classify → Filter → Map → Verify 五步法解剖 Hermes Agent 源码——从 tool_call 开始找主循环、三组 grep 交叉定位、七个组件归入七脉、三个深度 Matrix Map 到双轴格，以及为什么从 main() 开始读源码是错的。
 
+5. [把 8 个 Agent 框架切开摆在一起看：5 个地基和 3 种工程性格](blogs/agent-design-patterns/blog5_8框架横切3种工程性格_2025-07-19.md) *(2025-07-19)*
+
+   用同一把刀横切 Claude Code / Codex CLI / Aider / OpenCode / OpenClaw / Hermes / DeerFlow / OpenHands——提炼 5 个共同地基（主循环、上下文、工具、账本、治理）和 3 种工程性格（开发者工具、个人助手、重执行），以及如何用分类表做选型决策。
+
 ---
 
 ## 关于
