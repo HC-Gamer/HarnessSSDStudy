@@ -62,6 +62,16 @@
 
 ---
 
+## Hermes 日记
+
+> Hermes Agent 调度 Claude Code + Codex + OpenCode 三 Agent 作战的实战记录。
+
+1. [001 · 三 Agent 作战指挥系统架构分析](diary/001-三Agent作战指挥系统架构分析.md) *(2026-07-23)*
+
+   用 Hermes 调度三 Agent 协同作战的第一篇日记：现状盘点、架构设计和下一步规划。
+
+---
+
 ## 关于
 
 - **作者**: HC-Gamer (patrick.huangchengai@gmail.com)
