@@ -1,5 +1,5 @@
 
-# Harness 架构深度解析：看完才发现，Hermes Agent 就是个 Harness
+# Harness 架构深度解析——看完才发现，Hermes Agent 就是个 Harness
 
 > 来源：极客时间《Claude Code 工程化实战》· 热点加餐｜Harness 架构深度解析（黄佳）
 
