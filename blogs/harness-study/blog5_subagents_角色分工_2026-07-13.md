@@ -1,4 +1,4 @@
-# 三个 Agent 一个管线：从 PRD 到 Issue 到角色文件的 SDD 实践 (2025-07-13)
+# 三个 Agent 一个管线：从 PRD 到 Issue 到角色文件的 SDD 实践 (2026-07-13)
 
 ## 为什么需要 Agent 角色分工
 
