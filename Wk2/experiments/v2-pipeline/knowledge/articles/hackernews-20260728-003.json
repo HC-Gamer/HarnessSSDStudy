@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260728-003",
+  "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
+  "source_url": "https://github.com/ctrlb-hq/ctrlb-decompose",
+  "summary": "Ctrlb-decompose 是一个开源工具，用于在将日志发送到 LLM 前进行降噪处理。它通过解析和过滤日志中的冗余信息（如时间戳、堆栈跟踪等），保留关键上下文，从而提升 LLM 对日志的理解效率和准确性。该工具适用于调试和监控场景，减少 token 消耗。",
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Article URL: https://github.com/ctrlb-hq/ctrlb-decompose Comments URL: https://news.ycombinator.com/item?id=49083336 Points: 37 # Comments: 7"
+  }
+}

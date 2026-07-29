@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-n8n-io-n8n",
+  "title": "n8n-io/n8n",
+  "source": "github-trending",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "n8n：开源工作流自动化工具，支持 AI Agent 节点和 400+ 集成",
+  "analysis": {
+    "tech_highlights": [
+      "TypeScript 实现，56,000 stars",
+      "主要领域: automation, workflow"
+    ],
+    "relevance_score": 9,
+    "score_reason": "超高星数 + AI 核心领域，行业标杆项目"
+  },
+  "tags": [
+    "automation",
+    "workflow",
+    "ai"
+  ],
+  "status": "draft"
+}

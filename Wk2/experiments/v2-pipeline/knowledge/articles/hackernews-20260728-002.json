@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260728-002",
+  "title": "Show HN: tale.fyi, we deserve a home for fiction",
+  "source_url": "https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link",
+  "summary": "该项目构建了一个专注于虚构文学的网络平台，整合了公共领域小说库并支持用户上传原创故事，旨在改变互联网以非虚构内容为主的现状。",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 2,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "hackernews",
+  "audience": "beginner",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "for decades, i have been concerned that the internet was being built around non-fiction, so i built something to show how we could celebrate great fiction on the web. i started with an amazing library from the public domain, and i also added tools to add your own stories super interested to hear any feedback, and if you read anything good! Comments URL: https://news.ycombinator.com/item?id=49083389 Points: 45 # Comments: 30"
+  }
+}

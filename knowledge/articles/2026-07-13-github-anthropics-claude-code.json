@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-anthropics-claude-code",
+  "title": "anthropics/claude-code",
+  "source": "github-trending",
+  "source_url": "https://github.com/anthropics/claude-code",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "Claude Code：Anthropic 的 AI 编程助手，集成终端和编辑器",
+  "analysis": {
+    "tech_highlights": [
+      "TypeScript 实现，15,000 stars",
+      "主要领域: ai, coding"
+    ],
+    "relevance_score": 7,
+    "score_reason": "中等星数，有明确技术亮点和应用场景"
+  },
+  "tags": [
+    "ai",
+    "coding",
+    "cli"
+  ],
+  "status": "draft"
+}

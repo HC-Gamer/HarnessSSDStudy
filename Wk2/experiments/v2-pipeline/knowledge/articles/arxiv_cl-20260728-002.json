@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260728-002",
+  "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+  "source_url": "https://arxiv.org/abs/2607.24717v1",
+  "summary": "DataOrchestra 提出一种针对预训练数据逐样本定制的处理框架，通过编排器为每个数据块决策丢弃、保留或清洗，并选择程序编辑或 LLM 重写等下游操作，生成具体指令执行，以替代传统固定策略，提升 LLM 下游性能。",
+  "tags": [
+    "llm",
+    "fine-tuning"
+  ],
+  "status": "review",
+  "score": 7,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "arxiv_cl",
+  "audience": "advanced",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it uniformly to many examples, without adapting to the needs of each example. We propose DataOrchestra, a framework that unifies different processing operations and orchestrates an example-specific pipeline for each example. Given a chunk of pretraining data, an orchestrator decides whet"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-opentofu-opentofu",
+  "title": "opentofu/opentofu",
+  "source": "github-trending",
+  "source_url": "https://github.com/opentofu/opentofu",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "OpenTofu：Terraform 的开源替代，基础设施即代码工具",
+  "analysis": {
+    "tech_highlights": [
+      "Go 实现，24,000 stars",
+      "主要领域: infrastructure, iac"
+    ],
+    "relevance_score": 8,
+    "score_reason": "高星数，社区活跃，技术价值显著"
+  },
+  "tags": [
+    "infrastructure",
+    "iac",
+    "devops"
+  ],
+  "status": "draft"
+}

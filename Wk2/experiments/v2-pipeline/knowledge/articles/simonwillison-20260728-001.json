@@ -1,0 +1,18 @@
+{
+  "id": "simonwillison-20260728-001",
+  "title": "moonshotai/Kimi-K3",
+  "source_url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+  "summary": "Moonshot AI 发布 2.8 万亿参数 Kimi K3 模型权重（1.56TB），采用修改版 MIT 许可，要求月活超 1 亿或月收入超 2000 万美元的商业实体在界面显著标注“Kimi K3”。",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 7,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "simonwillison",
+  "audience": "advanced",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial "
+  }
+}

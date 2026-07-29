@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260728-001",
+  "title": "Ask HN: Crooked Timber showed showed me a virus captcha, What now?",
+  "source_url": "https://news.ycombinator.com/item?id=49084404",
+  "summary": "用户报告在访问 Crooked Timber 时遇到伪装成 Google reCAPTCHA 的恶意页面，要求用户按 Win+R 并粘贴剪贴板内容运行，实际是执行 PowerShell 命令下载恶意负载。这是一种利用社会工程学绕过浏览器安全机制的攻击手法。",
+  "tags": [
+    "security"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Hello everyone, This morning, as i started my shift, i thought i would start visiting some news blogs / websites to kick off the day. When it got to Crooked Timber i saw a captcha page instead, it looked like a traditional Google captcha. I clicked it, the spinner spun, and a box opened on the right, showing the traditional \"Verify you're human\" white title on a blue background. It showed 2 \"Manual Verification Steps\" : 1. Press Win + R 2. Press Ctrl + V and press Run At first i assumed it was a"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260728-001",
+  "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+  "source_url": "https://arxiv.org/abs/2607.24743v1",
+  "summary": "ClinFusion 提出一种以视觉为中心的多模态大语言模型，用于全面医学理解。其核心创新是组合式级联视觉编码器架构，包含 Cascade Spatial-Aware Locality Fusion 算子，统一处理 2D 和原生 3D 医学图像，并设计符合放射科医生临床实践的评估协议，强调细粒度与事实性。",
+  "tags": [
+    "llm",
+    "vision"
+  ],
+  "status": "review",
+  "score": 8,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "arxiv_ai",
+  "audience": "advanced",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with radiologists' clinical practice and provide an accurate, fine-grained and factualness-driven assessment. In this paper, we introduce ClinFusion, a vision-centric MLLM designed for holistic medical un"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-comfyanonymous-comfyui",
+  "title": "comfyanonymous/ComfyUI",
+  "source": "github-trending",
+  "source_url": "https://github.com/comfyanonymous/ComfyUI",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "ComfyUI：基于节点的 Stable Diffusion 工作流界面",
+  "analysis": {
+    "tech_highlights": [
+      "Python 实现，62,000 stars",
+      "主要领域: ai, image-generation"
+    ],
+    "relevance_score": 8,
+    "score_reason": "高星数 AI 项目，评分已饱和"
+  },
+  "tags": [
+    "ai",
+    "image-generation",
+    "ui"
+  ],
+  "status": "draft"
+}

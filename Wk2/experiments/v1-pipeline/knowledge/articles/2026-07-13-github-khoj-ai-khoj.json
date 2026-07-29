@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-khoj-ai-khoj",
+  "title": "khoj-ai/khoj",
+  "source": "github-trending",
+  "source_url": "https://github.com/khoj-ai/khoj",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "Khoj：开源 AI 个人助手，支持本地文档搜索和问答",
+  "analysis": {
+    "tech_highlights": [
+      "Python 实现，18,000 stars",
+      "主要领域: ai, search"
+    ],
+    "relevance_score": 7,
+    "score_reason": "中等星数，有明确技术亮点和应用场景"
+  },
+  "tags": [
+    "ai",
+    "search",
+    "assistant"
+  ],
+  "status": "draft"
+}

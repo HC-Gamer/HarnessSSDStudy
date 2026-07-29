@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-pola-rs-polars",
+  "title": "pola-rs/polars",
+  "source": "github-trending",
+  "source_url": "https://github.com/pola-rs/polars",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "Polars：Rust 实现的 DataFrame 库，比 Pandas 快 10-100 倍",
+  "analysis": {
+    "tech_highlights": [
+      "Rust 实现，32,000 stars",
+      "主要领域: dataframe, performance"
+    ],
+    "relevance_score": 8,
+    "score_reason": "高星数，社区活跃，技术价值显著"
+  },
+  "tags": [
+    "dataframe",
+    "performance",
+    "rust"
+  ],
+  "status": "draft"
+}

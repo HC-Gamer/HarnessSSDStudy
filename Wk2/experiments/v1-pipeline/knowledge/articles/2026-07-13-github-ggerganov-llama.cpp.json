@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-ggerganov-llama.cpp",
+  "title": "ggerganov/llama.cpp",
+  "source": "github-trending",
+  "source_url": "https://github.com/ggerganov/llama.cpp",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "llama.cpp：C/C++ 实现的 LLM 推理引擎，支持本地 CPU 运行",
+  "analysis": {
+    "tech_highlights": [
+      "C 实现，75,000 stars",
+      "主要领域: llm, inference"
+    ],
+    "relevance_score": 8,
+    "score_reason": "高星数，社区活跃，技术价值显著"
+  },
+  "tags": [
+    "llm",
+    "inference",
+    "cpp"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,64 @@
+name: Daily Knowledge Collection
+
+on:
+  schedule:
+    # UTC 08:00 = 北京时间 16:00
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      analyze:
+        description: Run LLM analysis (requires DEEPSEEK_API_KEY secret)
+        type: boolean
+        default: false
+      limit:
+        description: Articles per source
+        type: number
+        default: 10
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    name: Collect and commit knowledge articles
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Wk2/experiments/v2-pipeline
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: Wk2/experiments/v2-pipeline/pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install httpx pyyaml
+
+      - name: Run pipeline (no analysis — zero cost)
+        if: inputs.analyze != true
+        run: >
+          python -m pipeline.pipeline
+          --sources github,rss
+          --limit ${{ inputs.limit || 10 }}
+          --no-analyze
+
+      - name: Run pipeline (with LLM analysis)
+        if: inputs.analyze == true
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: >
+          python -m pipeline.pipeline
+          --sources github,rss
+          --limit ${{ inputs.limit || 5 }}
+          --provider deepseek
+
+      - name: Commit and push results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: daily knowledge collection (${{ inputs.analyze && 'analyzed' || 'raw' }})"
+          file_pattern: Wk2/experiments/v2-pipeline/knowledge/**

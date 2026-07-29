@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260728-001",
+  "title": "How AI is expanding what people do at work",
+  "source_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+  "summary": "OpenAI 研究显示，ChatGPT 用户正在跨角色承担任务，AI 正在扩展工作内容并重塑职业边界，但缺乏具体技术细节（如模型架构、训练数据或基准测试）。",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 2,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "openai_news",
+  "audience": "beginner",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries."
+  }
+}

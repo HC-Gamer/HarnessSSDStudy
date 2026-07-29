@@ -1,0 +1,263 @@
+[
+  {
+    "source": "hackernews",
+    "title": "Ask HN: Crooked Timber showed showed me a virus captcha, What now?",
+    "url": "https://news.ycombinator.com/item?id=49084404",
+    "raw_text": "标题: Ask HN: Crooked Timber showed showed me a virus captcha, What now?\n来源: hackernews\n摘要: Hello everyone, This morning, as i started my shift, i thought i would start visiting some news blogs / websites to kick off the day. When it got to Crooked Timber i saw a captcha page instead, it looked like a traditional Google captcha. I clicked it, the spinner spun, and a box opened on the right, showing the traditional \"Verify you're human\" white title on a blue background. It showed 2 \"Manual Verification Steps\" : 1. Press Win + R 2. Press Ctrl + V and press Run At first i assumed it was a new type of captcha checking i a physical keyboard was attached to the browser. But i instantly recognized the attempt to make me run a script on my machine. I opened a new type and to my surprise, the something new was in my clipboard : \"pcalua -a \"PowerShell\" -c \"saps cmd '/v/c m^s^h^t^a h^t^t^p^",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Hello everyone, This morning, as i started my shift, i thought i would start visiting some news blogs / websites to kick off the day. When it got to Crooked Timber i saw a captcha page instead, it looked like a traditional Google captcha. I clicked it, the spinner spun, and a box opened on the right, showing the traditional \"Verify you're human\" white title on a blue background. It showed 2 \"Manual Verification Steps\" : 1. Press Win + R 2. Press Ctrl + V and press Run At first i assumed it was a"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Show HN: tale.fyi, we deserve a home for fiction",
+    "url": "https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link",
+    "raw_text": "标题: Show HN: tale.fyi, we deserve a home for fiction\n来源: hackernews\n摘要: for decades, i have been concerned that the internet was being built around non-fiction, so i built something to show how we could celebrate great fiction on the web. i started with an amazing library from the public domain, and i also added tools to add your own stories super interested to hear any feedback, and if you read anything good! Comments URL: https://news.ycombinator.com/item?id=49083389 Points: 45 # Comments: 30",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "for decades, i have been concerned that the internet was being built around non-fiction, so i built something to show how we could celebrate great fiction on the web. i started with an amazing library from the public domain, and i also added tools to add your own stories super interested to hear any feedback, and if you read anything good! Comments URL: https://news.ycombinator.com/item?id=49083389 Points: 45 # Comments: 30"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
+    "url": "https://github.com/ctrlb-hq/ctrlb-decompose",
+    "raw_text": "标题: Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs\n来源: hackernews\n摘要: Article URL: https://github.com/ctrlb-hq/ctrlb-decompose Comments URL: https://news.ycombinator.com/item?id=49083336 Points: 37 # Comments: 7",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://github.com/ctrlb-hq/ctrlb-decompose Comments URL: https://news.ycombinator.com/item?id=49083336 Points: 37 # Comments: 7"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Framework 13 Pro review: Much better battery, much worse price",
+    "url": "https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/",
+    "raw_text": "标题: Framework 13 Pro review: Much better battery, much worse price\n来源: lobsters\n摘要: Framework 13 Pro review: Much better battery, much worse price。这是 lobsters 收录的技术条目，原文站点 arstechnica.com；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Framework 13 Pro review: Much better battery, much worse price。这是 lobsters 收录的技术条目，原文站点 arstechnica.com；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Develop Cross-Platform CLI and GUI Tools With Tcl/Tk",
+    "url": "https://cgicoffee.com/blog/2026/04/tcl-tk-develop-cross-platform-cli-gui-tools-tutorial-guide",
+    "raw_text": "标题: Develop Cross-Platform CLI and GUI Tools With Tcl/Tk\n来源: lobsters\n摘要: Toggle navigation Blog About Articles Develop Cross-Platform CLI and GUI Tools With Tcl/Tk. Powerful, Event-Driven, Open-Source And Future-Proof Toolkit… From the Past?! Posted in Software on 14 April 2026 Blog Software What if I told you there exists a language, or a whole toolkit that: Can be used",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Toggle navigation Blog About Articles Develop Cross-Platform CLI and GUI Tools With Tcl/Tk. Powerful, Event-Driven, Open-Source And Future-Proof Toolkit… From the Past?! Posted in Software on 14 April 2026 Blog Software What if I told you there exists a language, or a whole toolkit that: Can be used"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Setup a Simple, Self-Hosted Web Server with OpenBSD",
+    "url": "https://btxx.org/posts/self-hosted-openbsd/",
+    "raw_text": "标题: Setup a Simple, Self-Hosted Web Server with OpenBSD\n来源: lobsters\n摘要: making computers angry About Colophon Contribute RSS Now Posts Projects Recipes Resume Uses Wiki Setup a Simple, Self-Hosted Web Server with OpenBSD 2026-07-18 This website is being served to you from my HP T630 thin client, running OpenBSD and httpd 1 . Pretty cool, right? And best of all you can d",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "making computers angry About Colophon Contribute RSS Now Posts Projects Recipes Resume Uses Wiki Setup a Simple, Self-Hosted Web Server with OpenBSD 2026-07-18 This website is being served to you from my HP T630 thin client, running OpenBSD and httpd 1 . Pretty cool, right? And best of all you can d"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+    "url": "https://arxiv.org/abs/2607.24743v1",
+    "raw_text": "标题: ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding\n来源: arxiv_ai\n摘要: Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with radiologists' clinical practice and provide an accurate, fine-grained and factualness-driven assessment. In this paper, we introduce ClinFusion, a vision-centric MLLM designed for holistic medical understanding that systematically addresses these limitations. We propose a compositional and cascaded vision encoder architecture featuring a Cascade Spatial-Aware Locality Fusion operator that unifies diverse 2D and native 3D medical image understanding within a fused encoder. We further introduce a",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with radiologists' clinical practice and provide an accurate, fine-grained and factualness-driven assessment. In this paper, we introduce ClinFusion, a vision-centric MLLM designed for holistic medical un"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation",
+    "url": "https://arxiv.org/abs/2607.24731v1",
+    "raw_text": "标题: Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation\n来源: arxiv_ai\n摘要: On-policy distillation (OPD) adapts diffusion models by querying a teacher along trajectories generated by the current student, but how it should behave under classifier-free guidance (CFG), a default component of modern diffusion systems, remains poorly understood. Existing OPD methods naturally extend velocity matching to the CFG-composed prediction, directly matching teacher and student guided velocities. We show that this objective is under-identified at the branch level: positive- and negative-branch errors can compensate in the guided prediction. Through two contrasting cases, we find that naive matching remains effective under shared negative conditioning, where both branch errors decrease jointly. When the model's native CFG schema retains privileged information in the teacher's ne",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "On-policy distillation (OPD) adapts diffusion models by querying a teacher along trajectories generated by the current student, but how it should behave under classifier-free guidance (CFG), a default component of modern diffusion systems, remains poorly understood. Existing OPD methods naturally extend velocity matching to the CFG-composed prediction, directly matching teacher and student guided velocities. We show that this objective is under-identified at the branch level: positive- and negat"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
+    "url": "https://arxiv.org/abs/2607.24730v1",
+    "raw_text": "标题: KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability\n来源: arxiv_ai\n摘要: Computer vision models have become highly effective for medical applications, yet their black-box nature continues to undermine clinician trust. In clinical workflows, chest X-ray classifiers are increasingly paired with Vision-Language Models (VLMs) to generate natural-language explanations. However, these systems add linguistic fluency without addressing the underlying opacity of the visual model. With the emergence of Kolmogorov-Arnold Networks (KANs), whose spline-based components provide inherently interpretable functional units, we investigate whether this architectural transparency can be leveraged to produce more trustworthy textual explanations. We introduce KANEx, the first ever framework that leverages the symbolic transparency of KANs to ground VLM reasoning. This interpretabil",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Computer vision models have become highly effective for medical applications, yet their black-box nature continues to undermine clinician trust. In clinical workflows, chest X-ray classifiers are increasingly paired with Vision-Language Models (VLMs) to generate natural-language explanations. However, these systems add linguistic fluency without addressing the underlying opacity of the visual model. With the emergence of Kolmogorov-Arnold Networks (KANs), whose spline-based components provide in"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+    "url": "https://arxiv.org/abs/2607.24743v1",
+    "raw_text": "标题: ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding\n来源: arxiv_cl\n摘要: Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with radiologists' clinical practice and provide an accurate, fine-grained and factualness-driven assessment. In this paper, we introduce ClinFusion, a vision-centric MLLM designed for holistic medical understanding that systematically addresses these limitations. We propose a compositional and cascaded vision encoder architecture featuring a Cascade Spatial-Aware Locality Fusion operator that unifies diverse 2D and native 3D medical image understanding within a fused encoder. We further introduce a",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with radiologists' clinical practice and provide an accurate, fine-grained and factualness-driven assessment. In this paper, we introduce ClinFusion, a vision-centric MLLM designed for holistic medical un"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+    "url": "https://arxiv.org/abs/2607.24720v1",
+    "raw_text": "标题: The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation\n来源: arxiv_cl\n摘要: Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address this challenge, we introduce a unified and controlled multi-turn environment that enables precise control. It allows systematically study long-horizon planning across three stages. (1) Planning ability acquisition during pre-training. We study data format, distribution, and quality. Explicit world model construction through CoT state transition modeling yields stronger long-horizon generalization. Atomic skills alone are insufficient for compositional generalization, whereas a litte long-horizon",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address this challenge, we introduce a unified and controlled multi-turn environment that enables precise control. It allows systematically study long-horizon planning across three stages. (1) Planning abilit"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+    "url": "https://arxiv.org/abs/2607.24717v1",
+    "raw_text": "标题: DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data\n来源: arxiv_cl\n摘要: Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it uniformly to many examples, without adapting to the needs of each example. We propose DataOrchestra, a framework that unifies different processing operations and orchestrates an example-specific pipeline for each example. Given a chunk of pretraining data, an orchestrator decides whether to drop, untouch, or clean it. For a chunk to be cleaned, it selects one or more downstream operations, ranging from programmatic editing to different forms of LLM-based rewriting. For each rewriting step, it further generates a concrete instruction, which is executed by the corresponding downst",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it uniformly to many examples, without adapting to the needs of each example. We propose DataOrchestra, a framework that unifies different processing operations and orchestrates an example-specific pipeline for each example. Given a chunk of pretraining data, an orchestrator decides whet"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+    "raw_text": "标题: LFM2.5-Encoders for Fast Long-Context Inference on CPU\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+    "raw_text": "标题: NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+    "url": "https://huggingface.co/blog/nunchaku-diffusers",
+    "raw_text": "标题: Bringing Nunchaku 4-bit Diffusion Inference to Diffusers\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "How AI is expanding what people do at work",
+    "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "raw_text": "标题: How AI is expanding what people do at work\n来源: openai_news\n摘要: New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Launching Health in ChatGPT",
+    "url": "https://openai.com/index/health-in-chatgpt",
+    "raw_text": "标题: Launching Health in ChatGPT\n来源: openai_news\n摘要: Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Building AI infrastructure with the Effingham County community",
+    "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "raw_text": "标题: Building AI infrastructure with the Effingham County community\n来源: openai_news\n摘要: OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "moonshotai/Kimi-K3",
+    "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+    "raw_text": "标题: moonshotai/Kimi-K3\n来源: simonwillison\n摘要: moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service. The K3 license no longer calls itself \"modif",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial "
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "An opinionated guide to which AI to use to do stuff",
+    "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+    "raw_text": "标题: An opinionated guide to which AI to use to do stuff\n来源: simonwillison\n摘要: An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\". Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. Gemini Spark has yet to prove itself! Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use: To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\". Gemini has fallen off Ethan's list, since Google still doesn’"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+    "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+    "raw_text": "标题: An Inside Look at the Relay Market Powering Token Resellers and Fraud\n来源: simonwillison\n摘要: An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks. The software they are using for these proxies is open source - mostly one-api and its more actively developed fork new-api , both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials. The buyers are seeking cheap tokens, avoidin",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or ch"
+    }
+  }
+]

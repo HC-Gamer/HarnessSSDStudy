@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-hiyouga-llama-factory",
+  "title": "hiyouga/LLaMA-Factory",
+  "source": "github-trending",
+  "source_url": "https://github.com/hiyouga/LLaMA-Factory",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "LLaMA Factory：高效 Llama 微调框架，支持 LoRA/QLoRA 等多种方法",
+  "analysis": {
+    "tech_highlights": [
+      "Python 实现，42,000 stars",
+      "主要领域: llm, fine-tuning"
+    ],
+    "relevance_score": 8,
+    "score_reason": "高星数，社区活跃，技术价值显著"
+  },
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "lora"
+  ],
+  "status": "draft"
+}

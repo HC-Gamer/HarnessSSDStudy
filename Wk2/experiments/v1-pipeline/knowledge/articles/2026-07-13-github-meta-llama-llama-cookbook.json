@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-meta-llama-llama-cookbook",
+  "title": "meta-llama/llama-cookbook",
+  "source": "github-trending",
+  "source_url": "https://github.com/meta-llama/llama-cookbook",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "Llama Cookbook：Meta 官方 Llama 模型使用指南和最佳实践集合",
+  "analysis": {
+    "tech_highlights": [
+      "Python 实现，12,800 stars",
+      "主要领域: llm, meta"
+    ],
+    "relevance_score": 7,
+    "score_reason": "中等星数，有明确技术亮点和应用场景"
+  },
+  "tags": [
+    "llm",
+    "meta",
+    "cookbook"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260728-002",
+  "title": "Develop Cross-Platform CLI and GUI Tools With Tcl/Tk",
+  "source_url": "https://cgicoffee.com/blog/2026/04/tcl-tk-develop-cross-platform-cli-gui-tools-tutorial-guide",
+  "summary": "本文介绍了使用Tcl/Tk开发跨平台命令行和图形界面工具的方法，强调其事件驱动、开源且经久不衰的特性。文章探讨了Tcl/Tk作为工具包的优势，包括跨平台兼容性和未来适用性，适合快速构建CLI和GUI应用。",
+  "tags": [
+    "deployment"
+  ],
+  "status": "review",
+  "score": 2,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "lobsters",
+  "audience": "beginner",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Toggle navigation Blog About Articles Develop Cross-Platform CLI and GUI Tools With Tcl/Tk. Powerful, Event-Driven, Open-Source And Future-Proof Toolkit… From the Past?! Posted in Software on 14 April 2026 Blog Software What if I told you there exists a language, or a whole toolkit that: Can be used"
+  }
+}

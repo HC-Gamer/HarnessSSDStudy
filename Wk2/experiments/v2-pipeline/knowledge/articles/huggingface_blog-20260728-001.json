@@ -1,0 +1,19 @@
+{
+  "id": "huggingface_blog-20260728-001",
+  "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+  "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+  "summary": "Hugging Face 发布 LFM2.5-Encoders，一种针对 CPU 上快速长上下文推理优化的编码器模型。该模型通过架构改进（如稀疏注意力机制）和推理优化（如量化、算子融合），显著降低长序列（如 8K+ tokens）在 CPU 上的推理延迟和内存占用，同时保持与基线模型相当的精度。基准测试显示，在 CPU 上处理 16K 上下文时，推理速度提升 2-3 倍。",
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "status": "review",
+  "score": 7,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "huggingface_blog",
+  "audience": "advanced",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+  }
+}

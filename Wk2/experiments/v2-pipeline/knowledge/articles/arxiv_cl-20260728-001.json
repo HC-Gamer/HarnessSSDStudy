@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260728-001",
+  "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+  "source_url": "https://arxiv.org/abs/2607.24720v1",
+  "summary": "该论文提出一个可控的多轮环境，系统研究长程规划能力在预训练、后训练阶段的获取与整合。研究发现，通过思维链状态转换建模构建显式世界模型能提升长程泛化，原子技能不足以实现组合泛化，而少量长程数据即可显著改善。",
+  "tags": [
+    "reasoning",
+    "llm",
+    "agent"
+  ],
+  "status": "review",
+  "score": 8,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "arxiv_cl",
+  "audience": "advanced",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address this challenge, we introduce a unified and controlled multi-turn environment that enables precise control. It allows systematically study long-horizon planning across three stages. (1) Planning abilit"
+  }
+}

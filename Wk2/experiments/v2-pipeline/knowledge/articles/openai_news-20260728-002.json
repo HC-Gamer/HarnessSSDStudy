@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260728-002",
+  "title": "Launching Health in ChatGPT",
+  "source_url": "https://openai.com/index/health-in-chatgpt",
+  "summary": "OpenAI 在 ChatGPT 中推出 Health 功能，允许符合条件的美国用户安全连接医疗记录和 Apple Health 数据，以获取个性化健康洞察。该功能利用 LLM 处理结构化健康数据，增强用户对自身健康状况的理解。",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 3,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "openai_news",
+  "audience": "beginner",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
+  }
+}

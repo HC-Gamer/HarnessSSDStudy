@@ -1,0 +1,187 @@
+{
+  "source": "github-trending",
+  "skill": "github-trending",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "items": [
+    {
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "summary": "Codex：OpenAI 的代码生成模型，支持多语言编程任务",
+      "stars": 45200,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "llm",
+        "code-generation"
+      ]
+    },
+    {
+      "name": "meta-llama/llama-cookbook",
+      "url": "https://github.com/meta-llama/llama-cookbook",
+      "summary": "Llama Cookbook：Meta 官方 Llama 模型使用指南和最佳实践集合",
+      "stars": 12800,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "meta",
+        "cookbook"
+      ]
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "summary": "LangGraph：构建有状态多 Agent 应用的框架，支持循环和条件分支",
+      "stars": 8900,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "framework",
+        "langchain"
+      ]
+    },
+    {
+      "name": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "summary": "AutoGen：微软多 Agent 对话框架，支持 LLM 协作完成任务",
+      "stars": 34500,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "multi-agent",
+        "microsoft"
+      ]
+    },
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "summary": "Claude Code：Anthropic 的 AI 编程助手，集成终端和编辑器",
+      "stars": 15000,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "coding",
+        "cli"
+      ]
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "summary": "n8n：开源工作流自动化工具，支持 AI Agent 节点和 400+ 集成",
+      "stars": 56000,
+      "language": "TypeScript",
+      "topics": [
+        "automation",
+        "workflow",
+        "ai"
+      ]
+    },
+    {
+      "name": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "summary": "crewAI：多 Agent 协作框架，让 AI Agent 像团队一样分工合作",
+      "stars": 28000,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ]
+    },
+    {
+      "name": "comfyanonymous/ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "summary": "ComfyUI：基于节点的 Stable Diffusion 工作流界面",
+      "stars": 62000,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "image-generation",
+        "ui"
+      ]
+    },
+    {
+      "name": "ggerganov/llama.cpp",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "summary": "llama.cpp：C/C++ 实现的 LLM 推理引擎，支持本地 CPU 运行",
+      "stars": 75000,
+      "language": "C",
+      "topics": [
+        "llm",
+        "inference",
+        "cpp"
+      ]
+    },
+    {
+      "name": "hiyouga/LLaMA-Factory",
+      "url": "https://github.com/hiyouga/LLaMA-Factory",
+      "summary": "LLaMA Factory：高效 Llama 微调框架，支持 LoRA/QLoRA 等多种方法",
+      "stars": 42000,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "fine-tuning",
+        "lora"
+      ]
+    },
+    {
+      "name": "apache/airflow",
+      "url": "https://github.com/apache/airflow",
+      "summary": "Airflow：Apache 工作流调度平台，适合构建数据 pipeline",
+      "stars": 38000,
+      "language": "Python",
+      "topics": [
+        "workflow",
+        "scheduler",
+        "data-pipeline"
+      ]
+    },
+    {
+      "name": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "summary": "Polars：Rust 实现的 DataFrame 库，比 Pandas 快 10-100 倍",
+      "stars": 32000,
+      "language": "Rust",
+      "topics": [
+        "dataframe",
+        "performance",
+        "rust"
+      ]
+    },
+    {
+      "name": "khoj-ai/khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "summary": "Khoj：开源 AI 个人助手，支持本地文档搜索和问答",
+      "stars": 18000,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "search",
+        "assistant"
+      ]
+    },
+    {
+      "name": "opentofu/opentofu",
+      "url": "https://github.com/opentofu/opentofu",
+      "summary": "OpenTofu：Terraform 的开源替代，基础设施即代码工具",
+      "stars": 24000,
+      "language": "Go",
+      "topics": [
+        "infrastructure",
+        "iac",
+        "devops"
+      ]
+    },
+    {
+      "name": "stanfordnlp/dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "summary": "DSPy：斯坦福的编程框架，用编译器范式优化 LLM 提示和管道",
+      "stars": 22000,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "framework",
+        "optimization"
+      ]
+    }
+  ]
+}

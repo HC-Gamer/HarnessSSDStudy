@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-apache-airflow",
+  "title": "apache/airflow",
+  "source": "github-trending",
+  "source_url": "https://github.com/apache/airflow",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "Airflow：Apache 工作流调度平台，适合构建数据 pipeline",
+  "analysis": {
+    "tech_highlights": [
+      "Python 实现，38,000 stars",
+      "主要领域: workflow, scheduler"
+    ],
+    "relevance_score": 8,
+    "score_reason": "高星数，社区活跃，技术价值显著"
+  },
+  "tags": [
+    "workflow",
+    "scheduler",
+    "data-pipeline"
+  ],
+  "status": "draft"
+}

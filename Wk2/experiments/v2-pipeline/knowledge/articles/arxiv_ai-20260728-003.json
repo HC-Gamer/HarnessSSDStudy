@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260728-003",
+  "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
+  "source_url": "https://arxiv.org/abs/2607.24730v1",
+  "summary": "KANEx 框架首次利用 Kolmogorov-Arnold 网络（KAN）的样条基函数可解释性，为视觉语言模型（VLM）提供可信的文本解释，解决医学影像分类器的黑箱问题，提升临床信任度。",
+  "tags": [
+    "llm",
+    "vision"
+  ],
+  "status": "review",
+  "score": 8,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "arxiv_ai",
+  "audience": "advanced",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Computer vision models have become highly effective for medical applications, yet their black-box nature continues to undermine clinician trust. In clinical workflows, chest X-ray classifiers are increasingly paired with Vision-Language Models (VLMs) to generate natural-language explanations. However, these systems add linguistic fluency without addressing the underlying opacity of the visual model. With the emergence of Kolmogorov-Arnold Networks (KANs), whose spline-based components provide in"
+  }
+}

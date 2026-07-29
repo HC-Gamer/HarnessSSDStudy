@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260728-003",
+  "title": "Building AI infrastructure with the Effingham County community",
+  "source_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+  "summary": "OpenAI在乔治亚州埃芬厄姆县启动Project Camellia，承诺负责任能源、社区投资、就业机会及Codex访问，但未涉及具体技术要点如模型、架构或基准。",
+  "tags": [
+    "deployment"
+  ],
+  "status": "review",
+  "score": 1,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "openai_news",
+  "audience": "beginner",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
+  }
+}

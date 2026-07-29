@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-13-github-openai-codex",
+  "title": "openai/codex",
+  "source": "github-trending",
+  "source_url": "https://github.com/openai/codex",
+  "collected_at": "2026-07-13T00:00:00Z",
+  "summary": "Codex：OpenAI 的代码生成模型，支持多语言编程任务",
+  "analysis": {
+    "tech_highlights": [
+      "Python 实现，45,200 stars",
+      "主要领域: ai, llm"
+    ],
+    "relevance_score": 9,
+    "score_reason": "超高星数 + AI 核心领域，行业标杆项目"
+  },
+  "tags": [
+    "ai",
+    "llm",
+    "code-generation"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "huggingface_blog-20260728-002",
+  "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+  "source_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+  "summary": "NVIDIA 发布 Cosmos-H-Dreams，一种用于手术机器人的实时生成式仿真框架。该技术结合了扩散模型与物理仿真，能够在毫秒级生成高保真手术场景，支持机器人策略的闭环训练与测试。其核心创新在于将神经渲染与物理引擎融合，实现了对组织变形、器械交互等动态过程的实时模拟，显著降低了仿真到现实的差距。",
+  "tags": [
+    "robotics",
+    "llm"
+  ],
+  "status": "review",
+  "score": 8,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "huggingface_blog",
+  "audience": "advanced",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+  }
+}

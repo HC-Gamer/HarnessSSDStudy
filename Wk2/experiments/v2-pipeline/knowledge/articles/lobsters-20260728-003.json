@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260728-003",
+  "title": "Setup a Simple, Self-Hosted Web Server with OpenBSD",
+  "source_url": "https://btxx.org/posts/self-hosted-openbsd/",
+  "summary": "该资讯介绍了如何在HP T630瘦客户机上使用OpenBSD和httpd搭建自托管Web服务器，涵盖操作系统配置、httpd设置及网络服务部署等具体步骤。",
+  "tags": [
+    "deployment"
+  ],
+  "status": "review",
+  "score": 2,
+  "collected_at": "2026-07-28T15:14:51.478897+00:00",
+  "source": "lobsters",
+  "audience": "beginner",
+  "analyzed_by": "deepseek/deepseek-chat",
+  "extra": {
+    "description": "making computers angry About Colophon Contribute RSS Now Posts Projects Recipes Resume Uses Wiki Setup a Simple, Self-Hosted Web Server with OpenBSD 2026-07-18 This website is being served to you from my HP T630 thin client, running OpenBSD and httpd 1 . Pretty cool, right? And best of all you can d"
+  }
+}
