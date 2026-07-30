@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260730-002",
+  "title": "Kuna: Decompiler Development in the Age of Coding Agents",
+  "source_url": "https://noelo.org/blog/kuna-release/",
+  "summary": "Kuna: Decompiler Development in the Age of Coding Agents｜Article URL: https://noelo.org/blog/kuna-release/ Comments URL: https://news.ycombinator.com/item?id=49105563 Points: 39 #",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://noelo.org/blog/kuna-release/ Comments URL: https://news.ycombinator.com/item?id=49105563 Points: 39 # Comments: 10"
+  }
+}

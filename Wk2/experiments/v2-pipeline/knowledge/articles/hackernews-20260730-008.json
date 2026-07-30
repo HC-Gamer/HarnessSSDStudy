@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260730-008",
+  "title": "The Cold Email",
+  "source_url": "https://zachholman.com/posts/cold-email",
+  "summary": "The Cold Email｜Article URL: https://zachholman.com/posts/cold-email Comments URL: https://news.ycombinator.com/item?id=49103089 Points: 217 # Comments: 84",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://zachholman.com/posts/cold-email Comments URL: https://news.ycombinator.com/item?id=49103089 Points: 217 # Comments: 84"
+  }
+}

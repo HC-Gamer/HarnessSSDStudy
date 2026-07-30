@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260730-010",
+  "title": "Linguistic Monoculture in LLM-Assisted Language Use",
+  "source_url": "https://arxiv.org/abs/2607.27134v1",
+  "summary": "Linguistic Monoculture in LLM-Assisted Language Use｜Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and pol",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and polish text. Although such assistance can improve clarity and help authors meet institutional expectations, widespread reliance on shared models may reduce population-level variation in linguistic form, a phenomenon we refer to as linguistic monoculture. We develop a mathematical framework in which authors and LLMs are represented as distributions over linguistic features "
+  }
+}

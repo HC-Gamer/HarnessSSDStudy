@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260730-001",
+  "title": "Mental World Modeling",
+  "source_url": "https://arxiv.org/abs/2607.27201v1",
+  "summary": "Mental World Modeling｜World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how wil",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve. Human behavior, however, is driven by hidden mental state (what a person believes, wants, intends, feels, and considers socially permissible), so a model that tracks the physical scene but not what each agent knows and believes about it predicts the wrong action for the right-looking scene. We formulate Mental World Modeling (M"
+  }
+}

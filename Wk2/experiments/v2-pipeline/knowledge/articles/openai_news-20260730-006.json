@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260730-006",
+  "title": "Advancing the next era of national science",
+  "source_url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+  "summary": "Advancing the next era of national science｜OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
+  }
+}

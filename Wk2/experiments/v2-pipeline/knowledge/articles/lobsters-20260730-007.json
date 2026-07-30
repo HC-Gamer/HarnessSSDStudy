@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260730-007",
+  "title": "A field day for Gleam’s language server | Gleam v.1.18.0 release",
+  "source_url": "https://gleam.run/news/a-field-day-for-gleams-language-server/",
+  "summary": "A field day for Gleam’s language server | Gleam v.1.18.0 release｜Gleam News Community Sponsor Packages Docs Install A field day for Gleam’s language server Gleam v1.18.0 released!",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Gleam News Community Sponsor Packages Docs Install A field day for Gleam’s language server Gleam v1.18.0 released! 29 July, 2026 by Louis Pilfold Share Copied the post URL! Gleam is a type safe and scalable language for the Erlang virtual machine and JavaScript runtimes. Today Gleam v1.18.0 has been"
+  }
+}

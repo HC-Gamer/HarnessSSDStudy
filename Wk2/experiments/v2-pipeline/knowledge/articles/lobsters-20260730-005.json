@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260730-005",
+  "title": "Overengineered calculator: Zig + QBE",
+  "source_url": "https://tomekw.com/overengineered-calculator-zig-qbe/",
+  "summary": "Overengineered calculator: Zig + QBE｜Hey, I'm Tomek! And this is my website. Overengineered calculator: Zig + QBE 2026-07-29 | back to homepage For many who want to understand how",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Hey, I'm Tomek! And this is my website. Overengineered calculator: Zig + QBE 2026-07-29 | back to homepage For many who want to understand how compilers work, Crafting Interpreters by Robert Nystrom and Writing An Interpreter In Go (plus Writing A Compiler In Go ) by Thorsten Ball are the go-to reso"
+  }
+}

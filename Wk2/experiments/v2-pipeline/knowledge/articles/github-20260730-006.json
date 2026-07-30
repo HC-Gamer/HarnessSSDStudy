@@ -1,0 +1,35 @@
+{
+  "id": "github-20260730-006",
+  "title": "isjiamu/gzh-design-skill",
+  "source_url": "https://github.com/isjiamu/gzh-design-skill",
+  "summary": "isjiamu/gzh-design-skill｜把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+  "tags": [
+    "agent"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2659,
+    "language": "HTML",
+    "topics": [
+      "agent-skill",
+      "ai-agent",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gongzhonghao",
+      "html",
+      "markdown",
+      "rich-text",
+      "skill",
+      "typesetting",
+      "wechat",
+      "weixin"
+    ],
+    "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML."
+  }
+}

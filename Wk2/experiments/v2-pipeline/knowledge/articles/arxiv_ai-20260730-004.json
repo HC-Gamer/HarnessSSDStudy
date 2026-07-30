@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260730-004",
+  "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
+  "source_url": "https://arxiv.org/abs/2607.27177v1",
+  "summary": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork｜Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most current ad-hoc teamwork (AHT) approaches assume that agents will collaborate on a single, fixed task and that the partner's capabilities, their ability to successfully execute the desired action, are already known. In reality, a partner's true capabilities are often hidden, and human collaborators may act sub-optimally on tasks with multiple valid strategies. To address these limitations, we ex"
+  }
+}

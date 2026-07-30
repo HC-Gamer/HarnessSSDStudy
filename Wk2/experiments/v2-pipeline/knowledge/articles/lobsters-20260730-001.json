@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260730-001",
+  "title": "C++ float-to-int conversion can be undefined behavior",
+  "source_url": "https://kttnr.net/blog/cpp-float-to-int-conversion-undefined-behavior/",
+  "summary": "C++ float-to-int conversion can be undefined behavior｜C++ float-to-int conversion can be undefined behavior C++ float-to-int conversion can be undefined behavior Converting a float",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "C++ float-to-int conversion can be undefined behavior C++ float-to-int conversion can be undefined behavior Converting a float to an int in C++ is undefined behavior when the truncated float does not fit into the destination integer. C++ makes it easy to do this accidentally. Much code gets this wro"
+  }
+}

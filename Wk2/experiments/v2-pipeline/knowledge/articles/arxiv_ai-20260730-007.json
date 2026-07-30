@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260730-007",
+  "title": "Anatomy Contextualized Adaption of CT Foundation Models",
+  "source_url": "https://arxiv.org/abs/2607.27154v1",
+  "summary": "Anatomy Contextualized Adaption of CT Foundation Models｜CT vision-language foundation models have demonstrated promising performance across downstream tasks, but are typically trai",
+  "tags": [
+    "vision",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "CT vision-language foundation models have demonstrated promising performance across downstream tasks, but are typically trained with whole-volume representations that dilute fine-grained anatomical signals. Fine-grained vision-language pre-training addresses this by aligning anatomy-level visual features with anatomy-specific text, but in doing so discards the global context that whole-volume models provide. Furthermore, existing fine-grained approaches train from scratch, making them computatio"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260730-003",
+  "title": "What side projects have you enjoyed the most?",
+  "source_url": "https://lobste.rs/s/mbk56v/what_side_projects_have_you_enjoyed_most",
+  "summary": "What side projects have you enjoyed the most?｜In the spirit of https://blog.jsbarretto.com/post/software-is-joy , what side projects have you enjoyed working on the most?",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "In the spirit of https://blog.jsbarretto.com/post/software-is-joy , what side projects have you enjoyed working on the most?"
+  }
+}

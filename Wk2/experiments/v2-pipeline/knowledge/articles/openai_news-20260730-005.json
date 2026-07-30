@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260730-005",
+  "title": "How news organizations are using AI to advance their vital missions",
+  "source_url": "https://openai.com/index/how-news-organizations-are-using-ai",
+  "summary": "How news organizations are using AI to advance their vital missions｜News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with O",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
+  }
+}

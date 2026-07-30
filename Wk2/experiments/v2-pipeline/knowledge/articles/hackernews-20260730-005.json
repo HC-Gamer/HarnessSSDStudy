@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260730-005",
+  "title": "Man and the Computer by John G. Kemeny (1972 book by the co-creator of BASIC)",
+  "source_url": "https://archive.org/details/mancomputerbyjoh0000john",
+  "summary": "Man and the Computer by John G. Kemeny (1972 book by the co-creator of BASIC)｜Article URL: https://archive.org/details/mancomputerbyjoh0000john Comments URL: https://news.ycombinat",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://archive.org/details/mancomputerbyjoh0000john Comments URL: https://news.ycombinator.com/item?id=49104140 Points: 48 # Comments: 13"
+  }
+}

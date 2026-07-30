@@ -1,0 +1,23 @@
+{
+  "id": "github-20260730-004",
+  "title": "MDX-Tom/gpt-5.6-instruct",
+  "source_url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+  "summary": "MDX-Tom/gpt-5.6-instruct｜A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+  "tags": [
+    "prompt-engineering",
+    "security",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 3860,
+    "language": "Python",
+    "topics": [],
+    "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。"
+  }
+}

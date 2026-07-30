@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260730-009",
+  "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
+  "source_url": "https://arxiv.org/abs/2607.27138v1",
+  "summary": "DLAM: Distributional Latent Actions with Temporal Constraints｜Vision-language-action (VLA) models remain constrained by scarce action-labeled robot data, whereas action-free videos",
+  "tags": [
+    "code-generation",
+    "vision",
+    "robotics"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Vision-language-action (VLA) models remain constrained by scarce action-labeled robot data, whereas action-free videos offer abundant observations of physical change. Latent action models can extract such priors, but reconstruction-trained codes may predict future observations without the structure required for joint generation with robot actions. Existing structured methods add temporal constraints but retain deterministic transition points, so residual errors in locally inferred transitions ma"
+  }
+}

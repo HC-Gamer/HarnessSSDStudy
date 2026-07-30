@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260730-005",
+  "title": "Improving Item Discoverability in e-Commerce Search via Related Intent Generation",
+  "source_url": "https://arxiv.org/abs/2607.27172v1",
+  "summary": "Improving Item Discoverability in e-Commerce Search via Related Intent Generation｜Traditional search systems are optimized to retrieve items that strictly match a query, often prio",
+  "tags": [
+    "rag",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Traditional search systems are optimized to retrieve items that strictly match a query, often prioritizing precision over recall. In e-commerce marketplaces and particularly grocery, this paradigm is limiting, as user satisfaction and commercial outcomes depend heavily on the discoverability of substitute, complementary, and thematically related items. In this paper, we present a scalable system for discovery-augmented search that leverages intent-conditioned recall expansion. Our approach gener"
+  }
+}

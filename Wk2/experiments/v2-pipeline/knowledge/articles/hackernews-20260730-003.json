@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260730-003",
+  "title": "Logic for Programmers",
+  "source_url": "https://logicforprogrammers.com/",
+  "summary": "Logic for Programmers｜Article URL: https://logicforprogrammers.com/ Comments URL: https://news.ycombinator.com/item?id=49104937 Points: 125 # Comments: 25",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://logicforprogrammers.com/ Comments URL: https://news.ycombinator.com/item?id=49104937 Points: 125 # Comments: 25"
+  }
+}

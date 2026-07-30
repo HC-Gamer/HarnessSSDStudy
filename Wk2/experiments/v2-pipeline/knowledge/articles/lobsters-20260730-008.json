@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260730-008",
+  "title": "PostgreSQL MVCC: tradeoffs compared to other engines",
+  "source_url": "https://boringsql.com/posts/mvcc-bad-bad/",
+  "summary": "PostgreSQL MVCC: tradeoffs compared to other engines｜Mastodon Tools SQL Labs BETA RegreSQL Fixturize dryrun MCP Hindsight ALPHA Resources Guides Visualizers Talks Archive About Hom",
+  "tags": [
+    "mcp",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Mastodon Tools SQL Labs BETA RegreSQL Fixturize dryrun MCP Hindsight ALPHA Resources Guides Visualizers Talks Archive About Home » Posts » PostgreSQL s MVCC is bad. So is everyone else s. PostgreSQL s MVCC is bad. So is everyone else s. 2026-07-27 · 24 min · Radim Marek Table of Contents The charges"
+  }
+}

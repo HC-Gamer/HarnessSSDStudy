@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260730-002",
+  "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+  "source_url": "https://openai.com/index/chatgpt-for-academic-researchers",
+  "summary": "Accelerating scientific discovery with ChatGPT for Academic Researchers｜OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery."
+  }
+}

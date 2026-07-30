@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260730-006",
+  "title": "Quoting Akshat Bubna",
+  "source_url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+  "summary": "Quoting Akshat Bubna｜We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was u",
+  "tags": [
+    "agent",
+    "security",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident"
+  }
+}

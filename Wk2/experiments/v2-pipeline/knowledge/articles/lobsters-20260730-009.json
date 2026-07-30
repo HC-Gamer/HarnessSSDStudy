@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260730-009",
+  "title": "Setting timers in simple games (feat. the frame rule)",
+  "source_url": "https://lynn.github.io/blog/pico-timers/",
+  "summary": "Setting timers in simple games (feat. the frame rule)｜lynn's house Setting timers in simple games (feat. the frame rule) July 24, 2026 Lately I’ve been reading the disassembled sou",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "lynn's house Setting timers in simple games (feat. the frame rule) July 24, 2026 Lately I’ve been reading the disassembled source code to Super Mario Bros. , and I learned that, in its code, events are scheduled for the future in much the same way I do it when making a quick game-jam game in Lua, su"
+  }
+}

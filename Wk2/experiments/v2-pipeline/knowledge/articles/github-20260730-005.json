@@ -1,0 +1,37 @@
+{
+  "id": "github-20260730-005",
+  "title": "synthetic-sciences/openscience",
+  "source_url": "https://github.com/synthetic-sciences/openscience",
+  "summary": "synthetic-sciences/openscience｜The open-source AI workbench for scientific research",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2933,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "bun",
+      "cli",
+      "co-scientist",
+      "llm",
+      "ml",
+      "ml-engineering",
+      "open-source",
+      "research",
+      "research-tools",
+      "science",
+      "scientific-computing",
+      "typescript"
+    ],
+    "description": "The open-source AI workbench for scientific research"
+  }
+}

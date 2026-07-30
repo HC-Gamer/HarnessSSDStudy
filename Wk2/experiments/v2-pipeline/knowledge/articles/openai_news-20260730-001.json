@@ -1,0 +1,20 @@
+{
+  "id": "openai_news-20260730-001",
+  "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+  "source_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+  "summary": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark｜How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining",
+  "tags": [
+    "evaluation",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction."
+  }
+}

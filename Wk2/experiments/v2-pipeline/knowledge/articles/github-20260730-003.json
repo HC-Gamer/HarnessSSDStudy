@@ -1,0 +1,28 @@
+{
+  "id": "github-20260730-003",
+  "title": "elder-plinius/T3MP3ST",
+  "source_url": "https://github.com/elder-plinius/T3MP3ST",
+  "summary": "elder-plinius/T3MP3ST｜autonomous red teaming platform; multi-agent offensive-security meta-harness",
+  "tags": [
+    "agent",
+    "security"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-07-30T10:15:15.777181+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 5305,
+    "language": "TypeScript",
+    "topics": [
+      "agents",
+      "ai",
+      "multi-agent",
+      "offensive-security",
+      "redteam"
+    ],
+    "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness"
+  }
+}
