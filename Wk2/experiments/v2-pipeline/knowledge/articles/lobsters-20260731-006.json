@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260731-006",
+  "title": "GCC steering committee announces AI policy",
+  "source_url": "https://lwn.net/Articles/1086041/",
+  "summary": "GCC steering committee announces AI policy｜LWN .net News from the source Content Weekly Edition Archives Search Kernel Security Events calendar Unread comments LWN FAQ Write for us",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "LWN .net News from the source Content Weekly Edition Archives Search Kernel Security Events calendar Unread comments LWN FAQ Write for us Edition Return to the Briefs page User: Password: | | Log in / Subscribe / Register GCC steering committee announces AI policy [Posted July 29, 2026 by jzb] The G"
+  }
+}

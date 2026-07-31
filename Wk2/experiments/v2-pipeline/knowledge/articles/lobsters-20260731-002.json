@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260731-002",
+  "title": "How to speed up the Rust compiler in July 2026",
+  "source_url": "https://nnethercote.github.io/2026/07/31/how-to-speed-up-the-rust-compiler-in-july-2026.html",
+  "summary": "How to speed up the Rust compiler in July 2026｜Nicholas Nethercote About Me Publications How to speed up the Rust compiler in July 2026 Jul 31, 2026 My last post on the Rust compil",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Nicholas Nethercote About Me Publications How to speed up the Rust compiler in July 2026 Jul 31, 2026 My last post on the Rust compiler’s performance was in December 2025. Let’s see what has happened since then. Overall progress The measurements for the period 2025-12-03 to 2026-07-29 can be seen he"
+  }
+}

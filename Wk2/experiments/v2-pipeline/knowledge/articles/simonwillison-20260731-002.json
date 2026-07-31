@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260731-002",
+  "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+  "source_url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+  "summary": "Investigating three real-world incidents in our cybersecurity evaluations｜Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turni",
+  "tags": [
+    "evaluation",
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing. This inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earl"
+  }
+}

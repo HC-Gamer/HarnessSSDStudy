@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260731-001",
+  "title": "Learning to Trace Seiberg Dualities",
+  "source_url": "https://arxiv.org/abs/2607.28628v1",
+  "summary": "Learning to Trace Seiberg Dualities｜Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, thoug",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual? In this paper we use machine learning methods to address this question for Seiberg dualities of su"
+  }
+}

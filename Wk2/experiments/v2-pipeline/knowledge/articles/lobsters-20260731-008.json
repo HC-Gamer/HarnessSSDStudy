@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260731-008",
+  "title": "Building Progressively Enhanced Forms Using htmx",
+  "source_url": "https://www.rafa.ee/articles/progressive-enhanced-forms-htmx/",
+  "summary": "Building Progressively Enhanced Forms Using htmx｜Home · Blog · Projects · Talks · Recipes Building Progressively Enhanced Forms Using htmx June 25, 2026 ; Free of LLM-generated tex",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Home · Blog · Projects · Talks · Recipes Building Progressively Enhanced Forms Using htmx June 25, 2026 ; Free of LLM-generated text I recently built a new form for ties , with lots of interactivity. It’s for editing a bookmark and connecting it to lists: A screencast of a form for editing a bookmar"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260731-008",
+  "title": "The session you cannot take with you",
+  "source_url": "https://earendil.com/posts/session-portability/",
+  "summary": "The session you cannot take with you｜Article URL: https://earendil.com/posts/session-portability/ Comments URL: https://news.ycombinator.com/item?id=49118781 Points: 364 # Comments",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://earendil.com/posts/session-portability/ Comments URL: https://news.ycombinator.com/item?id=49118781 Points: 364 # Comments: 86"
+  }
+}

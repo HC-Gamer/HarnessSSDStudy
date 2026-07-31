@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260731-010",
+  "title": "The AI Aesthetic",
+  "source_url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+  "summary": "The AI Aesthetic｜Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 309 # Comments: 135",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 309 # Comments: 135"
+  }
+}

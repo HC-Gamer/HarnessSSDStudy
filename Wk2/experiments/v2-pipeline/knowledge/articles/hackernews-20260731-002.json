@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260731-002",
+  "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+  "source_url": "https://www.bbc.com/news/articles/cn0nqv05g0do",
+  "summary": "Danube's record low levels force shutdown of Hungary's only nuclear plant｜Article URL: https://www.bbc.com/news/articles/cn0nqv05g0do Comments URL: https://news.ycombinator.com/ite",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.bbc.com/news/articles/cn0nqv05g0do Comments URL: https://news.ycombinator.com/item?id=49120120 Points: 44 # Comments: 50"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260731-003",
+  "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+  "source_url": "https://arxiv.org/abs/2607.28590v1",
+  "summary": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation｜Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by s",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajectories with a privileged-view teacher. Yet its next-token corrections are source-mixed, combining visual signals with linguistic priors and teacher-specific effects. The key challenge is to estimate which corrections are supported by visual evidence, not merely where or how strongly to distill. We introduce Visual Attribution Distillation (VAD), a counterfactual target-reconstru"
+  }
+}

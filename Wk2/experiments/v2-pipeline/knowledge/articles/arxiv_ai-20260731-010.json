@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260731-010",
+  "title": "Algorithms for Structured Elections under Thiele Voting Rules",
+  "source_url": "https://arxiv.org/abs/2607.28575v1",
+  "summary": "Algorithms for Structured Elections under Thiele Voting Rules｜We study the computational complexity of winner determination problems in approval-based committee elections under Thi",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We study the computational complexity of winner determination problems in approval-based committee elections under Thiele voting rules. These form a class of rules parameterized by a fixed weight vector that specifies how a voter's satisfaction depends on the number of approved candidates elected. We first analyze the structure of optimal solutions based on the sets of voters who approve each candidate---that is, how voters' approval ballots induce dependencies between candidates---revealing con"
+  }
+}

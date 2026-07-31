@@ -1,0 +1,20 @@
+{
+  "id": "hackernews-20260731-005",
+  "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+  "source_url": "https://github.com/mokshablr/gander",
+  "summary": "Show HN: Gander, an Android file viewer that asks for no permissions at all｜Hi HN, I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Mar",
+  "tags": [
+    "rag",
+    "code-generation",
+    "vision"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Hi HN, I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all. I have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free viewer that wants storage access and ends up uploading your file to a server to render it. Also the hassle of having to download different apps for different file formats was really annoying. Gander"
+  }
+}

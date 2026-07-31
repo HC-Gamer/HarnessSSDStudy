@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260731-004",
+  "title": "DeepSeek-V4-Flash Update",
+  "source_url": "https://api-docs.deepseek.com/updates/",
+  "summary": "DeepSeek-V4-Flash Update｜Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 299 # Comments: 127",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 299 # Comments: 127"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260731-001",
+  "title": "A question about a factorial operator",
+  "source_url": "https://lobste.rs/s/itp1nm/question_about_factorial_operator",
+  "summary": "A question about a factorial operator｜I wrote an assembler that supports floating point values. One of the operators I implemented was factorial because a lot of Taylor series seem",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "I wrote an assembler that supports floating point values. One of the operators I implemented was factorial because a lot of Taylor series seem to use it to define various constants. So right now, I have .float -((2*3.14159265)**11)/11! I found a bug in the parsing such that (2+3)! doesn't parse (the parsing of the factorial operator is in the wrong location). In fixing the bug, I found an issue that I don't know how best to resolve, since I personally have never used a programming language that "
+  }
+}

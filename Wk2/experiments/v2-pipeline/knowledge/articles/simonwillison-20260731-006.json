@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260731-006",
+  "title": "llm 0.32rc1",
+  "source_url": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+  "summary": "llm 0.32rc1｜Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the detail",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations. Since it involves a significant schema change -"
+  }
+}

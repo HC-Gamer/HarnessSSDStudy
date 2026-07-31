@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260731-004",
+  "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+  "source_url": "https://arxiv.org/abs/2607.28618v1",
+  "summary": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis｜Chemistry literature synthesis often requires assembling specific findings scattered across many publicati",
+  "tags": [
+    "agent",
+    "rag",
+    "evaluation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper chemistry search. AskChem changes the unit of retrieval from the paper to the provenance-carrying c"
+  }
+}

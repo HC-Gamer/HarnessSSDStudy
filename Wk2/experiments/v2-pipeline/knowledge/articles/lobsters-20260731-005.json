@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260731-005",
+  "title": "Correlated RNG",
+  "source_url": "https://knivesforcats.online/correlated-rng/",
+  "summary": "Correlated RNG｜knives for cats Home Posts Projects Games About RSS Correlated RNG 29 Jul, 2026 Games that rely heavily on procedural generation often want their random number gener",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-07-31T10:30:09.869489+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "knives for cats Home Posts Projects Games About RSS Correlated RNG 29 Jul, 2026 Games that rely heavily on procedural generation often want their random number generators to be deterministic so that if given one single seed, each of your systems will generate the same game elements each time for eve"
+  }
+}
