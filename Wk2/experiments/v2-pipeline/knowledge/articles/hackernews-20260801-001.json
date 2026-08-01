@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260801-001",
+  "title": "RamenHaus",
+  "source_url": "https://ramen.haus/",
+  "summary": "RamenHaus｜Article URL: https://ramen.haus/ Comments URL: https://news.ycombinator.com/item?id=49132460 Points: 50 # Comments: 14",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://ramen.haus/ Comments URL: https://news.ycombinator.com/item?id=49132460 Points: 50 # Comments: 14"
+  }
+}

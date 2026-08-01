@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260801-003",
+  "title": "llm-mcp-client 0.1a0",
+  "source_url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+  "summary": "llm-mcp-client 0.1a0｜Release: llm-mcp-client 0.1a0 See this blog entry . Tags: llm , model-context-protocol",
+  "tags": [
+    "mcp",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: llm-mcp-client 0.1a0 See this blog entry . Tags: llm , model-context-protocol"
+  }
+}

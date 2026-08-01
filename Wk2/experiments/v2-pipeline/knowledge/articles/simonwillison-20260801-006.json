@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260801-006",
+  "title": "datasette-agent 0.4a0",
+  "source_url": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+  "summary": "datasette-agent 0.4a0｜Release: datasette-agent 0.4a0 New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33 This is an exci",
+  "tags": [
+    "agent",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: datasette-agent 0.4a0 New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33 This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScript in the user's browser . Tags: datasette , llm-tool-use , datasette-agent"
+  }
+}

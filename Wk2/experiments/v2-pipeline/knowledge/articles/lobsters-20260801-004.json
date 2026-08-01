@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260801-004",
+  "title": "Guix shell now inside Emacs",
+  "source_url": "https://tusharhero.codeberg.page/guix-shell-in-emacs.html",
+  "summary": "Guix shell now inside Emacs｜tusharhero's pages Guix shell now inside Emacs! ~657 words. ~3 minutes. tags: guix emacs programming This is my submission for Emacs Carnival July 2026",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "tusharhero's pages Guix shell now inside Emacs! ~657 words. ~3 minutes. tags: guix emacs programming This is my submission for Emacs Carnival July 2026 . If you don't know what GNU Guix is: It's an advanced package manager and a distribution of the GNU Operating system . With kernel support for both"
+  }
+}

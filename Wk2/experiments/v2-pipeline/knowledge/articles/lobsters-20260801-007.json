@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260801-007",
+  "title": "Stripe Just Wants a Number",
+  "source_url": "https://blog.exe.dev/billable-facts",
+  "summary": "Stripe Just Wants a Number｜exe.dev docs blog pricing uses Sandbox Disposable VMs for AI agents, by the second. VPS Persistent Linux VMs with HTTPS and SSH. Devbox Cloud dev environ",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "exe.dev docs blog pricing uses Sandbox Disposable VMs for AI agents, by the second. VPS Persistent Linux VMs with HTTPS and SSH. Devbox Cloud dev environment for you and your agents. Dashboard Stripe Just Wants a Number 2026-07-28 Bryan Mikaelian If you went up to an engineer at any tech company and"
+  }
+}

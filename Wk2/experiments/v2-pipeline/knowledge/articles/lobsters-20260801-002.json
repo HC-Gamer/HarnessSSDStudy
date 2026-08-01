@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260801-002",
+  "title": "Why I forked rand",
+  "source_url": "https://casualhacks.net/blog/2026-07-27-why-i-forked-rand.html",
+  "summary": "Why I forked rand｜Casper's Blog Thoughts on code, systems, and craft. GitHub Why I forked rand July 27, 2026 — by Casper — rust Rust's rand crate is the default choice for randomne",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Casper's Blog Thoughts on code, systems, and craft. GitHub Why I forked rand July 27, 2026 — by Casper — rust Rust's rand crate is the default choice for randomness in the Rust ecosystem. My experience with rand has frustrating papercuts: many everyday operations are hard to discover! That led me to"
+  }
+}

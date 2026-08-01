@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260801-002",
+  "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+  "source_url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+  "summary": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)｜Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Proto",
+  "tags": [
+    "agent",
+    "mcp",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background: MCP is the Model Context Protocol, which describes a standard way to expose new tools to LLM-powered agent frameworks. It was introduced by Anthropic back in November 2024 , had "
+  }
+}

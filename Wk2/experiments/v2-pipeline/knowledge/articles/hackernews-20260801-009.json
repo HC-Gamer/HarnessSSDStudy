@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260801-009",
+  "title": "Flint: A Visualization Language for the AI Era",
+  "source_url": "https://microsoft.github.io/flint-chart/",
+  "summary": "Flint: A Visualization Language for the AI Era｜Article URL: https://microsoft.github.io/flint-chart/ Comments URL: https://news.ycombinator.com/item?id=49130604 Points: 117 # Comme",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://microsoft.github.io/flint-chart/ Comments URL: https://news.ycombinator.com/item?id=49130604 Points: 117 # Comments: 36"
+  }
+}

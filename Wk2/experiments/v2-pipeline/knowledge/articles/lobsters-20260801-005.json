@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260801-005",
+  "title": "Accepting a messy git history",
+  "source_url": "https://beza1e1.tuxen.de/git_two_users.html",
+  "summary": "Accepting a messy git history｜Accepting a messy git history As GitHub just released stacked pull requests , the discussion around it reveals two kinds of git users: Those who commi",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Accepting a messy git history As GitHub just released stacked pull requests , the discussion around it reveals two kinds of git users: Those who commit often and without much thought. Those who rebase carefully to craft a clean history. The commit-often people consider the rebase people as wasting t"
+  }
+}

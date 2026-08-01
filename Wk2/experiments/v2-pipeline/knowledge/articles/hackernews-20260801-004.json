@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260801-004",
+  "title": "Solid Queue 1.6.0 now supports fiber workers",
+  "source_url": "https://github.com/rails/solid_queue/releases/tag/v1.6.0",
+  "summary": "Solid Queue 1.6.0 now supports fiber workers｜Article URL: https://github.com/rails/solid_queue/releases/tag/v1.6.0 Comments URL: https://news.ycombinator.com/item?id=49132083 Point",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/rails/solid_queue/releases/tag/v1.6.0 Comments URL: https://news.ycombinator.com/item?id=49132083 Points: 9 # Comments: 0"
+  }
+}

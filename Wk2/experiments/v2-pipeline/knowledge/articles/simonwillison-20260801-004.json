@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260801-004",
+  "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+  "source_url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+  "summary": "Oxide and Friends: The Open Weight Revolution with Simon Willison｜Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invi",
+  "tags": [
+    "security",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-01T09:51:37.915765+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception ). It was a great conversation, even though it's already o"
+  }
+}
