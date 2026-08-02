@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260802-001",
+  "title": "NetBSD 11.0 released",
+  "source_url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+  "summary": "NetBSD 11.0 released｜The Guide | Manual pages | Mailing lists and Archives | CVS repository | Report or query a bug | Software Packages Home | RSS | Release engineering | Developme",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The Guide | Manual pages | Mailing lists and Archives | CVS repository | Report or query a bug | Software Packages Home | RSS | Release engineering | Development | The NetBSD Foundation | Networking | General | Ports | Security | Events | Packages | Login Bookmarks The NetBSD Project NetBSD Wiki Fee"
+  }
+}

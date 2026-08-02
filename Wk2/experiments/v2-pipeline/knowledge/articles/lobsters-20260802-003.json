@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260802-003",
+  "title": "An old-new take on argument parsing in Rust",
+  "source_url": "https://jmmv.dev/2026/07/hello-getoptsargs.html",
+  "summary": "An old-new take on argument parsing in Rust｜jmmv.dev About Archive Blog Privacy policy Series Software Tags An old-new take on argument parsing in Rust July 31, 2026 About 7 minute",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "jmmv.dev About Archive Blog Privacy policy Series Software Tags An old-new take on argument parsing in Rust July 31, 2026 About 7 minutes Tags: blogsystem5 , getoptsargs , rust , software This article was originally published on Substack in the Blog System/5 newsletter and is replicated here for arc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260802-004",
+  "title": "sizeof is surprisingly difficult to parse in c",
+  "source_url": "https://sebsite.pw/w/20260802-sizeof.html",
+  "summary": "sizeof is surprisingly difficult to parse in c｜sebsite sizeof is surprisingly difficult to parse in c 2026-08-02 (because of course it is, literally everything in c is surprisingly",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "sebsite sizeof is surprisingly difficult to parse in c 2026-08-02 (because of course it is, literally everything in c is surprisingly difficult to parse). for those unaware, the operand of sizeof is either a unary expression, or a parenthesized type name. so the following are all valid: sizeof 67 si"
+  }
+}

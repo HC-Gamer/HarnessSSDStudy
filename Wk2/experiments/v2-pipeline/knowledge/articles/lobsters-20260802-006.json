@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260802-006",
+  "title": "Postmortem for Lean Kernel Soundness Bug #14576",
+  "source_url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+  "summary": "Postmortem for Lean Kernel Soundness Bug #14576｜Leonardo de Moura home about me publications blog notes presentations Postmortem for Kernel Soundness Bug #14576 2026-08-01 A soundn",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Leonardo de Moura home about me publications blog notes presentations Postmortem for Kernel Soundness Bug #14576 2026-08-01 A soundness bug in the Lean kernel ( #14576 ) was reported and fixed during the week of July 27. It has had visibility on Zulip and social media (e.g., X, LinkedIn, and Mastodo"
+  }
+}

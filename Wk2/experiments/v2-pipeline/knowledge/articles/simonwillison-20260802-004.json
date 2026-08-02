@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260802-004",
+  "title": "datasette-apps 0.2a0",
+  "source_url": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+  "summary": "datasette-apps 0.2a0｜Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open a",
+  "tags": [
+    "agent",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app_debug() tool is pretty neat: it works by displaying the app in a opacity: 0 iframe with pointer-events: none (so it can't be seen or interacted with) and then executing agent-prov"
+  }
+}

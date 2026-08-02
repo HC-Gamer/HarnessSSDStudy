@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260802-002",
+  "title": "I don't recommend Tailwind CSS",
+  "source_url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
+  "summary": "I don't recommend Tailwind CSS｜Article URL: https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/ Comments URL: https://news.ycombinator.com/item?id=49141891 Point",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/ Comments URL: https://news.ycombinator.com/item?id=49141891 Points: 71 # Comments: 61"
+  }
+}

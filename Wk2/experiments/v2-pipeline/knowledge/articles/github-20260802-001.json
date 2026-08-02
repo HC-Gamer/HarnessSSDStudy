@@ -1,0 +1,26 @@
+{
+  "id": "github-20260802-001",
+  "title": "AlephAITech/WorkBuddyGuide",
+  "source_url": "https://github.com/AlephAITech/WorkBuddyGuide",
+  "summary": "AlephAITech/WorkBuddyGuide｜A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+  "tags": [
+    "mcp"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 1834,
+    "language": "Python",
+    "topics": [
+      "codex",
+      "guide",
+      "llm",
+      "workbuddy"
+    ],
+    "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。"
+  }
+}

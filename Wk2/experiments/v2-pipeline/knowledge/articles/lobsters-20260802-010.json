@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260802-010",
+  "title": "The Fixi Project",
+  "source_url": "https://fixiproject.org/docs.html",
+  "summary": "The Fixi Project｜Menu Home Project overview & installation Guide A tour through the libraries fixi Supercharged HTML moxi Inline scripting & reactivity paxi DOM morphing / patching",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Menu Home Project overview & installation Guide A tour through the libraries fixi Supercharged HTML moxi Inline scripting & reactivity paxi DOM morphing / patching ssexi Streaming HTML & events rexi Ergonomic fetch wrappers Demo How to see working examples The Fixi Project Guide Home Guide fixi moxi"
+  }
+}

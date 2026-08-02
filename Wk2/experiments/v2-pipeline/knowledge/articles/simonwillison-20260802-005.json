@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260802-005",
+  "title": "Ten advances in mathematics and theoretical computer science",
+  "source_url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+  "summary": "Ten advances in mathematics and theoretical computer science｜Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\" Now it's OpenAI's turn to flex. They set \"an internal version of Astra, our next major model\" on finding solutions to ten mathematical problems that \"have seen no progress"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260802-007",
+  "title": "When random.bytes() runs but doesn't work",
+  "source_url": "https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt",
+  "summary": "When random.bytes() runs but doesn't work｜Article URL: https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt Comments URL: https://news.ycombinator.com/item?id=49140405 Poin",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt Comments URL: https://news.ycombinator.com/item?id=49140405 Points: 40 # Comments: 18"
+  }
+}

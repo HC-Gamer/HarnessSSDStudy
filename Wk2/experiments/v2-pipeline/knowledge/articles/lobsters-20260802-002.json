@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260802-002",
+  "title": "Atom is better than RSS, in ways that matter",
+  "source_url": "https://chrismorgan.info/atom%3Erss",
+  "summary": "Atom is better than RSS, in ways that matter｜Atom is better than RSS, in ways that matter — Chris Morgan Atom is better than RSS, in ways that matter Draft: started 2026-04-10 • Ta",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Atom is better than RSS, in ways that matter — Chris Morgan Atom is better than RSS, in ways that matter Draft: started 2026-04-10 • Tagged /atom , /rss Still needs some polish, a new section, and testing to demonstrate my case. My feeds are Atom feeds. Everyone with knowledge agrees that Atom is te"
+  }
+}

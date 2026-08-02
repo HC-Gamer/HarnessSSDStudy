@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260802-008",
+  "title": "Apple Screen Sharing Pre-Auth RCE",
+  "source_url": "https://warez.sl0p.foo/apple-screensharing-rce/",
+  "summary": "Apple Screen Sharing Pre-Auth RCE｜← warez.sl0p.foo Apple Screen Sharing Pre-Auth RCE 2026-08-01 · CRITICAL · affects macOS ≤ 26.5 (Tahoe) with Screen Sharing enabled Summary Apple'",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-02T09:49:44.219559+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "← warez.sl0p.foo Apple Screen Sharing Pre-Auth RCE 2026-08-01 · CRITICAL · affects macOS ≤ 26.5 (Tahoe) with Screen Sharing enabled Summary Apple's Screen Sharing daemon ( screensharingd ) contains a pre-authentication vulnerability in its SRP (Secure Remote Password) frame-length validation. When t"
+  }
+}
