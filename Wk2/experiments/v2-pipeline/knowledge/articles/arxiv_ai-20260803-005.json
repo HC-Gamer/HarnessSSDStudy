@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260803-005",
+  "title": "CENDRe: Concept Extraction with Natural Domain Representations",
+  "source_url": "https://arxiv.org/abs/2607.29621v1",
+  "summary": "CENDRe: Concept Extraction with Natural Domain Representations｜Convolutional neural networks (CNNs) are widely used for time-series classification, but their deployment in critical",
+  "tags": [
+    "deployment",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Convolutional neural networks (CNNs) are widely used for time-series classification, but their deployment in critical domains requires understanding the temporal and spectral patterns that drive their predictions. Concept extraction (CE) methods identify such patterns by analyzing representations within the models' latent space. However, existing time-series CE methods have three limitations: they operate only in the time domain and overlook frequency features, predefine the number of concepts, "
+  }
+}

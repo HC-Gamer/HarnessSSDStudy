@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260803-002",
+  "title": "Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics",
+  "source_url": "https://arxiv.org/abs/2607.29657v1",
+  "summary": "Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics｜Fault detection and diagnosis (FDD) technology is essential for improving HVAC system reliabi",
+  "tags": [
+    "rag",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Fault detection and diagnosis (FDD) technology is essential for improving HVAC system reliability, energy efficiency, and maintenance effectiveness. However, effective deployment of FDD solutions in buildings requires structured domain knowledge that can bridge heterogeneous data sources, diverse equipment types, and varied diagnostic outputs. Limited data interpretability and interoperability within the FDD domain have led to fragmented information silos, hindering the implementation of FDD and"
+  }
+}

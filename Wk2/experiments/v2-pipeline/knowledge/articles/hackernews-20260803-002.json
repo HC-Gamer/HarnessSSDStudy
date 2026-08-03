@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260803-002",
+  "title": "What DMARC Protects You From, and What It Does Not",
+  "source_url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
+  "summary": "What DMARC Protects You From, and What It Does Not｜Article URL: https://senderledger.com/articles/what-dmarc-actually-protects-you-from Comments URL: https://news.ycombinator.com/i",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://senderledger.com/articles/what-dmarc-actually-protects-you-from Comments URL: https://news.ycombinator.com/item?id=49153361 Points: 20 # Comments: 5"
+  }
+}

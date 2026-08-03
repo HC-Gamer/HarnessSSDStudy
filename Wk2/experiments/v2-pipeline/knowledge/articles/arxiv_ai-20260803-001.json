@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260803-001",
+  "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+  "source_url": "https://arxiv.org/abs/2607.29677v1",
+  "summary": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction｜Enterprise workflows increasingly rely on agents for \\emph{schema-guided extraction}: given a document an",
+  "tags": [
+    "agent",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Enterprise workflows increasingly rely on agents for \\emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We present ExtractBench, a benchmark for schema-guided extraction and, to our knowledge, the first to score value accuracy, record completeness at scale, grounding, and measured cost together. The evaluation system contains 4,869 pages across 370 enterpris"
+  }
+}

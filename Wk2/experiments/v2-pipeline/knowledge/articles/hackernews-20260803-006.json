@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260803-006",
+  "title": "Show HN: We Fixed UniFi's Slow PPPoE Performance with PPPoE Half-Bridge",
+  "source_url": "https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration",
+  "summary": "Show HN: We Fixed UniFi's Slow PPPoE Performance with PPPoE Half-Bridge｜Article URL: https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration Comments URL: https://news.ycombin",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration Comments URL: https://news.ycombinator.com/item?id=49152871 Points: 14 # Comments: 7"
+  }
+}

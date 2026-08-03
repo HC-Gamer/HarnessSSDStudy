@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260803-005",
+  "title": "The true power of regular expressions (2012)",
+  "source_url": "https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html",
+  "summary": "The true power of regular expressions (2012)｜Article URL: https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html Comments URL: https://news.ycombinator.com/it",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html Comments URL: https://news.ycombinator.com/item?id=49152973 Points: 12 # Comments: 5"
+  }
+}

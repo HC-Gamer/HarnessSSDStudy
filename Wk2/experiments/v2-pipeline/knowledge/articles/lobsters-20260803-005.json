@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260803-005",
+  "title": "Faster floating point math with Rust’s new API",
+  "source_url": "https://pythonspeed.com/articles/faster-float-math-rust/",
+  "summary": "Faster floating point math with Rust’s new API｜Python⇒Speed ─ About ─ Contact Articles ─ Faster data science ─ Climate crisis ─ Docker packaging Products ─ Faster data science ─ Do",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Python⇒Speed ─ About ─ Contact Articles ─ Faster data science ─ Climate crisis ─ Docker packaging Products ─ Faster data science ─ Docker packaging Faster floating point math with Rust’s new API by Itamar Turner-Trauring Last updated 02 Aug 2026, originally created 02 Aug 2026 Floating point math is"
+  }
+}

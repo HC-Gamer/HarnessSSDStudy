@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260803-003",
+  "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+  "source_url": "https://arxiv.org/abs/2607.29613v1",
+  "summary": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning｜Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promis",
+  "tags": [
+    "vision",
+    "robotics",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic manipulation. Among RL methods, critic-based approaches rely on a value estimator that predominantly operates on single-frame observations or single-frame VLM backbone latents, which is a fundamental mismatch with the partially observable nature of robot control. A naive approach to incorporate observation history into the critic incurs exponential complexity with high-dimensiona"
+  }
+}

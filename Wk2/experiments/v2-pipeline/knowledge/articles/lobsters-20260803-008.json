@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260803-008",
+  "title": "Retries don't fix eventual consistency",
+  "source_url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
+  "summary": "Retries don't fix eventual consistency｜var0.xyz home --> Retries don't fix eventual consistency 2026-08-02 Retries are one of those patterns that feel so obviously correct that we",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "var0.xyz home --> Retries don't fix eventual consistency 2026-08-02 Retries are one of those patterns that feel so obviously correct that we rarely stop to question them. Something failed? Try again. If it still fails, wait a little longer and try again. If that doesn't work either... keep trying. S"
+  }
+}

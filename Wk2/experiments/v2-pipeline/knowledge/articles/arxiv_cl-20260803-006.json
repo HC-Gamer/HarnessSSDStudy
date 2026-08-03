@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260803-006",
+  "title": "ARB: A Matched Authorship-Rewriting Benchmark Dataset for AI-Text Detector Evaluation",
+  "source_url": "https://arxiv.org/abs/2607.29539v1",
+  "summary": "ARB: A Matched Authorship-Rewriting Benchmark Dataset for AI-Text Detector Evaluation｜Standard AI-text detection benchmarks compare human-written text against text generated direct",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Standard AI-text detection benchmarks compare human-written text against text generated directly by large language models (LLMs). While prior work has shown that rewriting and paraphrasing can degrade detector performance, it remains unclear whether performance measured on this conventional benchmark predicts detector behavior when human-authored content is rewritten by an LLM. To address this gap, we introduce Authorship-Rewriting Benchmark (ARB), built from 1,800 human source texts (600 each f"
+  }
+}

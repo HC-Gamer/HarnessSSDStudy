@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260803-006",
+  "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
+  "source_url": "https://arxiv.org/abs/2607.29617v1",
+  "summary": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning｜Imitation learning (IL)---training an agent to replicate expert behavior from dem",
+  "tags": [
+    "agent",
+    "robotics",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Imitation learning (IL)---training an agent to replicate expert behavior from demonstrations---underpins applications from robotics to language model training. Standard approaches such as Behavior Cloning (BC) are known to suffer from compounding errors and performance plateaus, particularly when the learner cannot perfectly represent the expert's policy (as is typical, e.g., in distillation). Two interventions are widely understood empirically to improve performance: querying the expert interac"
+  }
+}

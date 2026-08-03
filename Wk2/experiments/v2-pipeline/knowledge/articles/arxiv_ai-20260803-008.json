@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260803-008",
+  "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+  "source_url": "https://arxiv.org/abs/2607.29602v1",
+  "summary": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models｜Reading a social situation often depends on behavior, not words alone. We intr",
+  "tags": [
+    "prompt-engineering",
+    "evaluation",
+    "deployment"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Reading a social situation often depends on behavior, not words alone. We introduce FriendBench, a benchmark for inferring whether two people are already familiar or are meeting as strangers, from a 20-second clip of a dyadic ice-breaker conversation. Every pair answers the same type of prompt, so only the manner of interaction can reveal the answer. Across text, audio, and video, we compare 26 models from seven companies against matched human panels over 96 balanced dyads. The best model and th"
+  }
+}

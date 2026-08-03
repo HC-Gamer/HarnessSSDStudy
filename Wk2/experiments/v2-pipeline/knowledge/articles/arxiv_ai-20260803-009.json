@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260803-009",
+  "title": "TraceViT: Grounded Trace Supervision for Visual Abstract Reasoning",
+  "source_url": "https://arxiv.org/abs/2607.29586v1",
+  "summary": "TraceViT: Grounded Trace Supervision for Visual Abstract Reasoning｜The Abstraction and Reasoning Corpus (ARC) tests whether a model can infer an unseen transformation from a few in",
+  "tags": [
+    "reasoning",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The Abstraction and Reasoning Corpus (ARC) tests whether a model can infer an unseen transformation from a few input-output examples and apply it to a new grid. Looped visual reasoners refine predictions over multiple iterations, but conventional training constrains only the final output, leaving intermediate refinements unconstrained. We propose that these refinements should instead follow the transformation step by step. We introduce TraceViT, a looped visual reasoner trained with semantically"
+  }
+}

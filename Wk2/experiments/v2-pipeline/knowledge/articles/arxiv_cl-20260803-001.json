@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260803-001",
+  "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+  "source_url": "https://arxiv.org/abs/2607.29678v1",
+  "summary": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving｜LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. T",
+  "tags": [
+    "agent",
+    "prompt-engineering",
+    "deployment"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token boundaries near the end of the previous sequence. Across 153,951 calls from two agent ecosystems, the median call appends about 1.4K characters, and only 1.0-3.6% of calls start or rebuild a session with contexts of million"
+  }
+}

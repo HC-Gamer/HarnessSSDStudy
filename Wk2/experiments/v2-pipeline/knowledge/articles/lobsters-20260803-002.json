@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260803-002",
+  "title": "Don't be a meat proxy",
+  "source_url": "https://gruhn.me/blog/2026-08-03/",
+  "summary": "Don't be a meat proxy｜Don't be a meat proxy Aug 03, 2026 Too often I ask a question in Slack or leave feedback under a merge/pull request or argue with friends in a WhatsApp group",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Don't be a meat proxy Aug 03, 2026 Too often I ask a question in Slack or leave feedback under a merge/pull request or argue with friends in a WhatsApp group and get back: Claude said: [giant response verbatim] Please don't do this. I mean, I've done this. But I've been on the receiving end too many"
+  }
+}

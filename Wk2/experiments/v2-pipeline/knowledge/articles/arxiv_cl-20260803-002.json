@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260803-002",
+  "title": "Evolving language compositionality in a frequency-structured meaning space",
+  "source_url": "https://arxiv.org/abs/2607.29642v1",
+  "summary": "Evolving language compositionality in a frequency-structured meaning space｜The iterated learning model was introduced to investigate language evolution: the way in which the charac",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The iterated learning model was introduced to investigate language evolution: the way in which the characteristic properties of human languages have been shaped, at least partly, by repeated transmission from one language user to another. The key finding is that language compositionality can arise spontaneously as a consequence of language being passed repeatedly through a language learning bottleneck. Here we explore how changing the frequency of different meanings, so that some meanings occur "
+  }
+}

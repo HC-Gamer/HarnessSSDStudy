@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260803-007",
+  "title": "Evidence-Type Competition: When Can Interventional Data Teach Language Models Causal Direction?",
+  "source_url": "https://arxiv.org/abs/2607.29484v1",
+  "summary": "Evidence-Type Competition: When Can Interventional Data Teach Language Models Causal Direction?｜Interventional data is widely regarded as the gold standard for teaching models caus",
+  "tags": [
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Interventional data is widely regarded as the gold standard for teaching models causal reasoning. We test this assumption in a fully controlled synthetic environment pitting observational correlation against causal effect, and find it fails instructively. In Simpson's-paradox worlds, where the two have systematically opposite signs, increasing the fraction of interventional samples in pretraining does not improve causal direction: the magnitude of the model's do()-response grows monotonically, y"
+  }
+}

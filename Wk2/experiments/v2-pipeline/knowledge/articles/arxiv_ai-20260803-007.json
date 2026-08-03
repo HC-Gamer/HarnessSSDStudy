@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260803-007",
+  "title": "A Human-Centered Validation of the Explainability-Performance Coefficient",
+  "source_url": "https://arxiv.org/abs/2607.29614v1",
+  "summary": "A Human-Centered Validation of the Explainability-Performance Coefficient｜The rapid adoption of deep learning models in high-risk domains has intensified the need for trustworthy E",
+  "tags": [
+    "evaluation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The rapid adoption of deep learning models in high-risk domains has intensified the need for trustworthy Explainable Artificial Intelligence (XAI). However, objectively evaluating explanation fidelity and aligning XAI metrics with human-centered understanding remain critical open challenges. In this work, we propose a model-agnostic metric, the EPC score, which is an extension of the Explainability-Performance Coefficient (EPC), that quantifies explanation quality by explicitly balancing the tra"
+  }
+}

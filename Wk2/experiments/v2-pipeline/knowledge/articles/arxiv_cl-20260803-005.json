@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260803-005",
+  "title": "Sycophancy Undermines Epistemic Vigilance in Cooperative Vision-Language Tasks",
+  "source_url": "https://arxiv.org/abs/2607.29585v1",
+  "summary": "Sycophancy Undermines Epistemic Vigilance in Cooperative Vision-Language Tasks｜To maintain common ground in cooperative conversation, humans iteratively update their beliefs as con",
+  "tags": [
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "To maintain common ground in cooperative conversation, humans iteratively update their beliefs as conversation participants share new information; participants who are epistemically vigilant detect when new information conflicts with prior beliefs and take steps to repair these conflicts. In order for AI systems to serve as reliable partners in complex cooperative tasks, they must similarly weigh incoming information against their own private evidence and shared context and appropriately surface"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260803-008",
+  "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+  "source_url": "https://arxiv.org/abs/2607.29433v1",
+  "summary": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization｜As large language model (LLM) agents evolve into personalized companions, memory has emerged as a core c",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "As large language model (LLM) agents evolve into personalized companions, memory has emerged as a core capability. However, LLMs face a knowledge utilization problem: they may fail to act on relevant user preferences even when they are fully present in context. When an agent fails to tailor its response in a context where previously shared user preferences should matter, it is unclear whether the model failed to remember that information or remembered it but failed to use it. To isolate this bre"
+  }
+}

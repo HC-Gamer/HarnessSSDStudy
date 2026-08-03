@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260803-001",
+  "title": "Your JSON Is Lying to You",
+  "source_url": "https://blog.gaborkoos.com/posts/2026-08-03-Your-JSON-Is-Lying-to-You/",
+  "summary": "Your JSON Is Lying to You｜a developer blog 🌞 🌙 Home About Publications Categories RSS Your JSON Is Lying to You Mon Aug 03 2026 • tutorials javascript json serialization ... is lyi",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "a developer blog 🌞 🌙 Home About Publications Categories RSS Your JSON Is Lying to You Mon Aug 03 2026 • tutorials javascript json serialization ... is lying to you Run this in your browser console: const payload = { id : 9007199254740993 } console . log ( JSON . stringify ( payload ) ) // {\"id\":9007"
+  }
+}

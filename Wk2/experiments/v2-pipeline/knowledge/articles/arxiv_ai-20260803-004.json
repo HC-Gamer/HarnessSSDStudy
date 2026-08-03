@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260803-004",
+  "title": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations",
+  "source_url": "https://arxiv.org/abs/2607.29624v1",
+  "summary": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations｜Traditional static assessments rely on a subtractive, deficit-based grading model tha",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-03T11:14:28.349637+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Traditional static assessments rely on a subtractive, deficit-based grading model that often penalizes ambition and obscures diagnostic feedback. Conversely, traditional face-to-face oral examinations introduce severe construct-irrelevant variance by exacerbating performative anxiety and the sociological power imbalances inherent to academic hierarchies. This paper presents the theoretical foundation for the \"Socratic Test,\" an automated, computer-mediated conversational assessment. By integrati"
+  }
+}
