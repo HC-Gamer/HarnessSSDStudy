@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260804-010",
+  "title": "Optimizing Minimax Regret in Uncertain MDPs with Small Sets of Policies",
+  "source_url": "https://arxiv.org/abs/2608.02509v1",
+  "summary": "Optimizing Minimax Regret in Uncertain MDPs with Small Sets of Policies｜Sequential decision-making in real-world applications often involves uncertainty about the environment's mod",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Sequential decision-making in real-world applications often involves uncertainty about the environment's model. Uncertain Markov decision processes (UMDPs) represent the possible environments as a set of MDPs with shared states and actions but potentially different transition probabilities and rewards. Optimizing a single policy across all possible MDPs may sacrifice performance, while preparing an individually optimized policy for every MDP may violate operational, regulatory, or interpretabili"
+  }
+}

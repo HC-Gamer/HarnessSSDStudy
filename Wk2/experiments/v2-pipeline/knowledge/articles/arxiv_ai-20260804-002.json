@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260804-002",
+  "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+  "source_url": "https://arxiv.org/abs/2608.02583v1",
+  "summary": "UEmbed: Unified Sparse and Dense Multimodal Embeddings｜Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introd",
+  "tags": [
+    "rag",
+    "evaluation",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introduced Learned Sparse Retrieval (LSR) to push beyond exact lexical matching toward richer semantics. Yet LSR has so far remained tied to encoder-style bidirectional architectures, and its extension to multimodal settings still relies heavily on auxiliary cross-modal modules. To address these limitations, we introduce UEmbed (Unified Embedding), a decoder-only multimodal embe"
+  }
+}

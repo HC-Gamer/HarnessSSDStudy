@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260804-005",
+  "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+  "source_url": "https://arxiv.org/abs/2608.02515v1",
+  "summary": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference｜Long-running assistants and agents consume interaction streams that eventually outgrow the context. Exist",
+  "tags": [
+    "agent",
+    "rag",
+    "evaluation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Long-running assistants and agents consume interaction streams that eventually outgrow the context. Existing context retention, summarization, and retrieval preserve access to selected history, but do not provide a persistent state over the full lifecycle when working context changes. We formulate this missing inference capability as \\emph{state continuity under context turnover}: carrying computation forward through a fixed-capacity memory state whose lifetime is independent of the active conte"
+  }
+}

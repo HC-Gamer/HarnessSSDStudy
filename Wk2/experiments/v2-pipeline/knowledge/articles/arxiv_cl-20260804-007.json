@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260804-007",
+  "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+  "source_url": "https://arxiv.org/abs/2608.02499v1",
+  "summary": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code｜Real-world software development requires coding agents to operate in shared workspaces where users may inspect and m",
+  "tags": [
+    "agent",
+    "evaluation",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modify code during an ongoing task, yet existing repository-level benchmarks typically evaluate agents working alone or restrict user participation to messages. This leads us to ask: how do coding agents understand and respond to code changes in a shared workspace? We introduce SWE-Touch, a framework that stress-tests this setting through validated Counter-Edits: plausible edits to "
+  }
+}

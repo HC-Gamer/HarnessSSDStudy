@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260804-004",
+  "title": "You don't need React: creating a minimal UI library in Vanilla JavaScript",
+  "source_url": "https://pedroth.github.io/?p=post/NoNeedReact",
+  "summary": "You don't need React: creating a minimal UI library in Vanilla JavaScript｜Article URL: https://pedroth.github.io/?p=post/NoNeedReact Comments URL: https://news.ycombinator.com/item",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://pedroth.github.io/?p=post/NoNeedReact Comments URL: https://news.ycombinator.com/item?id=49165665 Points: 36 # Comments: 23"
+  }
+}

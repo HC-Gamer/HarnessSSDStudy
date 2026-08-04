@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260804-007",
+  "title": "Who Should Be Generated? Justifying Demographic Targets in Open-Ended Generation",
+  "source_url": "https://arxiv.org/abs/2608.02551v1",
+  "summary": "Who Should Be Generated? Justifying Demographic Targets in Open-Ended Generation｜Fairness evaluation concerns not only what a model produces, but also what its outputs ought to be",
+  "tags": [
+    "prompt-engineering",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Fairness evaluation concerns not only what a model produces, but also what its outputs ought to be compared against. When a model generates \"a CEO in the United States,\" the prompt leaves demographic realization to the model. Existing group fairness definitions assume that sensitive attributes are given on the input side. Generative audits instead examine output-side demographic composition, yet the targets they compare it against are typically supplied rather than justified. The upstream questi"
+  }
+}

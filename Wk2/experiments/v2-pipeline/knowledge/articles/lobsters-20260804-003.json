@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260804-003",
+  "title": "Twenty Years of Pandoc",
+  "source_url": "https://pandoc.org/twenty-years-of-pandoc.html",
+  "summary": "Twenty Years of Pandoc｜Please help Ukraine! Sponsor Pandoc a universal document converter About Installing Demos Documentation Getting started User's Guide User's Guide (PDF) Contr",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Please help Ukraine! Sponsor Pandoc a universal document converter About Installing Demos Documentation Getting started User's Guide User's Guide (PDF) Contributing FAQ Filters Lua filters Custom readers Custom writers pandoc-server Making an ebook Emacs Org mode support JATS support Typst property"
+  }
+}

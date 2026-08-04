@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260804-002",
+  "title": "Don't be a meat proxy",
+  "source_url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+  "summary": "Don't be a meat proxy｜Don t be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. B",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Don t be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add. Via Lobste.rs Tags: definitions , ai , generative-ai , llms , ai-misuse"
+  }
+}

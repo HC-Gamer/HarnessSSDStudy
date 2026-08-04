@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260804-002",
+  "title": "Soppo - Go, with the features it's missing",
+  "source_url": "https://soppolang.dev/",
+  "summary": "Soppo - Go, with the features it's missing｜Soppo Go, with the features it's missing. Type safety and ergonomics, with full interop. Take the tour GitHub Playground Docs Familiar sy",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Soppo Go, with the features it's missing. Type safety and ergonomics, with full interop. Take the tour GitHub Playground Docs Familiar syntax Soppo uses Go syntax wherever possible. If you know Go, you already know most of Soppo. Use any Go library directly, keep your existing tooling, and introduce"
+  }
+}

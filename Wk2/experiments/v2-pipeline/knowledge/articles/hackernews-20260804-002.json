@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260804-002",
+  "title": "FFmpeg 9.0",
+  "source_url": "https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES",
+  "summary": "FFmpeg 9.0｜Article URL: https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES Comments URL: https://news.ycombinator.com/item?id=49166202 Points: 109 # Comments: 9",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES Comments URL: https://news.ycombinator.com/item?id=49166202 Points: 109 # Comments: 9"
+  }
+}

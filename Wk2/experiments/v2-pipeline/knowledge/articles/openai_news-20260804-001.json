@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260804-001",
+  "title": "Apple is getting this wrong",
+  "source_url": "https://openai.com/index/apple-is-getting-this-wrong",
+  "summary": "Apple is getting this wrong｜OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
+  }
+}

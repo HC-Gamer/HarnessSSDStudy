@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260804-001",
+  "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+  "source_url": "https://arxiv.org/abs/2608.02599v1",
+  "summary": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework｜Artificial intelligence (AI) is increasingly central to power and energy systems,",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineering-grounded AI (EGAI), in which AI workflows follow established engineering and power-system domain "
+  }
+}

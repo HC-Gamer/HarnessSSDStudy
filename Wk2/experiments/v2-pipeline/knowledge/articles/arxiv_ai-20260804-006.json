@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260804-006",
+  "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+  "source_url": "https://arxiv.org/abs/2608.02553v1",
+  "summary": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI｜Cognitive AI seeks to move beyond language generation and autonomous task execution toward systems capable of s",
+  "tags": [
+    "agent",
+    "rag",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Cognitive AI seeks to move beyond language generation and autonomous task execution toward systems capable of sustained reasoning, adaptive behavior, persistent memory, and self-regulation. While generative and agentic AI have demonstrated impressive capabilities across a wide range of tasks, many fundamental cognitive functions remain fragmented or weakly developed, limiting reliable operation over extended time horizons. This paper presents a taxonomy-driven survey of the major cognitive capab"
+  }
+}

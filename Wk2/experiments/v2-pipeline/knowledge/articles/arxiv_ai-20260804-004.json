@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260804-004",
+  "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
+  "source_url": "https://arxiv.org/abs/2608.02569v1",
+  "summary": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies｜The efficiency of a datacenter rests on its control plane policies. Designing these polic",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the shelf, however, it falls short on three fronts. It is not formal: with no structured, searchable statement of the problem, the search has little structure to exploit and hard constraints are not guaran"
+  }
+}

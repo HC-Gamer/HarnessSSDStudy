@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260804-008",
+  "title": "Analytic Planning under Uncertainty with Moment Closure",
+  "source_url": "https://arxiv.org/abs/2608.02519v1",
+  "summary": "Analytic Planning under Uncertainty with Moment Closure｜Effective model-based reinforcement learning in stochastic environments requires planning that accounts for predictive uncer",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Effective model-based reinforcement learning in stochastic environments requires planning that accounts for predictive uncertainty. Propagating full state distributions analytically offers a principled way to do this, but has traditionally required restrictive policy or reward structures to remain tractable. Consequently, modern deep reinforcement learning has largely retreated to either stochastic sampling, which introduces significant target variance, or deterministic point estimates that igno"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260804-010",
+  "title": "LLMs reward expertise",
+  "source_url": "https://www.seangoedecke.com/llms-reward-expertise/",
+  "summary": "LLMs reward expertise｜Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 965 # Comments: 411",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 965 # Comments: 411"
+  }
+}

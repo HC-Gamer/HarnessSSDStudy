@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260804-003",
+  "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
+  "source_url": "https://arxiv.org/abs/2608.02578v1",
+  "summary": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs｜World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausib",
+  "tags": [
+    "robotics",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausible future alone does not justify changing the action that a bimanual policy would execute. We present CoWAM, a selective intervention layer that expresses synchronization, role compatibility, and collision convergence as coordination contracts. Each contract combines typed admissibility checks with event-conditioned verification and calibrated intervention gates. CoWAM preserves the nominal "
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260804-006",
+  "title": "Rust Project Goals: Immobile types and guaranteed destructors",
+  "source_url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
+  "summary": "Rust Project Goals: Immobile types and guaranteed destructors｜Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot",
+  "tags": [
+    "agent",
+    "mcp",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Ins"
+  }
+}

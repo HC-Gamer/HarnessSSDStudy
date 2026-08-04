@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260804-002",
+  "title": "How we built a realtime system for responsive voice AI in six months",
+  "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+  "summary": "How we built a realtime system for responsive voice AI in six months｜GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architectu",
+  "tags": [
+    "audio",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
+  }
+}

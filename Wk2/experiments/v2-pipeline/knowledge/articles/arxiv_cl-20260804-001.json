@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260804-001",
+  "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+  "source_url": "https://arxiv.org/abs/2608.02602v1",
+  "summary": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling｜Language remains an outlier in generative modeling: while images, video, and audio",
+  "tags": [
+    "code-generation",
+    "vision",
+    "audio"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity. Instead of simplifying the representation to suit the generative model, we preserve a high-capacity"
+  }
+}

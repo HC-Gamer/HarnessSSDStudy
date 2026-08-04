@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260804-003",
+  "title": "Romanized Arabic Across Dialects: Views, Usage Patterns, and Linguistic Variation",
+  "source_url": "https://arxiv.org/abs/2608.02555v1",
+  "summary": "Romanized Arabic Across Dialects: Views, Usage Patterns, and Linguistic Variation｜Arabizi refers to Arabic written in Latin script. Although previous studies have shown that the pr",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Arabizi refers to Arabic written in Latin script. Although previous studies have shown that the prevalence and usage of Arabizi vary by factors such as region and age group, most NLP research on Arabic texts treats it as a temporary phenomenon resulting from limited technological support for the Arabic script. In this work, we engage with Arabic speakers to collect insights on their perceptions and usage of Arabizi. We further examine writing norms among speakers of different dialects, focusing "
+  }
+}

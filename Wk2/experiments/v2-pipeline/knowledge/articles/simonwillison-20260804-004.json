@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260804-004",
+  "title": "Devtools must be open source (exe.dev)",
+  "source_url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+  "summary": "Devtools must be open source (exe.dev)｜My comment on Devtools must be open source (exe.dev) Hacker News. One of the arguments for open source software for end-users has always been",
+  "tags": [
+    "code-generation",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "My comment on Devtools must be open source (exe.dev) Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often. I think LLMs have changed that equation"
+  }
+}

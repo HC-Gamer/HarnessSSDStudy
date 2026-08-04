@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260804-003",
+  "title": "Quoting David Crawshaw's prompt",
+  "source_url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+  "summary": "Quoting David Crawshaw's prompt｜Set up a nightly cron job that executes the prompt: fetch upstream changes to the software and rebase all local changes on top of upstream. Check th",
+  "tags": [
+    "agent",
+    "prompt-engineering",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the software and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. David Crawshaw s prompt , Devtools must be open source Tags: prompt-engineering , coding-agents , generative-ai , ai , llms , open-source"
+  }
+}

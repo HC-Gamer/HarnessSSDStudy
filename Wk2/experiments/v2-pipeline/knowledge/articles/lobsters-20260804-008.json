@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260804-008",
+  "title": "SQLite Critical CVEs or LLM Slop?",
+  "source_url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+  "summary": "SQLite Critical CVEs or LLM Slop?｜JFrog Security Research Model Threats Discover Follow JFrog Security Theme Home Model Threats Discover Follow JFrog Security SQLite Critical CVEs",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-04T10:28:45.719642+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "JFrog Security Research Model Threats Discover Follow JFrog Security Theme Home Model Threats Discover Follow JFrog Security SQLite Critical CVEs or LLM Slop? Afek Berger, JFrog Security Researcher | 30 Jul, 2026 Over the past few days, a newly created GitHub repo ( programmervuln/cveadvisory- ) pub"
+  }
+}
