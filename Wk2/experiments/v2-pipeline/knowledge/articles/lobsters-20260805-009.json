@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260805-009",
+  "title": "designing a query system",
+  "source_url": "https://bal-e.org/speed/krabby/2026/query-system-design/",
+  "summary": "designing a query system｜krabby: ... 2026: .. designing a query system on August 03, 2026 ; by arya dradjica From the start of this year, I have slowly been going about designing a",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "krabby: ... 2026: .. designing a query system on August 03, 2026 ; by arya dradjica From the start of this year, I have slowly been going about designing a query system for Krabby. It took five months of sitting still and thinking really hard, but I believe I have a clear grasp of the design now. I’"
+  }
+}

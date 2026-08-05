@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260805-005",
+  "title": "Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation",
+  "source_url": "https://arxiv.org/abs/2608.03999v1",
+  "summary": "Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation｜Text-to-music language models begin with a choice usually made by default: how to tokenize m",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Text-to-music language models begin with a choice usually made by default: how to tokenize music. Normally entangled with backbone, data, and recipe, its effect has never been measured in isolation. We fix pretrained Qwen3.5 (0.8B-27B), data, budget, and decoding, and swap only the representation across seven tokenizations, anchoring texture metrics to each representation's model-free ceiling. The ordering is clean and surprising: representation, not model size, is the binding variable for distr"
+  }
+}

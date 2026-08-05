@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260805-005",
+  "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+  "source_url": "https://arxiv.org/abs/2603.04221",
+  "summary": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice｜Article URL: https://arxiv.org/abs/2603.04221 Comments URL: https://news.ycombinator.com/item?id=49",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://arxiv.org/abs/2603.04221 Comments URL: https://news.ycombinator.com/item?id=49176983 Points: 92 # Comments: 70"
+  }
+}

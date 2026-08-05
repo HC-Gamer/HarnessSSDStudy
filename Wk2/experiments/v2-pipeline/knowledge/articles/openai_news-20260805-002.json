@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260805-002",
+  "title": "New ways to learn and teach with ChatGPT Work and Codex",
+  "source_url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+  "summary": "New ways to learn and teach with ChatGPT Work and Codex｜Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, tea",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build."
+  }
+}

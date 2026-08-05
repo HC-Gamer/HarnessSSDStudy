@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260805-010",
+  "title": "TACT: Taxonomy-Aligned Post-Training for Pedagogically Adaptive English Tutoring",
+  "source_url": "https://arxiv.org/abs/2608.03952v1",
+  "summary": "TACT: Taxonomy-Aligned Post-Training for Pedagogically Adaptive English Tutoring｜Large language models (LLMs) are increasingly used to provide conversational practice for English-a",
+  "tags": [
+    "evaluation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large language models (LLMs) are increasingly used to provide conversational practice for English-as-a-second-language (ESL) learners. Effective ESL tutoring, however, requires more than fluent response generation: a tutor must select an appropriate pedagogical action based on learner behavior and dialogue context. Human-tutoring research offers principles for adaptive support, but they are often task-specific and remain insufficiently integrated into LLM-based ESL tutor training and evaluation."
+  }
+}

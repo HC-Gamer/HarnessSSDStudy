@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260805-005",
+  "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+  "source_url": "https://arxiv.org/abs/2608.03972v1",
+  "summary": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning｜On-policy training has emerged as a powerful post-training paradigm for improving the reaso",
+  "tags": [
+    "reasoning",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models. However, when the expert fails on harder problems, existing trajectory-guided methods lose their main source of supervision, and these failed trajectories are typically discarded as negative samples. We argue that such failures, which we call Golden Negative Trajectories, can still provide "
+  }
+}

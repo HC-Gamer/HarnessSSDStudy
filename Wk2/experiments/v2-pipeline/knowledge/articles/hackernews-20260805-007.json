@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260805-007",
+  "title": "Flowise is shutting down",
+  "source_url": "https://flowiseai.com/sunset",
+  "summary": "Flowise is shutting down｜Article URL: https://flowiseai.com/sunset Comments URL: https://news.ycombinator.com/item?id=49176920 Points: 50 # Comments: 33",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://flowiseai.com/sunset Comments URL: https://news.ycombinator.com/item?id=49176920 Points: 50 # Comments: 33"
+  }
+}

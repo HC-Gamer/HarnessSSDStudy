@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260805-002",
+  "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+  "source_url": "https://arxiv.org/abs/2608.04009v1",
+  "summary": "SocietyBench: Forecasting Counterfactual Social-World Evolution｜Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can f",
+  "tags": [
+    "agent",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has barely been measured. We introduce SocietyBench, an end-to-end benchmark that takes a one-line event topic, collects Web news and social-media posts across five platforms, distills them into a date-indexe"
+  }
+}

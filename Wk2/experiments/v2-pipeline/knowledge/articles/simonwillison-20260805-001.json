@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260805-001",
+  "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+  "source_url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+  "summary": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging｜I released LLM 0.32 this morning, the most significant new version of",
+  "tags": [
+    "reasoning",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates of its own. Headline features for LLM CLI users Running LLM against reasoning models now displays the"
+  }
+}

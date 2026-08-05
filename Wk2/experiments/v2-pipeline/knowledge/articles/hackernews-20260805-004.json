@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260805-004",
+  "title": "An SLM trained on $8 ESP32-S3",
+  "source_url": "https://github.com/Carloscodix/qapla",
+  "summary": "An SLM trained on $8 ESP32-S3｜Article URL: https://github.com/Carloscodix/qapla Comments URL: https://news.ycombinator.com/item?id=49178464 Points: 32 # Comments: 10",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/Carloscodix/qapla Comments URL: https://news.ycombinator.com/item?id=49178464 Points: 32 # Comments: 10"
+  }
+}

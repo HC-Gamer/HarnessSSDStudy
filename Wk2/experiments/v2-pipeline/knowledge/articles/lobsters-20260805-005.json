@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260805-005",
+  "title": "Enabling the next iteration of the borrow checker on nightly",
+  "source_url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/",
+  "summary": "Enabling the next iteration of the borrow checker on nightly｜Enabling the next iteration of the borrow checker on nightly。这是 lobsters 收录的技术条目，原文站点 blog.rust-lang.org；该源的 feed 只给出标题",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Enabling the next iteration of the borrow checker on nightly。这是 lobsters 收录的技术条目，原文站点 blog.rust-lang.org；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。"
+  }
+}

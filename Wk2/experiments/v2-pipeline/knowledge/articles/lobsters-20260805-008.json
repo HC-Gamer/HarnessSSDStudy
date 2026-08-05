@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260805-008",
+  "title": "irken: A tiny hackable full-featured IRC client",
+  "source_url": "https://codeberg.org/dlowe/irken",
+  "summary": "irken: A tiny hackable full-featured IRC client｜irken: A tiny hackable full-featured IRC client。这是 lobsters 收录的技术条目，原文站点 codeberg.org；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "irken: A tiny hackable full-featured IRC client。这是 lobsters 收录的技术条目，原文站点 codeberg.org；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260805-007",
+  "title": "we finally learned to center a div, then browsers added sidebars",
+  "source_url": "https://seg6.space/posts/center-div/",
+  "summary": "we finally learned to center a div, then browsers added sidebars｜webview center seg6 writing projects about dark aug 4, 2026 we finally learned to center a div, then browsers added",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "webview center seg6 writing projects about dark aug 4, 2026 we finally learned to center a div, then browsers added sidebars an extension for centering a page in the browser window instead of the webview. Centering a div used to require this little ritual: . thing { position : absolute ; top : 50%;"
+  }
+}

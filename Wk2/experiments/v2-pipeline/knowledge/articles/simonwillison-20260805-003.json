@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260805-003",
+  "title": "PipeNetwork/minimax-h3-mlx",
+  "source_url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+  "summary": "PipeNetwork/minimax-h3-mlx｜PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in p",
+  "tags": [
+    "vision",
+    "audio",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included. This Python package ports it to MLX for running on Apple Silicon. I got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this: # First download the models uvx --from huggingface_hub hf "
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260805-008",
+  "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+  "source_url": "https://arxiv.org/abs/2608.03961v1",
+  "summary": "Interpretable Adaptive Sampling for LLM Test-Time Scaling｜Test-time scaling improves LLM reasoning by generating and aggregating multiple candidate answers, yet many pipelines use",
+  "tags": [
+    "prompt-engineering",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Test-time scaling improves LLM reasoning by generating and aggregating multiple candidate answers, yet many pipelines use fixed per-query budgets that spend the same compute on easy and difficult prompts. These fixed budgets are also difficult to inspect because they do not explain why a given prompt receives a particular number of samples. We propose adaptive} test-time scaling with a lightweight fuzzy controller that maps interpretable signals, including estimated prompt complexity and model c"
+  }
+}

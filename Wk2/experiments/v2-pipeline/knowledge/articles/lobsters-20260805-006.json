@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260805-006",
+  "title": "Liquid Glass effect for GNU/Emacs",
+  "source_url": "https://github.com/larrasket/emacs-liquid-glass",
+  "summary": "Liquid Glass effect for GNU/Emacs｜Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app",
+  "tags": [
+    "agent",
+    "mcp",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environme"
+  }
+}

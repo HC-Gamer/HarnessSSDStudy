@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260805-001",
+  "title": "rust-lang/rust is adopting an LLM policy",
+  "source_url": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
+  "summary": "rust-lang/rust is adopting an LLM policy｜Inside Rust Blog Rust Install Learn Tools Governance Community 🖌 Light Dark System rust-lang/rust is adopting an LLM policy Aug. 5, 2026 Jy",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Inside Rust Blog Rust Install Learn Tools Governance Community 🖌 Light Dark System rust-lang/rust is adopting an LLM policy Aug. 5, 2026 Jynn Nelson Recently, five teams in the Rust project adopted a policy that I originally authored, governing how Large Language Models can be used when contributing"
+  }
+}

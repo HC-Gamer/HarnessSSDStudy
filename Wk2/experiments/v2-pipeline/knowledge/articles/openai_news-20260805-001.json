@@ -1,0 +1,20 @@
+{
+  "id": "openai_news-20260805-001",
+  "title": "Third-party cyber evaluations involving OpenAI models",
+  "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+  "summary": "Third-party cyber evaluations involving OpenAI models｜OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testi",
+  "tags": [
+    "evaluation",
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
+  }
+}

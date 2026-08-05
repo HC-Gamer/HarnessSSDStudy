@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260805-009",
+  "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+  "source_url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+  "summary": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay｜Article URL: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/ Comments URL: http",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/ Comments URL: https://news.ycombinator.com/item?id=49176697 Points: 116 # Comments: 16"
+  }
+}

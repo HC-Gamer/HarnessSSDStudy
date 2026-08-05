@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260805-004",
+  "title": "llm 0.32",
+  "source_url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+  "summary": "llm 0.32｜Simon Willison’s Weblog Subscribe Sponsored by: AWS Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns visio",
+  "tags": [
+    "agent",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Simon Willison’s Weblog Subscribe Sponsored by: AWS Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns vision into results 4th August 2026 Release llm 0.32 Access large language models from the command-line See my detailed blog post abou"
+  }
+}

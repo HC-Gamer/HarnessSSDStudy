@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260805-004",
+  "title": "Born Against, or why hobby programming communities are aggressively against LLM usage",
+  "source_url": "https://blog.fogus.me/llm/born-against.html",
+  "summary": "Born Against, or why hobby programming communities are aggressively against LLM usage｜[ fogus.me / send more paramedics / read-eval-print-λove / src ] Born Against, or why hobby pr",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "[ fogus.me / send more paramedics / read-eval-print-λove / src ] Born Against, or why hobby programming communities are aggressively against LLM usage Fogus 2026.08.04 I came across a GH thread related to chess engine development that made me think of why hobby programming communities are increasing"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260805-002",
+  "title": "Helsinki Hacker News Meetup",
+  "source_url": "https://calpaterson.com/helsinki-hn.html",
+  "summary": "Helsinki Hacker News Meetup｜Article URL: https://calpaterson.com/helsinki-hn.html Comments URL: https://news.ycombinator.com/item?id=49180407 Points: 5 # Comments: 1",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://calpaterson.com/helsinki-hn.html Comments URL: https://news.ycombinator.com/item?id=49180407 Points: 5 # Comments: 1"
+  }
+}

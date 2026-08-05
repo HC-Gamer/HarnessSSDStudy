@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260805-003",
+  "title": "Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?",
+  "source_url": "https://arxiv.org/abs/2608.03983v1",
+  "summary": "Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?｜Optimizing compilers miss profitable transformations when their enabling semantics are ab",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Optimizing compilers miss profitable transformations when their enabling semantics are absent from the analyzed program representation. We ask whether large language models (LLMs) can recover such semantics from heterogeneous C/C++ context and realize them as validated, contract-preserving artifacts. We introduce SeGaBench, an executable benchmark containing 100 synthetic and 20 source-backed cases spanning low-level assumptions, data-structure invariants, and high-level semantic lifting. Each c"
+  }
+}

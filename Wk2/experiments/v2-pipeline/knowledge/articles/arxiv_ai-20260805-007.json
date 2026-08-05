@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260805-007",
+  "title": "Separating quantum circuits from classical LLMs",
+  "source_url": "https://arxiv.org/abs/2608.03962v1",
+  "summary": "Separating quantum circuits from classical LLMs｜Modern large language models - transformers and diffusion language models - are built around two canonical algorithmic tasks: predic",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Modern large language models - transformers and diffusion language models - are built around two canonical algorithmic tasks: prediction and generation. We prove unconditional separations between low-depth quantum computation and the corresponding bounded-resource classical language-model architectures in both regimes. Concretely, we exhibit the following: 1. Distributional separation. We give a distribution that is sampleable by $\\textsf{QNC}^0$ circuits (i.e., a family of constant-depth quantu"
+  }
+}

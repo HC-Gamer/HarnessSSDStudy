@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260805-002",
+  "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+  "source_url": "https://arxiv.org/abs/2608.04001v1",
+  "summary": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility｜Large language models can solve substantially harder reasoning problems with more inference-",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting or verification, or search over unfinished partial states. These algorithms differ in their statistical structure, compute accounting, and failure modes. Treating these procedures as interchangeable un"
+  }
+}

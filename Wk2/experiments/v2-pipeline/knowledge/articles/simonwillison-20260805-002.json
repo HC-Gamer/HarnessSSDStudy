@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260805-002",
+  "title": "llm-anthropic 0.26",
+  "source_url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+  "summary": "llm-anthropic 0.26｜Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server",
+  "tags": [
+    "mcp",
+    "tool-use",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search* options have been removed in favor of -T WebSearch . #79 Upgraded to llm =0.32 . Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reason"
+  }
+}

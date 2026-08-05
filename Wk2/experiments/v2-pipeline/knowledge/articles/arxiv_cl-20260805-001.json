@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260805-001",
+  "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+  "source_url": "https://arxiv.org/abs/2608.04010v1",
+  "summary": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs｜Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model",
+  "tags": [
+    "deployment",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-05T10:27:43.010457+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation between the Vision Transformer and the Large Language Model components, limiting task-specific optimization. To address this, we introduce the Parallel Vision-Language (ParVL) scaling framework for MLLMs, "
+  }
+}
