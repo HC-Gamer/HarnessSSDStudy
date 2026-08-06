@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260806-003",
+  "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
+  "source_url": "https://arxiv.org/abs/2608.05126v1",
+  "summary": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models｜Spoken Language Understanding (SLU) is the core component of task-orient",
+  "tags": [
+    "agent",
+    "rag",
+    "fine-tuning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant challenges in leveraging in-context learning for open-domain tasks due to its ambiguous rule definitions. This work proposes Spoken Function Calling (SFC), a novel semantic understanding perspective "
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260806-001",
+  "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+  "source_url": "https://arxiv.org/abs/2608.05144v1",
+  "summary": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning｜Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach",
+  "tags": [
+    "agent",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent from operational objectives, constraints, and verification criteria, and admits memories, skills, proce"
+  }
+}

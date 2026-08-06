@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260806-001",
+  "title": "An AI model from Meta also hacked another company during testing",
+  "source_url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+  "summary": "An AI model from Meta also hacked another company during testing｜An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI mo",
+  "tags": [
+    "security",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company"
+  }
+}

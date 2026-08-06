@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260806-008",
+  "title": "On building scalable control planes",
+  "source_url": "https://www.allthingsdistributed.com/2026/08/on-building-scalable-control-planes.html",
+  "summary": "On building scalable control planes｜All Things Distributed Now Go Build! Articles @werner On building scalable control planes August 04, 2026 3756 words Zak van der Merwe has spent",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "All Things Distributed Now Go Build! Articles @werner On building scalable control planes August 04, 2026 3756 words Zak van der Merwe has spent his entire career at AWS building control planes. First for EC2 and now for DSQL. On the surface, the control plane looks quite boring: it records what sho"
+  }
+}

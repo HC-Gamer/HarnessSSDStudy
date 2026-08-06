@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260806-006",
+  "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
+  "source_url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+  "summary": "NVIDIA’s Vera Whitepaper Has a Thread Loose｜Article URL: https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread Comments URL: https://news.ycombinator.com/item?id=491892",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread Comments URL: https://news.ycombinator.com/item?id=49189234 Points: 130 # Comments: 28"
+  }
+}

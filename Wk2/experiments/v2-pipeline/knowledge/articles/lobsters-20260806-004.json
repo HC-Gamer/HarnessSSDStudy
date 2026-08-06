@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260806-004",
+  "title": "GNU Hurd news 2026-q2",
+  "source_url": "https://www.gnu.org/software/hurd/news/2026-q2.html",
+  "summary": "GNU Hurd news 2026-q2｜GNU Hurd / news / 2026-q2 Recent Changes Preferences Edit History Source ? Discussion Welcome to... ... the GNU Hurd! Home Community Contact Us Donate Contrib",
+  "tags": [
+    "code-generation",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "GNU Hurd / news / 2026-q2 Recent Changes Preferences Edit History Source ? Discussion Welcome to... ... the GNU Hurd! Home Community Contact Us Donate Contributing Source Code Public Hurd Boxen QEMU Images Getting Help Project Ideas Open Issues Documentation FAQ Hurd Documentation Building Running M"
+  }
+}

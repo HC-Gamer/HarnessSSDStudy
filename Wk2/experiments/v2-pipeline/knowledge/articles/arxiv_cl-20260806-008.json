@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260806-008",
+  "title": "Provable Limits and Certified Deferral for Verbalized Uncertainty in Small Language Models",
+  "source_url": "https://arxiv.org/abs/2608.05064v1",
+  "summary": "Provable Limits and Certified Deferral for Verbalized Uncertainty in Small Language Models｜Small open-weight language models increasingly run in private, offline, and cost-sensitiv",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Small open-weight language models increasingly run in private, offline, and cost-sensitive settings, where the key deployment question is not only what a model answers but when it should defer to a human. We study whether verbalized confidence can support risk-controlled deferral, evaluating eleven instruction-tuned models from three families, 0.5B to 14B parameters, on ARC-Challenge and TruthfulQA with 25,168 local predictions. Three theoretical results delimit what calibration can provide: str"
+  }
+}

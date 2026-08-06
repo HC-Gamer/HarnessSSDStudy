@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260806-005",
+  "title": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
+  "source_url": "https://arxiv.org/abs/2608.05127v1",
+  "summary": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant｜Achieving local differential privacy in distributed optimization while maintaining low communicatio",
+  "tags": [
+    "deployment",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Achieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional geometric constructions but incur unfavorable dimension-dependent variance. In this work, we propose Subsampled Stochastic TurboQuant (SSTQ), a framework that combines overcomplete equal-norm tight frames, coordinate subsampling, and privacy-aware one-dimensional quantization. SSTQ includes two var"
+  }
+}

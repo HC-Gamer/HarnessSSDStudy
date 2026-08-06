@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260806-009",
+  "title": "Muse Code and Muse Spark 1.2",
+  "source_url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+  "summary": "Muse Code and Muse Spark 1.2｜Article URL: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2 Comments URL: https://news.ycombinator.com/item?id=49187575 Points:",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2 Comments URL: https://news.ycombinator.com/item?id=49187575 Points: 261 # Comments: 161"
+  }
+}

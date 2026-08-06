@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260806-003",
+  "title": "A Vision for Cargo",
+  "source_url": "https://epage.github.io/blog/2026/08/cargo-vision/",
+  "summary": "A Vision for Cargo｜A Vision for Cargo According to Stack Overflow, cargo is the most desired development tool . Many people attribute their choice of Rust to Cargo. I've heard from",
+  "tags": [
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "A Vision for Cargo According to Stack Overflow, cargo is the most desired development tool . Many people attribute their choice of Rust to Cargo. I've heard from many people that Cargo is already great and that they can't think of any way it could be improved. I want to set our sights higher. And I"
+  }
+}

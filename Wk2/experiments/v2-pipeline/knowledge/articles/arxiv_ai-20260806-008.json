@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260806-008",
+  "title": "Representational separation between unitary and channel quantum generative models via shared classical randomness at shallow depth",
+  "source_url": "https://arxiv.org/abs/2608.05110v1",
+  "summary": "Representational separation between unitary and channel quantum generative models via shared classical randomness at shallow depth｜Near-term quantum hardware limits circuit depth a",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Near-term quantum hardware limits circuit depth and often imposes geometrically local connectivity for quantum generative models, restricting the output distributions accessible to shallow unitary Born models. Introducing stochasticity into a unitary quantum Born model can improve the empirical generative performance of the resulting channel model and, for a restricted small-scale architecture, has been proven to represent a strictly larger family of distributions than its unitary counterpart. H"
+  }
+}

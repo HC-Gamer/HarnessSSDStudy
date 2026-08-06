@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260806-005",
+  "title": "Item Response Theory for AI Safety",
+  "source_url": "https://arxiv.org/abs/2608.05086v1",
+  "summary": "Item Response Theory for AI Safety｜Language models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are har",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Language models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are hard to trust and interpret, because benchmarks duplicate one another, correlate heavily, and models may sandbag when they detect evaluation. To address these issues, we draw on Item Response Theory (IRT), a statistical toolkit for measuring these latents from performance on items with inferred psychometric properties. We fit IRT models to eight safety ben"
+  }
+}

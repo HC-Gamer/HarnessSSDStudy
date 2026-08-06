@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260806-004",
+  "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+  "source_url": "https://arxiv.org/abs/2608.05131v1",
+  "summary": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance｜On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in mu",
+  "tags": [
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalance, a challenge inherent to MLLM reasoning. When textual information dominates generation, the model cannot fully integrate its multimodal input. Consequently, carefully designed privileged information"
+  }
+}

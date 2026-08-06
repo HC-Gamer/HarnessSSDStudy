@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260806-006",
+  "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
+  "source_url": "https://arxiv.org/abs/2608.05080v1",
+  "summary": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning｜Critic-free group-based reinforcement learning has become a scalable approach for post-train",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate the same number of rollouts to every task and trajectory state, even though some rollouts provide much more useful learning signals than others. Recent work has started to treat rollout generation as an adaptive decision, but two important limitations remain. First, intervention strategies are often based on fixed heuristics and therefore "
+  }
+}

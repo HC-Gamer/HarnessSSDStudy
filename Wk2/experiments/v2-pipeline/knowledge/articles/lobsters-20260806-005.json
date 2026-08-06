@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260806-005",
+  "title": "Faster Than Ninja",
+  "source_url": "https://build2.org/blog/faster-than-ninja.xhtml",
+  "summary": "Faster Than Ninja｜Faster Than Ninja Posted on 5 Aug 2026 by Boris Kolpackov Some months ago I read an article about a tool for snooping on slow build systems that can be used to fi",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Faster Than Ninja Posted on 5 Aug 2026 by Boris Kolpackov Some months ago I read an article about a tool for snooping on slow build systems that can be used to find build bottlenecks. While the whole article is quite illuminating, this quote stood out to me: Ninja is not a 100% fair comparison to ot"
+  }
+}

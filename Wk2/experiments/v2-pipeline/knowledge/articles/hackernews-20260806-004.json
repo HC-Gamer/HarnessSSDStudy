@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260806-004",
+  "title": "Nashville uses eminent domain to block data center near zoo",
+  "source_url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+  "summary": "Nashville uses eminent domain to block data center near zoo｜Article URL: https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-cent",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project Comments URL: https://news.ycombinator.com/item?id=49191624 Points: 235 # Comments: 297"
+  }
+}

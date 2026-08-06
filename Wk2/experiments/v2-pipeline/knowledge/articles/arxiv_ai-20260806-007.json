@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260806-007",
+  "title": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition",
+  "source_url": "https://arxiv.org/abs/2608.05115v1",
+  "summary": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition｜Can computer vision help make classrooms safer? In this pilot study, we investigate privacy-a",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Can computer vision help make classrooms safer? In this pilot study, we investigate privacy-aware and computationally efficient classroom incident recognition from CCTV-style observations. This setting remains underexplored, with limited benchmarks and few methods designed for the privacy, efficiency, and generalization demands of real-world deployment. We introduce a novel hybrid benchmark combining generative CCTV-style videos with real-world classroom pose data, and propose a lightweight, but"
+  }
+}

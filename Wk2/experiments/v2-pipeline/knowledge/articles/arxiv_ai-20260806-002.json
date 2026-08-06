@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260806-002",
+  "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+  "source_url": "https://arxiv.org/abs/2608.05141v1",
+  "summary": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling｜Context lengths of language models (LMs) have dramatically increased, driven by the demands",
+  "tags": [
+    "agent",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context engineering pipeline that instruments an AST parser, a language server backend, and a package manager"
+  }
+}

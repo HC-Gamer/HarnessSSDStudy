@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260806-010",
+  "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+  "source_url": "https://arxiv.org/abs/2608.05102v1",
+  "summary": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment｜Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve,",
+  "tags": [
+    "agent",
+    "rag",
+    "fine-tuning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evidence to reach a final answer. However, existing methods for training these agents typically treat all steps within a trajectory uniformly during both supervised fine-tuning (SFT) and reinforcement learning (RL), failing to distinguish useful actions from erroneous or redundant ones. In this paper, we propose Answer-Backtracked Credit Assignment (ABC), a fine-grained credit assi"
+  }
+}

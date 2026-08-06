@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260806-007",
+  "title": "python string literals are kinda funny",
+  "source_url": "https://sebsite.pw/w/20260806-pystrings.html",
+  "summary": "python string literals are kinda funny｜sebsite python string literals are kinda funny 2026-08-06 pop quiz: which of these lines is valid python, and what's the content of the resul",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "sebsite python string literals are kinda funny 2026-08-06 pop quiz: which of these lines is valid python, and what's the content of the resulting string? r'asdf\\' r'asdf\\'' answer the first line is a syntax error; the second line is valid. the content of the resulting string is asdf\\' the 'r' prefix"
+  }
+}

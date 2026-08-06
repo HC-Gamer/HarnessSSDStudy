@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260806-010",
+  "title": "Zed DeltaDB",
+  "source_url": "https://zed.dev/deltadb",
+  "summary": "Zed DeltaDB｜Article URL: https://zed.dev/deltadb Comments URL: https://news.ycombinator.com/item?id=49187256 Points: 429 # Comments: 222",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://zed.dev/deltadb Comments URL: https://news.ycombinator.com/item?id=49187256 Points: 429 # Comments: 222"
+  }
+}

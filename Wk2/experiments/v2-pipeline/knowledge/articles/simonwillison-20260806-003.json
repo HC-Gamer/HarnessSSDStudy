@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260806-003",
+  "title": "Third-party cyber evaluations involving OpenAI models",
+  "source_url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+  "summary": "Third-party cyber evaluations involving OpenAI models｜Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep",
+  "tags": [
+    "evaluation",
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post ) and another attack enabled by Irregular : Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access "
+  }
+}

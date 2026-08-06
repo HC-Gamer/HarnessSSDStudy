@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260806-007",
+  "title": "Prime Agent: A self-improving RLM agent",
+  "source_url": "https://www.primeintellect.ai/blog/prime-agent",
+  "summary": "Prime Agent: A self-improving RLM agent｜Article URL: https://www.primeintellect.ai/blog/prime-agent Comments URL: https://news.ycombinator.com/item?id=49189075 Points: 184 # Commen",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.primeintellect.ai/blog/prime-agent Comments URL: https://news.ycombinator.com/item?id=49189075 Points: 184 # Comments: 37"
+  }
+}

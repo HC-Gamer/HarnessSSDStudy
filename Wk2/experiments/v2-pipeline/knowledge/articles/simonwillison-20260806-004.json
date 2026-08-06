@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260806-004",
+  "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+  "source_url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+  "summary": "Incident Report: unsanctioned agent behaviour during cyber testing｜Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK go",
+  "tags": [
+    "agent",
+    "evaluation",
+    "security"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccess"
+  }
+}

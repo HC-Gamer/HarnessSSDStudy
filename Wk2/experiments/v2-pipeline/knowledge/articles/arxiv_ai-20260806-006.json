@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260806-006",
+  "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+  "source_url": "https://arxiv.org/abs/2608.05124v1",
+  "summary": "Chained Recursive Language Models for Multi-Iteration Reasoning｜Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference tr",
+  "tags": [
+    "deployment",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-06T10:30:55.065109+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require extraction, counting, ordering, or multi-hop reasoning, where an early mistake can propagate until the final response. In this work, we propose Chained Recursive Language Models (Chained RLM), an infer"
+  }
+}
