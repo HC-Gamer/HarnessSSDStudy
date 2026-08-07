@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260807-006",
+  "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+  "source_url": "https://arxiv.org/abs/2608.06361v1",
+  "summary": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping｜Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate,",
+  "tags": [
+    "rag",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric profiling for event counting in three controlled video tasks: bouncing-ball wall contacts, visual blinks"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260807-007",
+  "title": "Super Mario Derivations",
+  "source_url": "https://fzakaria.com/2026/08/05/super-mario-derivations",
+  "summary": "Super Mario Derivations｜Skip to content Farid Zakaria 2026-08-05 11 min read Super Mario Derivations One of the most surprising aspects of the Nix language is that it is lazy , esp",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content Farid Zakaria 2026-08-05 11 min read Super Mario Derivations One of the most surprising aspects of the Nix language is that it is lazy , especially if you have never used a lazy language before. This laziness is what makes much of Nixpkgs possible, and its complexity. One of the simp"
+  }
+}

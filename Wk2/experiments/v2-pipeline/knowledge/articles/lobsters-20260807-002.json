@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260807-002",
+  "title": "Zig's Io.Threaded is Neat",
+  "source_url": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+  "summary": "Zig's Io.Threaded is Neat｜matklad About Links Blogroll Zig’s Io.Threaded is Neat Aug 6, 2026 std.Io.Threaded is one of the implementations of Zig’s new Io interface that enables co",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "matklad About Links Blogroll Zig’s Io.Threaded is Neat Aug 6, 2026 std.Io.Threaded is one of the implementations of Zig’s new Io interface that enables concurrency. This is a boring “just use threads” impl. I personally find it neat though — it does this weird thing that I wanted to do for ages , th"
+  }
+}

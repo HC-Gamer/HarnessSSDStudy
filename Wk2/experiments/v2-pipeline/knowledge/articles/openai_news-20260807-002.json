@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260807-002",
+  "title": "Working with the American Psychological Association on youth mental health and AI",
+  "source_url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+  "summary": "Working with the American Psychological Association on youth mental health and AI｜OpenAI and the American Psychological Association advance evidence-based guidance, resources, and",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health."
+  }
+}

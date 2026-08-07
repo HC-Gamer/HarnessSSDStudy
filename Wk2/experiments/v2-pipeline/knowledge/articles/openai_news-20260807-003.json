@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260807-003",
+  "title": "From asking to doing: How the world is putting ChatGPT to work",
+  "source_url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+  "summary": "From asking to doing: How the world is putting ChatGPT to work｜New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior."
+  }
+}

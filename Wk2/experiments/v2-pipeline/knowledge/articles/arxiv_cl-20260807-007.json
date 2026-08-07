@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260807-007",
+  "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+  "source_url": "https://arxiv.org/abs/2608.06305v1",
+  "summary": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations｜Retrieval-augmented generation over long documents is dominated by one design: chunk the text, emb",
+  "tags": [
+    "agent",
+    "rag",
+    "evaluation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit reports, regulatory returns -- this design is structurally unsound, and we make the argument measurable. On a 780-page government financial report, 86.8% of content lines are table rows, thousands of near-identical figures compete in one embedding spa"
+  }
+}

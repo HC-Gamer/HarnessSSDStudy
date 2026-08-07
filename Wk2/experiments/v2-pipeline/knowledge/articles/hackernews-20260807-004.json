@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260807-004",
+  "title": "Framework discloses data breach via Metabase 0-day",
+  "source_url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+  "summary": "Framework discloses data breach via Metabase 0-day｜Article URL: https://community.frame.work/t/framework-data-breach-discussion/83939 Comments URL: https://news.ycombinator.com/ite",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://community.frame.work/t/framework-data-breach-discussion/83939 Comments URL: https://news.ycombinator.com/item?id=49206130 Points: 69 # Comments: 21"
+  }
+}

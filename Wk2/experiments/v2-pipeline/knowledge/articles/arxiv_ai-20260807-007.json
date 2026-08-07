@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260807-007",
+  "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+  "source_url": "https://arxiv.org/abs/2608.06353v1",
+  "summary": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents｜We give a formal mechanism design model for the continuous participatory governance",
+  "tags": [
+    "agent",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our work as a compliance or commons overlay on a deployer. One governance period is an extensive form gam"
+  }
+}

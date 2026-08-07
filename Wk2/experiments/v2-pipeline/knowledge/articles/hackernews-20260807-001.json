@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260807-001",
+  "title": "All memory manufactured in 2027 has been sold out",
+  "source_url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+  "summary": "All memory manufactured in 2027 has been sold out｜Article URL: https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out Comment",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out Comments URL: https://news.ycombinator.com/item?id=49207236 Points: 12 # Comments: 1"
+  }
+}

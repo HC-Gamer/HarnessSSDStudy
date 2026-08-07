@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260807-004",
+  "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+  "source_url": "https://arxiv.org/abs/2608.06329v1",
+  "summary": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents｜Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks,",
+  "tags": [
+    "agent",
+    "rag",
+    "evaluation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or limited policy coverage, leading to unreliable evaluations. We introduce a reference-free framework that uses LLM judges to assess benchmark consistency, complexity, and policy coverage, while providing actionable diagnostics of weaknesses. We validate the framework by demonstratin"
+  }
+}

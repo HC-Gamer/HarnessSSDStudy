@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260807-003",
+  "title": "Artificial Intelligence used to design new viruses",
+  "source_url": "https://www.bbc.co.uk/news/articles/c5y3j3ngevmo",
+  "summary": "Artificial Intelligence used to design new viruses｜Article URL: https://www.bbc.co.uk/news/articles/c5y3j3ngevmo Comments URL: https://news.ycombinator.com/item?id=49206642 Points:",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.bbc.co.uk/news/articles/c5y3j3ngevmo Comments URL: https://news.ycombinator.com/item?id=49206642 Points: 23 # Comments: 2"
+  }
+}

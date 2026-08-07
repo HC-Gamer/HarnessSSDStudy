@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260807-010",
+  "title": "What is a product?",
+  "source_url": "https://roge.onwrite.app/what-is-a-product",
+  "summary": "What is a product?｜Article URL: https://roge.onwrite.app/what-is-a-product Comments URL: https://news.ycombinator.com/item?id=49202690 Points: 39 # Comments: 15",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://roge.onwrite.app/what-is-a-product Comments URL: https://news.ycombinator.com/item?id=49202690 Points: 39 # Comments: 15"
+  }
+}

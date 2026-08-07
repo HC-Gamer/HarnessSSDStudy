@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260807-008",
+  "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+  "source_url": "https://arxiv.org/abs/2608.06351v1",
+  "summary": "Challenges in Evaluating Explanation Methods for Static and Evolving Data｜This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insuffic",
+  "tags": [
+    "evaluation",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanations to evolving data streams with concept drift. Experiences with adapting counterfactuals for this pr"
+  }
+}

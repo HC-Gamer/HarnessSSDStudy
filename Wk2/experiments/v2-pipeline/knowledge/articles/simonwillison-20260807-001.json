@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260807-001",
+  "title": "datasette 1.0a38",
+  "source_url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+  "summary": "datasette 1.0a38｜Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in t",
+  "tags": [
+    "security",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with a"
+  }
+}

@@ -1,0 +1,1037 @@
+[
+  {
+    "source": "github",
+    "title": "xai-org/grok-build",
+    "url": "https://github.com/xai-org/grok-build",
+    "raw_text": "GitHub 仓库 xai-org/grok-build\n描述: SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.\n主语言: Rust\nStars: 24337\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 24337,
+      "language": "Rust",
+      "topics": [],
+      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible."
+    }
+  },
+  {
+    "source": "github",
+    "title": "yc-software/qm",
+    "url": "https://github.com/yc-software/qm",
+    "raw_text": "GitHub 仓库 yc-software/qm\n描述: Multiplayer agent harness for work\n主语言: TypeScript\nStars: 12136\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 12136,
+      "language": "TypeScript",
+      "topics": [],
+      "description": "Multiplayer agent harness for work"
+    }
+  },
+  {
+    "source": "github",
+    "title": "unicity-aos/aos-ce",
+    "url": "https://github.com/unicity-aos/aos-ce",
+    "raw_text": "GitHub 仓库 unicity-aos/aos-ce\n描述: AOS Community Edition: the open agent operating system.\n主语言: Rust\nStars: 8575\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 8575,
+      "language": "Rust",
+      "topics": [],
+      "description": "AOS Community Edition: the open agent operating system."
+    }
+  },
+  {
+    "source": "github",
+    "title": "trycompai/crm",
+    "url": "https://github.com/trycompai/crm",
+    "raw_text": "GitHub 仓库 trycompai/crm\n描述: Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.\n主语言: TypeScript\nStars: 7320\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 7320,
+      "language": "TypeScript",
+      "topics": [],
+      "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM."
+    }
+  },
+  {
+    "source": "github",
+    "title": "drumih/turbo-fieldfare",
+    "url": "https://github.com/drumih/turbo-fieldfare",
+    "raw_text": "GitHub 仓库 drumih/turbo-fieldfare\n描述: Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook\n主语言: Swift\nStars: 5260\nTopics: apple-silicon, gemma, gemma4, gemma4-26b-a4b, gpgpu, llm, llm-inference, local-ai, macos, metal, on-device-ai, on-device-llm, swift",
+    "default_tags": [],
+    "extra": {
+      "stars": 5260,
+      "language": "Swift",
+      "topics": [
+        "apple-silicon",
+        "gemma",
+        "gemma4",
+        "gemma4-26b-a4b",
+        "gpgpu",
+        "llm",
+        "llm-inference",
+        "local-ai",
+        "macos",
+        "metal",
+        "on-device-ai",
+        "on-device-llm",
+        "swift"
+      ],
+      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook"
+    }
+  },
+  {
+    "source": "github",
+    "title": "MDX-Tom/gpt-5.6-instruct",
+    "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+    "raw_text": "GitHub 仓库 MDX-Tom/gpt-5.6-instruct\n描述: A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。\n主语言: Python\nStars: 4868\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 4868,
+      "language": "Python",
+      "topics": [],
+      "description": "A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。"
+    }
+  },
+  {
+    "source": "github",
+    "title": "jakubkrehel/skills",
+    "url": "https://github.com/jakubkrehel/skills",
+    "raw_text": "GitHub 仓库 jakubkrehel/skills\n描述: A collection of agent skills that help with various parts of building a great interface. From animation and UI polish to accessibility and product writing.\n主语言: 未知\nStars: 3213\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 3213,
+      "language": null,
+      "topics": [],
+      "description": "A collection of agent skills that help with various parts of building a great interface. From animation and UI polish to accessibility and product writing."
+    }
+  },
+  {
+    "source": "github",
+    "title": "FareedKhan-dev/kimi-k3-in-c",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "raw_text": "GitHub 仓库 FareedKhan-dev/kimi-k3-in-c\n描述: A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.\n主语言: C\nStars: 2954\nTopics: avx2, c99, cpu-inference, deep-learning, from-scratch, inference-engine, kimi-k3, linear-attention, llm, llm-inference, machine-learning, memory-efficient, mixture-of-experts, moe, mxfp4, quantization, simd, systems-programming, transformer, zero-dependencies",
+    "default_tags": [],
+    "extra": {
+      "stars": 2954,
+      "language": "C",
+      "topics": [
+        "avx2",
+        "c99",
+        "cpu-inference",
+        "deep-learning",
+        "from-scratch",
+        "inference-engine",
+        "kimi-k3",
+        "linear-attention",
+        "llm",
+        "llm-inference",
+        "machine-learning",
+        "memory-efficient",
+        "mixture-of-experts",
+        "moe",
+        "mxfp4",
+        "quantization",
+        "simd",
+        "systems-programming",
+        "transformer",
+        "zero-dependencies"
+      ],
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU."
+    }
+  },
+  {
+    "source": "github",
+    "title": "kvcache-ai/AgentENV",
+    "url": "https://github.com/kvcache-ai/AgentENV",
+    "raw_text": "GitHub 仓库 kvcache-ai/AgentENV\n描述: AgentENV (AENV) is a distributed platform for running agent environments at scale.\n主语言: Rust\nStars: 2939\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2939,
+      "language": "Rust",
+      "topics": [],
+      "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale."
+    }
+  },
+  {
+    "source": "github",
+    "title": "lopopolo/harness-engineering",
+    "url": "https://github.com/lopopolo/harness-engineering",
+    "raw_text": "GitHub 仓库 lopopolo/harness-engineering\n描述: 🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering\n主语言: Python\nStars: 2461\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2461,
+      "language": "Python",
+      "topics": [],
+      "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "All memory manufactured in 2027 has been sold out",
+    "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+    "raw_text": "标题: All memory manufactured in 2027 has been sold out\n来源: hackernews\n摘要: Article URL: https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out Comments URL: https://news.ycombinator.com/item?id=49207236 Points: 12 # Comments: 1",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out Comments URL: https://news.ycombinator.com/item?id=49207236 Points: 12 # Comments: 1"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "I won't read LLM authored fiction",
+    "url": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+    "raw_text": "标题: I won't read LLM authored fiction\n来源: hackernews\n摘要: Article URL: https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction Comments URL: https://news.ycombinator.com/item?id=49207146 Points: 33 # Comments: 16",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction Comments URL: https://news.ycombinator.com/item?id=49207146 Points: 33 # Comments: 16"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Artificial Intelligence used to design new viruses",
+    "url": "https://www.bbc.co.uk/news/articles/c5y3j3ngevmo",
+    "raw_text": "标题: Artificial Intelligence used to design new viruses\n来源: hackernews\n摘要: Article URL: https://www.bbc.co.uk/news/articles/c5y3j3ngevmo Comments URL: https://news.ycombinator.com/item?id=49206642 Points: 23 # Comments: 2",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://www.bbc.co.uk/news/articles/c5y3j3ngevmo Comments URL: https://news.ycombinator.com/item?id=49206642 Points: 23 # Comments: 2"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Framework discloses data breach via Metabase 0-day",
+    "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+    "raw_text": "标题: Framework discloses data breach via Metabase 0-day\n来源: hackernews\n摘要: Article URL: https://community.frame.work/t/framework-data-breach-discussion/83939 Comments URL: https://news.ycombinator.com/item?id=49206130 Points: 69 # Comments: 21",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://community.frame.work/t/framework-data-breach-discussion/83939 Comments URL: https://news.ycombinator.com/item?id=49206130 Points: 69 # Comments: 21"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
+    "url": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/",
+    "raw_text": "标题: New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software\n来源: hackernews\n摘要: Article URL: https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/ Comments URL: https://news.ycombinator.com/item?id=49204546 Points: 56 # Comments: 76",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/ Comments URL: https://news.ycombinator.com/item?id=49204546 Points: 56 # Comments: 76"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+    "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+    "raw_text": "标题: New Mexico court orders Meta to pay $567m over harms to children’s mental health\n来源: hackernews\n摘要: https://www.reuters.com/world/new-mexico-court-orders-meta-p... https://www.theguardian.com/technology/2026/aug/06/new-mexic... https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5... https://www.bbc.com/news/articles/cd7lz3wr2rlo https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 222 # Comments: 143",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "https://www.reuters.com/world/new-mexico-court-orders-meta-p... https://www.theguardian.com/technology/2026/aug/06/new-mexic... https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5... https://www.bbc.com/news/articles/cd7lz3wr2rlo https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 222 # Comments: 143"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
+    "url": "https://zenodo.org/records/21359923",
+    "raw_text": "标题: Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters\n来源: hackernews\n摘要: Author here. Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI at matched cost. That argument is still live. Both sides have been arguing about energies. Neither measured which electronic state these calculations actually converge to. So I measured it. ⟨S²⟩ comes out between 4.7 and 7.0 depending on the system and the subspace size, where the target these papers name is a singlet at ⟨S²⟩ = 0. Every starting guess I tried lands in the same place, and the error at convergence is about the size of the spin-state ladder itself, which is the physics under disput",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Author here. Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI at matched cost. That argument is still live. Both sides have been arguing about energies. Neither measured which electronic state these calculations actually converge to. So I measured it. ⟨S²⟩ comes"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+    "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+    "raw_text": "标题: Welcoming the Nepalese Government to Have I Been Pwned\n来源: hackernews\n摘要: Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 147 # Comments: 23",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 147 # Comments: 23"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+    "raw_text": "标题: Bioengineered chewing gum may offer a way to fight HPV and other microbes\n来源: hackernews\n摘要: Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 121 # Comments: 30",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 121 # Comments: 30"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "What is a product?",
+    "url": "https://roge.onwrite.app/what-is-a-product",
+    "raw_text": "标题: What is a product?\n来源: hackernews\n摘要: Article URL: https://roge.onwrite.app/what-is-a-product Comments URL: https://news.ycombinator.com/item?id=49202690 Points: 39 # Comments: 15",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://roge.onwrite.app/what-is-a-product Comments URL: https://news.ycombinator.com/item?id=49202690 Points: 39 # Comments: 15"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
+    "url": "https://bobdahacker.com/blog/tldv-hack",
+    "raw_text": "标题: tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open\n来源: lobsters\n摘要: bobdahacker ☰ home blog 🎄 Currently at 39C3 in Hamburg! Feel free to hit me up on my socials 💻 --> tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open August 4, 2026 BobDaHacker I reported this on January 28th, 2026. It is now July 2026. Six months later. The Firestore database is sti",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "bobdahacker ☰ home blog 🎄 Currently at 39C3 in Hamburg! Feel free to hit me up on my socials 💻 --> tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open August 4, 2026 BobDaHacker I reported this on January 28th, 2026. It is now July 2026. Six months later. The Firestore database is sti"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Zig's Io.Threaded is Neat",
+    "url": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+    "raw_text": "标题: Zig's Io.Threaded is Neat\n来源: lobsters\n摘要: matklad About Links Blogroll Zig’s Io.Threaded is Neat Aug 6, 2026 std.Io.Threaded is one of the implementations of Zig’s new Io interface that enables concurrency. This is a boring “just use threads” impl. I personally find it neat though — it does this weird thing that I wanted to do for ages , th",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "matklad About Links Blogroll Zig’s Io.Threaded is Neat Aug 6, 2026 std.Io.Threaded is one of the implementations of Zig’s new Io interface that enables concurrency. This is a boring “just use threads” impl. I personally find it neat though — it does this weird thing that I wanted to do for ages , th"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "A shell exclamation mark is not for yelling. Be lazy",
+    "url": "https://refp.se/articles/your-shell-and-the-lazy-exclamation-mark",
+    "raw_text": "标题: A shell exclamation mark is not for yelling. Be lazy\n来源: lobsters\n摘要: home articles projects about hire A shell exclamation mark is not for yelling. Be lazy. Event designators have been hiding in not-so-plain-sight since the late 1970s — so powerful that forgetting might be part of a massive conspiracy to wear out developer keyboards faster than otherwise. Published 5",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "home articles projects about hire A shell exclamation mark is not for yelling. Be lazy. Event designators have been hiding in not-so-plain-sight since the late 1970s — so powerful that forgetting might be part of a massive conspiracy to wear out developer keyboards faster than otherwise. Published 5"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "jujutsu 0.44.0",
+    "url": "https://github.com/jj-vcs/jj/releases/tag/v0.44.0",
+    "raw_text": "标题: jujutsu 0.44.0\n来源: lobsters\n摘要: Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environme",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environme"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "i wonder if you could make a useful DOS executable with just emoji",
+    "url": "https://oldbytes.space/@gloriouscow/117044736309312697",
+    "raw_text": "标题: i wonder if you could make a useful DOS executable with just emoji\n来源: lobsters\n摘要: i wonder if you could make a useful DOS executable with just emoji。这是 lobsters 收录的技术条目，原文站点 oldbytes.space；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "i wonder if you could make a useful DOS executable with just emoji。这是 lobsters 收录的技术条目，原文站点 oldbytes.space；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "I got a 1998 CD-ROM world atlas running on Windows 11",
+    "url": "https://trevmex.com/post/824245295374303232/my-son-found-a-world-atlas-in-a-thrift-store-so-i",
+    "raw_text": "标题: I got a 1998 CD-ROM world atlas running on Windows 11\n来源: lobsters\n摘要: trevmex's tumblings Father, husband, engineering manager, programming language theory fan, and a little bit of a geek. he/him/his Thu Aug 6 ( ) My Son Found a World Atlas in a Thrift Store, So I Had to Make It Work My son found a copy of Compton’s 3D World Atlas Deluxe in a thrift store in Port Town",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "trevmex's tumblings Father, husband, engineering manager, programming language theory fan, and a little bit of a geek. he/him/his Thu Aug 6 ( ) My Son Found a World Atlas in a Thrift Store, So I Had to Make It Work My son found a copy of Compton’s 3D World Atlas Deluxe in a thrift store in Port Town"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Taste Is All That's Left",
+    "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+    "raw_text": "标题: Taste Is All That's Left\n来源: lobsters\n摘要: Index Projects Posts About The Bar Went Somewhere What Taste Actually Is Taste Is Downstream of Friction The Economics Are Against You The Flood What Deserves to Exist A Defense, Then Post-Mortem On Language In Appreciation On Taste Footnotes ↑ # Taste Is All That s Left Published August 6, 2026 16",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Index Projects Posts About The Bar Went Somewhere What Taste Actually Is Taste Is Downstream of Friction The Economics Are Against You The Flood What Deserves to Exist A Defense, Then Post-Mortem On Language In Appreciation On Taste Footnotes ↑ # Taste Is All That s Left Published August 6, 2026 16"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Super Mario Derivations",
+    "url": "https://fzakaria.com/2026/08/05/super-mario-derivations",
+    "raw_text": "标题: Super Mario Derivations\n来源: lobsters\n摘要: Skip to content Farid Zakaria 2026-08-05 11 min read Super Mario Derivations One of the most surprising aspects of the Nix language is that it is lazy , especially if you have never used a lazy language before. This laziness is what makes much of Nixpkgs possible, and its complexity. One of the simp",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Skip to content Farid Zakaria 2026-08-05 11 min read Super Mario Derivations One of the most surprising aspects of the Nix language is that it is lazy , especially if you have never used a lazy language before. This laziness is what makes much of Nixpkgs possible, and its complexity. One of the simp"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "the web server deployment model breaks at hobby scale",
+    "url": "https://w.on-t.work/web-deployment-model",
+    "raw_text": "标题: the web server deployment model breaks at hobby scale\n来源: lobsters\n摘要: 2026-08 the web server deployment model breaks at hobby scale lets say you want to make a web thing that you intend other people to host on their own servers. unfortunately, by thinking this very thought you immediately locked your codebase out of several efficiency tricks other software intended to",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "2026-08 the web server deployment model breaks at hobby scale lets say you want to make a web thing that you intend other people to host on their own servers. unfortunately, by thinking this very thought you immediately locked your codebase out of several efficiency tricks other software intended to"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "I'm leaving OpenAI to build Jurassic Park",
+    "url": "https://taylor.town/leaving-openai",
+    "raw_text": "标题: I'm leaving OpenAI to build Jurassic Park\n来源: lobsters\n摘要: taylor.town about hire --> spam rss bsky msto twt --> I'm leaving OpenAI to build Jurassic Park I'm so grateful for my time at OpenAI, where I led alignment safety for the official ChatGPT basketball . I gained so much valuable experience building Altman's armageddon engines, and I'm taking it to th",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "taylor.town about hire --> spam rss bsky msto twt --> I'm leaving OpenAI to build Jurassic Park I'm so grateful for my time at OpenAI, where I led alignment safety for the official ChatGPT basketball . I gained so much valuable experience building Altman's armageddon engines, and I'm taking it to th"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Learning When to Trust via Selective Context Preference Optimization",
+    "url": "https://arxiv.org/abs/2608.06377v1",
+    "raw_text": "标题: Learning When to Trust via Selective Context Preference Optimization\n来源: arxiv_ai\n摘要: Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-context, and irrelevant-context), together with SC2W, a paired metric counting how often a misleading signal flips a clean-correct answer to wrong. Across a comprehensive benchmark study, we observe that such a susceptibility is universal. We then propose SCOPE, which mines clean-correct/misleading-wrong ",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-contex"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+    "url": "https://arxiv.org/abs/2608.06366v1",
+    "raw_text": "标题: Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering\n来源: arxiv_ai\n摘要: Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence traceability. We developed the Nimblemind Multi-Agent System (nMAS), an evidence-linked, rubric-grounded pipeline for automated heart-failure feature engineering, and evaluated it on 500 dummy patient records from nine EHR source tables. nMAS generated 132 structured and 70 rubric-scored aggregated fea",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence tra"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
+    "url": "https://arxiv.org/abs/2608.06364v1",
+    "raw_text": "标题: Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria\n来源: arxiv_ai\n摘要: The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty. This research examines how Artificial Intelligence (AI) in Nigerian mobile applications affects digital sovereignty, examined through platform transparency as a key indicator of user awareness and control. Using an interpretive approach, the research combines the forensic analysis of selected Android applications with contextual document analysis to identify AI features and evaluate disclosure practices. The findings show that AI is widely implemented in the applications, yet transparency about its use remains limited. A socio-economic analysis of Nigeria further shows an inc",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty. This research examines how Artificial Intelligence (AI) in Nigerian mobile applications affects digital sovereignty, examined through platform transparency as a key indicator of user awareness and control. Using an interpretive approach, the research combines the forensic analysis "
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "An Optimal Agnostic PAC Algorithm",
+    "url": "https://arxiv.org/abs/2608.06363v1",
+    "raw_text": "标题: An Optimal Agnostic PAC Algorithm\n来源: arxiv_ai\n摘要: Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0<δ\\le 1/2$, with probability at least $1-δ$, \\[ L(\\widehat h) \\le L^*+ 7\\cdot10^8\\left( \\sqrt{\\frac{L^*(d+\\log(1/δ))}{n}} +\\frac{d+\\log(1/δ)}{n} \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at every fixed $L^*$, matching the lower bounds of Devroye, Györfi, and Lugosi [A Probabilistic Theory of Pattern Recognition, Springer, 1996].",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0<δ\\le 1/2$, with probability at least $1-δ$, \\[ L(\\widehat h) \\le L^*+ 7\\cdot10^8\\left( \\sqrt{\\frac{L^*(d+\\log(1/δ))}{n}} +\\frac{d+\\log(1/δ)}{n} \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at eve"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+    "url": "https://arxiv.org/abs/2608.06362v1",
+    "raw_text": "标题: AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games\n来源: arxiv_ai\n摘要: Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact. The Action-Informed Value Assessment Tool (AIVAT) reduces variance in imperfect-information games through conditional mean-zero corrections, by a median $54\\times$ across 15 LLM agent configurations spanning 71,439 paired Heads-Up No-Limit Hold'em (HUNL) hands, but does not say when to stop. We co",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+    "url": "https://arxiv.org/abs/2608.06361v1",
+    "raw_text": "标题: The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping\n来源: arxiv_ai\n摘要: Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric profiling for event counting in three controlled video tasks: bouncing-ball wall contacts, visual blinks, and categorical state transitions. Across 2,190 videos, we vary event count N and frequency F while holding rendering fixed. Each video includes an executable event trace for capability-surface estimation and timestamp-level evaluation. Our results reveal a staged temporal failure. At an 80% relia",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric profiling for event counting in three controlled video tasks: bouncing-ball wall contacts, visual blinks"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+    "url": "https://arxiv.org/abs/2608.06353v1",
+    "raw_text": "标题: Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents\n来源: arxiv_ai\n摘要: We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our work as a compliance or commons overlay on a deployer. One governance period is an extensive form game in which verified human stakeholders arrive sequentially and contribute, on a provision or a rejection market, in a governance currency that is deliberately distinct from the agents compute. A funding aggregator turns raw contributions into breadth weighted effective supports - a two threshold gat",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our work as a compliance or commons overlay on a deployer. One governance period is an extensive form gam"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+    "url": "https://arxiv.org/abs/2608.06351v1",
+    "raw_text": "标题: Challenges in Evaluating Explanation Methods for Static and Evolving Data\n来源: arxiv_ai\n摘要: This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanations to evolving data streams with concept drift. Experiences with adapting counterfactuals for this problem are discussed. Finally it is related to the challenges of tracking the co-evolution of data, models, and explanations.\\footnote{This paper has been accepted for a publication in J.Nalepa (ed) Explainable AI in Space. Proceedings of EASi 2026 Workshop at IJCAI-ECAI 2026 Bremen, Springer CCIS vo",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanations to evolving data streams with concept drift. Experiences with adapting counterfactuals for this pr"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+    "url": "https://arxiv.org/abs/2608.06346v1",
+    "raw_text": "标题: TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories\n来源: arxiv_ai\n摘要: LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a failed trajectory that is responsible for the final failure. However, progress faces two main challenges. First, long trajectories make it difficult to identify individual errors, since the evidence for judging a step may be scattered across distant instructions, observations, and prior context. Second, failed trajectories often contain multiple local errors with different downstream effects, only some of which remain responsible for the final failure. In this work, we propose TrajDebug, an error-lifecycle tracing framework that addresses long-trajectory error discovery with m",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a failed trajectory that is responsible for the final failure. However, progress faces two main challenges. First, long trajectories make it difficult to identify individual errors, since the evidence for judging a step may be scattered across distant instructions, observations, and p"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
+    "url": "https://arxiv.org/abs/2608.06331v1",
+    "raw_text": "标题: Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data\n来源: arxiv_ai\n摘要: From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how tables connect into units of analysis. Today, this semantic layer is usually written by hand. This is a knowledge-acquisition bottleneck that limits the scalability of analytic systems, keeps non-technical users dependent on experts, and is itself error-prone. We present TYTAN, a system for automatically constructing an analytic semantic schema from a relational database and, when available, a short user-provided description. TYTAN combines symbolic analysis of the database with LLM-based semantic inference for entity proposal, role assignment, and naming. When the evidence ",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how tables connect into units of analysis. Today, this semantic layer is usually written by hand. This is a knowledge-acquisition bottleneck that limits the scalability of analytic systems, keeps non-technical users dependent on experts, and is itself error-prone. We present TYTAN, a "
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Learning When to Trust via Selective Context Preference Optimization",
+    "url": "https://arxiv.org/abs/2608.06377v1",
+    "raw_text": "标题: Learning When to Trust via Selective Context Preference Optimization\n来源: arxiv_cl\n摘要: Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-context, and irrelevant-context), together with SC2W, a paired metric counting how often a misleading signal flips a clean-correct answer to wrong. Across a comprehensive benchmark study, we observe that such a susceptibility is universal. We then propose SCOPE, which mines clean-correct/misleading-wrong ",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-contex"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "The Bitter Lesson of Tool Calling",
+    "url": "https://arxiv.org/abs/2608.06370v1",
+    "raw_text": "标题: The Bitter Lesson of Tool Calling\n来源: arxiv_cl\n摘要: Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been conducted. In this work, we empirically compare programmatic tool calling (PTC) to native JSON tool calling across 14 language models on BFCL v4. In the programmatic tool calling paradigm, tools are exposed as typed Python stubs that the model invokes through code, with execution and results handled in a single agent turn. Programmatic tool calling matches or exceeds native JSON tool calling in 11 o",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been conducted. In this work, we empirically compare programmatic tool calling (PTC) to native JSON tool ca"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+    "url": "https://arxiv.org/abs/2608.06362v1",
+    "raw_text": "标题: AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games\n来源: arxiv_cl\n摘要: Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact. The Action-Informed Value Assessment Tool (AIVAT) reduces variance in imperfect-information games through conditional mean-zero corrections, by a median $54\\times$ across 15 LLM agent configurations spanning 71,439 paired Heads-Up No-Limit Hold'em (HUNL) hands, but does not say when to stop. We co",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+    "url": "https://arxiv.org/abs/2608.06352v1",
+    "raw_text": "标题: CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks\n来源: arxiv_cl\n摘要: Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task behaves relative to a given solver setting. In this paper, we present CalibForge, an autonomous terminal-task synthesis system that uses verified solver behavior to revise candidate tasks through adversarial solver calibration. Multi-solver calibration targets disagreement within a heterogeneous solver pool, whereas contrastive solver calibration targets a designated strong-pass/weak-fail relation; both operationalize a solver-relative learnable zone anchored in demonstrated solvability. Using CalibForge, we construct 5,431 calibrated terminal tasks. Our ablations show that b",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task behaves relative to a given solver setting. In this paper, we present CalibForge, an autonomous terminal-task synthesis system that uses verified solver behavior to revise candidate tasks through adversarial solver calibration. Multi-solver calibration targets disagreement within a"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+    "url": "https://arxiv.org/abs/2608.06347v1",
+    "raw_text": "标题: RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer\n来源: arxiv_cl\n摘要: Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promising paradigm, providing dense token-level supervision on student-generated rollouts, yet their objectives do not explicitly prioritize reasoning signals most critical to cross-lingual transfer. We characterize that target-language reasoning comprises the generation of both surface text and reasoning pivots, which are decisions that advance or redirect the reasoning process and shape subsequent inference. This motivates concentrating privileged distillation around such pivots. We therefore propose RP-OPSD, Reasoning-Pivot-guided On-Policy Self-Distillation, using the distrib",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promising paradigm, providing dense token-level supervision on student-generated rollouts, yet their objectives do not explicitly prioritize reasoning signals most critical to cross-lingual transfer. We characterize that target-language reasoning comprises the generation of both surfac"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+    "url": "https://arxiv.org/abs/2608.06329v1",
+    "raw_text": "标题: Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents\n来源: arxiv_cl\n摘要: Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or limited policy coverage, leading to unreliable evaluations. We introduce a reference-free framework that uses LLM judges to assess benchmark consistency, complexity, and policy coverage, while providing actionable diagnostics of weaknesses. We validate the framework by demonstrating agreement with independent human annotations and by evaluating benchmarks generated by LLMs of varying capabilities, as well as benchmarks subjected to controlled quality-degrading perturbations. Across domains and judge models, the proposed metrics consistently distinguish between benchmark quali",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or limited policy coverage, leading to unreliable evaluations. We introduce a reference-free framework that uses LLM judges to assess benchmark consistency, complexity, and policy coverage, while providing actionable diagnostics of weaknesses. We validate the framework by demonstratin"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
+    "url": "https://arxiv.org/abs/2608.06312v1",
+    "raw_text": "标题: Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents\n来源: arxiv_cl\n摘要: Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and governed by explicit rules for scope, terminology, normative wording, and cross-section consistency. Existing benchmarks focus on domain knowledge and question answering, largely overlooking intrinsic quality review for professional documents. Such reviews rely heavily on human experts, making them costly and difficult to scale. To bridge this gap, we introduce GB/T-Bench, the first benchmark for the structured review of national standard documents. Its GB/T Review Taxonomy is a hierarchical sch",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and governed by explicit rules for scope, terminology, normative wording, and cross-section consistency. Existing benchmarks focus on domain knowledge and question answering, largely overlooking intrinsic"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
+    "url": "https://arxiv.org/abs/2608.06310v1",
+    "raw_text": "标题: RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction\n来源: arxiv_cl\n摘要: Recent advances in reward modeling show a paradigm shift from discriminative reward models to generative reward models. However, despite their strong capabilities in response ranking, generative reward models have not realized their potential in reinforcement learning (RL). Our analysis reveals that this limitation arises from a mismatch between the comparative nature of generative reward modeling and the scalar scoring paradigm adopted by existing RL algorithms. To bridge this gap, we propose a Ranking-based Reward Construction (RRC) approach, which enables generative reward models to provide more effective RL learning signals by deriving rewards from relative preference rankings. RRC introduces two complementary strategies: self-competitive ranking, which exploits comparisons among sampl",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Recent advances in reward modeling show a paradigm shift from discriminative reward models to generative reward models. However, despite their strong capabilities in response ranking, generative reward models have not realized their potential in reinforcement learning (RL). Our analysis reveals that this limitation arises from a mismatch between the comparative nature of generative reward modeling and the scalar scoring paradigm adopted by existing RL algorithms. To bridge this gap, we propose a"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+    "url": "https://arxiv.org/abs/2608.06305v1",
+    "raw_text": "标题: Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations\n来源: arxiv_cl\n摘要: Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit reports, regulatory returns -- this design is structurally unsound, and we make the argument measurable. On a 780-page government financial report, 86.8% of content lines are table rows, thousands of near-identical figures compete in one embedding space, and a figure inherits its unit from a header a median of 13 lines above it -- so a chunk boundary routinely separates a number from whether it is in lakh or crore, an error of two orders of magnitude. A table-aware chunker built as a steelman fixes the unit problem but leaves 27-30% of numeric c",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit reports, regulatory returns -- this design is structurally unsound, and we make the argument measurable. On a 780-page government financial report, 86.8% of content lines are table rows, thousands of near-identical figures compete in one embedding spa"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+    "url": "https://arxiv.org/abs/2608.06301v1",
+    "raw_text": "标题: HarnessOpt-Bench: Evaluating LLMs at Harness Optimization\n来源: arxiv_cl\n摘要: As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measuring how well frontier LLMs perform at this task. We introduce HarnessOpt-Bench, a benchmark for end-to-end harness optimization under expensive and stochastic evaluation. An optimizer, an LLM paired with a coding harness, receives a target agent's seed harness, graded evaluation feedback, and a fix",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measu"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Baseten on Hugging Face Inference Providers 🔥",
+    "url": "https://huggingface.co/blog/baseten",
+    "raw_text": "标题: Baseten on Hugging Face Inference Providers 🔥\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+    "raw_text": "标题: Deploy local agents everywhere with LFM2.5-2.6B\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+    "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+    "raw_text": "标题: GPU Management: Why Idle GPUs Are the New Grounded Aircraft\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+    "raw_text": "标题: The OlmoEarth Platform: Geospatial inference at planetary scale\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+    "raw_text": "标题: NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+    "raw_text": "标题: Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+    "url": "https://huggingface.co/blog/nunchaku-diffusers",
+    "raw_text": "标题: Bringing Nunchaku 4-bit Diffusion Inference to Diffusers\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Grabette: an open system to record robot-manipulation data",
+    "url": "https://huggingface.co/blog/grabette",
+    "raw_text": "标题: Grabette: an open system to record robot-manipulation data\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Newer Models, Same Advantage",
+    "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+    "raw_text": "标题: Newer Models, Same Advantage\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Security incident disclosure — July 2026",
+    "url": "https://huggingface.co/blog/security-incident-july-2026",
+    "raw_text": "标题: Security incident disclosure — July 2026\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+    "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "raw_text": "标题: Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users\n来源: openai_news\n摘要: ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Working with the American Psychological Association on youth mental health and AI",
+    "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "raw_text": "标题: Working with the American Psychological Association on youth mental health and AI\n来源: openai_news\n摘要: OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "From asking to doing: How the world is putting ChatGPT to work",
+    "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "raw_text": "标题: From asking to doing: How the world is putting ChatGPT to work\n来源: openai_news\n摘要: New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "raw_text": "标题: Third-party cyber evaluations involving OpenAI models\n来源: openai_news\n摘要: OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "New ways to learn and teach with ChatGPT Work and Codex",
+    "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "raw_text": "标题: New ways to learn and teach with ChatGPT Work and Codex\n来源: openai_news\n摘要: Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Apple is getting this wrong",
+    "url": "https://openai.com/index/apple-is-getting-this-wrong",
+    "raw_text": "标题: Apple is getting this wrong\n来源: openai_news\n摘要: OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "How we built a realtime system for responsive voice AI in six months",
+    "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+    "raw_text": "标题: How we built a realtime system for responsive voice AI in six months\n来源: openai_news\n摘要: GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Circles powers telco personalization with OpenAI technology",
+    "url": "https://openai.com/index/circles",
+    "raw_text": "标题: Circles powers telco personalization with OpenAI technology\n来源: openai_news\n摘要: Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Ten advances in mathematics and theoretical computer science",
+    "url": "https://openai.com/index/ten-advances-in-mathematics",
+    "raw_text": "标题: Ten advances in mathematics and theoretical computer science\n来源: openai_news\n摘要: OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Advancing responsible AI across Europe",
+    "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "raw_text": "标题: Advancing responsible AI across Europe\n来源: openai_news\n摘要: OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "datasette 1.0a38",
+    "url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+    "raw_text": "标题: datasette 1.0a38\n来源: simonwillison\n摘要: Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database. This fix is also available in Datasette 0.65.3 . Thankfully this particular configuration - private tables and public tables exposed for t",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with a"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "datasette 0.65.3",
+    "url": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
+    "raw_text": "标题: datasette 0.65.3\n来源: simonwillison\n摘要: Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38 . Tags: datasette",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38 . Tags: datasette"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Simon Willison on Technical Blogging",
+    "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+    "raw_text": "标题: Simon Willison on Technical Blogging\n来源: simonwillison\n摘要: Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog! It includes my answers to the following questions: Why did you start blogging – and why do you continue? What has been the most surprising impact of blogging for you? What blog post are you most proud of and why? What post was the most difficult to write and how did you tackle it? Any lessons learned that you want to share with the community? Your advice for people just getting started with blogging? A few blogs that you particularly enjoy? I'll repeat my most important piece of advice here: My number one tip for blogging is to lower your standards! Aim to hit publish while you are still actively un",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog! It includes my answers to the following questions: Why did you start blogging – and why do you continue? What has been the most surprising impact of blogging for you? What blog post are you most proud of and why? What post was the most difficult to write and how did you tackle it? Any lessons learned that"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "An AI model from Meta also hacked another company during testing",
+    "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+    "raw_text": "标题: An AI model from Meta also hacked another company during testing\n来源: simonwillison\n摘要: An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spokesperson said. Meta’s Muse Spark model “exploited a security vulnerability” in another company “in a manner similar to previously-reported instances with other companies.” The Information had ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Introducing Muse Code and Muse Spark 1.2",
+    "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+    "raw_text": "标题: Introducing Muse Code and Muse Spark 1.2\n来源: simonwillison\n摘要: Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...] We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harn",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expandi"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+    "raw_text": "标题: Third-party cyber evaluations involving OpenAI models\n来源: simonwillison\n摘要: Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post ) and another attack enabled by Irregular : Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet. [...] In one test, the name of the fictional target for the CTF challenge unintentionally coincided with a real domain. Because the testing environment was mistakenly connected to the internet, the model exploited a real website, mistaking it to be part of the simulated environm",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post ) and another attack enabled by Irregular : Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access "
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+    "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+    "raw_text": "标题: Incident Report: unsanctioned agent behaviour during cyber testing\n来源: simonwillison\n摘要: Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccess"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+    "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+    "raw_text": "标题: One-shotting a Raccoon Heist game using Claude Fable 5\n来源: simonwillison\n摘要: Back in 2022 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here . Here's the GitHub repo , and a short video demo: Your browser does not support HTML5 video. How I built this This is the August 5th, 2022 tweet : My GPT-3 prompt back then was: Write a detailed product description of a computer game where a team of raccoons go on heists. This was in the text completion days, where you asked GPT-3 to complete the rest of the text. It completed: In \"Raccoon Heist\", you and your team of thieving raccoons are ta",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Back in 2022 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here . Here's the GitHub repo , and a short video demo: Your browser does not support HTML5 video. How I built this This is the August 5th, 2022 tweet :"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+    "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+    "raw_text": "标题: New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging\n来源: simonwillison\n摘要: I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates of its own. Headline features for LLM CLI users Running LLM against reasoning models now displays their reasoning traces to standard error, so you can see what they are \"thinking\" without that information being included in the standard output that you might pipe to another tool. Add -R/--hide-reasoning to turn this off. LLM includes support out-of-the-box for the GPT-5.6 model family , and the new ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates of its own. Headline features for LLM CLI users Running LLM against reasoning models now displays the"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "llm-anthropic 0.26",
+    "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+    "raw_text": "标题: llm-anthropic 0.26\n来源: simonwillison\n摘要: Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search* options have been removed in favor of -T WebSearch . #79 Upgraded to llm =0.32 . Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reasoning for llm CLI prompts now displays to standard error unless you pass --hide-reasoning/-R . Simplified extended thinking to thinking and thinking_effort ( low , medium , high , xhigh , or max ). Claude 5 models think by default; -o thinking 0 disables thinking for Sonnet 5 and Opus 5, while Fable 5",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search* options have been removed in favor of -T WebSearch . #79 Upgraded to llm =0.32 . Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reason"
+    }
+  }
+]

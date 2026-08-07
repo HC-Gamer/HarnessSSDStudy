@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260807-001",
+  "title": "Learning When to Trust via Selective Context Preference Optimization",
+  "source_url": "https://arxiv.org/abs/2608.06377v1",
+  "summary": "Learning When to Trust via Selective Context Preference Optimization｜Language models increasingly condition their answers on external signals, and a single misleading one can turn",
+  "tags": [
+    "evaluation",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-contex"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260807-007",
+  "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
+  "source_url": "https://zenodo.org/records/21359923",
+  "summary": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters｜Author here. Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci.",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Author here. Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI at matched cost. That argument is still live. Both sides have been arguing about energies. Neither measured which electronic state these calculations actually converge to. So I measured it. ⟨S²⟩ comes"
+  }
+}

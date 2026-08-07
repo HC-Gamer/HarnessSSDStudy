@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260807-002",
+  "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+  "source_url": "https://arxiv.org/abs/2608.06366v1",
+  "summary": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering｜Electronic health record (EHR) feature engineering is a major bottleneck in clinical research a",
+  "tags": [
+    "rag",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence tra"
+  }
+}

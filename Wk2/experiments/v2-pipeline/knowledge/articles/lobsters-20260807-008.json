@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260807-008",
+  "title": "the web server deployment model breaks at hobby scale",
+  "source_url": "https://w.on-t.work/web-deployment-model",
+  "summary": "the web server deployment model breaks at hobby scale｜2026-08 the web server deployment model breaks at hobby scale lets say you want to make a web thing that you intend other peop",
+  "tags": [
+    "deployment",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-07T08:48:08.486086+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "2026-08 the web server deployment model breaks at hobby scale lets say you want to make a web thing that you intend other people to host on their own servers. unfortunately, by thinking this very thought you immediately locked your codebase out of several efficiency tricks other software intended to"
+  }
+}
