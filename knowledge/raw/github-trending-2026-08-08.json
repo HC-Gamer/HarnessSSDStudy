@@ -1,0 +1,191 @@
+{
+  "source": "github-trending",
+  "skill": "github-trending",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "items": [
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "面向所有人的开源自主 AI Agent 平台，愿景是让普通用户也能轻松构建和运行自主智能体，提供从模型编排到任务执行的完整工具链，是 Agent 生态最成熟的参考实现之一。",
+      "stars": 186429,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "llm"
+      ]
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "基于多 Agent + LLM 的金融交易框架，让多个 AI 智能体模拟分析师、研究员、交易员等角色协作完成投资决策与交易分析，是金融领域多智能体系统的代表性开源实现。",
+      "stars": 96194,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "llm",
+        "finance"
+      ]
+    },
+    {
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "summary": "高吞吐、内存高效的 LLM 推理与服务引擎，支持 PagedAttention 和多种模型，是业界部署大模型推理服务的事实标准，广泛用于生产环境的 LLM serving。",
+      "stars": 88519,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "inference",
+        "ml"
+      ]
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "面向 AI 编码 Agent 的生产级工程技能集合，覆盖代码审查、测试、重构等实操技能，帮助智能体更好地完成软件工程任务。",
+      "stars": 84260,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "agent",
+        "coding-agent"
+      ]
+    },
+    {
+      "name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "summary": "简洁通用的群体智能（Swarm Intelligence）引擎，号称可预测万物，通过群体协作启发式算法实现通用预测能力，探索类脑智能在复杂决策中的应用。",
+      "stars": 70709,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "swarm-intelligence",
+        "ml"
+      ]
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "summary": "微软开源的下一代语音 AI 项目，聚焦前沿语音合成与交互能力，探索更自然、更拟人的声音生成与语音对话体验。",
+      "stars": 52209,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "tts",
+        "voice"
+      ]
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "summary": "面向 MCP 与 CLI 的本地代码智能图工具，构建代码库的持久映射，让 AI 编码工具按需读取上下文，实测显著降低代码审查和大仓库工作流中的上下文开销。",
+      "stars": 29416,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "mcp",
+        "coding-agent"
+      ]
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "summary": "把任意技术书籍 PDF 一键转换成 Claude Code 技能的自动化工具，让技术文档变成可直接学习和引用的 Agent 技能，降低知识到工作流的转化成本。",
+      "stars": 18659,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "skills"
+      ]
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "summary": "Google 官方发布的 Agent Skills 集合，把 Google 产品与技术栈封装成可直接调用的技能模块，为编程 Agent 提供与 Google 生态打通的标准化能力。",
+      "stars": 16501,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "skills",
+        "google"
+      ]
+    },
+    {
+      "name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "summary": "通用 SEO 技能包，内置 25 个子技能和 18 个子 Agent，覆盖技术 SEO、E-E-A-T、schema、GEO/AEO、外链、本地 SEO 等，可选接入 DataForSEO 等工具。",
+      "stars": 13684,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "seo"
+      ]
+    },
+    {
+      "name": "kyutai-labs/pocket-tts",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "summary": "kyutai 团队开源的极轻量 TTS 模型，可在普通 CPU（甚至口袋级硬件）上运行，主打低资源、高可移植性的端侧语音合成方案。",
+      "stars": 8162,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "tts",
+        "ml"
+      ]
+    },
+    {
+      "name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "summary": "Prime Intellect 推出的自改进强化学习（RLM）编码 Agent，面向长时程自主任务与编程工作流，通过强化学习让 Agent 在持续运行中自我迭代提升。",
+      "stars": 7872,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "agent",
+        "rlm",
+        "coding-agent"
+      ]
+    },
+    {
+      "name": "google-deepmind/weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "summary": "Google DeepMind 开源的深度学习天气预报模型，用机器学习替代传统数值预报，在高精度天气预测上展现新一代 AI for Science 的能力。",
+      "stars": 6846,
+      "language": "Python",
+      "topics": [
+        "ml",
+        "ai",
+        "weather"
+      ]
+    },
+    {
+      "name": "anthropics/claude-code-security-review",
+      "url": "https://github.com/anthropics/claude-code-security-review",
+      "summary": "Anthropic 官方提供的 AI 驱动的安全审查 GitHub Action，用 Claude 自动分析代码变更中的安全漏洞，把大模型安全能力融入 CI 流程。",
+      "stars": 5808,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "security",
+        "llm"
+      ]
+    },
+    {
+      "name": "microsoft/agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "summary": "微软开源的 AI Agent 治理工具箱，提供策略执行、零信任身份、执行沙箱与可靠性工程能力，完整覆盖 OWASP Agentic Top 10 安全风险。",
+      "stars": 5788,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "governance",
+        "security"
+      ]
+    }
+  ]
+}

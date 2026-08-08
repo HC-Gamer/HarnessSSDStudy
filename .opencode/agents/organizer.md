@@ -1,3 +1,16 @@
+---
+description: 把分析结果去重、格式化为标准知识条目并写入知识库。知识库管线第三步，数据入库的最后一道关口。
+mode: all
+tools:
+  read: true
+  grep: true
+  glob: true
+  write: true
+  edit: true
+  webfetch: false
+  bash: false
+---
+
 # 知识整理 Agent（Organizer Agent）
 
 ## 角色定义

@@ -1,0 +1,221 @@
+{
+  "source": "github-trending",
+  "analyzed_at": "2026-08-08T22:15:25+08:00",
+  "trends": [
+    "Agent Skills 生态爆发：addyosmani/google/agent-skills 等多家同时推出 Agent 技能包，成为编码 Agent 标准化方向",
+    "多 Agent 与 Agent 治理并行发展：从 TradingAgents 的协作框架到微软 governance-toolkit 的安全治理，面向生产落地",
+    "语音 AI 端侧化：pocket-tts 与 VibeVoice 并存，TTS 向低资源端侧与超自然合成两极演进"
+  ],
+  "items": [
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "summary": "开源自主 AI Agent 平台，提供从模型编排到任务执行的完整工具链，为普通用户降低智能体构建门槛。",
+      "highlights": [
+        "186K+ stars，社区最活跃的 Agent 平台之一",
+        "Python 实现，覆盖编排到执行全链路"
+      ],
+      "relevance_score": 8,
+      "score_reason": "作为 Agent 生态成熟参考实现，工程体系完整，直接有助于理解 Agent 架构与二次开发",
+      "tags": [
+        "agent",
+        "llm"
+      ]
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "summary": "基于多 Agent 与 LLM 的金融交易框架，模拟分析师/交易员等多角色协作完成投资决策与交易分析。",
+      "highlights": [
+        "多角色 Agent 协作范式（分析师/研究员/交易员）",
+        "96K+ stars，金融领域多智能体代表性开源项目"
+      ],
+      "relevance_score": 7,
+      "score_reason": "多角色协作设计思路有借鉴价值，但金融领域高门槛，非目标行业的通用可迁移性有限",
+      "tags": [
+        "agent",
+        "finance"
+      ]
+    },
+    {
+      "name": "vllm-project/vllm",
+      "summary": "高吞吐、内存高效的 LLM 推理服务引擎，基于 PagedAttention，是生产环境 LLM serving 的事实标准。",
+      "highlights": [
+        "PagedAttention 内存优化技术",
+        "88K+ stars，业界广泛采用的生产级推理引擎"
+      ],
+      "relevance_score": 9,
+      "score_reason": "奠定 LLM 推理服务基础设施，PagedAttention 改变部署格局，生态地位不可替代",
+      "tags": [
+        "llm",
+        "inference"
+      ]
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "summary": "面向 AI 编码 Agent 的生产级工程技能集合，覆盖代码审查、测试、重构等实操能力。",
+      "highlights": [
+        "84K+ stars 的顶级工程技能包",
+        "覆盖代码审查/测试/重构的完整工程技能栈"
+      ],
+      "score_reason": "编码 Agent 工程实践的高质量参考，但 Skill 体系尚无统一标准，短期影响力待观察",
+      "tags": [
+        "coding-agent",
+        "ai"
+      ]
+    },
+    {
+      "name": "666ghj/MiroFish",
+      "summary": "通用群体智能（Swarm Intelligence）引擎，通过群体协作启发式算法实现预测能力，探索类脑智能决策。",
+      "highlights": [
+        "群体智能与 LLM 结合的新范式",
+        "70K+ stars，主打通用预测能力"
+      ],
+      "relevance_score": 5,
+      "score_reason": "概念有新意但『可预测万物』宣称缺乏实证支撑，落地价值待验证",
+      "tags": [
+        "swarm-intelligence",
+        "ml"
+      ]
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "summary": "微软开源下一代语音 AI 项目，聚焦前沿语音合成与交互，探索更自然拟人的声音生成体验。",
+      "highlights": [
+        "微软官方投入的下一代 TTS 方向",
+        "52K+ stars，面向拟人化语音交互前沿"
+      ],
+      "relevance_score": 6,
+      "score_reason": "语音合成前沿方向值得关注，但项目处于早期，与现有 TTS 对比优势尚未明确",
+      "tags": [
+        "tts",
+        "voice"
+      ]
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "summary": "面向 MCP 与 CLI 的本地代码智能图工具，构建代码库持久映射，显著降低 AI 编码工具的上下文开销。",
+      "highlights": [
+        "持久化代码图降低上下文开销",
+        "29K+ stars，MCP 原生集成顺应当前工具生态"
+      ],
+      "relevance_score": 7,
+      "score_reason": "直击大仓库 context 不足痛点，MCP 集成符合主流，工程实用价值高",
+      "tags": [
+        "mcp",
+        "coding-agent"
+      ]
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "summary": "把技术书籍 PDF 一键转换为 Claude Code 技能，让文档变成 Agent 可直接学习引用的能力模块。",
+      "highlights": [
+        "PDF 到可执行 Skill 的自动化转化",
+        "18K+ stars，降低知识到工作流转化成本"
+      ],
+      "relevance_score": 5,
+      "score_reason": "想法实用但实现简单、依赖特定 Agent 生态，普适性一般",
+      "tags": [
+        "agent",
+        "skills"
+      ]
+    },
+    {
+      "name": "google/skills",
+      "summary": "Google 官方 Agent Skills 集合，封装 Google 产品与技术栈为标准化能力模块，打通编程 Agent 与 Google 生态。",
+      "highlights": [
+        "Google 官方背书，权威性高",
+        "16K+ stars，标准化 Google 生态技能接入"
+      ],
+      "relevance_score": 7,
+      "score_reason": "官方标准化技能集，对使用 Google 生态的开发者直接有帮助，但与 Skill 生态标准存在竞争",
+      "tags": [
+        "agent",
+        "google"
+      ]
+    },
+    {
+      "name": "AgriciDaniel/claude-seo",
+      "summary": "通用 SEO 技能包，内置 25 个子技能和 18 个子 Agent，覆盖技术 SEO、schema、外链、本地 SEO 等领域。",
+      "highlights": [
+        "25 个子技能 + 18 个子 Agent 的规模",
+        "13K+ stars，覆盖 SEO 全链路技术点"
+      ],
+      "relevance_score": 5,
+      "score_reason": "SEO 垂直场景工具，非目标读者核心领域，且高度绑定 Claude 生态",
+      "tags": [
+        "seo",
+        "agent"
+      ]
+    },
+    {
+      "name": "kyutai-labs/pocket-tts",
+      "summary": "kyutai 开源的极轻量 TTS 模型，可在普通 CPU 甚至口袋级硬件运行，主打低资源端侧语音合成。",
+      "highlights": [
+        "端侧 CPU 级运行的低资源 TTS",
+        "8K+ stars，极强硬件可移植性"
+      ],
+      "relevance_score": 7,
+      "score_reason": "端侧 TTS 实用价值突出，降低边缘部署门槛，适合本地优先应用直接采用",
+      "tags": [
+        "tts",
+        "edge"
+      ]
+    },
+    {
+      "name": "PrimeIntellect-ai/prime-agent",
+      "summary": "自改进强化学习（RLM）编码 Agent，面向长时程自主任务，通过强化学习让 Agent 在持续运行中自我迭代。",
+      "highlights": [
+        "RLM 自改进范式，Agent 可在运行中迭代",
+        "7.8K+ stars，TypeScript 实现面向编码工作流"
+      ],
+      "relevance_score": 6,
+      "score_reason": "RLM 探索方向前沿有价值，但范式尚不成熟，稳定性与效果有待实际任务验证",
+      "tags": [
+        "agent",
+        "rlm"
+      ]
+    },
+    {
+      "name": "google-deepmind/weathernext",
+      "summary": "DeepMind 开源的深度学习天气预报模型，用 ML 替代传统数值预报，展现新一代 AI for Science 能力。",
+      "highlights": [
+        "DeepMind 官方开源，AI 替代数值预报",
+        "6.8K+ stars，AI for Science 标志性项目"
+      ],
+      "relevance_score": 7,
+      "score_reason": "AI for Science 重要开源成果，值得关注其模拟方法对 AI 技术理解的启发",
+      "tags": [
+        "ml",
+        "scientific"
+      ]
+    },
+    {
+      "name": "anthropics/claude-code-security-review",
+      "summary": "Anthropic 官方 AI 驱动的安全审查 GitHub Action，用 Claude 自动分析代码变更中的安全漏洞，融入 CI 流程。",
+      "highlights": [
+        "官方 GitHub Action，无缝接入 CI",
+        "5.8K+ stars，LLM 安全审查落地方案"
+      ],
+      "relevance_score": 8,
+      "score_reason": "把 LLM 安全审查做成即插即用 Action，直接提升 CI 安全能力，实用性强且易落地",
+      "tags": [
+        "security",
+        "llm"
+      ]
+    },
+    {
+      "name": "microsoft/agent-governance-toolkit",
+      "summary": "微软开源 AI Agent 治理工具箱，提供策略执行、零信任身份、执行沙箱与可靠性工程，覆盖 OWASP Agentic Top 10。",
+      "highlights": [
+        "覆盖 OWASP Agentic Top 10 的完整安全面",
+        "5.8K+ stars，策略执行 + 沙箱 + 可靠性工程"
+      ],
+      "relevance_score": 9,
+      "score_reason": "Agent 安全治理是落地刚需，微软系统性覆盖风险面，对生产部署安全极具指导价值",
+      "tags": [
+        "agent",
+        "security",
+        "governance"
+      ]
+    }
+  ]
+}

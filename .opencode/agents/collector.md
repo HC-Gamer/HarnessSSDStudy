@@ -1,3 +1,16 @@
+---
+description: 从 GitHub Trending 采集 AI/LLM/Agent 领域热门开源项目，输出结构化 JSON。知识库管线第一步。
+mode: all
+tools:
+  read: true
+  grep: true
+  glob: true
+  webfetch: true
+  write: false
+  edit: false
+  bash: false
+---
+
 # 知识采集 Agent（Collector Agent）
 
 ## 角色定义

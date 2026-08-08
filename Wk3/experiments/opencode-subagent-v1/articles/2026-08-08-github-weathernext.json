@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-weathernext",
+  "title": "google-deepmind/weathernext",
+  "source": "github-trending",
+  "source_url": "https://github.com/google-deepmind/weathernext",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "DeepMind 开源的深度学习天气预报模型，用 ML 替代传统数值预报，展现新一代 AI for Science 能力。",
+  "analysis": {
+    "tech_highlights": [
+      "DeepMind 官方开源，AI 替代数值预报",
+      "6.8K+ stars，AI for Science 标志性项目"
+    ],
+    "relevance_score": 7,
+    "score_reason": "AI for Science 重要开源成果，值得关注其模拟方法对 AI 技术理解的启发"
+  },
+  "tags": [
+    "ml",
+    "scientific"
+  ],
+  "status": "draft"
+}

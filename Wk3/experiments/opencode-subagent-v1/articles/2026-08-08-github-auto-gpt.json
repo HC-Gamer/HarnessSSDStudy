@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-autogpt",
+  "title": "Significant-Gravitas/AutoGPT",
+  "source": "github-trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "开源自主 AI Agent 平台，提供从模型编排到任务执行的完整工具链，为普通用户降低智能体构建门槛。",
+  "analysis": {
+    "tech_highlights": [
+      "186K+ stars，社区最活跃的 Agent 平台之一",
+      "Python 实现，覆盖编排到执行全链路"
+    ],
+    "relevance_score": 8,
+    "score_reason": "作为 Agent 生态成熟参考实现，工程体系完整，直接有助于理解 Agent 架构与二次开发"
+  },
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "draft"
+}

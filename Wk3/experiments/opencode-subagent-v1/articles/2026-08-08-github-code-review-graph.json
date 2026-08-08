@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-code-review-graph",
+  "title": "tirth8205/code-review-graph",
+  "source": "github-trending",
+  "source_url": "https://github.com/tirth8205/code-review-graph",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "面向 MCP 与 CLI 的本地代码智能图工具，构建代码库持久映射，显著降低 AI 编码工具的上下文开销。",
+  "analysis": {
+    "tech_highlights": [
+      "持久化代码图降低上下文开销",
+      "29K+ stars，MCP 原生集成顺应当前工具生态"
+    ],
+    "relevance_score": 7,
+    "score_reason": "直击大仓库 context 不足痛点，MCP 集成符合主流，工程实用价值高"
+  },
+  "tags": [
+    "mcp",
+    "coding-agent"
+  ],
+  "status": "draft"
+}

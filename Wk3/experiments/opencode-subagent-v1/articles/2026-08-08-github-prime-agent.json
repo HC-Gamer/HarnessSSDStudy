@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-prime-agent",
+  "title": "PrimeIntellect-ai/prime-agent",
+  "source": "github-trending",
+  "source_url": "https://github.com/PrimeIntellect-ai/prime-agent",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "自改进强化学习（RLM）编码 Agent，面向长时程自主任务，通过强化学习让 Agent 在持续运行中自我迭代。",
+  "analysis": {
+    "tech_highlights": [
+      "RLM 自改进范式，Agent 可在运行中迭代",
+      "7.8K+ stars，TypeScript 实现面向编码工作流"
+    ],
+    "relevance_score": 6,
+    "score_reason": "RLM 探索方向前沿有价值，但范式尚不成熟，稳定性与效果有待实际任务验证"
+  },
+  "tags": [
+    "agent",
+    "rlm"
+  ],
+  "status": "draft"
+}

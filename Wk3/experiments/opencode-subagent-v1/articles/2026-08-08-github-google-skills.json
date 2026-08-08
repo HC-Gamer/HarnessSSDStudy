@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-google-skills",
+  "title": "google/skills",
+  "source": "github-trending",
+  "source_url": "https://github.com/google/skills",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "Google 官方 Agent Skills 集合，封装 Google 产品与技术栈为标准化能力模块，打通编程 Agent 与 Google 生态。",
+  "analysis": {
+    "tech_highlights": [
+      "Google 官方背书，权威性高",
+      "16K+ stars，标准化 Google 生态技能接入"
+    ],
+    "relevance_score": 7,
+    "score_reason": "官方标准化技能集，对使用 Google 生态的开发者直接有帮助，但与 Skill 生态标准存在竞争"
+  },
+  "tags": [
+    "agent",
+    "google"
+  ],
+  "status": "draft"
+}

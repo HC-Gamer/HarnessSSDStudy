@@ -1,0 +1,22 @@
+{
+  "id": "2026-08-08-github-agent-governance-toolkit",
+  "title": "microsoft/agent-governance-toolkit",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/agent-governance-toolkit",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "微软开源 AI Agent 治理工具箱，提供策略执行、零信任身份、执行沙箱与可靠性工程，覆盖 OWASP Agentic Top 10。",
+  "analysis": {
+    "tech_highlights": [
+      "覆盖 OWASP Agentic Top 10 的完整安全面",
+      "5.8K+ stars，策略执行 + 沙箱 + 可靠性工程"
+    ],
+    "relevance_score": 9,
+    "score_reason": "Agent 安全治理是落地刚需，微软系统性覆盖风险面，对生产部署安全极具指导价值"
+  },
+  "tags": [
+    "agent",
+    "security",
+    "governance"
+  ],
+  "status": "draft"
+}

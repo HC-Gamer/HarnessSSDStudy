@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-claude-code-security-review",
+  "title": "anthropics/claude-code-security-review",
+  "source": "github-trending",
+  "source_url": "https://github.com/anthropics/claude-code-security-review",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "Anthropic 官方 AI 驱动的安全审查 GitHub Action，用 Claude 自动分析代码变更中的安全漏洞，融入 CI 流程。",
+  "analysis": {
+    "tech_highlights": [
+      "官方 GitHub Action，无缝接入 CI",
+      "5.8K+ stars，LLM 安全审查落地方案"
+    ],
+    "relevance_score": 8,
+    "score_reason": "把 LLM 安全审查做成即插即用 Action，直接提升 CI 安全能力，实用性强且易落地"
+  },
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "draft"
+}

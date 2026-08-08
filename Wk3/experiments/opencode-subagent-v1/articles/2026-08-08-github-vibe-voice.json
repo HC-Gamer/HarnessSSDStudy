@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-vibevoice",
+  "title": "microsoft/VibeVoice",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/VibeVoice",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "微软开源下一代语音 AI 项目，聚焦前沿语音合成与交互，探索更自然拟人的声音生成体验。",
+  "analysis": {
+    "tech_highlights": [
+      "微软官方投入的下一代 TTS 方向",
+      "52K+ stars，面向拟人化语音交互前沿"
+    ],
+    "relevance_score": 6,
+    "score_reason": "语音合成前沿方向值得关注，但项目处于早期，与现有 TTS 对比优势尚未明确"
+  },
+  "tags": [
+    "tts",
+    "voice"
+  ],
+  "status": "draft"
+}

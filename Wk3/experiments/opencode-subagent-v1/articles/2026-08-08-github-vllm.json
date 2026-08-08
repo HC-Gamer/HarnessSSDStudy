@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-vllm",
+  "title": "vllm-project/vllm",
+  "source": "github-trending",
+  "source_url": "https://github.com/vllm-project/vllm",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "高吞吐、内存高效的 LLM 推理服务引擎，基于 PagedAttention，是生产环境 LLM serving 的事实标准。",
+  "analysis": {
+    "tech_highlights": [
+      "PagedAttention 内存优化技术",
+      "88K+ stars，业界广泛采用的生产级推理引擎"
+    ],
+    "relevance_score": 9,
+    "score_reason": "奠定 LLM 推理服务基础设施，PagedAttention 改变部署格局，生态地位不可替代"
+  },
+  "tags": [
+    "llm",
+    "inference"
+  ],
+  "status": "draft"
+}

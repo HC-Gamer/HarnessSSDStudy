@@ -1,0 +1,201 @@
+{
+  "source": "github-trending",
+  "skill": "github-trending",
+  "collected_at": "2026-08-08T00:00:00Z",
+  "items": [
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "Matt Pocock 整理的面向真实工程师的 AI Agent Skills 集合，直接取自作者的 .agents 目录，为编码 Agent 提供可复用的实战技能，是近期 Agent 原生技能生态中最受关注的开源库之一。",
+      "stars": 209577,
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "agent",
+        "skills"
+      ]
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "TradingAgents：基于多智能体 LLM 的金融交易框架，用多个 AI 智能体协作完成投资分析与交易决策，是金融垂直领域 Agent 应用的典型代表，值得关注其多智能体协作范式。",
+      "stars": 96200,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "llm",
+        "finance"
+      ]
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "addyosmani（Google Chrome 团队）整理的面向 AI 编码 Agent 的生产级工程技能集合，把工程最佳实践封装成 Agent 可直接调用的技能，是 AI 辅助编程技能化的标杆项目。",
+      "stars": 84269,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "agent",
+        "coding",
+        "skills"
+      ]
+    },
+    {
+      "name": "stanfordnlp/dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "summary": "DSPy 是斯坦福推出的「编程而非提示」(programming, not prompting) 的 LLM 框架，用声明式模块和自动优化替代手写 Prompt，是当前最活跃的 LLM 程序化开发框架之一。",
+      "stars": 36701,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "ai",
+        "framework"
+      ]
+    },
+    {
+      "name": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "summary": "SGLang 是高性能的大模型与多模态模型推理服务框架，专注极致吞吐与低延迟，已深度支持 DeepSeek、Qwen、GLM 等主流模型，是大模型服务化部署的关键基础设施。",
+      "stars": 31531,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "inference",
+        "serving",
+        "ai"
+      ]
+    },
+    {
+      "name": "QwenLM/Qwen3",
+      "url": "https://github.com/QwenLM/Qwen3",
+      "summary": "Qwen3 是阿里云通义千问团队开发的旗舰开源大语言模型系列，覆盖旗舰到轻量多种规格，支持思辨与工具调用能力，是国产开源大模型的最新标杆。",
+      "stars": 27486,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "open-source",
+        "ai"
+      ]
+    },
+    {
+      "name": "openai/gpt-oss",
+      "url": "https://github.com/openai/gpt-oss",
+      "summary": "gpt-oss 是 OpenAI 首次开源的开放权重语言模型（gpt-oss-120b / 20b），代表了闭源巨头向开源生态的里程碑式转向，模型权重、推理与微调工具链完整。",
+      "stars": 20293,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "open-source",
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "name": "QwenLM/Qwen3-VL",
+      "url": "https://github.com/QwenLM/Qwen3-VL",
+      "summary": "Qwen3-VL 是阿里通义千问的多模态大语言模型系列，面向图像/视频理解等视觉语言任务，与 Qwen3 文本模型生态互补，是开源多模态大模型的代表。",
+      "stars": 19746,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "multimodal",
+        "llm",
+        "vision",
+        "ai"
+      ]
+    },
+    {
+      "name": "dzhng/deep-research",
+      "url": "https://github.com/dzhng/deep-research",
+      "summary": "deep-research 是一个 AI 深度研究 Agent，通过组合搜索引擎、网页抓取与 LLM 对任意主题进行迭代式深度调研，以极简实现提供了主流 deep research Agent 的参考范式。",
+      "stars": 19499,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "agent",
+        "research",
+        "llm"
+      ]
+    },
+    {
+      "name": "microsoft/mcp-for-beginners",
+      "url": "https://github.com/microsoft/mcp-for-beginners",
+      "summary": "微软推出的 Model Context Protocol (MCP) 入门教程，用 .NET、Java、TypeScript、Rust 等真实跨语言示例讲解 MCP 基础原理，是 MCP/Agent 生态学习的首选资料。",
+      "stars": 16945,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "mcp",
+        "ai",
+        "agent",
+        "model-context-protocol"
+      ]
+    },
+    {
+      "name": "QwenLM/Qwen3-Coder",
+      "url": "https://github.com/QwenLM/Qwen3-Coder",
+      "summary": "Qwen3-Coder 是 Qwen3 的代码特化版本大模型，面向代码生成、补全与编程 Agent 场景，是开源阵营里最强的编程大模型之一。",
+      "stars": 16776,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "coding",
+        "ai",
+        "code"
+      ]
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "summary": "Google 官方推出的 Agent Skills 集合，为 Google 产品与技术提供开箱即用的 Agent 能力封装，代表了头部厂商押注 Agent+Skill 生态的方向。",
+      "stars": 16507,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "agent",
+        "skills",
+        "google"
+      ]
+    },
+    {
+      "name": "Unstructured-IO/unstructured",
+      "url": "https://github.com/Unstructured-IO/unstructured",
+      "summary": "unstructured 是开源的文档转结构化数据 ETL 方案，把 PDF、DOCX 等复杂文档清洗成 LLM 可直接消费的整洁格式，是 RAG 流程中不可或缺的文档预处理工具。",
+      "stars": 15280,
+      "language": "HTML",
+      "topics": [
+        "rag",
+        "llm",
+        "document",
+        "etl",
+        "ai"
+      ]
+    },
+    {
+      "name": "NVIDIA/TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "summary": "TensorRT-LLM 是 NVIDIA 出品的大模型推理加速库，提供易用的 Python API 并在 NVIDIA GPU 上做顶级优化，是大模型高性能推理部署的标准方案之一。",
+      "stars": 14334,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "inference",
+        "gpu",
+        "nvidia",
+        "serving"
+      ]
+    },
+    {
+      "name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "summary": "prime-agent 是一个可自我改进的 RLM（强化学习式）编码 Agent，面向编码工作流与长期自主任务，探索 Agent 在长时运行中自我进化，是近期 Agent 领域的热门开源项目。",
+      "stars": 7915,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "agent",
+        "coding",
+        "autonomous"
+      ]
+    }
+  ]
+}

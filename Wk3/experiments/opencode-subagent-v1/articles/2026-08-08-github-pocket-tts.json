@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-pocket-tts",
+  "title": "kyutai-labs/pocket-tts",
+  "source": "github-trending",
+  "source_url": "https://github.com/kyutai-labs/pocket-tts",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "kyutai 开源的极轻量 TTS 模型，可在普通 CPU 甚至口袋级硬件运行，主打低资源端侧语音合成。",
+  "analysis": {
+    "tech_highlights": [
+      "端侧 CPU 级运行的低资源 TTS",
+      "8K+ stars，极强硬件可移植性"
+    ],
+    "relevance_score": 7,
+    "score_reason": "端侧 TTS 实用价值突出，降低边缘部署门槛，适合本地优先应用直接采用"
+  },
+  "tags": [
+    "tts",
+    "edge"
+  ],
+  "status": "draft"
+}

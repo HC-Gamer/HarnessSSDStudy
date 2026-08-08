@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-agent-skills",
+  "title": "addyosmani/agent-skills",
+  "source": "github-trending",
+  "source_url": "https://github.com/addyosmani/agent-skills",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "面向 AI 编码 Agent 的生产级工程技能集合，覆盖代码审查、测试、重构等实操能力。",
+  "analysis": {
+    "tech_highlights": [
+      "84K+ stars 的顶级工程技能包",
+      "覆盖代码审查/测试/重构的完整工程技能栈"
+    ],
+    "relevance_score": 8,
+    "score_reason": "编码 Agent 工程实践的高质量参考，但 Skill 体系尚无统一标准，短期影响力待观察"
+  },
+  "tags": [
+    "coding-agent",
+    "ai"
+  ],
+  "status": "draft"
+}

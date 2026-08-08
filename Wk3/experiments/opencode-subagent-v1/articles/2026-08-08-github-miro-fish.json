@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-08-github-mirofish",
+  "title": "666ghj/MiroFish",
+  "source": "github-trending",
+  "source_url": "https://github.com/666ghj/MiroFish",
+  "collected_at": "2026-08-08T22:15:25+08:00",
+  "summary": "通用群体智能（Swarm Intelligence）引擎，通过群体协作启发式算法实现预测能力，探索类脑智能决策。",
+  "analysis": {
+    "tech_highlights": [
+      "群体智能与 LLM 结合的新范式",
+      "70K+ stars，主打通用预测能力"
+    ],
+    "relevance_score": 5,
+    "score_reason": "概念有新意但『可预测万物』宣称缺乏实证支撑，落地价值待验证"
+  },
+  "tags": [
+    "swarm-intelligence",
+    "ml"
+  ],
+  "status": "draft"
+}
