@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260808-006",
+  "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
+  "source_url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+  "summary": "Water system controllers don't belong on the internet, says ex-NSA chief｜Article URL: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-in",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070 Comments URL: https://news.ycombinator.com/item?id=49216362 Points: 184 # Comments: 122"
+  }
+}

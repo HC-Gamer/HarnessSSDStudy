@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-003",
+  "title": "NASA figured out how to keep its Voyager 2 probe running for another year",
+  "source_url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
+  "summary": "NASA figured out how to keep its Voyager 2 probe running for another year｜Article URL: https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year Comments URL: https://news.ycombinator.com/item?id=49218179 Points: 216 # Comments: 37"
+  }
+}

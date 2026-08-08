@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-005",
+  "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+  "source_url": "https://genesisopenmodels.anl.gov/",
+  "summary": "U.S. Department of Energy Launches the Genesis Open Models Initiative｜Article URL: https://genesisopenmodels.anl.gov/ Comments URL: https://news.ycombinator.com/item?id=49216946 Po",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://genesisopenmodels.anl.gov/ Comments URL: https://news.ycombinator.com/item?id=49216946 Points: 215 # Comments: 71"
+  }
+}

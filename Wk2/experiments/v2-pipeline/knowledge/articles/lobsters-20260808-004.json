@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260808-004",
+  "title": "Software Understanding in the Sciences is Really Uneven",
+  "source_url": "https://lobste.rs/s/rn8uva/software_understanding_sciences_is",
+  "summary": "Software Understanding in the Sciences is Really Uneven｜My day job, such as it is, involves optimizing simulations and scientific tooling. Right now I'm working on an astrophysical",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "My day job, such as it is, involves optimizing simulations and scientific tooling. Right now I'm working on an astrophysical simulation with a group at CUNY. One of the grad students has spent the last few months working on a tool to process the output of a simulation. The output is pretty big, about 200GB for a local test run, probably going into the tens of terabytes once we do a big run on the actual cluster. The tool, which needs to walk the output tables to construct a tree of black hole me"
+  }
+}

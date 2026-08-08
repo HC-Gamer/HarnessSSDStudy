@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-008",
+  "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
+  "source_url": "https://ancientlibrary.net/",
+  "summary": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it｜Article URL: https://ancientlibrary.net/ Comments URL: https://news.ycombinator.com/item?id=49214770 Points: 2",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://ancientlibrary.net/ Comments URL: https://news.ycombinator.com/item?id=49214770 Points: 200 # Comments: 61"
+  }
+}

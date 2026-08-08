@@ -1,0 +1,20 @@
+{
+  "id": "openai_news-20260808-001",
+  "title": "Responding to the next frontier of critical cyber capabilities",
+  "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+  "summary": "Responding to the next frontier of critical cyber capabilities｜OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards",
+  "tags": [
+    "evaluation",
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls."
+  }
+}

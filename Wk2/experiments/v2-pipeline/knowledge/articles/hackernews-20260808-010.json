@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-010",
+  "title": "Assembly Hall of Shame",
+  "source_url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+  "summary": "Assembly Hall of Shame｜Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame Comments URL: https://news.ycombinator.com/item?id=49214098 Points: 330 # Comments: 83",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame Comments URL: https://news.ycombinator.com/item?id=49214098 Points: 330 # Comments: 83"
+  }
+}

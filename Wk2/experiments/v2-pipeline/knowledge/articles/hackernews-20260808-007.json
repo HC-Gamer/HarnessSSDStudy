@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-007",
+  "title": "Psychological Warfare in Reverse Engineering (2015)",
+  "source_url": "https://github.com/xoreaxeaxeax/repsych",
+  "summary": "Psychological Warfare in Reverse Engineering (2015)｜Article URL: https://github.com/xoreaxeaxeax/repsych Comments URL: https://news.ycombinator.com/item?id=49214775 Points: 67 # Co",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/xoreaxeaxeax/repsych Comments URL: https://news.ycombinator.com/item?id=49214775 Points: 67 # Comments: 4"
+  }
+}

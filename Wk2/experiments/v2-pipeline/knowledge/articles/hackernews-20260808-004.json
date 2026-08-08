@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-004",
+  "title": "The Nixpkgs core team has disbanded",
+  "source_url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+  "summary": "The Nixpkgs core team has disbanded｜Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 Comments URL: https://news.ycombinator.com/item?id=49217993",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 Comments URL: https://news.ycombinator.com/item?id=49217993 Points: 281 # Comments: 131"
+  }
+}

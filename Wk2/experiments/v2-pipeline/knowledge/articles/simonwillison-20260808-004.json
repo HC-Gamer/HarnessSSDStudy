@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260808-004",
+  "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+  "source_url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+  "summary": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI｜The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fu",
+  "tags": [
+    "agent",
+    "audio",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th: “We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,” Justice Kwak, Accenture’s agentic AI strategy lead, sa"
+  }
+}

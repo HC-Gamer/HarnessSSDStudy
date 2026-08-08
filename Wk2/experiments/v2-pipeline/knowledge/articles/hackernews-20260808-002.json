@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-002",
+  "title": "Mythos social engineering AISI INC-2026-07-28-01",
+  "source_url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+  "summary": "Mythos social engineering AISI INC-2026-07-28-01｜Article URL: https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3 Comments URL: https://news.yco",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3 Comments URL: https://news.ycombinator.com/item?id=49218707 Points: 55 # Comments: 17"
+  }
+}

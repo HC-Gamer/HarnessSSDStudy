@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260808-003",
+  "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+  "source_url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+  "summary": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)｜Moonlight Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heis",
+  "tags": [
+    "agent",
+    "prompt-engineering",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Moonlight Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago . I decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-agents - to see how it would do. It produced a much better game! Here's Moonlight Mayhem - GitHub repos"
+  }
+}

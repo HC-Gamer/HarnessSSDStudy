@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260808-002",
+  "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+  "source_url": "https://openai.com/index/hsp-gruppe",
+  "summary": "How HSP GRUPPE builds AI capabilities for tax advisory｜Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service."
+  }
+}

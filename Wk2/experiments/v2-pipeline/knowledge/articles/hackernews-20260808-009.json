@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260808-009",
+  "title": "Managing AI Coding Costs at Scale",
+  "source_url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+  "summary": "Managing AI Coding Costs at Scale｜Article URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale Comments URL: https://news.ycombinator.com/item?id=49214468 Points: 22",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-08T08:30:13.433855+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale Comments URL: https://news.ycombinator.com/item?id=49214468 Points: 229 # Comments: 196"
+  }
+}
