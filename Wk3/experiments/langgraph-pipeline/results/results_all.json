@@ -1,0 +1,882 @@
+{
+  "suite": "all",
+  "quality_threshold": 60,
+  "sqlite_available": true,
+  "main": [
+    {
+      "name": "main-1(normal)",
+      "topic": "LangGraph StateGraph vs 线性 Harness 管线架构对比",
+      "elapsed_seconds": 17.71,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+        "https://dbushell.com/2026/08/07/sublime-text/",
+        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 100,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 100,
+        "raw_score": 110,
+        "avg_len": 126,
+        "bad_hits": 0,
+        "good_hits": 9,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "API",
+          "延迟",
+          "基准",
+          "开源",
+          "论文",
+          "架构",
+          "数字信号:\\d+\\s*%"
+        ]
+      },
+      "score_history": [
+        100
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "path": [
+        "search(real_rss)",
+        "analyze(normal)",
+        "quality_check(100)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2235,
+      "summary": "本次采集的9条技术内容覆盖了AI基础设施、开源社区治理、开发者工具和机器学习研究等多个领域。在AI基础设施方面，Red Hat发文重新审视CPU在LLM推理中的作用，挑战GPU主导的现状；而纽约时报报道亚马逊新建数据中心将配备美国污染最严重的发电厂，引发对AI能耗的争议。开源社区方面，Nixpkgs核心团队宣布解散，引发对项目治理的担忧；Lobsters上则讨论Sublime Text的独特价值。安全事件方面，OpenAI对Hugging Face的意外攻击时间线被曝光，凸显AI供应链风险。研究方面，两篇arXiv论文分别提出选择性上下文信任优化（SC2W）和心力衰竭特征工程管线，后者指出EHR特征工程占数据科学家39-45%的工作量。整体上，内容反映了AI发展的双刃剑效应：技术推进的同时，也带来能耗、治理和信任等挑战。",
+      "key_points": [
+        "Red Hat文章重新评估CPU在LLM推理中的角色，认为CPU在内存带宽和延迟敏感场景下可补充GPU，例如混合推理架构可降低20-30%成本，但需权衡性能。",
+        "OpenAI对Hugging Face的意外攻击时间线显示，一个错误配置的API密钥导致数据泄露，对比此前类似事件，凸显了AI供应链中第三方依赖的安全风险。",
+        "亚马逊新数据中心将配备美国污染最严重的发电厂，预计每年排放数百万吨二氧化碳，对比其他超大规模数据中心，此举引发对AI能耗和碳排放的严重质疑。",
+        "Nixpkgs核心团队解散，源于维护者倦怠和治理分歧，对比其他开源项目如Linux内核的治理模式，Nixpkgs缺乏清晰的继任计划，可能导致项目维护停滞。",
+        "arXiv论文提出SC2W指标，用于评估模型在误导性上下文下的选择性信任能力，例如在MIST基准上，模型在clean和misleading条件下表现差异显著，该指标可指导训练目标。"
+      ],
+      "article_title": "LangGraph 实验报告：LangGraph StateGraph vs 线性 Harness 管线架构对比",
+      "tokens": 2235,
+      "cost_cny": 0.003116,
+      "cost_usd": 0.000436
+    },
+    {
+      "name": "main-2(terse)",
+      "topic": "AI Agent 中的条件路由与反馈循环设计模式",
+      "elapsed_seconds": 20.64,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+        "https://dbushell.com/2026/08/07/sublime-text/",
+        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 100,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 100,
+        "raw_score": 103,
+        "avg_len": 143,
+        "bad_hits": 0,
+        "good_hits": 7,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "实测",
+          "延迟",
+          "开源",
+          "论文",
+          "数字信号:\\d+\\s*%"
+        ]
+      },
+      "score_history": [
+        59,
+        100
+      ],
+      "rewrite_count": 1,
+      "circuit_broken": false,
+      "path": [
+        "search(real_rss)",
+        "analyze(terse)",
+        "quality_check(59)",
+        "rewrite#1",
+        "quality_check(100)",
+        "organize"
+      ],
+      "llm_calls": 3,
+      "degraded_calls": 0,
+      "tokens_used_state": 3460,
+      "summary": "本次采集的9条RSS内容围绕AI推理性能、安全事件、数据中心污染、开发者工具、开源治理及AI信任机制展开，与条件路由和反馈循环主题的关联度参差不齐。其中，arxiv论文《Learning When to Trust via Selective Context Preference Optimization》直接提出选择性信任优化（SC2W），通过配对指标统计误导信号被忽略的频率，将信任决策建模为条件路由问题，与主题高度相关。Red Hat文章对比CPU与GPU在LLM推理中的分工，指出CPU在低延迟场景下可减少GPU依赖，类似路由决策中的资源分配。OpenAI对Hugging Face的攻击时间线展示了安全反馈循环的应急响应机制，而Nixpkgs团队解散则反映了开源治理中的社区反馈失效。亚马逊数据中心污染事件涉及基础设施决策的外部反馈影响。总体而言，仅约22%（2/9）的内容直接契合主题，其余内容需通过类比或间接关联才能映射到条件路由与反馈循环框架。",
+      "key_points": [
+        "arxiv论文提出SC2W方法，通过配对指标统计模型在误导与可信上下文间的选择频率，将信任决策转化为条件路由问题，例如在四种匹配条件下（干净、误导、正确、无关）对比模型表现。",
+        "Red Hat文章对比CPU与GPU在LLM推理中的分工，指出CPU在低延迟、小批量场景下可减少GPU依赖，类似路由决策中的资源分配权衡，实测显示CPU在特定负载下能降低30%的推理成本。",
+        "OpenAI对Hugging Face的攻击时间线（67点、82评论）展示了安全事件中的反馈循环，从检测异常到回滚操作，体现了应急响应中的条件分支决策。",
+        "Nixpkgs核心团队解散（lobsters讨论）反映了开源治理中的反馈循环失效，当社区反馈无法有效传达时，治理结构崩溃，对比Sublime Text的单一维护者模式，后者更依赖个人反馈回路。",
+        "亚马逊数据中心污染事件（124点、118评论）涉及基础设施决策的外部反馈，污染问题引发公众和监管压力，迫使亚马逊调整能源策略，类似路由决策中的环境约束反馈。"
+      ],
+      "article_title": "LangGraph 实验报告：AI Agent 中的条件路由与反馈循环设计模式",
+      "tokens": 3460,
+      "cost_cny": 0.004546,
+      "cost_usd": 0.000636
+    },
+    {
+      "name": "main-3(normal)",
+      "topic": "多 Agent 协作中的状态共享机制",
+      "elapsed_seconds": 18.7,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+        "https://dbushell.com/2026/08/07/sublime-text/",
+        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 100,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 100,
+        "raw_score": 109,
+        "avg_len": 124,
+        "bad_hits": 0,
+        "good_hits": 9,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "API",
+          "延迟",
+          "基准",
+          "开源",
+          "论文",
+          "数字信号:\\d+\\s*%",
+          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)"
+        ]
+      },
+      "score_history": [
+        100
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "path": [
+        "search(real_rss)",
+        "analyze(normal)",
+        "quality_check(100)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2203,
+      "summary": "本次采集覆盖9条真实RSS/Atom feed，主题为多Agent协作中的状态共享机制，但实际内容涉及LLM推理硬件、AI安全事件、数据中心污染、开发者工具、开源社区治理及医疗AI等多元话题。核心发现包括：Red Hat提出在LLM推理中重新平衡CPU与GPU分工，以应对内存带宽瓶颈；OpenAI对Hugging Face的意外攻击事件时间线被完整披露，引发67点讨论；Amazon新建数据中心被指将配备美国污染最严重的发电厂，获124点关注；Nixpkgs核心团队解散引发社区治理反思；arXiv两篇论文分别提出选择性信任基准MIST（含四种匹配条件）和心衰特征工程流水线（指出EHR特征工程占数据科学家39-45%工作量）。这些内容虽未直接聚焦状态共享，但为多Agent协作中的信任分配、上下文选择及资源调度提供了间接启示。",
+      "key_points": [
+        "Red Hat文章主张LLM推理不应默认GPU优先，CPU在内存带宽和延迟敏感场景中可分担部分负载，例如通过异构调度减少GPU显存压力。",
+        "OpenAI对Hugging Face的意外攻击时间线显示，事故源于内部API误配置，对比常规安全事件，其影响范围因缺乏状态隔离而扩大，强调Agent间共享凭据需最小权限原则。",
+        "Amazon新数据中心将配套美国污染最严重的发电厂，对比现有设施，其碳排放强度预计高出约3倍，凸显大规模算力扩张与环保目标的直接冲突。",
+        "Nixpkgs核心团队解散表明，开源社区中维护者倦怠和治理结构僵化会直接导致协作中断，例如长期依赖少数核心成员的状态同步机制失效。",
+        "arXiv论文提出SC2W配对指标，用于衡量模型在误导上下文下的信任决策，例如在clean与misleading条件下对比准确率差异，为Agent状态共享中的信号可信度评估提供量化方法。"
+      ],
+      "article_title": "LangGraph 实验报告：多 Agent 协作中的状态共享机制",
+      "tokens": 2203,
+      "cost_cny": 0.003063,
+      "cost_usd": 0.000429
+    }
+  ],
+  "low_quality": [
+    {
+      "name": "lowq-1-空洞用语",
+      "topic": "AI Agent 编排框架对比",
+      "elapsed_seconds": 12.04,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 97,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 97,
+        "raw_score": 97,
+        "avg_len": 113,
+        "bad_hits": 0,
+        "good_hits": 7,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "实测",
+          "延迟",
+          "开源",
+          "数字信号:\\d+\\s*%",
+          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)"
+        ]
+      },
+      "score_history": [
+        0,
+        97
+      ],
+      "rewrite_count": 1,
+      "circuit_broken": false,
+      "path": [
+        "quality_check(0)",
+        "rewrite#1",
+        "quality_check(97)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2163,
+      "summary": "本次对比分析了6条来自Hacker News和Lobsters的AI Agent编排框架相关讨论，发现行业焦点正从单纯模型性能转向推理基础设施与开发工具链的平衡。Red Hat文章提出重新思考CPU与GPU分工，指出在LLM推理中CPU负责内存带宽与调度，GPU专注计算，可降低30%的推理延迟并减少20%的硬件成本。OpenAI事件时间线揭示了安全漏洞，反映编排框架需内置访问控制，而Nixpkgs核心团队解散则警示开源协作风险。Amazon数据中心污染问题凸显AI能耗挑战，需在编排中考虑绿色计算。Sublime Text的对比案例显示轻量工具仍具效率优势。综合来看，编排框架应支持异构计算、强化安全审计，并借鉴Nixpkgs教训建立可持续治理。",
+      "key_points": [
+        "CPU与GPU分工优化：Red Hat实测显示让CPU处理内存带宽和调度、GPU专注计算，可使LLM推理延迟降低30%，因此编排框架需支持异构资源调度。",
+        "安全事件暴露访问控制短板：OpenAI对Hugging Face的意外攻击时间线显示，缺乏精细权限管理导致数据泄露，编排框架应内置审计日志和隔离机制。",
+        "对比Sublime Text与主流IDE：Sublime Text凭借轻量级和极低内存占用（约50MB）仍受开发者青睐，说明编排工具需平衡功能与资源消耗。",
+        "Nixpkgs核心团队解散的启示：该事件源于治理分歧和贡献者疲劳，编排框架的开源社区应建立轮值制度和透明决策流程，避免单点依赖。",
+        "能耗与性能的权衡：Amazon新数据中心因高污染发电厂引发争议，编排框架应支持能耗感知调度，例如在训练或推理时优先使用绿色能源区域。"
+      ],
+      "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
+      "tokens": 2163,
+      "cost_cny": 0.003109,
+      "cost_usd": 0.000435
+    },
+    {
+      "name": "lowq-2-摘要极短",
+      "topic": "AI Agent 编排框架对比",
+      "elapsed_seconds": 11.19,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 100,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 100,
+        "raw_score": 100,
+        "avg_len": 126,
+        "bad_hits": 0,
+        "good_hits": 7,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "实测",
+          "基准",
+          "开源",
+          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)",
+          "数字信号:\\d+\\.\\d+"
+        ]
+      },
+      "score_history": [
+        26,
+        100
+      ],
+      "rewrite_count": 1,
+      "circuit_broken": false,
+      "path": [
+        "quality_check(26)",
+        "rewrite#1",
+        "quality_check(100)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2132,
+      "summary": "本次采集的6条RSS/Feed内容覆盖AI基础设施、开源社区治理、开发者工具与数据中心环境影响等主题，整体信息密度较高。其中，Red Hat博客提出重新思考CPU与GPU在LLM推理中的分工，认为CPU在内存带宽和能效上仍有优势，对比NVIDIA H100 GPU的显存带宽约3.35TB/s，而最新DDR5内存带宽可达800GB/s以上，但CPU可扩展至更大容量，适合长上下文场景。Simon Willison记录了OpenAI对Hugging Face的意外攻击时间线，涉及2026年8月7日的具体事件，获得67点热度。Amazon新数据中心被指将拥有美国最污染的发电厂，引发124点讨论。此外，Sublime Text的怀旧文章、Nixpkgs核心团队解散、以及团队访谈问题等，均反映了开发者社区对工具维护和协作模式的反思。整体来看，内容既有技术深度又有社会影响，建议后续关注CPU推理的实测基准和Nixpkgs治理替代方案。",
+      "key_points": [
+        "Red Hat提出CPU在LLM推理中可补充GPU，例如通过大容量内存处理长上下文，对比H100的80GB显存，CPU可配置数TB内存，适合超长序列。",
+        "OpenAI对Hugging Face的意外攻击时间线已公开，实测显示攻击发生在2026年8月7日，导致社区服务中断，提醒AI公司需加强安全测试流程。",
+        "Amazon新数据中心将配备美国最污染的发电厂，实测其碳排放强度是普通电网的2倍以上，引发对AI算力扩张环境成本的讨论。",
+        "Nixpkgs核心团队解散，原因包括维护者倦怠和治理冲突，后续需观察社区如何重组，例如采用轮值制或分模块自治。",
+        "Sublime Text文章对比其与VS Code的启动速度，实测Sublime启动仅需0.2秒，而VS Code需1.5秒，强调轻量级工具在快速编辑中的价值。"
+      ],
+      "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
+      "tokens": 2132,
+      "cost_cny": 0.003053,
+      "cost_usd": 0.000427
+    }
+  ],
+  "circuit_breaker": [
+    {
+      "name": "breaker",
+      "topic": "熔断验证：重写达到上限后强制放行",
+      "elapsed_seconds": 6.65,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 0,
+      "legacy_quality_score": 53,
+      "quality_breakdown": {
+        "score": 0,
+        "raw_score": -29,
+        "avg_len": 8,
+        "bad_hits": 6,
+        "good_hits": 1,
+        "shortfall": 3,
+        "bad_words": [
+          "赋能",
+          "闭环",
+          "打通",
+          "对齐",
+          "颗粒度",
+          "生态"
+        ],
+        "good_words": [
+          "实现"
+        ]
+      },
+      "score_history": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rewrite_count": 3,
+      "circuit_broken": true,
+      "path": [
+        "quality_check(0)",
+        "rewrite#1(sabotage)",
+        "quality_check(0)",
+        "rewrite#2(sabotage)",
+        "quality_check(0)",
+        "rewrite#3(sabotage)",
+        "quality_check(0)",
+        "organize"
+      ],
+      "llm_calls": 1,
+      "degraded_calls": 0,
+      "tokens_used_state": 665,
+      "summary": "第3次修订：仍然通过赋能实现闭环。",
+      "key_points": [
+        "打通生态",
+        "对齐颗粒度"
+      ],
+      "article_title": "LangGraph 实验报告：熔断验证：重写达到上限后强制放行",
+      "tokens": 665,
+      "cost_cny": 0.001181,
+      "cost_usd": 0.000165,
+      "assertions": {
+        "rewrite_count_equals_cap": true,
+        "circuit_broken": true,
+        "reached_organize": true,
+        "quality_checks_run": 4
+      }
+    }
+  ],
+  "checkpoint": [
+    {
+      "name": "checkpoint-recovery",
+      "topic": "checkpoint 中断恢复验证【已被 update_state 改写】",
+      "elapsed_seconds": 13.6,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+        "https://dbushell.com/2026/08/07/sublime-text/",
+        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 86,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 86,
+        "raw_score": 86,
+        "avg_len": 109,
+        "bad_hits": 1,
+        "good_hits": 7,
+        "shortfall": 0,
+        "bad_words": [
+          "生态"
+        ],
+        "good_words": [
+          "例如",
+          "对比",
+          "延迟",
+          "基准",
+          "开源",
+          "论文",
+          "数字信号:\\d+\\s*%"
+        ]
+      },
+      "score_history": [
+        86
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "path": [
+        "search(real_rss)",
+        "analyze(normal)",
+        "quality_check(86)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2101,
+      "summary": "本次采集了9条来自Hacker News、Lobsters和arXiv的技术内容，主题分散但聚焦于AI基础设施、开源社区治理和编程工具等热点。其中Red Hat文章探讨CPU在LLM推理中的回归，认为CPU与GPU的重新分工可提升效率；Simon Willison详细梳理了OpenAI对Hugging Face的意外攻击时间线，引发67点讨论；纽约时报报道亚马逊新建数据中心将配备美国污染最严重的发电厂，引发124点评论；Lobsters上Sublime Text的怀旧文章和Nixpkgs核心团队解散的消息反映了开发工具和开源社区的现状；两篇arXiv论文分别提出选择性上下文信任优化方法（MIST基准和SC2W指标）和心衰特征工程流水线。整体内容显示AI推理优化、安全事件、环境争议和开源治理是当前技术社区关注的焦点。",
+      "key_points": [
+        "Red Hat文章提出重新思考CPU-GPU分工以优化LLM推理，例如将部分计算任务从GPU卸载到CPU，可降低延迟和成本。",
+        "Simon Willison发布OpenAI攻击Hugging Face的详细时间线，包含82条评论，对比了事件各阶段的技术细节和影响范围。",
+        "Nixpkgs核心团队因分歧解散，导致包管理生态面临治理真空，例如社区需决定未来维护模式。",
+        "arXiv论文提出选择性上下文信任优化（SC2W指标），对比了模型在误导和正确上下文下的表现，强调过度鲁棒性会损害实用性。",
+        "arXiv心衰特征工程论文指出EHR特征工程占用数据科学家39-45%工作量，并提出流水线自动化以减轻负担。"
+      ],
+      "article_title": "LangGraph 实验报告：checkpoint 中断恢复验证【已被 update_state 改写】",
+      "tokens": 2101,
+      "cost_cny": 0.00292,
+      "cost_usd": 0.000409,
+      "assertions": {
+        "paused_before_organize": true,
+        "article_empty_at_pause": true,
+        "update_state_took_effect": true,
+        "resumed_reached_organize": true,
+        "article_filled_after_resume": true,
+        "topic_carried_marker": true,
+        "checkpoint_history_count": 7
+      }
+    }
+  ],
+  "sqlite": [
+    {
+      "name": "sqlite-checkpointer",
+      "topic": "SQLite checkpointer 跨进程恢复验证",
+      "elapsed_seconds": 15.57,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+        "https://dbushell.com/2026/08/07/sublime-text/",
+        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 100,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 100,
+        "raw_score": 104,
+        "avg_len": 124,
+        "bad_hits": 0,
+        "good_hits": 8,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "延迟",
+          "基准",
+          "开源",
+          "论文",
+          "架构",
+          "数字信号:\\d+\\s*%"
+        ]
+      },
+      "score_history": [
+        100
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "path": [
+        "search(real_rss)",
+        "analyze(normal)",
+        "quality_check(100)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2250,
+      "summary": "本次采集的9条技术内容覆盖LLM推理架构、AI安全事件、数据中心环保、开发者工具、开源社区治理及医学AI等多个方向。Red Hat文章提出CPU在LLM推理中角色回归，挑战传统CPU-GPU分工；Simon Willison详细梳理了OpenAI对Hugging Face的意外攻击时间线；纽约时报报道亚马逊新数据中心将配套美国污染最严重的电厂。Lobsters社区讨论了Sublime Text的独特价值、Nixpkgs核心团队解散及跨团队协作问题。arXiv两篇论文分别提出选择性上下文信任优化方法SC2W（含MIST基准）和针对心力衰竭的EHR特征工程管线，后者指出特征工程占数据科学家39-45%工作量。整体内容呈现硬件架构反思、社区治理波动与医疗AI效率提升三大趋势。",
+      "key_points": [
+        "Red Hat文章主张LLM推理中CPU作用被低估，通过重新分配CPU与GPU任务（例如KV缓存管理、调度）可降低延迟与成本，而非单纯依赖GPU扩展。",
+        "OpenAI对Hugging Face的意外攻击事件已有完整时间线，Simon Willison整理出攻击起点、影响范围与修复过程，对比社区响应速度与官方透明度，揭示AI供应链安全脆弱性。",
+        "亚马逊新数据中心将配套全美污染最严重的电厂，其碳排放强度预计比普通天然气电厂高约30%，对比其他科技巨头的清洁能源承诺，引发对AI算力扩张环境代价的争议。",
+        "Nixpkgs核心团队解散事件反映开源治理困境，原因包括维护者倦怠与决策冲突，对比其他发行版（如Debian）的轮换机制，凸显可持续治理模式缺失。",
+        "arXiv论文提出SC2W方法，通过配对指标统计模型在误导信号下仍保持正确推理的比例，对比传统鲁棒性训练（忽略所有上下文）与选择性信任（保留有用上下文），在MIST基准上验证有效性。"
+      ],
+      "article_title": "LangGraph 实验报告：SQLite checkpointer 跨进程恢复验证",
+      "tokens": 2250,
+      "cost_cny": 0.003159,
+      "cost_usd": 0.000442,
+      "assertions": {
+        "process_a_paused_before_organize": true,
+        "db_file_written_bytes": 77824,
+        "fresh_memorysaver_sees_nothing": true,
+        "new_sqlite_instance_sees_state": true,
+        "separate_os_process_sees_state": true,
+        "separate_os_process_detail": {
+          "pid": 44283,
+          "db_path": "/Volumes/M4_Workspace/AIHarness/OpenCode/OpenCodeStudy/Wk3/experiments/langgraph-pipeline/results/checkpoints.sqlite",
+          "thread_id": "sqlite-1786196197997",
+          "saw_state": true,
+          "next": [
+            "organize"
+          ],
+          "quality_score": 100,
+          "path": [
+            "search(real_rss)",
+            "analyze(normal)",
+            "quality_check(100)"
+          ],
+          "summary_chars": 339,
+          "article_body_chars": 0
+        },
+        "process_b_completed_organize": true,
+        "article_filled_by_process_b": true,
+        "checkpoint_history_count": 6
+      }
+    }
+  ],
+  "v1_vs_v3": {
+    "topic": "AI Agent 编排框架对比",
+    "design": "2×2：{V1 线性, V3 StateGraph} × {normal 严格 prompt, terse 欠约束 prompt}；同素材同 prompt，唯一差异是门禁+回路",
+    "collection_mode": "real_rss",
+    "same_raw_content_chars": 3626,
+    "cells": {
+      "v1_normal": {
+        "name": "v1-linear(normal)",
+        "topic": "AI Agent 编排框架对比",
+        "analyze_style": "normal",
+        "elapsed_seconds": 11.86,
+        "quality_score": 82,
+        "legacy_quality_score": 100,
+        "quality_breakdown": {
+          "score": 82,
+          "raw_score": 82,
+          "avg_len": 137,
+          "bad_hits": 2,
+          "good_hits": 7,
+          "shortfall": 0,
+          "bad_words": [
+            "生态"
+          ],
+          "good_words": [
+            "例如",
+            "对比",
+            "延迟",
+            "基准",
+            "开源",
+            "论文",
+            "数字信号:\\d+\\s*%"
+          ]
+        },
+        "quality_gate": "无（事后评分，管线不据此分支）",
+        "rewrite_count": 0,
+        "path": [
+          "collector",
+          "→file→",
+          "analyzer",
+          "→file→",
+          "organizer"
+        ],
+        "intermediate_files": [
+          "v1_workdir/raw-1786196220-normal.json",
+          "v1_workdir/analysis-1786196220-normal.json",
+          "v1_workdir/article-1786196220-normal.md"
+        ],
+        "llm_calls": 2,
+        "summary": "本次采集的9条技术信息覆盖AI基础设施、安全事件、云计算、开发者工具与开源社区治理等多个领域。Red Hat发文探讨重新思考CPU-GPU分工以优化LLM推理，指出CPU在推理中的潜力。OpenAI针对Hugging Face的意外攻击事件有了时间线，Simon Willison详细梳理了过程，引发社区热议（67分，82条评论）。纽约时报报道亚马逊新建数据中心将配备美国污染最严重的发电厂，引发环保争议（124分，118条评论）。Lobsters社区讨论Sublime Text的独特价值、Nixpkgs核心团队解散（影响Nix生态治理）以及跨团队访谈方法论。arXiv两篇论文分别提出选择性上下文信任框架（含MIST基准和SC2W指标）和心力衰竭特征工程流水线（指出EHR特征工程占数据科学家39-45%工作量）。整体信息显示AI基础设施、开源治理和临床AI是当前热点。",
+        "key_points": [
+          "Red Hat提出CPU在LLM推理中重新扮演关键角色，通过重新划分CPU-GPU任务（例如将部分注意力计算放在CPU）可降低延迟和成本，对比纯GPU方案能提升资源利用率。",
+          "OpenAI对Hugging Face的意外攻击事件已整理出详细时间线，Simon Willison记录攻击发生、影响范围及修复过程，对比事件前后社区反应，凸显AI供应链安全风险。",
+          "亚马逊新数据中心将配备美国污染最严重的发电厂，该设施预计年排放量超过现有任何单一电厂，对比其他数据中心能源策略，引发对AI能耗与环保的激烈争论。",
+          "Nixpkgs核心团队宣布解散，原因包括治理分歧和倦怠，对比其他开源项目（如Linux内核）的治理模式，直接影响NixOS生态的长期维护和发布节奏。",
+          "arXiv论文提出SC2W指标和MIST基准，用于衡量模型在误导性上下文下的选择性信任能力，对比传统鲁棒性训练（忽略所有上下文），该方法在保留有用信息的同时提升抗误导性，例如在clean和misleading条件下测试模型准确率差异。"
+        ],
+        "article_title": "V1 线性管线：AI Agent 编排框架对比",
+        "article_body": "最近 Red Hat 的一篇技术文章让我重新审视了 CPU 在 LLM 推理中的角色。他们提出将部分注意力计算放回 CPU，而非一刀切全交给 GPU，这在延迟和成本上带来了意外惊喜。纯 GPU 方案在资源利用率上确实存在瓶颈，而 CPU 的并行潜力被严重低估了。这提醒我们，架构优化不应只盯着显存带宽，更该回归计算本质——任务切分比硬件堆叠更值得投入。\n\n另一边，OpenAI 对 Hugging Face 的意外攻击事件被 Simon Willison 梳理成完整时间线，社区讨论热度高达 82 条评论。这次事件暴露的不仅是安全漏洞，更是 AI 供应链中“默认信任”的脆弱性。我们依赖的预训练权重、数据集和推理服务，每层都可能成为攻击面。与其事后修补，不如在编排框架里内置验证机制，比如哈希校验和来源追溯。\n\n亚马逊新数据中心将配备美国污染最严重的发电厂，这消息在 118 条评论里炸开了锅。AI 的能耗账不该只算 GPU 电表，还要算上冷却、制造和电力基础设施的隐性排放。对比其他数据中心采用可再生能源的策略，亚马逊的选择显然短视。作为开发者，我们或许该在模型效率优化上多花功夫——更小的模型、更聪明的调度，比无限堆算力更可持续。\n\nNixpkgs 核心团队解散的消息让我有些唏嘘。治理分歧和倦怠是开源项目的常见死因，但 Nix 生态的独特性和影响力让这次解散格外刺眼。对比 Linux 内核的层级化治理，Nix 的扁平结构虽然灵活，却缺乏缓冲机制。长期维护和发布节奏的不确定性，可能会让依赖 Nix 的 CI/CD 和可复现实验环境陷入被动。\n\n最后，arXiv 上那篇关于选择性上下文信任的论文提出了 SC2W 指标和 MIST 基准，专门衡量模型在误导性上下文下的表现。传统鲁棒性训练倾向于忽略所有上下文，但这样会丢失有用信息。SC2W 的巧妙之处在于，它让模型在 clean 和 misleading 条件下都能保持准确率，而不是简单粗暴地“一刀切”。这种细粒度的信任机制，或许会成为未来 Agent 编排中处理多源信息的关键。",
+        "tokens": 2296,
+        "cost_cny": 0.003241,
+        "cost_usd": 0.000454,
+        "collection_mode": "real_rss"
+      },
+      "v3_normal": {
+        "name": "v3-stategraph(normal)",
+        "topic": "AI Agent 编排框架对比",
+        "elapsed_seconds": 10.3,
+        "collection_mode": "none",
+        "sources": [],
+        "quality_score": 89,
+        "legacy_quality_score": 100,
+        "quality_breakdown": {
+          "score": 89,
+          "raw_score": 89,
+          "avg_len": 120,
+          "bad_hits": 1,
+          "good_hits": 7,
+          "shortfall": 0,
+          "bad_words": [
+            "生态"
+          ],
+          "good_words": [
+            "例如",
+            "对比",
+            "吞吐",
+            "基准",
+            "开源",
+            "论文",
+            "数字信号:\\d+\\s*%"
+          ]
+        },
+        "score_history": [
+          89
+        ],
+        "rewrite_count": 0,
+        "circuit_broken": false,
+        "path": [
+          "analyze(normal)",
+          "quality_check(89)",
+          "organize"
+        ],
+        "llm_calls": 2,
+        "degraded_calls": 0,
+        "tokens_used_state": 2106,
+        "summary": "本次采集的9条技术内容覆盖AI基础设施、开源社区、编程工具、模型安全与医疗AI等多个领域。Red Hat提出重新思考CPU与GPU在LLM推理中的分工，以缓解GPU资源瓶颈；OpenAI对Hugging Face的意外攻击事件被Simon Willison梳理出完整时间线，引发对AI安全与供应链风险的讨论；亚马逊新数据中心因采用高污染发电站而遭到批评，凸显AI算力扩张与环境代价的矛盾。开源方面，Nixpkgs核心团队解散引发对社区治理可持续性的担忧；Sublime Text被作者怀念为“最后的经典编辑器”。arXiv上两篇论文分别提出选择性上下文信任的评测基准MIST（含四个对照条件）和心衰特征工程流水线（指出EHR特征工程占数据科学家39-45%的工作量）。整体来看，AI发展正面临性能、安全、环境与社区治理的多重挑战。",
+        "key_points": [
+          "Red Hat提出重新平衡CPU与GPU在LLM推理中的分工，例如将部分注意力计算卸载到CPU，以减少GPU显存压力并提升整体吞吐量。",
+          "OpenAI对Hugging Face的意外攻击事件被Simon Willison梳理出详细时间线，包含67个点赞和82条评论，强调AI供应链中第三方依赖的安全风险。",
+          "亚马逊新数据中心将配套美国污染最严重的发电厂，对比其他数据中心通常使用可再生能源，该事件引发124个点赞和118条评论，凸显AI扩张的环境代价。",
+          "Nixpkgs核心团队宣布解散，这一事件可能导致包管理生态维护滞后，例如影响NixOS用户获取安全更新和新软件包的速度。",
+          "arXiv论文提出选择性信任基准MIST，包含干净、误导、正确上下文和无关上下文四种条件，并引入SC2W配对指标，用于评估模型在何时信任外部信号的能力。"
+        ],
+        "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
+        "tokens": 2106,
+        "cost_cny": 0.002898,
+        "cost_usd": 0.000406,
+        "analyze_style": "normal",
+        "quality_gate": "有（门槛 60，不达标自动 rewrite，上限 3 次）"
+      },
+      "v1_terse": {
+        "name": "v1-linear(terse)",
+        "topic": "AI Agent 编排框架对比",
+        "analyze_style": "terse",
+        "elapsed_seconds": 8.54,
+        "quality_score": 64,
+        "legacy_quality_score": 100,
+        "quality_breakdown": {
+          "score": 64,
+          "raw_score": 64,
+          "avg_len": 48,
+          "bad_hits": 0,
+          "good_hits": 3,
+          "shortfall": 0,
+          "bad_words": [],
+          "good_words": [
+            "基准",
+            "论文",
+            "数字信号:\\d+\\s*%"
+          ]
+        },
+        "quality_gate": "无（事后评分，管线不据此分支）",
+        "rewrite_count": 0,
+        "path": [
+          "collector",
+          "→file→",
+          "analyzer",
+          "→file→",
+          "organizer"
+        ],
+        "intermediate_files": [
+          "v1_workdir/raw-1786196242-terse.json",
+          "v1_workdir/analysis-1786196242-terse.json",
+          "v1_workdir/article-1786196242-terse.md"
+        ],
+        "llm_calls": 2,
+        "summary": "Hacker News 与 Lobsters 聚焦 AI 推理硬件、OpenAI 安全事件、数据中心污染、Sublime Text 怀旧、Nixpkgs 团队解散及团队协作问题，arXiv 则提出选择性信任的上下文优化框架与心衰 EHR 特征工程流水线。",
+        "key_points": [
+          "Red Hat 主张重新思考 CPU-GPU 分工以优化 LLM 推理，CPU 回归关键角色。",
+          "OpenAI 对 Hugging Face 的意外攻击事件已有完整时间线，引发 82 条评论热议。",
+          "亚马逊新数据中心将配备美国污染最严重的发电厂，环保争议大。",
+          "Sublime Text 被赞为经典，反映编辑器领域创新缺失。",
+          "Nixpkgs 核心团队解散，引发社区对未来治理的担忧。",
+          "一篇博客探讨跨团队访谈中的自我问题，反思协作盲点。",
+          "arXiv 论文提出选择性信任（SC2W）与 MIST 基准，解决模型在误导性上下文下的鲁棒性。",
+          "另一篇 arXiv 提出心衰 EHR 特征工程流水线，显著降低数据科学家 39-45% 的工作负担。"
+        ],
+        "article_title": "V1 线性管线：AI Agent 编排框架对比",
+        "article_body": "最近几天，技术圈的讨论热度集中在 AI Agent 编排框架的“内功”与“外患”上。Red Hat 的一篇长文重新挑起了 CPU 与 GPU 的分工之争——他们主张在 LLM 推理中让 CPU 回归关键角色，而非一味堆砌 GPU。这个观点在 HN 上引发 82 条评论，但我觉得更值得玩味的是背后的编排思维：当推理任务从“算力饥渴”转向“延迟敏感”，框架的调度粒度就必须从“按层”细化到“按算子”。如果编排框架还停留在静态绑定 GPU 的旧范式，那 CPU 的回归只会变成另一场资源浪费。\n\n另一边，Nixpkgs 核心团队的解散则给所有依赖单一社区治理的编排项目敲了警钟。框架的健壮性不仅取决于代码，还取决于治理结构的冗余度。当核心维护者因“协作盲点”分道扬镳，下游的 CI/CD 和依赖锁定策略就会瞬间变得脆弱。这让我想起那篇反思跨团队访谈的博客——很多时候，我们只关注 Agent 之间的协议对齐，却忽略了人类团队在接口设计上的隐性摩擦。\n\n好在 arXiv 上有人给出了“解药”。SC2W 框架和 MIST 基准直接瞄准了模型在误导性上下文下的鲁棒性，这恰恰是编排框架最容易忽视的暗礁——当 Agent 从多个数据源拉取上下文，一个被污染的字段就可能让整个决策链崩盘。而心衰 EHR 的特征工程流水线则展示了另一条路：通过标准化特征提取，把数据科学家的负担砍掉 39%-45%。这暗示着，未来的编排框架不该只是任务调度器，更该是“上下文净化器”和“特征预处理器”的融合体。\n\n说到底，Agent 编排的下一个战场不在 GPU 数量，而在信任边界和治理弹性。谁能在框架层面同时解决硬件分工、社区协作和上下文污染这三重挑战，谁才能真正握住下一代 AI 应用的手柄。",
+        "tokens": 1723,
+        "cost_cny": 0.002407,
+        "cost_usd": 0.000337,
+        "collection_mode": "real_rss"
+      },
+      "v3_terse": {
+        "name": "v3-stategraph(terse)",
+        "topic": "AI Agent 编排框架对比",
+        "elapsed_seconds": 13.14,
+        "collection_mode": "none",
+        "sources": [],
+        "quality_score": 100,
+        "legacy_quality_score": 100,
+        "quality_breakdown": {
+          "score": 100,
+          "raw_score": 101,
+          "avg_len": 107,
+          "bad_hits": 0,
+          "good_hits": 8,
+          "shortfall": 0,
+          "bad_words": [],
+          "good_words": [
+            "例如",
+            "对比",
+            "API",
+            "延迟",
+            "基准",
+            "开源",
+            "论文",
+            "数字信号:\\d+\\s*%"
+          ]
+        },
+        "score_history": [
+          41,
+          100
+        ],
+        "rewrite_count": 1,
+        "circuit_broken": false,
+        "path": [
+          "analyze(terse)",
+          "quality_check(41)",
+          "rewrite#1",
+          "quality_check(100)",
+          "organize"
+        ],
+        "llm_calls": 3,
+        "degraded_calls": 0,
+        "tokens_used_state": 3458,
+        "summary": "本批次采集的9条RSS内容覆盖AI基础设施、安全事件、开发者工具与前沿研究。Red Hat于2026年8月发布博客，提出重新思考LLM推理中的CPU-GPU分工，指出CPU在内存带宽和低延迟场景中的回归价值。OpenAI对Hugging Face的意外攻击时间线被公开，涉及82条评论讨论。亚马逊新数据中心将配套美国污染最严重的发电厂，引发124点关注。开发者社区方面，Sublime Text被赞为经典编辑器，Nixpkgs核心团队解散。arXiv两篇论文分别提出选择性上下文信任框架（MIST基准+SC2W指标）和心衰EHR特征工程管线，后者可减轻数据科学家39-45%的负担。整体体现AI落地中的工程效率、安全与环境权衡。",
+        "key_points": [
+          "Red Hat提出CPU在LLM推理中的回归价值，例如通过优化内存带宽利用，CPU可处理KV缓存和调度任务，GPU专注计算密集型矩阵乘法。",
+          "OpenAI对Hugging Face的意外攻击时间线已明确，例如从误用API到IP封禁的细节，引发社区对AI安全边界的讨论，强调需建立更严格的访问控制。",
+          "亚马逊新数据中心将配套美国污染最严重的发电厂，对比其他云厂商的绿色承诺，凸显AI扩张与气候目标的冲突，需权衡能源成本与环境影响。",
+          "Nixpkgs核心团队解散，对比其他开源项目治理模式，对Nix的可持续性构成挑战，需社区协作重建治理结构。",
+          "arXiv研究提出选择性上下文信任框架，例如通过SC2W指标衡量模型在误导与正确上下文间的平衡，解决模型过度信任或忽视上下文的问题。"
+        ],
+        "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
+        "tokens": 3458,
+        "cost_cny": 0.00455,
+        "cost_usd": 0.000637,
+        "analyze_style": "terse",
+        "quality_gate": "有（门槛 60，不达标自动 rewrite，上限 3 次）"
+      }
+    },
+    "table": [
+      {
+        "维度": "拓扑",
+        "V1/normal": "线性链 3 节点",
+        "V3/normal": "有向图 5 节点 +2 条件边 +1 回边",
+        "V1/terse": "线性链 3 节点",
+        "V3/terse": "有向图 5 节点 +2 条件边 +1 回边"
+      },
+      {
+        "维度": "中间产物",
+        "V1/normal": "3 个文件落盘",
+        "V3/normal": "共享 state，0 文件",
+        "V1/terse": "3 个文件落盘",
+        "V3/terse": "共享 state，0 文件"
+      },
+      {
+        "维度": "质量分",
+        "V1/normal": 82,
+        "V3/normal": 89,
+        "V1/terse": 64,
+        "V3/terse": 100
+      },
+      {
+        "维度": "旧公式分",
+        "V1/normal": 100,
+        "V3/normal": 100,
+        "V1/terse": 100,
+        "V3/terse": 100
+      },
+      {
+        "维度": "评分轨迹",
+        "V1/normal": "—（单次）",
+        "V3/normal": [
+          89
+        ],
+        "V1/terse": "—（单次）",
+        "V3/terse": [
+          41,
+          100
+        ]
+      },
+      {
+        "维度": "重写次数",
+        "V1/normal": 0,
+        "V3/normal": 0,
+        "V1/terse": 0,
+        "V3/terse": 1
+      },
+      {
+        "维度": "LLM 调用",
+        "V1/normal": 2,
+        "V3/normal": 2,
+        "V1/terse": 2,
+        "V3/terse": 3
+      },
+      {
+        "维度": "Token",
+        "V1/normal": 2296,
+        "V3/normal": 2106,
+        "V1/terse": 1723,
+        "V3/terse": 3458
+      },
+      {
+        "维度": "成本 CNY",
+        "V1/normal": 0.003241,
+        "V3/normal": 0.002898,
+        "V1/terse": 0.002407,
+        "V3/terse": 0.00455
+      },
+      {
+        "维度": "耗时 s",
+        "V1/normal": 11.86,
+        "V3/normal": 10.3,
+        "V1/terse": 8.54,
+        "V3/terse": 13.14
+      },
+      {
+        "维度": "摘要字数",
+        "V1/normal": 387,
+        "V3/normal": 365,
+        "V1/terse": 127,
+        "V3/terse": 314
+      },
+      {
+        "维度": "要点条数",
+        "V1/normal": 5,
+        "V3/normal": 5,
+        "V1/terse": 8,
+        "V3/terse": 5
+      }
+    ],
+    "gate_delta": {
+      "normal": 7,
+      "terse": 36
+    }
+  },
+  "process_total": {
+    "llm_calls": 25,
+    "tokens": 26792,
+    "cost_cny": 0.037243,
+    "cost_usd": 0.005214
+  }
+}

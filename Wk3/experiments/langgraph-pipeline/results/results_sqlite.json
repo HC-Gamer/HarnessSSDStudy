@@ -1,0 +1,105 @@
+{
+  "suite": "sqlite",
+  "quality_threshold": 60,
+  "sqlite_available": true,
+  "sqlite": [
+    {
+      "name": "sqlite-checkpointer",
+      "topic": "SQLite checkpointer 跨进程恢复验证",
+      "elapsed_seconds": 22.13,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+        "https://dbushell.com/2026/08/07/sublime-text/",
+        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 89,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 89,
+        "raw_score": 89,
+        "avg_len": 120,
+        "bad_hits": 1,
+        "good_hits": 7,
+        "shortfall": 0,
+        "bad_words": [
+          "生态"
+        ],
+        "good_words": [
+          "例如",
+          "对比",
+          "基准",
+          "开源",
+          "论文",
+          "架构",
+          "数字信号:\\d+\\s*%"
+        ]
+      },
+      "score_history": [
+        89
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "path": [
+        "search(real_rss)",
+        "analyze(normal)",
+        "quality_check(89)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2316,
+      "summary": "本次采集了9条技术资讯，覆盖LLM推理架构、AI安全事件、数据中心环保、开发者工具、开源社区治理、团队协作与AI研究等多个领域。Red Hat提出重新思考CPU与GPU在LLM推理中的分工，挑战GPU主导范式。OpenAI被曝对Hugging Face发起意外攻击，引发关于AI安全边界的讨论。亚马逊新建数据中心配套电厂被指为美国污染最严重电厂，获124点评分。Sublime Text被怀念其经典体验，Nixpkgs核心团队解散引发社区治理思考。AI研究方面，两篇arXiv论文分别提出选择性上下文信任优化（含MIST基准与SC2W指标）和心力衰竭EHR特征工程流水线（指出该工作占数据科学家39-45%工作量）。整体反映了从硬件、安全到社区与医疗AI的多元技术动态。",
+      "key_points": [
+        "Red Hat文章重新审视CPU在LLM推理中的作用，主张CPU-GPU混合架构，例如通过CPU处理稀疏注意力或调度任务来降低GPU内存带宽瓶颈，而非完全依赖GPU。",
+        "OpenAI对Hugging Face的意外攻击时间线被整理，事件获得67点评分与82条评论，对比典型安全事件，此案例凸显了大型AI公司内部安全流程的脆弱性。",
+        "亚马逊在德克萨斯州的新数据中心将配套建设美国污染最严重的发电厂，该新闻获124点评分，对比行业碳中和承诺，此做法引发对AI算力扩张环境成本的尖锐质疑。",
+        "Nixpkgs核心团队宣布解散，这一事件对比其他Linux发行版（如Debian）的治理模式，可能影响Nix生态的长期维护节奏与包更新速度。",
+        "arXiv论文提出选择性信任问题，引入MIST基准（含四种匹配条件）和SC2W配对指标，例如用于量化模型在误导上下文下仍能保持正确推理的比例，以平衡鲁棒性与实用性。"
+      ],
+      "article_title": "LangGraph 实验报告：SQLite checkpointer 跨进程恢复验证",
+      "tokens": 2316,
+      "cost_cny": 0.003294,
+      "cost_usd": 0.000461,
+      "assertions": {
+        "process_a_paused_before_organize": true,
+        "db_file_written_bytes": 77824,
+        "fresh_memorysaver_sees_nothing": true,
+        "new_sqlite_instance_sees_state": true,
+        "separate_os_process_sees_state": true,
+        "separate_os_process_detail": {
+          "pid": 44110,
+          "db_path": "/Volumes/M4_Workspace/AIHarness/OpenCode/OpenCodeStudy/Wk3/experiments/langgraph-pipeline/results/checkpoints.sqlite",
+          "thread_id": "sqlite-1786195673548",
+          "saw_state": true,
+          "next": [
+            "organize"
+          ],
+          "quality_score": 89,
+          "path": [
+            "search(real_rss)",
+            "analyze(normal)",
+            "quality_check(89)"
+          ],
+          "summary_chars": 335,
+          "article_body_chars": 0
+        },
+        "process_b_completed_organize": true,
+        "article_filled_by_process_b": true,
+        "checkpoint_history_count": 6
+      }
+    }
+  ],
+  "process_total": {
+    "llm_calls": 2,
+    "tokens": 2316,
+    "cost_cny": 0.003294,
+    "cost_usd": 0.000461
+  }
+}

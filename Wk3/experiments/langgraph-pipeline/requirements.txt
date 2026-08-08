@@ -1,0 +1,15 @@
+# Wk3 LangGraph 实验依赖
+#
+# 安装：
+#   python3 -m venv Wk3/.venv
+#   source Wk3/.venv/bin/activate
+#   pip install -r Wk3/experiments/langgraph-pipeline/requirements.txt
+#
+# 只钉直接依赖，传递依赖交给 pip 解析（specs/coding-standards.md §1.1）。
+# LLM 客户端复用 Wk2 的 pipeline/model_client.py，不引入任何厂商 AI SDK。
+
+langgraph==1.2.9
+langgraph-checkpoint-sqlite==3.1.1     # SqliteSaver，langgraph 不自带
+httpx==0.28.1                          # RSS 抓取 + LLM HTTP 调用
+PyYAML==6.0.3                          # 读 Wk2 的 rss_sources.yaml
+python-dotenv==1.2.2                   # 读 .env 里的 DEEPSEEK_API_KEY

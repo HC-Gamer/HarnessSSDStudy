@@ -1,0 +1,86 @@
+{
+  "suite": "checkpoint",
+  "quality_threshold": 60,
+  "sqlite_available": true,
+  "checkpoint": [
+    {
+      "name": "checkpoint-recovery",
+      "topic": "checkpoint 中断恢复验证【已被 update_state 改写】",
+      "elapsed_seconds": 19.12,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+        "https://dbushell.com/2026/08/07/sublime-text/",
+        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 80,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 80,
+        "raw_score": 80,
+        "avg_len": 102,
+        "bad_hits": 1,
+        "good_hits": 6,
+        "shortfall": 0,
+        "bad_words": [
+          "生态"
+        ],
+        "good_words": [
+          "例如",
+          "对比",
+          "延迟",
+          "开源",
+          "论文",
+          "数字信号:\\d+\\s*%"
+        ]
+      },
+      "score_history": [
+        80
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "path": [
+        "search(real_rss)",
+        "analyze(normal)",
+        "quality_check(80)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 1939,
+      "summary": "本次采集的9条真实RSS/Atom内容覆盖AI基础设施、大模型推理、开源社区治理及医疗AI等多个技术方向。Red Hat文章重新审视CPU在LLM推理中的角色，提出CPU-GPU协同的新思路；Simon Willison梳理了OpenAI对Hugging Face的意外攻击事件时间线，涉及安全责任问题；纽约时报报道亚马逊新数据中心将配备美国污染最严重的发电厂，引发环保争议。Lobsters社区中，Sublime Text的体验回顾、Nixpkgs核心团队解散以及团队协作反思成为焦点。arXiv两篇论文分别提出选择性上下文信任优化（SC2W指标）和心力衰竭EHR特征工程流水线（提及39-45%工作量占比）。整体内容呈现技术、环境、社区治理与科研的多维度交织。",
+      "key_points": [
+        "Red Hat文章提出CPU在LLM推理中回归价值，通过重新设计CPU-GPU分工可降低延迟和成本，例如在CPU上处理部分注意力计算。",
+        "OpenAI对Hugging Face的意外攻击事件被详细时间线还原，对比了攻击前后安全措施差异，强调第三方供应链风险。",
+        "亚马逊新数据中心将建设美国污染最严重的发电厂，对比其他数据中心使用清洁能源，突显环境代价。",
+        "Nixpkgs核心团队解散事件反映开源治理困境，例如维护者倦怠与决策冲突，影响包管理生态稳定性。",
+        "arXiv论文提出SC2W指标，对比四种上下文条件下的模型信任度，例如正确上下文与误导上下文的表现差异，解决选择性信任问题。"
+      ],
+      "article_title": "LangGraph 实验报告：checkpoint 中断恢复验证【已被 update_state 改写】",
+      "tokens": 1939,
+      "cost_cny": 0.002615,
+      "cost_usd": 0.000366,
+      "assertions": {
+        "paused_before_organize": true,
+        "article_empty_at_pause": true,
+        "update_state_took_effect": true,
+        "resumed_reached_organize": true,
+        "article_filled_after_resume": true,
+        "topic_carried_marker": true,
+        "checkpoint_history_count": 7
+      }
+    }
+  ],
+  "process_total": {
+    "llm_calls": 2,
+    "tokens": 1939,
+    "cost_cny": 0.002615,
+    "cost_usd": 0.000366
+  }
+}

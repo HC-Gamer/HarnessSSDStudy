@@ -1,0 +1,77 @@
+{
+  "suite": "breaker",
+  "quality_threshold": 60,
+  "sqlite_available": true,
+  "circuit_breaker": [
+    {
+      "name": "breaker",
+      "topic": "熔断验证：重写达到上限后强制放行",
+      "elapsed_seconds": 5.54,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 0,
+      "legacy_quality_score": 53,
+      "quality_breakdown": {
+        "score": 0,
+        "raw_score": -29,
+        "avg_len": 8,
+        "bad_hits": 6,
+        "good_hits": 1,
+        "shortfall": 3,
+        "bad_words": [
+          "赋能",
+          "闭环",
+          "打通",
+          "对齐",
+          "颗粒度",
+          "生态"
+        ],
+        "good_words": [
+          "实现"
+        ]
+      },
+      "score_history": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rewrite_count": 3,
+      "circuit_broken": true,
+      "path": [
+        "quality_check(0)",
+        "rewrite#1(sabotage)",
+        "quality_check(0)",
+        "rewrite#2(sabotage)",
+        "quality_check(0)",
+        "rewrite#3(sabotage)",
+        "quality_check(0)",
+        "organize"
+      ],
+      "llm_calls": 1,
+      "degraded_calls": 0,
+      "tokens_used_state": 573,
+      "summary": "第3次修订：仍然通过赋能实现闭环。",
+      "key_points": [
+        "打通生态",
+        "对齐颗粒度"
+      ],
+      "article_title": "LangGraph 实验报告：熔断验证：重写达到上限后强制放行",
+      "tokens": 573,
+      "cost_cny": 0.000997,
+      "cost_usd": 0.00014,
+      "assertions": {
+        "rewrite_count_equals_cap": true,
+        "circuit_broken": true,
+        "reached_organize": true,
+        "quality_checks_run": 4
+      }
+    }
+  ],
+  "process_total": {
+    "llm_calls": 1,
+    "tokens": 573,
+    "cost_cny": 0.000997,
+    "cost_usd": 0.00014
+  }
+}

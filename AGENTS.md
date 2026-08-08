@@ -57,7 +57,42 @@
 
 ---
 
-## 5. 不做什么（边界明确）
+## 5. 编码规范
+
+**规范来源（唯一）**：[`specs/coding-standards.md`](specs/coding-standards.md)
+
+所有代码与数据改动以该文件为准，人类和 Agent 同等适用。本节只给索引和最常踩的几条，
+细则、验证命令、未落地项清单都在规范正文里。
+
+### 5.1 索引
+
+| 章节 | 内容 |
+|------|------|
+| §1 Python | 3.11+（实际 3.13）、black `--line-length 100`、ruff、全量类型标注、Google 风格 docstring |
+| §2 JSON / 数据 | 知识条目 schema、`id` 格式 `<source>-<YYYYMMDD>-<NNN>`、`status` 枚举、标签词表 |
+| §3 Shell | `#!/bin/bash` + `set -euo pipefail`、shellcheck、变量加引号 |
+| §4 Git | Conventional Commits（`<type>(<scope>): <subject>`）、禁止 force push 到 `main` |
+| §5 测试 | 模块内 `_self_test()` 为最低要求、doctest、pytest、纯函数覆盖率 ≥ 80% |
+| §6 日志 | `logging.getLogger(__name__)`、lazy `%` 格式化、决策必须留痕 |
+| §7 安全 | 密钥只存 `.env` / 环境变量、日志脱敏、不落网页全文、成本熔断 |
+| §8 文档 | 实验报告固定结构、历史结论不覆盖、区分实测与推断 |
+| §9 检查清单 | 提交前必跑的 5 条命令 |
+| §10 未落地项 | 规范里写了但仓库还没做到的 6 项，避免被误读为现状 |
+
+### 5.2 Agent 写代码时最容易违反的几条
+
+1. **不重复实现已有能力**。LLM 调用走 `Wk2/experiments/v2-pipeline/pipeline/model_client.py`，
+   RSS 采集走 `Wk3/experiments/langgraph-pipeline/rss_collector.py`，
+   质量评分走 `Wk3/experiments/langgraph-pipeline/quality.py`。要另写一份先说明为什么不能复用。
+2. **禁止魔法数字与魔法字符串**。阈值、价格、超时、黑名单一律提为模块级命名常量。
+3. **日志用 lazy `%` 格式化**，不要在 `logger.info()` 里拼 f-string。
+4. **密钥不进代码、注释、日志、产出、commit message**。示例只写 `sk-xxxxxxxx`。
+5. **没跑过的结论不许写进报告**。每条「✅ 已验证」都要能追溯到一条断言或一段实测数字。
+6. **带循环的编排必须有次数上限和熔断标记**，成本按安全项管理（规范 §7.4）。
+
+---
+
+## 6. 不做什么（边界明确）
 
 - 不做用户认证和权限
 - 不做实时通知
