@@ -4,27 +4,7 @@
 
 ---
 
-## 学习进度
-
-课程《Agent 设计模式之美》Harness 工程实战，一周四节。
-
-| 周 | 节 | 主题 | 课件 | 实验 | 博客 | 状态 |
-|:--:|:--:|------|:----:|:----:|:----:|------|
-| [Wk1](Wk1/) | 1-4 | AI 编程范式转换 / Memory 工程 / Sub-Agents 角色分工 / Skills 能力封装 | ✅ | ✅ | ✅ 1-3 | 完成 |
-| [Wk2](Wk2/) | 5-8 | Hooks 事件驱动 / MCP 外部数据 / CI-CD 定时触发 / 成本控制 | ✅ | ✅ V2 管线 | ✅ 4-6 | 完成 |
-| [Wk3](Wk3/README.md) | 9-12 | 图编排（LangGraph StateGraph） | ❌ 未下载 | ✅ V3 StateGraph | ✅ 7 | 完成（含修复轮） |
-| [Wk4](Wk4/README.md) | 13-16 | 推断：Agent 评估 / 可观测性 / 生产化 | ❌ 未下载 | ❌ | ❌ | **未开始** |
-
-### 各周产出
-
-| 周 | 主要产出 |
-|:--:|---------|
-| Wk1 | `AGENTS.md` 项目定义、`specs/` SDD 初稿、裸 API vs 框架对比、源码编排循环解析 |
-| Wk2 | `Wk2/experiments/v2-pipeline/` —— 全自动知识管线（Hooks 校验 + 质量评分 + MCP Server + GitHub Actions 定时 + `CostTracker` 计量） |
-| Wk3 | `Wk3/experiments/langgraph-pipeline/` —— StateGraph 图编排（条件路由 + 反馈循环 + 熔断 + SQLite checkpointer + 2×2 同题对照）。全套 12 次图执行 ¥0.0372 |
-| Wk4 | 待开始，框架已建（`Wk4/README.md` 含主题推断与行动清单） |
-
-### 规范与配置
+## 规范与配置
 
 | 文件 | 内容 |
 |------|------|
