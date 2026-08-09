@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260809-007",
+  "title": "Systemd Dynamic Users (2020)",
+  "source_url": "https://ethulhu.co.uk/systemd-dynamicuser",
+  "summary": "Systemd Dynamic Users (2020)｜systemd Dynamic Users > howtos systemd Dynamic Users last modified on 2020-04-09 The Linux init system systemd has its controversies, but it also has s",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "systemd Dynamic Users > howtos systemd Dynamic Users last modified on 2020-04-09 The Linux init system systemd has its controversies, but it also has some pretty neat features, my favorite of which is Dynamic Users . Lennart Poettering’s blog has a full rundown of the ins and outs , but I’ll summari"
+  }
+}

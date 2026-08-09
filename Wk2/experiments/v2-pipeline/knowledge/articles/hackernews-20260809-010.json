@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260809-010",
+  "title": "Dithered QR Codes",
+  "source_url": "https://www.andrewt.net/dithered-qr-codes/wtf/",
+  "summary": "Dithered QR Codes｜Article URL: https://www.andrewt.net/dithered-qr-codes/wtf/ Comments URL: https://news.ycombinator.com/item?id=49226742 Points: 162 # Comments: 15",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.andrewt.net/dithered-qr-codes/wtf/ Comments URL: https://news.ycombinator.com/item?id=49226742 Points: 162 # Comments: 15"
+  }
+}

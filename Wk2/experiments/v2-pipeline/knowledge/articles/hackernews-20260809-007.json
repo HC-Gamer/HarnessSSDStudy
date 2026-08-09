@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260809-007",
+  "title": "TheoremDB – A public workspace for machine mathematics",
+  "source_url": "https://theoremdb.org/",
+  "summary": "TheoremDB – A public workspace for machine mathematics｜Article URL: https://theoremdb.org/ Comments URL: https://news.ycombinator.com/item?id=49227505 Points: 35 # Comments: 0",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://theoremdb.org/ Comments URL: https://news.ycombinator.com/item?id=49227505 Points: 35 # Comments: 0"
+  }
+}

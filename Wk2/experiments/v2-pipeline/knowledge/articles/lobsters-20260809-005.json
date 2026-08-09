@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260809-005",
+  "title": "robot.villas – RSS-to-Mastodon Bridge",
+  "source_url": "https://robot.villas",
+  "summary": "robot.villas – RSS-to-Mastodon Bridge｜🤖 robot.villas Posts Tags Stats Status © 2025 - 2026 Nat Welch. All rights reserved. robot.villas An RSS-to-Mastodon bridge . A collection of",
+  "tags": [
+    "robotics",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "🤖 robot.villas Posts Tags Stats Status © 2025 - 2026 Nat Welch. All rights reserved. robot.villas An RSS-to-Mastodon bridge . A collection of bot accounts, each mirroring a public RSS or Atom feed. Follow your favorite blogs, news sites, and newsletters from Mastodon or any ActivityPub-compatible se"
+  }
+}

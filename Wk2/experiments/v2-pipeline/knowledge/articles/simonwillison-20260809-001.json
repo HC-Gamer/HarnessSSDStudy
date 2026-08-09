@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260809-001",
+  "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+  "source_url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+  "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans｜Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in",
+  "tags": [
+    "prompt-engineering",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the topics discussed in our Fireside Chat with Cat Wu and Thariq Shihipar at the AI Engineer World’s Fair last month. I asked them how they run Claude Code safely within Anthropic (given the threat of prompt injection) and the"
+  }
+}

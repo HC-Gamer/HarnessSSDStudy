@@ -1,0 +1,31 @@
+{
+  "id": "github-20260809-001",
+  "title": "kirodotdev/KiroCrew",
+  "source_url": "https://github.com/kirodotdev/KiroCrew",
+  "summary": "kirodotdev/KiroCrew｜A persistent workspace for development work that self-improves and continues beyond one session.",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2417,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai-agent",
+      "ai-agents",
+      "automation",
+      "devtools",
+      "kiro",
+      "llm"
+    ],
+    "description": "A persistent workspace for development work that self-improves and continues beyond one session."
+  }
+}

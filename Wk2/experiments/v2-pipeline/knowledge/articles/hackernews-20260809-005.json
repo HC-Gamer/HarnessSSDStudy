@@ -1,0 +1,20 @@
+{
+  "id": "hackernews-20260809-005",
+  "title": "Real-time MCP interceptor that blocks .env reads and dangerous commands agents",
+  "source_url": "https://marketnow.site/",
+  "summary": "Real-time MCP interceptor that blocks .env reads and dangerous commands agents｜Article URL: https://marketnow.site/ Comments URL: https://news.ycombinator.com/item?id=49228086 Poin",
+  "tags": [
+    "agent",
+    "mcp",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://marketnow.site/ Comments URL: https://news.ycombinator.com/item?id=49228086 Points: 12 # Comments: 2"
+  }
+}

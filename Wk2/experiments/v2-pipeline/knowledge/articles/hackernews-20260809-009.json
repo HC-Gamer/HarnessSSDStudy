@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260809-009",
+  "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
+  "source_url": "https://os8088.com/",
+  "summary": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386｜Article URL: https://os8088.com/ Comments URL: https://news.ycombinator.com/item?id=49226923 Points: 148 # Comments: 72",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://os8088.com/ Comments URL: https://news.ycombinator.com/item?id=49226923 Points: 148 # Comments: 72"
+  }
+}

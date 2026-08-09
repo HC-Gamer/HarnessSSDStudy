@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260809-002",
+  "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+  "source_url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+  "summary": "Now we have a timeline of the OpenAI accidental attack against Hugging Face｜My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face Hacker News. I",
+  "tags": [
+    "evaluation",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face Hacker News. I think one of the most interesting details here might be tucked away in that first bulletin point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was a"
+  }
+}

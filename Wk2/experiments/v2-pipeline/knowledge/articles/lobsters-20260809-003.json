@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260809-003",
+  "title": "Counting the days, revisited",
+  "source_url": "https://dotat.at/@/2026-08-09-rata-die.html",
+  "summary": "Counting the days, revisited｜Tony Finch blog home search archive recent feed links elsewhere 2026-08-09 Counting the days, revisited 2026-03-14 Many years ago I wrote about how to",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Tony Finch blog home search archive recent feed links elsewhere 2026-08-09 Counting the days, revisited 2026-03-14 Many years ago I wrote about how to convert Gregorian dates to Julian Day numbers or similar counts such as rata die as used in Calendrical Calculations . This algorithm is the core of"
+  }
+}

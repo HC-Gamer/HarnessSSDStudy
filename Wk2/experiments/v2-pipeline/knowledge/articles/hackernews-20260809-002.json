@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260809-002",
+  "title": "The original URL for this prediction will no longer be available in 11 years (2011)",
+  "source_url": "http://longbets.org/601/",
+  "summary": "The original URL for this prediction will no longer be available in 11 years (2011)｜Article URL: http://longbets.org/601/ Comments URL: https://news.ycombinator.com/item?id=4922845",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: http://longbets.org/601/ Comments URL: https://news.ycombinator.com/item?id=49228458 Points: 127 # Comments: 43"
+  }
+}

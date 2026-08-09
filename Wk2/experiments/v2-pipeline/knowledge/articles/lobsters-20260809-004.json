@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260809-004",
+  "title": "my server is a phone now",
+  "source_url": "https://seg6.space/posts/phone-server/",
+  "summary": "my server is a phone now｜seg6 writing projects dark aug 4, 2026 my server is a phone now rooting a CMF Phone 1 to run my personal infrastructure at home. For a while, my personal i",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-09T08:32:27.396587+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "seg6 writing projects dark aug 4, 2026 my server is a phone now rooting a CMF Phone 1 to run my personal infrastructure at home. For a while, my personal infrastructure lived on a small Hetzner VPS. It ran a few web apps, a remote browser called Surf , Caddy, and the usual supporting cast. Nothing p"
+  }
+}
