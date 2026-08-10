@@ -4,21 +4,9 @@
 
 ---
 
-## 规范与配置
-
-| 文件 | 内容 |
-|------|------|
-| [`AGENTS.md`](AGENTS.md) | 项目定义、Agent 角色分工、技术约束、验收指标、编码规范索引 |
-| [`specs/coding-standards.md`](specs/coding-standards.md) | 编码规范 v1.0 —— Python / JSON / Shell / Git / 测试 / 日志 / 安全 |
-| [`specs/project-vision.md`](specs/project-vision.md) · [`specs/agents-prd.md`](specs/agents-prd.md) | SDD 愿景与 PRD |
-| [`.opencode/opencode.jsonc`](.opencode/opencode.jsonc) | 项目级 OpenCode 配置（DeepSeek provider） |
-| [`HarnessSSDStudyRules.md`](HarnessSSDStudyRules.md) | 仓库工作流规章 |
-
----
-
 ## 博客索引
 
-### 📚 系列一：《Agent 设计模式之美》专栏消化（19/23 已完成）
+### 📚 系列一：《Agent 设计模式之美》专栏消化（19/23 已完成，4 篇待写）
 
 把极客时间黄佳专栏《Agent 设计模式之美》的 28 个设计模式，逐篇对照 Hermes Agent / 游戏项目 / Harness 工程实践消化成原创博客（目录 `blogs/agent-design-patterns/`）。
 
@@ -44,8 +32,10 @@
 | 18 | [推理模块导论：让 Agent 想得清楚，也想得起来](blogs/agent-design-patterns/blog18_推理模块导论：让 Agent 想得清楚_2026-08-06.md) | 2026-08-06 |
 | 19 | [思维链：给 Agent 的判断留下一条可检查的路径](blogs/agent-design-patterns/blog19_思维链：给 Agent 的判断留下一条可_2026-08-07.md) | 2026-08-07 |
 | 番外 | [Harness 架构深度解析——看完才发现，Hermes Agent 就是个 Harness](blogs/agent-design-patterns/blog_harness_Harness架构深度解析_Hermes对照_2026-07-27.md) | 2026-07-27 |
-
-> 📌 进度：blog20-23（复杂度路由 / 并行探索 / 迭代假设验证 / 行动模块导论）待消化，管线卡在极客时间 Cookie 过期，需登录后续跑。
+| 20 | 复杂度路由 — 给 Agent 装上导航系统 | — |
+| 21 | 并行探索 — 让多个假设同时跑 | — |
+| 22 | 迭代假设验证 — 步步收紧答案 | — |
+| 23 | 行动模块导论 — 从"想"到"做"的最后一步 | — |
 
 ### 🔧 系列二：OpenCode / Harness 学习系列（8 篇）
 
