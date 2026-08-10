@@ -12,25 +12,25 @@
 
 | # | 标题 | 日期 |
 |:--:|------|:----:|
-| 1 | [读完开篇词：我一直在用上一代语言描述下一代系统](blogs/agent-design-patterns/blog1_开篇词范式转移_2025-07-17.md) | 2025-07-17 |
-| 2 | [双轴框架审视 Agent 系统：从概念到配置项](blogs/agent-design-patterns/blog2_双轴框架审视Agent系统_2025-07-17.md) | 2025-07-17 |
-| 3 | [双轴为什么必须正交：当矩阵变成坐标系，模式才真正可用](blogs/agent-design-patterns/blog3_双轴正交矩阵实战_2025-07-19.md) | 2025-07-19 |
-| 4 | [拿逆向五步法拆自己项目的源码：把 Hermes Agent 当标本解剖了](blogs/agent-design-patterns/blog4_逆向五步法拆源码_2025-07-19.md) | 2025-07-19 |
-| 5 | [把 8 个 Agent 框架切开摆在一起看：5 个地基和 3 种工程性格](blogs/agent-design-patterns/blog5_8框架横切3种工程性格_2025-07-19.md) | 2025-07-19 |
-| 6 | [Agent 设计模式的价值在哪里？——从一场企业案例拆解，回顾我踩过的坑](blogs/agent-design-patterns/blog6_直播回放：企业案例拆解，Agent 设计_2026-07-24.md) | 2026-07-24 |
-| 7 | [Loop Engineering — 如何把 Agent 的循环工程化](blogs/agent-design-patterns/blog7_Loop Engineering：如何把_2026-07-25.md) | 2026-07-25 |
-| 8 | [感知模块导论——从"喂什么"到"怎么喂"的工程哲学](blogs/agent-design-patterns/blog8_感知模块导论：如何优雅设计 Agent 感知层_2026-07-26.md) | 2026-07-26 |
-| 9 | [上下文分诊——给 Agent 装一个急诊室分诊台](blogs/agent-design-patterns/blog9_上下文分诊_2026-07-27.md) | 2026-07-27 |
-| 10 | [语义压缩——别让 Agent 在同一个坑里摔两次](blogs/agent-design-patterns/blog10_语义压缩_2026-07-27.md) | 2026-07-27 |
-| 11 | [渐进发现——信息的觅食循环](blogs/agent-design-patterns/blog11_渐进发现：信息的觅食循环_2026-07-28.md) | 2026-07-28 |
-| 12 | [多模态融合——数据在进模型之前，先决定它该长什么样](blogs/agent-design-patterns/blog12_多模态融合：日志、SQL 和 PDF 一起进 Agent_2026-07-31.md) | 2026-07-31 |
-| 13 | [记忆模块导论——从草稿纸到长期记忆，建立 Agent 的经验沉淀秩序](blogs/agent-design-patterns/blog13_记忆模块导论：从草稿纸到长期记忆，建立_2026-08-01.md) | 2026-08-01 |
-| 14 | [分层保留——给 Agent 的记忆建一套货架](blogs/agent-design-patterns/blog14_分层保留：给 Agent 的记忆建一套货_2026-08-02.md) | 2026-08-02 |
-| 15 | [检索增强——Agent 的知识库和证据链](blogs/agent-design-patterns/blog15_检索增强：Agent 的知识库和证据链_2026-08-03.md) | 2026-08-03 |
-| 16 | [长任务中别让 Agent 走丢——进度追踪的五个工程支架](blogs/agent-design-patterns/blog16_进度追踪：长任务中别让 Agent 走丢_2026-08-04.md) | 2026-08-04 |
-| 17 | [失败日记：让 Agent 把摔过的跤变成本事](blogs/agent-design-patterns/blog17_失败日记：让 Agent 把摔过的跤变成_2026-08-05.md) | 2026-08-05 |
-| 18 | [推理模块导论：让 Agent 想得清楚，也想得起来](blogs/agent-design-patterns/blog18_推理模块导论：让 Agent 想得清楚_2026-08-06.md) | 2026-08-06 |
-| 19 | [思维链：给 Agent 的判断留下一条可检查的路径](blogs/agent-design-patterns/blog19_思维链：给 Agent 的判断留下一条可_2026-08-07.md) | 2026-08-07 |
+| 1 | [读完开篇词：我一直在用上一代语言描述下一代系统](<blogs/agent-design-patterns/blog1_开篇词范式转移_2025-07-17.md>) | 2025-07-17 |
+| 2 | [双轴框架审视 Agent 系统：从概念到配置项](<blogs/agent-design-patterns/blog2_双轴框架审视Agent系统_2025-07-17.md>) | 2025-07-17 |
+| 3 | [双轴为什么必须正交：当矩阵变成坐标系，模式才真正可用](<blogs/agent-design-patterns/blog3_双轴正交矩阵实战_2025-07-19.md>) | 2025-07-19 |
+| 4 | [拿逆向五步法拆自己项目的源码：把 Hermes Agent 当标本解剖了](<blogs/agent-design-patterns/blog4_逆向五步法拆源码_2025-07-19.md>) | 2025-07-19 |
+| 5 | [把 8 个 Agent 框架切开摆在一起看：5 个地基和 3 种工程性格](<blogs/agent-design-patterns/blog5_8框架横切3种工程性格_2025-07-19.md>) | 2025-07-19 |
+| 6 | [Agent 设计模式的价值在哪里？——从一场企业案例拆解，回顾我踩过的坑](<blogs/agent-design-patterns/blog6_直播回放：企业案例拆解，Agent 设计_2026-07-24.md>) | 2026-07-24 |
+| 7 | [Loop Engineering — 如何把 Agent 的循环工程化](<blogs/agent-design-patterns/blog7_Loop Engineering：如何把_2026-07-25.md>) | 2026-07-25 |
+| 8 | [感知模块导论——从"喂什么"到"怎么喂"的工程哲学](<blogs/agent-design-patterns/blog8_感知模块导论：如何优雅设计 Agent 感知层_2026-07-26.md>) | 2026-07-26 |
+| 9 | [上下文分诊——给 Agent 装一个急诊室分诊台](<blogs/agent-design-patterns/blog9_上下文分诊_2026-07-27.md>) | 2026-07-27 |
+| 10 | [语义压缩——别让 Agent 在同一个坑里摔两次](<blogs/agent-design-patterns/blog10_语义压缩_2026-07-27.md>) | 2026-07-27 |
+| 11 | [渐进发现——信息的觅食循环](<blogs/agent-design-patterns/blog11_渐进发现：信息的觅食循环_2026-07-28.md>) | 2026-07-28 |
+| 12 | [多模态融合——数据在进模型之前，先决定它该长什么样](<blogs/agent-design-patterns/blog12_多模态融合：日志、SQL 和 PDF 一起进 Agent_2026-07-31.md>) | 2026-07-31 |
+| 13 | [记忆模块导论——从草稿纸到长期记忆，建立 Agent 的经验沉淀秩序](<blogs/agent-design-patterns/blog13_记忆模块导论：从草稿纸到长期记忆，建立_2026-08-01.md>) | 2026-08-01 |
+| 14 | [分层保留——给 Agent 的记忆建一套货架](<blogs/agent-design-patterns/blog14_分层保留：给 Agent 的记忆建一套货_2026-08-02.md>) | 2026-08-02 |
+| 15 | [检索增强——Agent 的知识库和证据链](<blogs/agent-design-patterns/blog15_检索增强：Agent 的知识库和证据链_2026-08-03.md>) | 2026-08-03 |
+| 16 | [长任务中别让 Agent 走丢——进度追踪的五个工程支架](<blogs/agent-design-patterns/blog16_进度追踪：长任务中别让 Agent 走丢_2026-08-04.md>) | 2026-08-04 |
+| 17 | [失败日记：让 Agent 把摔过的跤变成本事](<blogs/agent-design-patterns/blog17_失败日记：让 Agent 把摔过的跤变成_2026-08-05.md>) | 2026-08-05 |
+| 18 | [推理模块导论：让 Agent 想得清楚，也想得起来](<blogs/agent-design-patterns/blog18_推理模块导论：让 Agent 想得清楚_2026-08-06.md>) | 2026-08-06 |
+| 19 | [思维链：给 Agent 的判断留下一条可检查的路径](<blogs/agent-design-patterns/blog19_思维链：给 Agent 的判断留下一条可_2026-08-07.md>) | 2026-08-07 |
 | 番外 | [Harness 架构深度解析——看完才发现，Hermes Agent 就是个 Harness](blogs/agent-design-patterns/blog_harness_Harness架构深度解析_Hermes对照_2026-07-27.md) | 2026-07-27 |
 | 20 | 复杂度路由 — 给 Agent 装上导航系统 | — |
 | 21 | 并行探索 — 让多个假设同时跑 | — |
