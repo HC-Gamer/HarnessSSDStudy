@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260810-006",
+  "title": "Turn satellite imagery into a paper globe you fold yourself",
+  "source_url": "https://foldingglobes.com/",
+  "summary": "Turn satellite imagery into a paper globe you fold yourself｜Article URL: https://foldingglobes.com/ Comments URL: https://news.ycombinator.com/item?id=49238735 Points: 50 # Comment",
+  "tags": [
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://foldingglobes.com/ Comments URL: https://news.ycombinator.com/item?id=49238735 Points: 50 # Comments: 16"
+  }
+}

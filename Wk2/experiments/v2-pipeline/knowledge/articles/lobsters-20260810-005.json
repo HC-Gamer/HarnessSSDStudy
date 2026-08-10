@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260810-005",
+  "title": "Tracking down a Zsh history data loss bug",
+  "source_url": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+  "summary": "Tracking down a Zsh history data loss bug｜Michael Stapelberg About Blog Talks Series Michael Stapelberg About Blog Talks Series Tracking down a Zsh history data loss bug 🐞 publishe",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Michael Stapelberg About Blog Talks Series Michael Stapelberg About Blog Talks Series Tracking down a Zsh history data loss bug 🐞 published 2026-08-09 in tag debug Table of contents The good news first The symptom My Zsh history config Tracing the behavior inotify fatrace strace bpftrace Making it c"
+  }
+}

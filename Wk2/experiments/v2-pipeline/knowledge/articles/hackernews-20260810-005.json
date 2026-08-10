@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260810-005",
+  "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
+  "source_url": "https://github.com/shinyquagsire23/Klepton",
+  "summary": "Run Android ARM64 VR APKs on Apple Vision Pro｜Article URL: https://github.com/shinyquagsire23/Klepton Comments URL: https://news.ycombinator.com/item?id=49238818 Points: 64 # Comme",
+  "tags": [
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/shinyquagsire23/Klepton Comments URL: https://news.ycombinator.com/item?id=49238818 Points: 64 # Comments: 7"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260810-001",
+  "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
+  "source_url": "https://arxiv.org/abs/2608.07460v1",
+  "summary": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity｜While post-training improves the capabilities of large language models (LLMs), it generally l",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "While post-training improves the capabilities of large language models (LLMs), it generally lowers their output diversity and creativity, negatively impacting tasks that explicitly require creativity (e.g., story generation) as well as those that require it implicitly, e.g., reinforcement learning (RL). We instead propose CreativeInstruct, a scalable instruction-tuning method that teaches LLMs to balance creative, base-model-like generations with the quality of post-trained models, by learning t"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hackernews-20260810-004",
+  "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+  "source_url": "https://www.whodunnitai.com/",
+  "summary": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice｜Hey HN! I'm excited to show off this really fun project I put together. I originally built this project",
+  "tags": [
+    "agent",
+    "audio",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Hey HN! I'm excited to show off this really fun project I put together. I originally built this project 2-3 years ago, AI was already booming at the time, however voice AI agents were still very early. I loved my proof of concept at the time, but wasn't quite happy with it. I recently had the desire to check out the tech again, and know many of you will be interested. Interviews are speech to speech with OpenAI's gpt-realtime-2.1 over WebRTC. This model is... expensive, and because of that, I ha"
+  }
+}

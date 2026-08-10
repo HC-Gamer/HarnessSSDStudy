@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260810-009",
+  "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+  "source_url": "https://arxiv.org/abs/2608.07437v1",
+  "summary": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing｜Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents",
+  "tags": [
+    "agent",
+    "evaluation",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produce analyses end-to-end. However, we show that they frequently make subtle inferential errors that lead to incorrect conclusions despite correctly executed analyses. Existing benchmarks fail to capture this failure mode, as they rarely assess whether a reported p-value is statistic"
+  }
+}

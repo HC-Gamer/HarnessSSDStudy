@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260810-007",
+  "title": "Relying on Go",
+  "source_url": "https://antonz.org/relying-on-go/",
+  "summary": "Relying on Go｜Anton Zhiyanov projects books blog about ◐ Relying on Go Everyone is creating a new programming language these days, often one that's \"like Go but with more features\"",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Anton Zhiyanov projects books blog about ◐ Relying on Go Everyone is creating a new programming language these days, often one that's \"like Go but with more features\" or \"like Rust but simpler\". Solod , a systems language for C and Go developers, might look like one of those languages, but it takes"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260810-006",
+  "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
+  "source_url": "https://arxiv.org/abs/2608.07446v1",
+  "summary": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools｜Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and gov",
+  "tags": [
+    "rag",
+    "evaluation",
+    "security"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generative AI applications move from pilot to production, manual harm identification and mitigation are becoming difficult to scale. Although many tools support model evaluation, adversarial testing, runtime guardrails, and observability, the tooling landscape remains fragmented. Tools are typically designed for specific engineering tasks and described in technical"
+  }
+}

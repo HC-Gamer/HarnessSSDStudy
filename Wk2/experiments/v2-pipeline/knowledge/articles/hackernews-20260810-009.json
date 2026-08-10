@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260810-009",
+  "title": "The Ambition Project",
+  "source_url": "https://www.betonit.ai/p/the-ambition-project",
+  "summary": "The Ambition Project｜Article URL: https://www.betonit.ai/p/the-ambition-project Comments URL: https://news.ycombinator.com/item?id=49237407 Points: 42 # Comments: 1",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.betonit.ai/p/the-ambition-project Comments URL: https://news.ycombinator.com/item?id=49237407 Points: 42 # Comments: 1"
+  }
+}

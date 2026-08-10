@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260810-010",
+  "title": "Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers",
+  "source_url": "https://arxiv.org/abs/2608.07436v1",
+  "summary": "Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers｜Under the standard split, Muon gets hidden matrices and AdamW embeddings/output head. Mu",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Under the standard split, Muon gets hidden matrices and AdamW embeddings/output head. Muon groks modular addition faster, but its solutions do not hold. All nine configurations on $(a+b) \\bmod 113$ grok and later lose generalization. Across five seeds the selected AdamW reference falls below threshold on four, reaching 27.59%. Instability persists across two moduli, two widths, two training fractions, subtraction, and depth. The failure arises at the representation-readout interface, identified "
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260810-001",
+  "title": "Who Should Pay For Source Code Availability?",
+  "source_url": "https://kristoff.it/blog/source-code-availability/",
+  "summary": "Who Should Pay For Source Code Availability?｜Loris Cro Personal Website About • Blog • Twitch • YouTube • GitHub / Codeberg Who Should Pay For Source Code Availability? August 09,",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Loris Cro Personal Website About • Blog • Twitch • YouTube • GitHub / Codeberg Who Should Pay For Source Code Availability? August 09, 2026 • 30 min read • by Loris Cro The story of how I became Radicle-ized. I have a project ( Zine , a static site generator) that has 11 dependencies hosted across G"
+  }
+}

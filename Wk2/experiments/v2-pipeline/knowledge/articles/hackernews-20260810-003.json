@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260810-003",
+  "title": "Auto mode is now the default in Claude Code",
+  "source_url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+  "summary": "Auto mode is now the default in Claude Code｜Article URL: https://claude.com/blog/auto-mode-default-in-claude-code Comments URL: https://news.ycombinator.com/item?id=49239021 Points",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://claude.com/blog/auto-mode-default-in-claude-code Comments URL: https://news.ycombinator.com/item?id=49239021 Points: 193 # Comments: 181"
+  }
+}

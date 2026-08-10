@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260810-008",
+  "title": "How We Pushed CDC into Postgres",
+  "source_url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+  "summary": "How We Pushed CDC into Postgres｜Article URL: https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/ Comments URL: https://news.ycombinator.com/i",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/ Comments URL: https://news.ycombinator.com/item?id=49238050 Points: 88 # Comments: 7"
+  }
+}

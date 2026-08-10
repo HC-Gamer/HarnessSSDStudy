@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260810-001",
+  "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+  "source_url": "https://www.docker.com/products/docker-sandboxes/",
+  "summary": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents｜Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 165 # Comments: 109"
+  }
+}

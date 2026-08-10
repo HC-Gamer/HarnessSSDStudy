@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260810-003",
+  "title": "nixpkgs-multiverse: every version that ever existed",
+  "source_url": "https://fzakaria.com/2026/08/09/nixpkgs-multiverse-every-version-that-ever-existed",
+  "summary": "nixpkgs-multiverse: every version that ever existed｜Skip to content Farid Zakaria 2026-08-09 7 min read nixpkgs-multiverse: every version that ever existed Enter the Nixpkgs multiv",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content Farid Zakaria 2026-08-09 7 min read nixpkgs-multiverse: every version that ever existed Enter the Nixpkgs multiverse. All the versions that ever existed, all in one place. I bumped the nixpkgs release for my NixOS configuration to refresh many of my packages and found that a package"
+  }
+}

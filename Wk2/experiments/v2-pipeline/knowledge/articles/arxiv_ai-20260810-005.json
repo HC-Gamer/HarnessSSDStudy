@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260810-005",
+  "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
+  "source_url": "https://arxiv.org/abs/2608.07449v1",
+  "summary": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent｜LLM agents increasingly adapt to recurring tasks by accumulating procedural knowledge in skills. These s",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "LLM agents increasingly adapt to recurring tasks by accumulating procedural knowledge in skills. These skills are lightweight, reusable textual artifacts that are loaded into the agent's context without weight updates. Recent methods refine skills through iterative task execution, failure diagnosis, and trajectory-guided text-space updates. However, existing frameworks lack explicit diagnosis--outcome feedback and treat deletion as a generic edit operation rather than a dedicated mechanism for c"
+  }
+}

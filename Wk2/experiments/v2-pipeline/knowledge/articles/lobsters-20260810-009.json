@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260810-009",
+  "title": "I think the vibecoding tag has gotten out of hand",
+  "source_url": "https://lobste.rs/s/he9j7y/i_think_vibecoding_tag_has_gotten_out_hand",
+  "summary": "I think the vibecoding tag has gotten out of hand｜I was reading this post and noticed the vibecoding had been applied. I’m not sure if this was applied by the lobste.rs team or by",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "I was reading this post and noticed the vibecoding had been applied. I’m not sure if this was applied by the lobste.rs team or by the author, but after reading the post it’s pretty clear that the only vibecoding involved is mentioned in an appendix separate from the actual meat of the post, which was well written and the product of sole-human effort and care. This tag feels like a black mark on what are otherwise interesting posts and has the potential to filter out genuinely human content. In o"
+  }
+}

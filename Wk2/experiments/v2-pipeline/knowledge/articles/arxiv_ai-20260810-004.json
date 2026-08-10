@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260810-004",
+  "title": "Strategy-first synthesis planning for complex natural products",
+  "source_url": "https://arxiv.org/abs/2608.07454v1",
+  "summary": "Strategy-first synthesis planning for complex natural products｜The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistr",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate target, devise backup strategies, and anticipate procedural challenges. It is also a profoundly creative activity. For half a century, efforts to automate the retrosynthetic design of natural products and other complex molecules have drawn on catalogued reactions, and the resulting"
+  }
+}

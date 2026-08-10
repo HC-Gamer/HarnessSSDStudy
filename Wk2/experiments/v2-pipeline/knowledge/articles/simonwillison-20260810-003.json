@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260810-003",
+  "title": "GitHub Models is now retired",
+  "source_url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+  "summary": "GitHub Models is now retired｜GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error messa",
+  "tags": [
+    "code-generation",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code runnin"
+  }
+}

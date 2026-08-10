@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260810-004",
+  "title": "SQLite compressed text-history prototypes",
+  "source_url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+  "summary": "SQLite compressed text-history prototypes｜Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational dat",
+  "tags": [
+    "vision",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the full text of every prior version in a big JSON array of strings and then applying zlib or zstd compression to the whole thing? Surely that would compress really well due to all of the repeated strings. The new GPT‑Live voice mode in the ChatGPT iPhone app has got really good, so I discussed"
+  }
+}

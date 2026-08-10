@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260810-002",
+  "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
+  "source_url": "https://arxiv.org/abs/2608.07458v1",
+  "summary": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG｜Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cac",
+  "tags": [
+    "rag",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-10T09:09:26.644365+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pareto frontier under low prefill latency constraints while maximizing accuracy by proposing CoinRAG (Contextualized Information Nugget KV Cache Reuse for Long-Context RAG). The name metaphorically reflec"
+  }
+}
