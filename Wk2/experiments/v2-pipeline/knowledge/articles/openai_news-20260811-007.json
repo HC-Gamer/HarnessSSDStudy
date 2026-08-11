@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260811-007",
+  "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+  "source_url": "https://openai.com/index/zapier",
+  "summary": "How Zapier transformed core marketing processes with ChatGPT Work｜The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, bu",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting."
+  }
+}

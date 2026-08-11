@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260811-002",
+  "title": "Multimodal Model Diffing for Feature Discovery and Control",
+  "source_url": "https://arxiv.org/abs/2608.09928v1",
+  "summary": "Multimodal Model Diffing for Feature Discovery and Control｜Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these",
+  "tags": [
+    "code-generation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using sparse autoencoders (SAEs) neither readily isolate which features are changed by multimodal training, nor are they directly useful for targeted control. We introduce MMDiff, a multimodal model-diffing "
+  }
+}

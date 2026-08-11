@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260811-003",
+  "title": "Firefox Containers Preview",
+  "source_url": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
+  "summary": "Firefox Containers Preview｜Firefox Containers Preview。这是 lobsters 收录的技术条目，原文站点 blog.mozilla.org；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Firefox Containers Preview。这是 lobsters 收录的技术条目，原文站点 blog.mozilla.org；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。"
+  }
+}

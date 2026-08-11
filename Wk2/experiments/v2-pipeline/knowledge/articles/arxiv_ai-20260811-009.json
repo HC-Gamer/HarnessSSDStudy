@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260811-009",
+  "title": "Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning",
+  "source_url": "https://arxiv.org/abs/2608.09876v1",
+  "summary": "Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning｜Physically consistent motion planning remains a fundamental chal",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Physically consistent motion planning remains a fundamental challenge in embodied AI, as generated trajectories must strictly conform to real-world execution dynamics. While latent world models offer a promising approach by predicting these dynamics, existing methods learn unconstrained future representations where absorbed physics remains implicit. Therefore, they fail to form reusable physical knowledge, which compromises reliability in unpredictable open-world navigation. To address this, we "
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260811-006",
+  "title": "Premium seats are coming to ChatGPT Business",
+  "source_url": "https://openai.com/index/premium-seats-chatgpt-business",
+  "summary": "Premium seats are coming to ChatGPT Business｜Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your te",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work."
+  }
+}

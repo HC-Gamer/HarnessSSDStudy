@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260811-010",
+  "title": "ArchAgent v2: A Case Study with the Data Prefetching Championship",
+  "source_url": "https://arxiv.org/abs/2608.09874v1",
+  "summary": "ArchAgent v2: A Case Study with the Data Prefetching Championship｜Agentic artificial intelligence has shown great promise in automating algorithm design, but scaling similar techni",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Agentic artificial intelligence has shown great promise in automating algorithm design, but scaling similar techniques to computer microarchitecture discovery remains challenging due to vast search spaces, strict hardware budgets, and long simulation times. In this work, we present ArchAgent v2, a framework which scales automated microarchitecture search to multi-level data prefetching. While the original ArchAgent successfully discovered single-level cache replacement policies in competition se"
+  }
+}

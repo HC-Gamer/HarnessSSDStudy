@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260811-008",
+  "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+  "source_url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+  "summary": "Virgin Atlantic sharpens customer journeys with ChatGPT Work｜Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connec",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey."
+  }
+}

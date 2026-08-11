@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260811-006",
+  "title": "Breaking up (lines) is hard to do",
+  "source_url": "https://www.b-list.org/weblog/2026/aug/10/newlines/",
+  "summary": "Breaking up (lines) is hard to do｜Skip to content James Bennett Contact Projects Weblog Breaking up (lines) is hard to do Published on: August 10, 2026 Categories: Python , Unicode",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content James Bennett Contact Projects Weblog Breaking up (lines) is hard to do Published on: August 10, 2026 Categories: Python , Unicode Here’s a seemingly simple question: given a chunk of multi-line text, how do you split it and return an array whose members are the constituent lines of"
+  }
+}

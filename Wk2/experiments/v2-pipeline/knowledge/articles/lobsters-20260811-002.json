@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260811-002",
+  "title": "GitHub Actions needs OIDC audience constraints",
+  "source_url": "https://blog.yossarian.net/2026/08/10/github-actions-needs-oidc-audience-constraints",
+  "summary": "GitHub Actions needs OIDC audience constraints｜ENOSUCHBLOG Programming, philosophy, pedaling. Home Tags Series Favorites Archive Main Site TILs GitHub Actions needs OIDC audience c",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "ENOSUCHBLOG Programming, philosophy, pedaling. Home Tags Series Favorites Archive Main Site TILs GitHub Actions needs OIDC audience constraints Aug 10, 2026 Tags: dear-github , oss , security TL;DR : GitHub Actions should allow end-users to express audience constraints , to make it harder for an att"
+  }
+}

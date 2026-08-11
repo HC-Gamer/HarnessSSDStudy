@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260811-003",
+  "title": "What building an AI-native finance function taught me",
+  "source_url": "https://openai.com/index/building-an-ai-native-finance-function",
+  "summary": "What building an AI-native finance function taught me｜OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI."
+  }
+}

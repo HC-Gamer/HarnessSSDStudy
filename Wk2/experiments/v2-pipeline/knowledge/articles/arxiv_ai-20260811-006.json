@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260811-006",
+  "title": "Fusion Training for Mathematical Generalization in Large Language Models",
+  "source_url": "https://arxiv.org/abs/2608.09893v1",
+  "summary": "Fusion Training for Mathematical Generalization in Large Language Models｜Thinking Mode Fusion (TMF) enables large language models to support both concise responses and long-form re",
+  "tags": [
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Thinking Mode Fusion (TMF) enables large language models to support both concise responses and long-form reasoning by unifying a non-thinking mode and a thinking mode within a single model. However, its training dynamics, including the \\emph{data ratio} and \\emph{training schedule} between the two modes, remain underexplored. In this work, we present a systematic study of TMF by analyzing the effects of the training schedule and data ratio between thinking and non-thinking modes. Focusing on mat"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260811-006",
+  "title": "RA-FinBERT: Rule-aware LoRA adaptation for low-resource financial sentiment classification",
+  "source_url": "https://arxiv.org/abs/2608.09834v1",
+  "summary": "RA-FinBERT: Rule-aware LoRA adaptation for low-resource financial sentiment classification｜Financial sentiment analysis converts unstructured financial news into quantitative signa",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Financial sentiment analysis converts unstructured financial news into quantitative signals that can support market analysis and decision-making. Existing work on resource-efficient financial NLP has largely focused on compressing or adapting pretrained language models, with less attention to combining contextual representations with lightweight rule-derived features. This study develops Rule-Aware FinBERT (RA-FinBERT), a parameter-efficient framework that integrates low-rank adaptation (LoRA) w"
+  }
+}

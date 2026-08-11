@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260811-008",
+  "title": "an ambiguity in c89 which will never be fixed",
+  "source_url": "https://sebsite.pw/w/20260810-c89ambiguity.html",
+  "summary": "an ambiguity in c89 which will never be fixed｜sebsite an ambiguity in c89 which will never be fixed 2026-08-10 i found some ambiguous wording in the c89(/c90) standard, where gcc a",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "sebsite an ambiguity in c89 which will never be fixed 2026-08-10 i found some ambiguous wording in the c89(/c90) standard, where gcc and clang disagree on the interpretation. it concerns the behavior of implicit function declarations, which were removed in c99, so this was never disambiguated. for t"
+  }
+}

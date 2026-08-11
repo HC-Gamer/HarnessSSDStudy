@@ -1,0 +1,28 @@
+{
+  "id": "github-20260811-001",
+  "title": "Jakubantalik/thinking-orbs",
+  "source_url": "https://github.com/Jakubantalik/thinking-orbs",
+  "summary": "Jakubantalik/thinking-orbs｜Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light",
+  "tags": [
+    "agent"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2242,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "chat",
+      "loader",
+      "ui",
+      "ux"
+    ],
+    "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light"
+  }
+}

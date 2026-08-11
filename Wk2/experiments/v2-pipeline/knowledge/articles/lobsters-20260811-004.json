@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260811-004",
+  "title": "a pure css implementation of some sunlight streaming in through the window",
+  "source_url": "https://github.com/jackyzha0/sunlit",
+  "summary": "a pure css implementation of some sunlight streaming in through the window｜Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Writ",
+  "tags": [
+    "agent",
+    "mcp",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environme"
+  }
+}

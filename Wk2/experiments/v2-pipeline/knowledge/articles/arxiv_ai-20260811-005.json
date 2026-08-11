@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260811-005",
+  "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
+  "source_url": "https://arxiv.org/abs/2608.09902v1",
+  "summary": "DSLE: A Learning Environment for Dark Souls Boss Encounters｜We introduce the Dark Souls Learning Environment (DSLE), a containerized platform that presents all 22 boss encounters o",
+  "tags": [
+    "agent",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We introduce the Dark Souls Learning Environment (DSLE), a containerized platform that presents all 22 boss encounters of Dark Souls: Remastered as game-playing agent benchmarks through a Gymnasium-style interface. DSLE combines real-time combat, high-dimensional visual input, and sparse terminal rewards, with each environment step being a real action executed against the running game. To support controlled comparison, we define DSLE-5, a representative five-boss subset, spanning a melee fight, "
+  }
+}

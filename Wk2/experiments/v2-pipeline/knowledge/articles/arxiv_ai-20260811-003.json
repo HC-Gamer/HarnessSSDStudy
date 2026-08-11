@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260811-003",
+  "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+  "source_url": "https://arxiv.org/abs/2608.09925v1",
+  "summary": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch｜Large language models are increasingly being deployed in governmental settings, yet few ex",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the values of public administration and the linguistic requirements of non-English contexts. We present the \"Grip on LLMs\" framework, a systematic evaluation suite for Dutch governmental use developed in collaboration with domain experts from a major Dutch municipal organisation. Through an advisory board process, user research, and a survey of the users of a civ"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260811-003",
+  "title": "Recycle – Floppydisks",
+  "source_url": "https://www.floppydisk.com/recycle",
+  "summary": "Recycle – Floppydisks｜Article URL: https://www.floppydisk.com/recycle Comments URL: https://news.ycombinator.com/item?id=49252462 Points: 56 # Comments: 25",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.floppydisk.com/recycle Comments URL: https://news.ycombinator.com/item?id=49252462 Points: 56 # Comments: 25"
+  }
+}

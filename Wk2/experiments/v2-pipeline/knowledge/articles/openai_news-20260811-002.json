@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260811-002",
+  "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+  "source_url": "https://openai.com/index/model-ml",
+  "summary": "Model ML completes finance work more efficiently with GPT-5.6 Sol｜Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks."
+  }
+}

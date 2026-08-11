@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260811-010",
+  "title": "Confessions of a Long-Distance Sailor",
+  "source_url": "https://arachnoid.com/lutusp/sailbook.html",
+  "summary": "Confessions of a Long-Distance Sailor｜Article URL: https://arachnoid.com/lutusp/sailbook.html Comments URL: https://news.ycombinator.com/item?id=49249555 Points: 106 # Comments: 29",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-11T08:44:58.638064+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://arachnoid.com/lutusp/sailbook.html Comments URL: https://news.ycombinator.com/item?id=49249555 Points: 106 # Comments: 29"
+  }
+}
