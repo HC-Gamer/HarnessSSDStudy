@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260812-009",
+  "title": "Two-stage Odd Residual Flows for Mean-Preserving Probabilistic Time Series Forecasting",
+  "source_url": "https://arxiv.org/abs/2608.11114v1",
+  "summary": "Two-stage Odd Residual Flows for Mean-Preserving Probabilistic Time Series Forecasting｜Probabilistic forecasting plays an essential role in risk-sensitive decision-making, particul",
+  "tags": [
+    "deployment",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Probabilistic forecasting plays an essential role in risk-sensitive decision-making, particularly in long-horizon settings. However, existing approaches often face a fundamental trade-off between distributional flexibility and accurate mean prediction. Traditional parametric methods, such as Mean Variance Estimation (MVE), can suffer from degraded point accuracy when trained under joint Negative Log-Likelihood (NLL) objectives, while modern-flexible generative models, including Normalizing Flows"
+  }
+}

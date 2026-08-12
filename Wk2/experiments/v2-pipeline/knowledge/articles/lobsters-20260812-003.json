@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260812-003",
+  "title": "Reviewing code is a skill",
+  "source_url": "https://typesanitizer.com/blog/code-review.html",
+  "summary": "Reviewing code is a skill｜About Blog ( RSS ) Reviewing code is a skill Intended audience: Software developers interested in getting better at developing software. Initially, I mean",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "About Blog ( RSS ) Reviewing code is a skill Intended audience: Software developers interested in getting better at developing software. Initially, I meant this post more for junior developers, but some parts are more applicable for tech leads etc. So if the post appears a bit muddled, please accept"
+  }
+}

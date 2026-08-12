@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260812-001",
+  "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+  "source_url": "https://arxiv.org/abs/2608.11204v1",
+  "summary": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning｜Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled dem",
+  "tags": [
+    "reasoning",
+    "robotics",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand precise contact handling, long-horizon reasoning, and bimanual coordination. Endoscopic video is comparatively inexpensive and abundant relative to synchronized video--kinematics trajectories, and a natural way to exploit it is to learn world models o"
+  }
+}

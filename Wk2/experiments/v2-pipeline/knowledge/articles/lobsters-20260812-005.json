@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260812-005",
+  "title": "The fastest double-to-string algorithm you’ve never heard of",
+  "source_url": "https://vitaut.net/posts/2026/yy-dtoa/",
+  "summary": "The fastest double-to-string algorithm you’ve never heard of｜Posts Talks Papers Projects - CATALOG - Where yy fits in Four candidates A step-by-step at E4M3 scale A boundary case t",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Posts Talks Papers Projects - CATALOG - Where yy fits in Four candidates A step-by-step at E4M3 scale A boundary case that looks like a bug Try it Fun fact menu vitaut.net dark_mode vitaut.net The fastest double-to-string algorithm you’ve never heard of 2026-08-10 Żmij , the binary-to-decimal conver"
+  }
+}

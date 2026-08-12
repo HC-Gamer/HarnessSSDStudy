@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260812-007",
+  "title": "Attention-Path Fragility as an Uncertainty Signal in Large Language Models",
+  "source_url": "https://arxiv.org/abs/2608.11138v1",
+  "summary": "Attention-Path Fragility as an Uncertainty Signal in Large Language Models｜We propose that a model's uncertainty about a token is reflected not only in the breadth of its output di",
+  "tags": [
+    "rag",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We propose that a model's uncertainty about a token is reflected not only in the breadth of its output distribution but also in whether a confident prediction is \\emph{fragile} under perturbation of its attention pathways. We instantiate this as ASMI (Attention-Subnetwork Mutual Information), a training-free estimator that masks attention heads and measures the BALD mutual information among the resulting subnetworks, with a semantic-agreement kernel to discount surface-form disagreement. The sig"
+  }
+}

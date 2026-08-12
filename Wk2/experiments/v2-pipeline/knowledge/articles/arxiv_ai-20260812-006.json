@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260812-006",
+  "title": "From Interpretability to Control: Insights from Six Years of the TrustNLP Workshop",
+  "source_url": "https://arxiv.org/abs/2608.11171v1",
+  "summary": "From Interpretability to Control: Insights from Six Years of the TrustNLP Workshop｜The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL con",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL conferences since 2021, has grown from 8 proceedings papers to 41 over six editions, documenting a field-wide transition from post-hoc interpretability of static models to mechanistic understanding and proactive control of generative systems. We synthesize insights from all 144 proceedings papers, classifying them along six trust dimensions grounded in established frameworks (TrustLLM, DecodingTrust). W"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260812-004",
+  "title": "Briar is in maintenance mode",
+  "source_url": "https://briarproject.org/news/2026-maintenance-mode/",
+  "summary": "Briar is in maintenance mode｜News How it works About Get Involved Download News How it works About Get Involved Download July 9, 2026 Briar is in maintenance mode This is a quick u",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "News How it works About Get Involved Download News How it works About Get Involved Download July 9, 2026 Briar is in maintenance mode This is a quick update about the status of Briar. Short version: the project is still active but we re only making essential security updates and bugfixes for now. Lo"
+  }
+}

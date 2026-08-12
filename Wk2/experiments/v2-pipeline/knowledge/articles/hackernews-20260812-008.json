@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260812-008",
+  "title": "Compression is prediction",
+  "source_url": "https://ngrok.com/blog/compression-is-prediction",
+  "summary": "Compression is prediction｜Article URL: https://ngrok.com/blog/compression-is-prediction Comments URL: https://news.ycombinator.com/item?id=49263497 Points: 502 # Comments: 211",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://ngrok.com/blog/compression-is-prediction Comments URL: https://news.ycombinator.com/item?id=49263497 Points: 502 # Comments: 211"
+  }
+}

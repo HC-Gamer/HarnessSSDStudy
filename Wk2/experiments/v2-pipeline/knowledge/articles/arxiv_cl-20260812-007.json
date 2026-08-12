@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260812-007",
+  "title": "PERCEPT: A Corpus for POS Tagging and Analysis of Persian-English Code-Mixing",
+  "source_url": "https://arxiv.org/abs/2608.10109",
+  "summary": "PERCEPT: A Corpus for POS Tagging and Analysis of Persian-English Code-Mixing｜arXiv:2608.10109v1 Announce Type: new Abstract: Social media has become a major venue for multilingual",
+  "tags": [
+    "code-generation",
+    "audio",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "arXiv:2608.10109v1 Announce Type: new Abstract: Social media has become a major venue for multilingual communication, where users frequently mix multiple languages within a single utterance. Although code-mixed corpora have been developed for several language pairs, Persian-English code-mixing remains relatively underexplored. Existing Persian resources lack Universal Dependencies (UD) part-of-speech (POS) annotations for code-mixed words, limiting both linguistic analyses and the development of"
+  }
+}

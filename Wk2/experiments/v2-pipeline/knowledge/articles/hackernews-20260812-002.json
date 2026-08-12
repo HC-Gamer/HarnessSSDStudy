@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260812-002",
+  "title": "llama.cpp",
+  "source_url": "https://llama.app",
+  "summary": "llama.cpp｜Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 181 # Comments: 76",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 181 # Comments: 76"
+  }
+}

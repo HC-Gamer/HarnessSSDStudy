@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260812-005",
+  "title": "How to Verify Consistency of Probabilistic Claims",
+  "source_url": "https://arxiv.org/abs/2608.11181v1",
+  "summary": "How to Verify Consistency of Probabilistic Claims｜When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be veri",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time? This problem is of interest for AI safety, where safety is derived from honesty about probabilistic predictions of unwanted outcomes potentially caused by an AI action. We construct an interactive PCP as follows. Let a predictive model be specified by a probability circuit P and a circuit Q which outputs confidence in predictions. Together, P "
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260812-001",
+  "title": "GNOME Shell Design Dreams",
+  "source_url": "https://blogs.gnome.org/shell-dev/2026/08/11/gnome-shell-design-dreams/",
+  "summary": "GNOME Shell Design Dreams｜Skip to content GNOME Shell Mutter Development blog for GNOME Shell and Mutter Posted on August 11, 2026 by Tobias Bernard GNOME Shell Design Dreams The G",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content GNOME Shell Mutter Development blog for GNOME Shell and Mutter Posted on August 11, 2026 by Tobias Bernard GNOME Shell Design Dreams The GNOME Shell user interface has mostly seen minor refinements and quality of life updates in recent cycles, but on the design side we ve explored a"
+  }
+}

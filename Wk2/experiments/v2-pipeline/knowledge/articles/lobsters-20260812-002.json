@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260812-002",
+  "title": "My Anti AI computer",
+  "source_url": "https://punkx.org/jackdoe/home.html",
+  "summary": "My Anti AI computer｜HOME AWAY FROM HOME This is my anti AI computer, as in a place where tokens cant reach me, 2x pico 2040, one to drive the display and keyboard and one to drive",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "HOME AWAY FROM HOME This is my anti AI computer, as in a place where tokens cant reach me, 2x pico 2040, one to drive the display and keyboard and one to drive the floppy drive with pio, keyboard is artsey.io chords with 2 extra keys, the battery is 2x18650 3000mah, has about 24 hours life with disp"
+  }
+}

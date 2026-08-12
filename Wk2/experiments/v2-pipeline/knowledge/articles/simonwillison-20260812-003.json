@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260812-003",
+  "title": "datasette-upload-dbs 0.5a0",
+  "source_url": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
+  "summary": "datasette-upload-dbs 0.5a0｜Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette inst",
+  "tags": [
+    "deployment",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance. It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so /name starts serving the new one. The new release adds a formalized API, so you can replace an existing database (or add "
+  }
+}

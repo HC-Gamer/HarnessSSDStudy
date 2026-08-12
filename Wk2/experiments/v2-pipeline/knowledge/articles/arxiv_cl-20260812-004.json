@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260812-004",
+  "title": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs",
+  "source_url": "https://arxiv.org/abs/2608.09941",
+  "summary": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs｜arXiv:2608.09941v1 Announce Type: new Abstract: While 4-bit weight quantization is cri",
+  "tags": [
+    "rag",
+    "evaluation",
+    "deployment"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "arXiv:2608.09941v1 Announce Type: new Abstract: While 4-bit weight quantization is critical for deploying Small Language Models (SLMs) on edge devices, evaluations of the resulting performance degradation-the quantization tax-remain overwhelmingly English-centric. We present a zero-shot multilingual evaluation of 4-bit quantization across the Gemma 4 and Qwen 3.5 architectures. Evaluating on eight typo-logically diverse languages using MMLU ProX Lite and GlobalPIQA, we show parameter truncation "
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260812-010",
+  "title": "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding",
+  "source_url": "https://arxiv.org/abs/2608.11095v1",
+  "summary": "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding｜Agentic coding READMEs like CLAUDE.md grow without bound in real repositories, stopping only when the re",
+  "tags": [
+    "agent",
+    "prompt-engineering",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Agentic coding READMEs like CLAUDE.md grow without bound in real repositories, stopping only when the repository retires or someone rewrites the file wholesale. We trace this to imperfect recall: appending an instruction is always cheap, but once an instruction's rationale is gone, deleting it without risking a correctness regression costs O(2^|D|) in a prompt of |D| instructions. We name the resulting divergence catastrophic remembering, the inverse of catastrophic forgetting around which conti"
+  }
+}

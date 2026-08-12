@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260812-010",
+  "title": "Making holograms with a pen plotter",
+  "source_url": "https://blog.jordan.matelsky.com/Penplotter-holography/",
+  "summary": "Making holograms with a pen plotter｜Article URL: https://blog.jordan.matelsky.com/Penplotter-holography/ Comments URL: https://news.ycombinator.com/item?id=49262811 Points: 154 # C",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://blog.jordan.matelsky.com/Penplotter-holography/ Comments URL: https://news.ycombinator.com/item?id=49262811 Points: 154 # Comments: 16"
+  }
+}

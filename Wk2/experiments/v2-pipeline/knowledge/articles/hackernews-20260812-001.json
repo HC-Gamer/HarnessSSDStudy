@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260812-001",
+  "title": "LinkedIn CringeBot 3000",
+  "source_url": "https://www.cringebot3000.com/",
+  "summary": "LinkedIn CringeBot 3000｜Article URL: https://www.cringebot3000.com/ Comments URL: https://news.ycombinator.com/item?id=49268564 Points: 77 # Comments: 17",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.cringebot3000.com/ Comments URL: https://news.ycombinator.com/item?id=49268564 Points: 77 # Comments: 17"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260812-005",
+  "title": "The Human Is the Loop",
+  "source_url": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+  "summary": "The Human Is the Loop｜Article URL: https://brentfitzgerald.com/posts/the-human-is-the-loop/ Comments URL: https://news.ycombinator.com/item?id=49267108 Points: 92 # Comments: 34",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-12T09:04:03.438606+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://brentfitzgerald.com/posts/the-human-is-the-loop/ Comments URL: https://news.ycombinator.com/item?id=49267108 Points: 92 # Comments: 34"
+  }
+}
