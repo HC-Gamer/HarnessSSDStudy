@@ -1,0 +1,71 @@
+# RSS 数据源配置
+#
+# 字段说明:
+#   name:           源标识，用于日志与条目 ID 前缀
+#   url:            RSS / Atom feed 主地址
+#   fallback_urls:  主地址失败后依次尝试的备用地址（可选）
+#   enabled:        是否启用（false 时跳过采集）
+#   limit:          该源单次最多采集条数（可选，缺省用 CLI 的 --limit）
+#   tags:           该源的默认标签，会并入 AI 分析结果（可选）
+#
+# 注意：arXiv 主地址直接用 export.arxiv.org/api/query（Atom API），
+#       比 RSS 稳定得多。RSS 地址保留为 fallback。
+
+sources:
+  - name: hackernews
+    url: https://hnrss.org/frontpage
+    enabled: true
+    limit: 10
+    tags: [llm]
+
+  - name: lobsters
+    url: https://lobste.rs/rss
+    enabled: true
+    limit: 10
+    tags: [llm]
+
+  - name: arxiv_ai
+    # Atom API 比 RSS 稳定，优先使用
+    url: https://export.arxiv.org/api/query?search_query=cat:cs.AI&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending
+    fallback_urls:
+      - https://export.arxiv.org/rss/cs.AI
+      - https://rss.arxiv.org/rss/cs.AI
+    enabled: true
+    limit: 10
+    tags: [llm, reasoning]
+
+  - name: arxiv_cl
+    url: https://export.arxiv.org/api/query?search_query=cat:cs.CL&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending
+    fallback_urls:
+      - https://export.arxiv.org/rss/cs.CL
+      - https://rss.arxiv.org/rss/cs.CL
+    enabled: true
+    limit: 10
+    tags: [llm]
+
+  - name: huggingface_blog
+    url: https://huggingface.co/blog/feed
+    fallback_urls:
+      - https://huggingface.co/blog/feed.xml
+      - https://huggingface.co/papers/feed
+    enabled: true
+    limit: 10
+    tags: [llm, deployment]
+
+  - name: openai_news
+    url: https://openai.com/news/rss.xml
+    enabled: true
+    limit: 10
+    tags: [llm]
+
+  - name: simonwillison
+    url: https://simonwillison.net/atom/everything/
+    enabled: true
+    limit: 10
+    tags: [llm, tool-use]
+
+  - name: bair_blog
+    url: https://bair.berkeley.edu/blog/feed.xml
+    enabled: false   # 更新频率低，默认关闭
+    limit: 5
+    tags: [reasoning]

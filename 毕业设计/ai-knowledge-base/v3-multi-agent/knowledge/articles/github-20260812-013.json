@@ -1,0 +1,34 @@
+{
+  "id": "github-20260812-013",
+  "title": "khoj-ai/khoj",
+  "source": "github",
+  "source_url": "https://github.com/khoj-ai/khoj",
+  "summary": "Khoj 是一个自托管的 AI 第二大脑，旨在将个人文档、网页内容与多种 LLM（GPT、Claude、Gemini、Llama、Qwen、Mistral 等）集成，提供问答、深度研究、自动化任务和自定义 Agent 功能。它解决了个人知识管理中信息分散、检索低效的问题，通过连接本地或在线模型，使用户能够以自然语言查询自己的知识库，并支持定时自动化（如每日摘要、信息监控）。与同类工具（如 Rewind、Mem0）相比，Khoj 强调完全自托管、模型无关（可切换任意 LLM），并支持构建自定义 Agent 和深度研究流程，具有更高的灵活性和隐私控制。其核心优势在于将 RAG、Agent 编排和自动化调度整合在一个开源平台中，适合技术用户深度定制。",
+  "key_insight": "Khoj 将个人知识库与任意 LLM 解耦，通过自托管和 Agent 自动化，把 AI 从问答工具升级为主动工作的自主系统，是个人 AI 基础设施的典型代表。",
+  "tags": [
+    "self-hosted",
+    "rag",
+    "agents",
+    "automation",
+    "knowledge-management"
+  ],
+  "keywords": [
+    "self-hosted",
+    "rag",
+    "agents"
+  ],
+  "category": "agent",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "fetched_at": "2026-08-12T06:43:51.737548+00:00",
+  "analyzed_at": "2026-08-12T06:45:04.305513+00:00",
+  "published_at": null,
+  "metadata": {
+    "stars": 36458,
+    "language": "Python",
+    "author": "khoj-ai",
+    "upvotes": 0,
+    "comments": 0,
+    "collection_mode": "github"
+  }
+}

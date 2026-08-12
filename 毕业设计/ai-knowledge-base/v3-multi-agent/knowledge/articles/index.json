@@ -1,0 +1,306 @@
+[
+  {
+    "id": "github-20260812-001",
+    "title": "langgenius/dify",
+    "category": "agent",
+    "tags": [
+      "llm",
+      "agent",
+      "rag",
+      "workflow",
+      "opensource"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/langgenius/dify",
+    "collected_at": "2026-08-12T06:43:51.737481+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-002",
+    "title": "lobehub/lobehub",
+    "category": "agent",
+    "tags": [
+      "ai-agent",
+      "orchestration",
+      "workflow",
+      "open-source",
+      "multi-agent"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/lobehub/lobehub",
+    "collected_at": "2026-08-12T06:43:51.737490+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-003",
+    "title": "koala73/worldmonitor",
+    "category": "industry",
+    "tags": [
+      "ai-news",
+      "geopolitics",
+      "dashboard",
+      "real-time",
+      "monitoring"
+    ],
+    "relevance_score": 0.75,
+    "source_url": "https://github.com/koala73/worldmonitor",
+    "collected_at": "2026-08-12T06:43:51.737497+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-004",
+    "title": "bytedance/deer-flow",
+    "category": "agent",
+    "tags": [
+      "agent",
+      "long-horizon",
+      "sandbox",
+      "workflow",
+      "open-source"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/bytedance/deer-flow",
+    "collected_at": "2026-08-12T06:43:51.737503+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-005",
+    "title": "Leonxlnx/taste-skill",
+    "category": "llm",
+    "tags": [
+      "ai-content",
+      "style-control",
+      "personalization",
+      "llm",
+      "open-source"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/Leonxlnx/taste-skill",
+    "collected_at": "2026-08-12T06:43:51.737509+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-006",
+    "title": "hiyouga/LlamaFactory",
+    "category": "llm",
+    "tags": [
+      "fine-tuning",
+      "llm",
+      "lora",
+      "efficient",
+      "framework"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/hiyouga/LlamaFactory",
+    "collected_at": "2026-08-12T06:43:51.737514+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-007",
+    "title": "headroomlabs-ai/headroom",
+    "category": "llm",
+    "tags": [
+      "token-compression",
+      "context-optimization",
+      "mcp",
+      "rag",
+      "cost-reduction"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/headroomlabs-ai/headroom",
+    "collected_at": "2026-08-12T06:43:51.737519+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-008",
+    "title": "calesthio/OpenMontage",
+    "category": "agent",
+    "tags": [
+      "agent",
+      "video-production",
+      "open-source",
+      "workflow",
+      "multimodal"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/calesthio/OpenMontage",
+    "collected_at": "2026-08-12T06:43:51.737524+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-009",
+    "title": "jeecgboot/JeecgBoot",
+    "category": "tools",
+    "tags": [
+      "low-code",
+      "ai-agent",
+      "code-generation",
+      "rag",
+      "mcp"
+    ],
+    "relevance_score": 0.9,
+    "source_url": "https://github.com/jeecgboot/JeecgBoot",
+    "collected_at": "2026-08-12T06:43:51.737529+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-010",
+    "title": "pingcap/tidb",
+    "category": "industry",
+    "tags": [
+      "distributed-database",
+      "htap",
+      "vector-search",
+      "mysql-compatible",
+      "ai-infrastructure"
+    ],
+    "relevance_score": 0.75,
+    "source_url": "https://github.com/pingcap/tidb",
+    "collected_at": "2026-08-12T06:43:51.737534+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-011",
+    "title": "AstrBotDevs/AstrBot",
+    "category": "agent",
+    "tags": [
+      "ai-agent",
+      "llm",
+      "im-integration",
+      "plugin-framework",
+      "open-source"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/AstrBotDevs/AstrBot",
+    "collected_at": "2026-08-12T06:43:51.737538+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-012",
+    "title": "CopilotKit/CopilotKit",
+    "category": "agent",
+    "tags": [
+      "agent",
+      "generative-ui",
+      "react",
+      "frontend",
+      "protocol"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/CopilotKit/CopilotKit",
+    "collected_at": "2026-08-12T06:43:51.737543+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-013",
+    "title": "khoj-ai/khoj",
+    "category": "agent",
+    "tags": [
+      "self-hosted",
+      "rag",
+      "agents",
+      "automation",
+      "knowledge-management"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/khoj-ai/khoj",
+    "collected_at": "2026-08-12T06:43:51.737548+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-014",
+    "title": "reworkd/AgentGPT",
+    "category": "agent",
+    "tags": [
+      "autonomous-agent",
+      "browser-based",
+      "task-planning",
+      "gpt",
+      "open-source"
+    ],
+    "relevance_score": 0.9,
+    "source_url": "https://github.com/reworkd/AgentGPT",
+    "collected_at": "2026-08-12T06:43:51.737553+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-015",
+    "title": "continuedev/continue",
+    "category": "tools",
+    "tags": [
+      "coding-agent",
+      "ide-plugin",
+      "open-source",
+      "llm",
+      "developer-tools"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/continuedev/continue",
+    "collected_at": "2026-08-12T06:43:51.737557+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-016",
+    "title": "zeroclaw-labs/zeroclaw",
+    "category": "agent",
+    "tags": [
+      "ai-assistant",
+      "autonomous",
+      "infrastructure",
+      "privacy",
+      "modular"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "collected_at": "2026-08-12T06:43:51.737562+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-017",
+    "title": "e2b-dev/awesome-ai-agents",
+    "category": "agent",
+    "tags": [
+      "ai-agents",
+      "awesome-list",
+      "autonomous-agents",
+      "frameworks",
+      "resources"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/e2b-dev/awesome-ai-agents",
+    "collected_at": "2026-08-12T06:43:51.737567+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-018",
+    "title": "assafelovic/gpt-researcher",
+    "category": "agent",
+    "tags": [
+      "autonomous-agent",
+      "research",
+      "rag",
+      "llm",
+      "web-search"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/assafelovic/gpt-researcher",
+    "collected_at": "2026-08-12T06:43:51.737571+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-019",
+    "title": "alibaba/page-agent",
+    "category": "agent",
+    "tags": [
+      "llm",
+      "browser-automation",
+      "gui-agent",
+      "natural-language",
+      "dom"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/alibaba/page-agent",
+    "collected_at": "2026-08-12T06:43:51.737575+00:00",
+    "status": "draft"
+  }
+]

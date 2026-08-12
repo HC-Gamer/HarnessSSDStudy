@@ -1,0 +1,21 @@
+{
+  "total_cost_yuan": 0.019422,
+  "total_prompt_tokens": 7612,
+  "total_completion_tokens": 5905,
+  "total_calls": 21,
+  "budget_yuan": 1.0,
+  "usage_ratio": 0.0194,
+  "cost_by_node": {
+    "analyze": 0.016682,
+    "review": 0.00274
+  },
+  "calls_by_node": {
+    "analyze": 20,
+    "review": 1
+  },
+  "tokens_by_node": {
+    "analyze": 10971,
+    "review": 2546
+  },
+  "generated_at": "2026-08-12T14:45:04+0800"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "github-20260812-005",
+  "title": "Leonxlnx/taste-skill",
+  "source": "github",
+  "source_url": "https://github.com/Leonxlnx/taste-skill",
+  "summary": "Taste-Skill 是一个为 AI 生成内容注入“品味”的开源项目，旨在解决大模型输出千篇一律、缺乏个性与审美的问题。它通过引入可定制的“品味”技能层，让开发者能够为 AI 定义风格偏好、避免陈词滥调或低质量表达，从而生成更独特、更符合特定受众或场景的内容。与传统的提示词工程或微调不同，Taste-Skill 提供了一种轻量级、模块化的干预方式，无需重新训练模型即可调整输出风格。该项目在 GitHub 上获得 7.5 万星标，表明社区对 AI 内容个性化与质量提升的强烈需求。其核心价值在于将主观的“品味”转化为可编程的规则，填补了通用模型在审美多样性上的空白，适用于内容创作、营销文案、个性化助手等场景。",
+  "key_insight": "它将主观审美转化为可编程技能，为 AI 输出提供了一种轻量级的个性化质量过滤器，直击大模型内容同质化痛点。",
+  "tags": [
+    "ai-content",
+    "style-control",
+    "personalization",
+    "llm",
+    "open-source"
+  ],
+  "keywords": [
+    "ai-content",
+    "style-control",
+    "personalization"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "fetched_at": "2026-08-12T06:43:51.737509+00:00",
+  "analyzed_at": "2026-08-12T06:45:04.305406+00:00",
+  "published_at": null,
+  "metadata": {
+    "stars": 75565,
+    "language": "JavaScript",
+    "author": "Leonxlnx",
+    "upvotes": 0,
+    "comments": 0,
+    "collection_mode": "github"
+  }
+}

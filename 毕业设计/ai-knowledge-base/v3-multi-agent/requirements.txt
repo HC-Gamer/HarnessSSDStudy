@@ -1,0 +1,16 @@
+# AI 知识库 V3 依赖（Python 3.12）
+# 安装：pip install -r requirements.txt
+# 版本为 2026-08-12 本机实测通过的组合，全部钉死，避免 API 漂移。
+
+# --- 工作流编排 ---
+langgraph==1.2.11
+langgraph-checkpoint-sqlite==3.1.1
+
+# --- HTTP / 数据源 ---
+httpx==0.28.1
+PyYAML==6.0.3
+feedparser==6.0.14
+
+# --- 配置与测试 ---
+python-dotenv==1.2.2
+pytest==9.1.1
