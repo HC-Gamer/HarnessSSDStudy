@@ -4,50 +4,55 @@
 > 质量评分: 100/100（门槛 60，旧公式会给 100）
 > 评分轨迹: [100] | 重写次数: 0
 > 采集方式: real_rss | LLM 调用: 2 次
-> 走过的路径: search(real_rss) → analyze(normal) → quality_check(100) → organize
+> 走过的路径: search(real_rss) → validate_search(ok) → analyze(normal) → validate_analyze(ok) → quality_check(100) → organize
 
 ## 评分分项
 
 | 分项 | 值 |
 |------|-----|
-| 平均字数 | 124 |
+| 平均字数 | 145 |
 | 空洞用语命中 | 0 次  |
 | 具体性信号 | 8 个 |
 | 要点缺口 | 0 条 |
-| 原始分 → 最终分 | 104 → 100 |
+| 原始分 → 最终分 | 109 → 100 |
+
+## 段间校验
+
+| 段 | 结果 | 错误 | 警告 | 明细 |
+|----|:----:|:---:|:---:|------|
+| search | ✅ 通过 | 0 | 0 | — |
+| analyze | ✅ 通过 | 0 | 0 | — |
 
 ## 数据来源
 
-- https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference
-- https://simonwillison.net/2026/Aug/7/openai-timeline/
-- https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html
-- https://dbushell.com/2026/08/07/sublime-text/
-- https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413
-- https://www.macchaffee.com/blog/2026/am-i-the-problem/
+- https://gukov.dev/math/2026/08/02/new-magic-hexagons.html
+- https://github.com/jmarshall23/msword
+- http://longbets.org/601/
+- https://char.lt/blog/2026/08/talks-i-like/
+- https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers
+- https://www.andrewt.net/dithered-qr-codes/wtf/
 - https://arxiv.org/abs/2608.06377v1
 - https://arxiv.org/abs/2608.06366v1
 - https://arxiv.org/abs/2608.06364v1
 
 ## 摘要
 
-本次采集的9条技术内容覆盖LLM推理架构、AI安全事件、数据中心环保、开发者工具、开源社区治理及医学AI等多个方向。Red Hat文章提出CPU在LLM推理中角色回归，挑战传统CPU-GPU分工；Simon Willison详细梳理了OpenAI对Hugging Face的意外攻击时间线；纽约时报报道亚马逊新数据中心将配套美国污染最严重的电厂。Lobsters社区讨论了Sublime Text的独特价值、Nixpkgs核心团队解散及跨团队协作问题。arXiv两篇论文分别提出选择性上下文信任优化方法SC2W（含MIST基准）和针对心力衰竭的EHR特征工程管线，后者指出特征工程占数据科学家39-45%工作量。整体内容呈现硬件架构反思、社区治理波动与医疗AI效率提升三大趋势。
+本次采集覆盖 9 条真实技术 feed，涉及数学、软件移植、预测平台、编程观点、图像处理及两篇 arXiv AI 论文。核心内容包括：一篇证明所有阶数幻六边形存在的数学新成果；一个将 Microsoft Word for Windows 1.1a 原生移植到 x64 平台的开源项目（获 61 分、19 条评论）；Long Bets 平台一个 2011 年预测的 URL 将在 11 年后失效的讨论（获 137 分、55 条评论）；一篇推荐技术演讲的博客；一篇反驳『代码从来不是难点』观点的文章；以及一种抖动 QR 码生成技术。AI 方面，一篇论文提出 MIST 基准（含 4 种匹配条件）和 SC2W 配对指标以解决大模型选择性信任问题；另一篇指出 EHR 特征工程占用数据科学家 39-45% 工作量，并针对影响 670 万美国成人的心力衰竭提出证据链接式特征工程流水线。整体反映了数学、复古软件、预测平台、编程文化与 AI 可靠性的多元技术动态。
 
 ## 关键要点
 
-- Red Hat文章主张LLM推理中CPU作用被低估，通过重新分配CPU与GPU任务（例如KV缓存管理、调度）可降低延迟与成本，而非单纯依赖GPU扩展。
-- OpenAI对Hugging Face的意外攻击事件已有完整时间线，Simon Willison整理出攻击起点、影响范围与修复过程，对比社区响应速度与官方透明度，揭示AI供应链安全脆弱性。
-- 亚马逊新数据中心将配套全美污染最严重的电厂，其碳排放强度预计比普通天然气电厂高约30%，对比其他科技巨头的清洁能源承诺，引发对AI算力扩张环境代价的争议。
-- Nixpkgs核心团队解散事件反映开源治理困境，原因包括维护者倦怠与决策冲突，对比其他发行版（如Debian）的轮换机制，凸显可持续治理模式缺失。
-- arXiv论文提出SC2W方法，通过配对指标统计模型在误导信号下仍保持正确推理的比例，对比传统鲁棒性训练（忽略所有上下文）与选择性信任（保留有用上下文），在MIST基准上验证有效性。
+- 幻六边形研究证明所有阶数均存在，例如此前仅知 1 阶和 2 阶，新成果推广到任意阶，属于纯数学突破。
+- Microsoft Word 1.1a 的 x64 原生移植项目（GitHub 61 分、19 评论）展示了对 30 多年前二进制代码的逆向工程与重编译技术，对比传统模拟器方案，原生移植可显著提升兼容性和性能。
+- Long Bets 平台一个 2011 年预测的原始 URL 将在 11 年后失效（获 137 分、55 评论），对比 2011 年互联网链接的半衰期，引发对数字内容长期可访问性的讨论。
+- MIST 基准将每个推理项置于 4 种匹配条件（干净、误导、正确上下文、无关上下文）下，并配 SC2W 配对指标，用于量化模型在误导信号下保持正确、同时在可信上下文下不忽略信号的频率，解决『忽略一切上下文』的失败模式。
+- 心力衰竭 EHR 特征工程占用数据科学家 39-45% 工作量，影响 670 万美国成人，论文提出证据链接式流水线，对比现有规则方法和 LLM 方法，强调融合指南化临床推理以降低瓶颈。
 
 ## 正文
 
-上周我在恢复一个跨进程的 SQLite 会话时踩了坑：主进程写 WAL，辅助进程读，结果 checkpointer 死活不触发。查了半天，问题出在 `wal_autocheckpoint` 只对**同一连接**生效。SQLite 的 WAL 模式本质上是共享内存文件，但 checkpointer 的调度逻辑绑定在 `sqlite3_wal_checkpoint_v2()` 的调用者线程上，跨进程时没有任何后台线程帮你干活。
+这周的技术雷达上，最吸引我的不是某个新框架，而是一个关于“过去”的新闻：有人把 1990 年的 Microsoft Word 1.1a 原生移植到了 x64 平台。这比跑个模拟器酷多了——逆向工程三十多年前的二进制，重新编译，让它在新硬件上跑得飞起。这让我想到，我们对“兼容”的理解往往太肤浅，模拟器只是画皮，原生移植才是换骨。这背后是对底层指令集和系统调用极致的理解，是真正的硬核浪漫。
 
-要验证这个行为，最干净的办法是开两个进程，一个持续写，另一个只调 `PRAGMA wal_checkpoint(PASSIVE)`。你会发现 `PASSIVE` 在 WAL 文件超过 `wal_autocheckpoint` 阈值时，**不会主动刷脏页**——它只检查是否有空闲帧可回收，而 `TRUNCATE` 模式才会强制截断。但 `TRUNCATE` 会阻塞写者，所以生产环境一般用 `RESTART` 或 `PASSIVE` 配合 `busy_timeout`。
+但浪漫之外，也有隐忧。Long Bets 平台上一条 2011 年的预测，其原始链接在 11 年后失效了。这像一记闷棍，提醒我们数字内容的寿命可能比我们想象的更短。当我们把知识、论证甚至历史都寄托在易腐的 URL 上时，我们是否在构建一座沙堡？
 
-更隐蔽的是 `SQLITE_CHECKPOINT_FULL` 与 `RESTART` 的区别：`FULL` 会等待所有读事务结束，但不清空 WAL；`RESTART` 则要求**没有任何活跃读事务**，否则返回 `SQLITE_BUSY`。跨进程场景下，如果辅助进程持有读游标，你的 checkpoint 调用就会卡死或静默失败。
+目光拉回当下，AI 领域的两篇论文都在试图解决“信任”与“效率”的痛点。MIST 基准的提出，直指大模型“无脑忽略上下文”或“被误导信息带偏”的二元困境，通过 SC2W 指标量化模型在干扰下的稳健性，这比单纯刷准确率有意义得多。另一篇关于心力衰竭的研究则更接地气：EHR 特征工程居然要占用 39-45% 的数据科学家工作量，这简直是人力黑洞。论文提出的证据链接式流水线，试图将临床指南的推理逻辑嵌入特征工程，这不只是省时间，更是把医学知识沉淀为可复用的工程资产。
 
-我的建议是：**不要依赖自动 checkpoint，显式调用**。在写进程里定期执行 `wal_checkpoint(TRUNCATE)`，并且用 `sqlite3_busy_handler` 处理 `SQLITE_BUSY`，而不是盲目重试。另外，`PRAGMA wal_autocheckpoint=0` 关闭自动模式，把控制权完全交给业务层。这样虽然代码多几行，但跨进程的 WAL 增长和锁竞争都能可视化监控。
-
-最后提醒一句：`-shm` 和 `-wal` 文件的权限必须对多进程可读写，否则 checkpointer 会直接报 `SQLITE_IOERR`，这是所有跨进程方案里最容易踩的坑。
+我们总在追逐新的 SOTA，但真正的进步往往在于：让旧系统在新环境里重生，让新模型在干扰下保持清醒，让数据科学家从繁复的“搬砖”中解脱出来，去做那些更有创造性的工作。这周的 feed 就像一面镜子，照出了技术的过去、现在，以及我们该有的下一步。

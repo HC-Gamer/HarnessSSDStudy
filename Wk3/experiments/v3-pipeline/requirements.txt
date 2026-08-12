@@ -1,0 +1,6 @@
+# V3 管线的直接依赖。传递依赖不钉（编码规范 §1.1）。
+langgraph==1.2.9
+langgraph-checkpoint-sqlite==3.1.1
+httpx==0.28.1
+pyyaml==6.0.3
+python-dotenv==1.2.2

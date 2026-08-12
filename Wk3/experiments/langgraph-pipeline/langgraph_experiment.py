@@ -29,6 +29,7 @@ LangGraph 状态图方案（共享状态 + 条件路由 + 质量反馈循环）�
     python langgraph_experiment.py all         # 全部
     python langgraph_experiment.py main        # 3 个主实验（真实采集）
     python langgraph_experiment.py lowq        # 低质量样本注入
+    python langgraph_experiment.py validation  # 段间 schema 校验（好/坏样本）
     python langgraph_experiment.py breaker     # 3 次上限熔断
     python langgraph_experiment.py checkpoint  # MemorySaver 中断恢复
     python langgraph_experiment.py sqlite      # SQLite checkpointer 跨进程
@@ -70,6 +71,7 @@ from pipeline.model_client import LLMError, quick_chat
 import pipeline.model_client as mc
 
 import rss_collector
+import validate
 from quality import QUALITY_THRESHOLD, QualityBreakdown, legacy_score, score_quality
 
 # ── LangGraph ─────────────────────────────────────────────────────
@@ -114,8 +116,10 @@ class PipelineState(TypedDict):
     entry_mode: str  # "full" = 从 search 开始；"quality_only" = 直接进质量门禁
     analyze_style: str  # "normal" | "terse"（terse 用欠约束 prompt，制造低质产出）
     sabotage_rewrite: bool  # True 时 rewrite 故意不改好，用于验证 3 次上限熔断
+    sabotage_analyze: str  # 非空时 analyze 直接产出指定的坏形态，用于验证段间校验
     use_real_rss: bool  # True 时抓真实 RSS，失败降级为 LLM 模拟
     max_rewrites: int  # 重写次数上限（熔断阈值）
+    rss_limit: int  # 每个 RSS 源取几条（v3-pipeline 的 --limit 经此传入）
 
     # Collector 产出
     raw_content: str  # 原始采集内容
@@ -140,6 +144,10 @@ class PipelineState(TypedDict):
     should_rewrite: bool  # 是否需要重写
     circuit_broken: bool  # 是否因触顶 max_rewrites 而强制放行
 
+    # 段间校验（任务 2）
+    validation_failed: bool  # 任一段校验不过时置 True，图走向 abort 而非 organize
+    validation_log: Annotated[list[dict[str, Any]], operator.add]  # 每次校验的完整记录
+
     # 统计与轨迹
     tokens_used: int  # 累计 Token 消耗（Bug #5 修复：真的会被写）
     call_count: int  # LLM 调用次数
@@ -154,8 +162,10 @@ def make_initial_state(
     entry_mode: str = "full",
     analyze_style: str = "normal",
     sabotage_rewrite: bool = False,
+    sabotage_analyze: str = "",
     use_real_rss: bool = True,
     max_rewrites: int = 3,
+    rss_limit: int = 3,
     summary: str = "",
     key_points: list[str] | None = None,
     raw_content: str = "",
@@ -168,8 +178,11 @@ def make_initial_state(
             直接把预置的 summary/key_points 送进质量门禁（低质量注入用）。
         analyze_style: ``normal`` 或 ``terse``（欠约束 prompt）。
         sabotage_rewrite: True 时 rewrite 节点故意不改好，验证熔断。
+        sabotage_analyze: 非空时 analyze 节点跳过 LLM 直接产出指定坏形态，
+            取值见 :data:`SABOTAGED_ANALYZE_OUTPUTS`，用于验证段间校验。
         use_real_rss: 是否抓真实 RSS。
         max_rewrites: 重写次数上限。
+        rss_limit: 每个 RSS 源取几条。
         summary: 预置摘要（entry_mode=quality_only 时使用）。
         key_points: 预置要点。
         raw_content: 预置原始内容。
@@ -182,8 +195,10 @@ def make_initial_state(
         entry_mode=entry_mode,
         analyze_style=analyze_style,
         sabotage_rewrite=sabotage_rewrite,
+        sabotage_analyze=sabotage_analyze,
         use_real_rss=use_real_rss,
         max_rewrites=max_rewrites,
+        rss_limit=rss_limit,
         raw_content=raw_content,
         sources=[],
         collection_mode="none",
@@ -197,6 +212,8 @@ def make_initial_state(
         rewrite_count=0,
         should_rewrite=False,
         circuit_broken=False,
+        validation_failed=False,
+        validation_log=[],
         tokens_used=0,
         call_count=0,
         degraded_calls=0,
@@ -358,6 +375,24 @@ ANALYZE_PROMPTS: dict[str, str] = {
 }
 
 
+#: ``sabotage_analyze`` 的取值 → analyze 直接返回的坏产出。
+#: 三种形态都取自真实故障：LLM 返回空、JSON 结构不对、内容合法但极差。
+SABOTAGED_ANALYZE_OUTPUTS: dict[str, dict[str, Any]] = {
+    "empty_summary": {
+        "summary": "   ",
+        "key_points": ["要点一", "要点二"],
+    },
+    "bad_key_points": {
+        "summary": "摘要本身是好的，问题出在下面的要点数组里，模型把对象塞进了本该是字符串的位置。",
+        "key_points": [{"text": "模型返回了 dict 而不是 str"}, 42, None],
+    },
+    "low_quality": {
+        "summary": "介绍了一些情况。",
+        "key_points": ["有进展", "后续观察"],
+    },
+}
+
+
 def search_node(state: PipelineState) -> dict[str, Any]:
     """Node 1: 采集。
 
@@ -376,7 +411,8 @@ def search_node(state: PipelineState) -> dict[str, Any]:
 
     if state.get("use_real_rss", True):
         try:
-            entries = rss_collector.collect(max_sources=3, per_source=3)
+            per_source = max(1, int(state.get("rss_limit", 3) or 3))
+            entries = rss_collector.collect(max_sources=3, per_source=per_source)
         except Exception as exc:  # noqa: BLE001 - 采集层任何异常都应降级而非中断实验
             logger.warning("[search_node] 真实采集异常，降级: %s", exc)
             entries = []
@@ -443,6 +479,19 @@ def analyze_node(state: PipelineState) -> dict[str, Any]:
         partial state 更新。
     """
     style = state.get("analyze_style", "normal")
+
+    sabotage = state.get("sabotage_analyze", "")
+    if sabotage:
+        # 段间校验实验用：跳过 LLM，直接产出指定的坏形态。不花钱，完全可复现。
+        payload = SABOTAGED_ANALYZE_OUTPUTS.get(sabotage)
+        if payload is None:
+            raise ValueError(
+                f"未知的 sabotage_analyze 取值: {sabotage!r}，"
+                f"可选 {sorted(SABOTAGED_ANALYZE_OUTPUTS)}"
+            )
+        logger.warning("[analyze_node] ⚠️ sabotage 模式 %s：直接产出坏样本（不调 LLM）", sabotage)
+        return {**payload, "path": [f"analyze(sabotage:{sabotage})"]}
+
     logger.info(
         "[analyze_node] 分析原始内容 (%d chars, style=%s)",
         len(state.get("raw_content", "")),
@@ -475,6 +524,110 @@ def analyze_node(state: PipelineState) -> dict[str, Any]:
         "call_count": state.get("call_count", 0) + 1,
         "tokens_used": state.get("tokens_used", 0) + result.tokens,
         "path": [f"analyze({style})"],
+    }
+
+
+def _run_segment_validation(
+    segment: str,
+    state: PipelineState,
+    checker: Any,
+) -> dict[str, Any]:
+    """跑一次段间校验并生成 partial state 更新。
+
+    这是任务 2 的核心：**校验不过时图必须终止**，不能把坏数据静默传给下游。
+    `opencode-subagent-v1/RUN_REPORT.md` 记录的失败链条正是这样开始的——
+    analyzer 少给了一个字段，没人拦，organizer 就自己编了一个填上去。
+
+    Args:
+        segment: 段名，写进日志与 ``validation_log``。
+        state: 当前 state。
+        checker: :mod:`validate` 里的校验函数，签名 ``(state) -> ValidationResult``。
+
+    Returns:
+        partial state 更新（含 ``validation_failed`` 路由信号）。
+    """
+    passed, errors, warnings = checker(state)
+
+    record = {
+        "segment": segment,
+        "passed": passed,
+        "errors": errors,
+        "warnings": warnings,
+    }
+
+    if passed:
+        logger.info("[validate_%s] ✅ 通过（%d 条警告）", segment, len(warnings))
+    else:
+        logger.error("[validate_%s] ❌ 未通过，%d 条硬错误：", segment, len(errors))
+        for message in errors:
+            logger.error("[validate_%s]    ✗ %s", segment, message)
+    for message in warnings:
+        logger.warning("[validate_%s]    ⚠ %s", segment, message)
+
+    return {
+        "validation_failed": not passed,
+        "validation_log": [record],
+        "path": [f"validate_{segment}({'ok' if passed else 'FAIL'})"],
+    }
+
+
+def validate_search_node(state: PipelineState) -> dict[str, Any]:
+    """Node: ``search`` → ``analyze`` 之间的段间校验。
+
+    Args:
+        state: 当前 state。
+
+    Returns:
+        partial state 更新。
+    """
+    return _run_segment_validation("search", state, validate.validate_search_segment)
+
+
+def validate_analyze_node(state: PipelineState) -> dict[str, Any]:
+    """Node: ``analyze`` → ``quality_check`` 之间的段间校验。
+
+    注意校验与门禁的分工：本节点只管**结构**（字段在不在、类型对不对），
+    内容好不好交给 ``quality_check_node``。所以「摘要太短」在这里只是警告——
+    在门禁之前就终止的话，rewrite 回路永远没机会跑。
+
+    Args:
+        state: 当前 state。
+
+    Returns:
+        partial state 更新。
+    """
+    return _run_segment_validation("analyze", state, validate.validate_analyze_segment)
+
+
+def abort_node(state: PipelineState) -> dict[str, Any]:
+    """Node: 校验失败的终止节点。
+
+    不产出文章，只把失败原因写进 ``article_body`` 供报告引用。
+    与「熔断放行」的区别：熔断是**质量**不达标但结构完好，放行并标注；
+    这里是**结构**坏了，坏数据一旦下传就会被下游当成合法输入去补全，必须停。
+
+    Args:
+        state: 当前 state。
+
+    Returns:
+        partial state 更新。
+    """
+    failures = [r for r in state.get("validation_log", []) if not r["passed"]]
+    lines = [
+        f"- [{r['segment']}] {msg}"
+        for r in failures
+        for msg in r["errors"]
+    ]
+    logger.error("[abort_node] 段间校验未通过，图终止，未产出文章")
+
+    return {
+        "article_title": f"⛔ 校验失败：{state['topic']}",
+        "article_body": (
+            "> 本次运行在段间 schema 校验处终止，**没有产出文章**。\n"
+            "> 这是预期行为：坏数据下传会被下游当成合法输入去「补全」。\n\n"
+            "失败原因：\n\n" + ("\n".join(lines) or "- （无明细）")
+        ),
+        "path": ["abort"],
     }
 
 
@@ -713,6 +866,36 @@ def entry_route(state: PipelineState) -> Literal["search", "analyze", "quality_c
     return "search"
 
 
+def after_validate_search(state: PipelineState) -> Literal["analyze", "abort"]:
+    """段间校验条件边：search 段校验过了才继续到 analyze。
+
+    Args:
+        state: 当前 state。
+
+    Returns:
+        下一个节点名。
+    """
+    if state.get("validation_failed", False):
+        logger.error("→ 路由到 abort（search 段校验未通过，拒绝把坏数据传给 analyze）")
+        return "abort"
+    return "analyze"
+
+
+def after_validate_analyze(state: PipelineState) -> Literal["quality_check", "abort"]:
+    """段间校验条件边：analyze 段校验过了才继续到质量门禁。
+
+    Args:
+        state: 当前 state。
+
+    Returns:
+        下一个节点名。
+    """
+    if state.get("validation_failed", False):
+        logger.error("→ 路由到 abort（analyze 段校验未通过，拒绝把坏数据传给门禁）")
+        return "abort"
+    return "quality_check"
+
+
 def decide_route(state: PipelineState) -> Literal["rewrite", "organize"]:
     """条件边 —— 根据 quality_check 的结果选择路径。
 
@@ -742,20 +925,34 @@ def decide_route(state: PipelineState) -> Literal["rewrite", "organize"]:
 def build_pipeline_graph() -> StateGraph:
     """构建 LangGraph StateGraph。
 
-    图结构（修复后）::
+    图结构（加入段间校验后）::
 
-        START ─┬─ (full) ────────► search → analyze ─┐
-               └─ (quality_only) ───────────────────►┴► quality_check
-                                                         │
-                            ┌────────────────────────────┤ decide_route
-                            │                            │
-                            ▼ (score < 60 且未触顶)       ▼ (通过 / 熔断)
-                        rewrite ─────► quality_check   organize → END
-                                (回边指向门禁，不再回 analyze)
+        START ─┬─ (full) ──► search → validate_search ─┬─(FAIL)─► abort → END
+               │                                       └─(ok)──► analyze ─┐
+               ├─ (analyze_only) ──────────────────────────────► analyze ─┤
+               │                                                          ▼
+               │                                              validate_analyze
+               │                                         ┌────────┴────────┐
+               │                                    (FAIL)▼                ▼(ok)
+               │                                       abort → END         │
+               └─ (quality_only) ──────────────────────────────────────────┤
+                                                                            ▼
+                                                                      quality_check
+                                             ┌──────────────────────────────┤ decide_route
+                                             ▼ (score < 60 且未触顶)         ▼ (通过 / 熔断)
+                                         rewrite ─────► quality_check    organize → END
+                                                  (回边指向门禁，不再回 analyze)
 
-    与首版的差异：回边从 ``rewrite → analyze`` 改为 ``rewrite → quality_check``。
-    首版回边会让 analyze 从 raw_content 从头重算，把 rewrite 的改进产出覆盖掉，
-    真正生效的只有 rewrite_count 计数器（EXPERIMENT_REPORT.md 已知问题 #2）。
+    两处历史差异：
+
+    * 回边从 ``rewrite → analyze`` 改为 ``rewrite → quality_check``。首版回边会让
+      analyze 从 raw_content 从头重算，把 rewrite 的改进产出覆盖掉，真正生效的只有
+      rewrite_count 计数器（EXPERIMENT_REPORT.md 已知问题 #2）。
+    * 新增 ``validate_search`` / ``validate_analyze`` 两个段间校验节点与 ``abort``
+      终止节点（任务 2）。校验不过就终止，不静默传坏数据。
+
+    ``quality_only`` 入口**故意绕过 analyze 段校验**——它注入的就是预置低质样本，
+    正是要让门禁去处理，不该在校验节点被拦。
 
     Returns:
         未 compile 的 StateGraph builder。
@@ -763,10 +960,13 @@ def build_pipeline_graph() -> StateGraph:
     builder = StateGraph(PipelineState)
 
     builder.add_node("search", search_node)
+    builder.add_node("validate_search", validate_search_node)
     builder.add_node("analyze", analyze_node)
+    builder.add_node("validate_analyze", validate_analyze_node)
     builder.add_node("quality_check", quality_check_node)
     builder.add_node("rewrite", rewrite_node)
     builder.add_node("organize", organize_node)
+    builder.add_node("abort", abort_node)
 
     # 入口条件边 —— 支持「注入预置低质样本」的旁路入口
     builder.add_conditional_edges(
@@ -775,8 +975,21 @@ def build_pipeline_graph() -> StateGraph:
         {"search": "search", "analyze": "analyze", "quality_check": "quality_check"},
     )
 
-    builder.add_edge("search", "analyze")
-    builder.add_edge("analyze", "quality_check")
+    # 段间校验 1：search → analyze
+    builder.add_edge("search", "validate_search")
+    builder.add_conditional_edges(
+        "validate_search",
+        after_validate_search,
+        {"analyze": "analyze", "abort": "abort"},
+    )
+
+    # 段间校验 2：analyze → quality_check
+    builder.add_edge("analyze", "validate_analyze")
+    builder.add_conditional_edges(
+        "validate_analyze",
+        after_validate_analyze,
+        {"quality_check": "quality_check", "abort": "abort"},
+    )
 
     # 质量门禁的条件边 —— LangGraph 独有
     builder.add_conditional_edges(
@@ -789,6 +1002,7 @@ def build_pipeline_graph() -> StateGraph:
     builder.add_edge("rewrite", "quality_check")
 
     builder.add_edge("organize", END)
+    builder.add_edge("abort", END)
 
     return builder
 
@@ -844,6 +1058,18 @@ def run_graph(
     logger.info("完成 %s | 耗时 %.1fs", label, elapsed)
     logger.info("路径: %s", " → ".join(final_state.get("path", [])))
     logger.info("评分轨迹: %s", final_state.get("score_history", []))
+    checks = final_state.get("validation_log", [])
+    if checks:
+        logger.info(
+            "段间校验: %s",
+            " | ".join(
+                f"{r['segment']}={'ok' if r['passed'] else 'FAIL'}"
+                f"({len(r['errors'])}错/{len(r['warnings'])}警)"
+                for r in checks
+            ),
+        )
+    if final_state.get("validation_failed"):
+        logger.error("⛔ %s 因段间校验失败终止，无文章产出", label)
     logger.info(
         "LLM 调用 %d 次 | token %d | 成本 ¥%.4f | 降级 %d 次",
         final_state.get("call_count", 0),
@@ -885,6 +1111,8 @@ def summarize_result(
         "score_history": state.get("score_history", []),
         "rewrite_count": state.get("rewrite_count", 0),
         "circuit_broken": state.get("circuit_broken", False),
+        "validation_failed": state.get("validation_failed", False),
+        "validation_log": state.get("validation_log", []),
         "path": state.get("path", []),
         "llm_calls": state.get("call_count", 0),
         "degraded_calls": state.get("degraded_calls", 0),
@@ -910,6 +1138,14 @@ def write_article(slug: str, state: dict[str, Any]) -> Path:
     path = RESULTS_DIR / f"{slug}.md"
 
     breakdown = state.get("quality_breakdown", {})
+    checks = state.get("validation_log", [])
+    check_rows = "\n".join(
+        f"| {r['segment']} | {'✅ 通过' if r['passed'] else '❌ 拦截'} | "
+        f"{len(r['errors'])} | {len(r['warnings'])} | "
+        f"{'；'.join(r['errors'] + r['warnings'])[:120] or '—'} |"
+        for r in checks
+    ) or "| —（本次未经过校验节点） | | | | |"
+
     content = f"""# {state.get('article_title', '')}
 
 > 主题: {state.get('topic', '')}
@@ -927,6 +1163,12 @@ def write_article(slug: str, state: dict[str, Any]) -> Path:
 | 具体性信号 | {breakdown.get('good_hits', 0)} 个 |
 | 要点缺口 | {breakdown.get('shortfall', 0)} 条 |
 | 原始分 → 最终分 | {breakdown.get('raw_score', 0)} → {breakdown.get('score', 0)} |
+
+## 段间校验
+
+| 段 | 结果 | 错误 | 警告 | 明细 |
+|----|:----:|:---:|:---:|------|
+{check_rows}
 
 ## 数据来源
 
@@ -1063,6 +1305,92 @@ def exp_circuit_breaker() -> list[dict[str, Any]]:
     }
     logger.info("[breaker] 断言: %s", json.dumps(result["assertions"], ensure_ascii=False))
     return [result]
+
+
+#: 段间校验的注入样本：(标签, 说明, state 覆盖项, 期望是否被拦)
+#: 全部走 ``analyze_only`` 入口，因为要验的是 analyze → quality_check 这一段的校验。
+#: 坏样本用 ``sabotage_analyze`` 直接改写 analyze 的产出，不调 LLM，所以这组实验近乎免费。
+VALIDATION_SAMPLES: tuple[tuple[str, str, dict[str, Any], bool], ...] = (
+    (
+        "valid-good",
+        "结构完好的正常产出，应放行到门禁",
+        {},
+        False,
+    ),
+    (
+        "valid-empty-summary",
+        "analyze 交出空摘要（LLM 返回空 / JSON 解析失败的真实形态）",
+        {"sabotage_analyze": "empty_summary"},
+        True,
+    ),
+    (
+        "valid-bad-keypoints",
+        "key_points 元素不是字符串（模型把 dict 塞进了数组）",
+        {"sabotage_analyze": "bad_key_points"},
+        True,
+    ),
+    (
+        "valid-low-quality",
+        "结构合法但内容极差——校验应放行，交给质量门禁去 rewrite",
+        {"sabotage_analyze": "low_quality"},
+        False,
+    ),
+)
+
+
+def exp_validation() -> list[dict[str, Any]]:
+    """段间 schema 校验实验：坏数据被拦、好数据放行、低质数据交给门禁。
+
+    三条要验的性质：
+
+    1. 结构坏的产出**在校验节点就终止**，不会流到 quality_check / organize
+    2. 结构好的产出正常放行
+    3. 「结构合法但内容差」不被校验拦——那是质量门禁的活，两者职责不重叠
+
+    第 3 条是这组实验最容易被写错的地方：如果校验节点顺手把低质产出也拦了，
+    rewrite 回路就永远没机会跑，Wk3 前半周做的质量控制会被这次改动废掉。
+
+    Returns:
+        结果列表（含断言）。
+    """
+    raw_content = (
+        "# 研究主题: 段间 schema 校验\n"
+        "# 采集方式: 预置素材（本实验不验采集）\n\n"
+        + "LangGraph 的节点之间靠共享 state 传值，没有任何一处天然的类型边界。" * 6
+    )
+
+    results: list[dict[str, Any]] = []
+    for slug, note, overrides, expect_blocked in VALIDATION_SAMPLES:
+        initial = make_initial_state(
+            "段间 schema 校验验证",
+            entry_mode="analyze_only",
+            raw_content=raw_content,
+            use_real_rss=False,
+        )
+        initial.update(overrides)  # type: ignore[typeddict-item]
+
+        state, elapsed, meter = run_graph(initial, label=slug)
+        write_article(slug, state)
+
+        blocked = bool(state.get("validation_failed"))
+        result = summarize_result(slug, state, elapsed, meter)
+        result["note"] = note
+        result["assertions"] = {
+            "expected_blocked": expect_blocked,
+            "actually_blocked": blocked,
+            "matches_expectation": blocked == expect_blocked,
+            "reached_organize": "organize" in state.get("path", []),
+            "reached_abort": "abort" in state.get("path", []),
+            "quality_check_ran": any(
+                p.startswith("quality_check") for p in state.get("path", [])
+            ),
+        }
+        logger.info("[%s] 断言: %s", slug, json.dumps(result["assertions"], ensure_ascii=False))
+        results.append(result)
+
+    passed = sum(1 for r in results if r["assertions"]["matches_expectation"])
+    logger.info("[validation] %d/%d 个样本符合预期", passed, len(results))
+    return results
 
 
 def exp_checkpoint_recovery() -> list[dict[str, Any]]:
@@ -1484,9 +1812,9 @@ def exp_v1_vs_v3() -> dict[str, Any]:
         {
             "维度": "拓扑",
             "V1/normal": "线性链 3 节点",
-            "V3/normal": "有向图 5 节点 +2 条件边 +1 回边",
+            "V3/normal": "有向图 8 节点 +4 条件边 +1 回边",
             "V1/terse": "线性链 3 节点",
-            "V3/terse": "有向图 5 节点 +2 条件边 +1 回边",
+            "V3/terse": "有向图 8 节点 +4 条件边 +1 回边",
         },
         {
             "维度": "中间产物",
@@ -1565,7 +1893,7 @@ def print_summary(payload: dict[str, Any]) -> None:
     print("=" * 78)
 
     rows: list[dict[str, Any]] = []
-    for group in ("main", "low_quality", "circuit_breaker", "checkpoint", "sqlite"):
+    for group in ("main", "low_quality", "validation", "circuit_breaker", "checkpoint", "sqlite"):
         rows.extend(payload.get(group, []) or [])
 
     print(f"  {'实验':<22}{'质量':>6}{'旧公式':>7}{'重写':>5}{'调用':>5}{'Token':>8}{'成本¥':>9}{'耗时s':>7}")
@@ -1613,7 +1941,7 @@ def main(argv: list[str] | None = None) -> int:
         "suite",
         nargs="?",
         default="all",
-        choices=["all", "main", "lowq", "breaker", "checkpoint", "sqlite", "v1v3"],
+        choices=["all", "main", "lowq", "validation", "breaker", "checkpoint", "sqlite", "v1v3"],
         help="要跑哪一组实验",
     )
     args = parser.parse_args(argv)
@@ -1629,6 +1957,8 @@ def main(argv: list[str] | None = None) -> int:
         payload["main"] = exp_main()
     if args.suite in ("all", "lowq"):
         payload["low_quality"] = exp_low_quality()
+    if args.suite in ("all", "validation"):
+        payload["validation"] = exp_validation()
     if args.suite in ("all", "breaker"):
         payload["circuit_breaker"] = exp_circuit_breaker()
     if args.suite in ("all", "checkpoint"):

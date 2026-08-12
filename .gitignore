@@ -7,3 +7,7 @@ secrets.env
 .venv/
 __pycache__/
 *.pyc
+
+# 课件 PDF（版权，不入库）
+Wk*/courseware/
+**/courseware/

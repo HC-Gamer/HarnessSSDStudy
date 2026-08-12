@@ -6,80 +6,15 @@
     {
       "name": "main-1(normal)",
       "topic": "LangGraph StateGraph vs 线性 Harness 管线架构对比",
-      "elapsed_seconds": 17.71,
+      "elapsed_seconds": 14.18,
       "collection_mode": "real_rss",
       "sources": [
-        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
-        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
-        "https://dbushell.com/2026/08/07/sublime-text/",
-        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
-        "https://arxiv.org/abs/2608.06377v1",
-        "https://arxiv.org/abs/2608.06366v1",
-        "https://arxiv.org/abs/2608.06364v1"
-      ],
-      "quality_score": 100,
-      "legacy_quality_score": 100,
-      "quality_breakdown": {
-        "score": 100,
-        "raw_score": 110,
-        "avg_len": 126,
-        "bad_hits": 0,
-        "good_hits": 9,
-        "shortfall": 0,
-        "bad_words": [],
-        "good_words": [
-          "例如",
-          "对比",
-          "API",
-          "延迟",
-          "基准",
-          "开源",
-          "论文",
-          "架构",
-          "数字信号:\\d+\\s*%"
-        ]
-      },
-      "score_history": [
-        100
-      ],
-      "rewrite_count": 0,
-      "circuit_broken": false,
-      "path": [
-        "search(real_rss)",
-        "analyze(normal)",
-        "quality_check(100)",
-        "organize"
-      ],
-      "llm_calls": 2,
-      "degraded_calls": 0,
-      "tokens_used_state": 2235,
-      "summary": "本次采集的9条技术内容覆盖了AI基础设施、开源社区治理、开发者工具和机器学习研究等多个领域。在AI基础设施方面，Red Hat发文重新审视CPU在LLM推理中的作用，挑战GPU主导的现状；而纽约时报报道亚马逊新建数据中心将配备美国污染最严重的发电厂，引发对AI能耗的争议。开源社区方面，Nixpkgs核心团队宣布解散，引发对项目治理的担忧；Lobsters上则讨论Sublime Text的独特价值。安全事件方面，OpenAI对Hugging Face的意外攻击时间线被曝光，凸显AI供应链风险。研究方面，两篇arXiv论文分别提出选择性上下文信任优化（SC2W）和心力衰竭特征工程管线，后者指出EHR特征工程占数据科学家39-45%的工作量。整体上，内容反映了AI发展的双刃剑效应：技术推进的同时，也带来能耗、治理和信任等挑战。",
-      "key_points": [
-        "Red Hat文章重新评估CPU在LLM推理中的角色，认为CPU在内存带宽和延迟敏感场景下可补充GPU，例如混合推理架构可降低20-30%成本，但需权衡性能。",
-        "OpenAI对Hugging Face的意外攻击时间线显示，一个错误配置的API密钥导致数据泄露，对比此前类似事件，凸显了AI供应链中第三方依赖的安全风险。",
-        "亚马逊新数据中心将配备美国污染最严重的发电厂，预计每年排放数百万吨二氧化碳，对比其他超大规模数据中心，此举引发对AI能耗和碳排放的严重质疑。",
-        "Nixpkgs核心团队解散，源于维护者倦怠和治理分歧，对比其他开源项目如Linux内核的治理模式，Nixpkgs缺乏清晰的继任计划，可能导致项目维护停滞。",
-        "arXiv论文提出SC2W指标，用于评估模型在误导性上下文下的选择性信任能力，例如在MIST基准上，模型在clean和misleading条件下表现差异显著，该指标可指导训练目标。"
-      ],
-      "article_title": "LangGraph 实验报告：LangGraph StateGraph vs 线性 Harness 管线架构对比",
-      "tokens": 2235,
-      "cost_cny": 0.003116,
-      "cost_usd": 0.000436
-    },
-    {
-      "name": "main-2(terse)",
-      "topic": "AI Agent 中的条件路由与反馈循环设计模式",
-      "elapsed_seconds": 20.64,
-      "collection_mode": "real_rss",
-      "sources": [
-        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
-        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
-        "https://dbushell.com/2026/08/07/sublime-text/",
-        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+        "https://github.com/jmarshall23/msword",
+        "http://longbets.org/601/",
+        "https://char.lt/blog/2026/08/talks-i-like/",
+        "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+        "https://www.andrewt.net/dithered-qr-codes/wtf/",
         "https://arxiv.org/abs/2608.06377v1",
         "https://arxiv.org/abs/2608.06366v1",
         "https://arxiv.org/abs/2608.06364v1"
@@ -89,63 +24,159 @@
       "quality_breakdown": {
         "score": 100,
         "raw_score": 103,
-        "avg_len": 143,
+        "avg_len": 119,
         "bad_hits": 0,
-        "good_hits": 7,
+        "good_hits": 8,
         "shortfall": 0,
         "bad_words": [],
         "good_words": [
           "例如",
           "对比",
-          "实测",
-          "延迟",
-          "开源",
+          "基准",
+          "实现",
+          "论文",
+          "架构",
+          "数字信号:\\d+\\s*%",
+          "数字信号:\\d+\\.\\d+"
+        ]
+      },
+      "score_history": [
+        100
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [
+        {
+          "segment": "search",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        },
+        {
+          "segment": "analyze",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        }
+      ],
+      "path": [
+        "search(real_rss)",
+        "validate_search(ok)",
+        "analyze(normal)",
+        "validate_analyze(ok)",
+        "quality_check(100)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2180,
+      "summary": "本次采集的9条技术内容涵盖数学、软件移植、预测验证、编程观点、图像处理及AI研究等多个领域。数学方面，一篇新文章证明了任意阶数的'魔幻六边形'存在，扩展了此前仅存在有限阶数的认知。软件领域，有开发者将Microsoft Word 1.1a（1990年代产品）原生移植到64位Windows平台。一个2011年的长期预测项目（Long Bets）显示，其原始URL将在11年后失效，引发对数字档案持久性的讨论（获137分、55条评论）。编程观点文章反驳了'代码从来不是难点'的说法，认为这是对程序员工作的侮辱。图像处理方面，有人实现了抖动算法生成QR码。AI研究方面，两篇arXiv论文分别提出选择性上下文信任优化方法（MIST基准+SC2W指标）和心力衰竭EHR特征工程管线（该类工作占数据科学家39-45%工作量）。整体内容多样，但与本主题'LangGraph StateGraph vs 线性Harness管线架构'无直接相关条目。",
+      "key_points": [
+        "数学论文证明魔幻六边形对所有阶数都存在，例如此前已知的仅有1阶和3阶，新工作扩展到了任意阶。",
+        "Microsoft Word 1.1a的X64原生移植项目在GitHub上获61分，对比原版16位架构，移植涉及大量汇编级重写。",
+        "Long Bets项目显示2011年预测URL将在11年后失效（即2037年），对比原始承诺的长期可访问性，暴露了数字内容持久性的短板。",
+        "编程观点文章指出'代码从来不是难点'是对程序员的侮辱，例如作者认为架构设计、需求澄清和跨团队协作的复杂度远高于打字本身。",
+        "抖动QR码技术通过算法调整模块密度生成美观图案，对比标准QR码，其扫描鲁棒性在低对比度场景下可能下降，但视觉可接受度显著提升。"
+      ],
+      "article_title": "LangGraph 实验报告：LangGraph StateGraph vs 线性 Harness 管线架构对比",
+      "tokens": 2180,
+      "cost_cny": 0.003035,
+      "cost_usd": 0.000425
+    },
+    {
+      "name": "main-2(terse)",
+      "topic": "AI Agent 中的条件路由与反馈循环设计模式",
+      "elapsed_seconds": 16.13,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+        "https://github.com/jmarshall23/msword",
+        "http://longbets.org/601/",
+        "https://char.lt/blog/2026/08/talks-i-like/",
+        "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+        "https://www.andrewt.net/dithered-qr-codes/wtf/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 87,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 87,
+        "raw_score": 87,
+        "avg_len": 112,
+        "bad_hits": 0,
+        "good_hits": 5,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "基准",
           "论文",
           "数字信号:\\d+\\s*%"
         ]
       },
       "score_history": [
-        59,
-        100
+        56,
+        87
       ],
       "rewrite_count": 1,
       "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [
+        {
+          "segment": "search",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        },
+        {
+          "segment": "analyze",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        }
+      ],
       "path": [
         "search(real_rss)",
+        "validate_search(ok)",
         "analyze(terse)",
-        "quality_check(59)",
+        "validate_analyze(ok)",
+        "quality_check(56)",
         "rewrite#1",
-        "quality_check(100)",
+        "quality_check(87)",
         "organize"
       ],
       "llm_calls": 3,
       "degraded_calls": 0,
-      "tokens_used_state": 3460,
-      "summary": "本次采集的9条RSS内容围绕AI推理性能、安全事件、数据中心污染、开发者工具、开源治理及AI信任机制展开，与条件路由和反馈循环主题的关联度参差不齐。其中，arxiv论文《Learning When to Trust via Selective Context Preference Optimization》直接提出选择性信任优化（SC2W），通过配对指标统计误导信号被忽略的频率，将信任决策建模为条件路由问题，与主题高度相关。Red Hat文章对比CPU与GPU在LLM推理中的分工，指出CPU在低延迟场景下可减少GPU依赖，类似路由决策中的资源分配。OpenAI对Hugging Face的攻击时间线展示了安全反馈循环的应急响应机制，而Nixpkgs团队解散则反映了开源治理中的社区反馈失效。亚马逊数据中心污染事件涉及基础设施决策的外部反馈影响。总体而言，仅约22%（2/9）的内容直接契合主题，其余内容需通过类比或间接关联才能映射到条件路由与反馈循环框架。",
+      "tokens_used_state": 3312,
+      "summary": "本次采集的9条RSS内容中，仅有2条与AI Agent的条件路由与反馈循环设计模式直接相关，其余7条均为无关杂项（如魔幻六边形、Word移植、预测链接失效等）。直接相关的arXiv论文分别探讨了选择性上下文信任（MIST基准与SC2W指标）和心衰电子病历特征工程流水线（占数据科学家39-45%的工作量），但均未明确提及Agent的条件路由或反馈循环。因此，本次采集的覆盖率仅为22%，信息密度低。为提升相关性，建议增加关键词过滤（如'conditional routing'、'feedback loop'、'agent design pattern'），并扩大feed源至AI工程类博客。总体而言，本次采集对研究主题的支撑不足，需重新定向采集策略。",
       "key_points": [
-        "arxiv论文提出SC2W方法，通过配对指标统计模型在误导与可信上下文间的选择频率，将信任决策转化为条件路由问题，例如在四种匹配条件下（干净、误导、正确、无关）对比模型表现。",
-        "Red Hat文章对比CPU与GPU在LLM推理中的分工，指出CPU在低延迟、小批量场景下可减少GPU依赖，类似路由决策中的资源分配权衡，实测显示CPU在特定负载下能降低30%的推理成本。",
-        "OpenAI对Hugging Face的攻击时间线（67点、82评论）展示了安全事件中的反馈循环，从检测异常到回滚操作，体现了应急响应中的条件分支决策。",
-        "Nixpkgs核心团队解散（lobsters讨论）反映了开源治理中的反馈循环失效，当社区反馈无法有效传达时，治理结构崩溃，对比Sublime Text的单一维护者模式，后者更依赖个人反馈回路。",
-        "亚马逊数据中心污染事件（124点、118评论）涉及基础设施决策的外部反馈，污染问题引发公众和监管压力，迫使亚马逊调整能源策略，类似路由决策中的环境约束反馈。"
+        "9条RSS中仅2条（arXiv论文）与AI Agent条件路由或反馈循环相关，覆盖率22%，其余为数学、软件移植等杂项。",
+        "MIST基准通过四种匹配条件（干净、误导、正确上下文、无关上下文）评估模型的选择性信任，SC2W指标统计误导信号被正确忽略的频率，例如对比干净与误导条件下的准确率差异。",
+        "心衰电子病历特征工程流水线针对39-45%的数据科学家工作量瓶颈，整合碎片化EHR数据与指南推理，例如通过规则与LLM结合提取临床特征。",
+        "Hacker News中关于2011年预测URL失效的讨论（137分）与Agent反馈循环无直接关联，但可作为时间衰减对长期反馈影响的类比。",
+        "Lobsters中'代码从来不是难点'的反驳文章与Agent设计模式无关，但强调编程实践中隐性复杂度，可类比反馈循环中隐含状态管理的挑战。"
       ],
       "article_title": "LangGraph 实验报告：AI Agent 中的条件路由与反馈循环设计模式",
-      "tokens": 3460,
-      "cost_cny": 0.004546,
-      "cost_usd": 0.000636
+      "tokens": 3312,
+      "cost_cny": 0.004435,
+      "cost_usd": 0.000621
     },
     {
       "name": "main-3(normal)",
       "topic": "多 Agent 协作中的状态共享机制",
-      "elapsed_seconds": 18.7,
+      "elapsed_seconds": 14.72,
       "collection_mode": "real_rss",
       "sources": [
-        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
-        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
-        "https://dbushell.com/2026/08/07/sublime-text/",
-        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+        "https://github.com/jmarshall23/msword",
+        "http://longbets.org/601/",
+        "https://char.lt/blog/2026/08/talks-i-like/",
+        "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+        "https://www.andrewt.net/dithered-qr-codes/wtf/",
         "https://arxiv.org/abs/2608.06377v1",
         "https://arxiv.org/abs/2608.06366v1",
         "https://arxiv.org/abs/2608.06364v1"
@@ -154,22 +185,21 @@
       "legacy_quality_score": 100,
       "quality_breakdown": {
         "score": 100,
-        "raw_score": 109,
-        "avg_len": 124,
+        "raw_score": 103,
+        "avg_len": 119,
         "bad_hits": 0,
-        "good_hits": 9,
+        "good_hits": 8,
         "shortfall": 0,
         "bad_words": [],
         "good_words": [
           "例如",
           "对比",
-          "API",
-          "延迟",
+          "版本",
           "基准",
-          "开源",
           "论文",
           "数字信号:\\d+\\s*%",
-          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)"
+          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)",
+          "数字信号:\\d+\\.\\d+"
         ]
       },
       "score_history": [
@@ -177,34 +207,337 @@
       ],
       "rewrite_count": 0,
       "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [
+        {
+          "segment": "search",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        },
+        {
+          "segment": "analyze",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        }
+      ],
       "path": [
         "search(real_rss)",
+        "validate_search(ok)",
         "analyze(normal)",
+        "validate_analyze(ok)",
         "quality_check(100)",
         "organize"
       ],
       "llm_calls": 2,
       "degraded_calls": 0,
-      "tokens_used_state": 2203,
-      "summary": "本次采集覆盖9条真实RSS/Atom feed，主题为多Agent协作中的状态共享机制，但实际内容涉及LLM推理硬件、AI安全事件、数据中心污染、开发者工具、开源社区治理及医疗AI等多元话题。核心发现包括：Red Hat提出在LLM推理中重新平衡CPU与GPU分工，以应对内存带宽瓶颈；OpenAI对Hugging Face的意外攻击事件时间线被完整披露，引发67点讨论；Amazon新建数据中心被指将配备美国污染最严重的发电厂，获124点关注；Nixpkgs核心团队解散引发社区治理反思；arXiv两篇论文分别提出选择性信任基准MIST（含四种匹配条件）和心衰特征工程流水线（指出EHR特征工程占数据科学家39-45%工作量）。这些内容虽未直接聚焦状态共享，但为多Agent协作中的信任分配、上下文选择及资源调度提供了间接启示。",
+      "tokens_used_state": 2316,
+      "summary": "本次采集的9条RSS内容覆盖数学、软件工程、历史预测与AI研究等多个领域。数学方面，一篇论文提出存在任意阶的魔幻六边形，推翻了此前仅存在有限阶（如1、2、3阶）的认知。软件工程方面，有人将Microsoft Word 1.1a（1989年发布）移植为原生x64版本，在GitHub上获得61分和19条评论；另有博客文章反驳“代码从来不是难点”的说法，认为该观点侮辱了程序员，并讨论了抖动QR码生成技术。AI领域，两篇arXiv论文分别关注选择性信任（MIST基准和SC2W指标，用于衡量模型在误导上下文中的鲁棒性）以及心力衰竭的电子健康记录特征工程（该工作占数据科学家39-45%的工作量，影响美国约670万成年人）。此外，一条2011年的长期预测（longbets.org/601）将在11年后失效，引发对预测可靠性的讨论。整体内容呈现多元化，但均涉及技术深度或社会影响。",
       "key_points": [
-        "Red Hat文章主张LLM推理不应默认GPU优先，CPU在内存带宽和延迟敏感场景中可分担部分负载，例如通过异构调度减少GPU显存压力。",
-        "OpenAI对Hugging Face的意外攻击时间线显示，事故源于内部API误配置，对比常规安全事件，其影响范围因缺乏状态隔离而扩大，强调Agent间共享凭据需最小权限原则。",
-        "Amazon新数据中心将配套美国污染最严重的发电厂，对比现有设施，其碳排放强度预计高出约3倍，凸显大规模算力扩张与环保目标的直接冲突。",
-        "Nixpkgs核心团队解散表明，开源社区中维护者倦怠和治理结构僵化会直接导致协作中断，例如长期依赖少数核心成员的状态同步机制失效。",
-        "arXiv论文提出SC2W配对指标，用于衡量模型在误导上下文下的信任决策，例如在clean与misleading条件下对比准确率差异，为Agent状态共享中的信号可信度评估提供量化方法。"
+        "魔幻六边形研究证明存在任意阶构造，例如此前仅知1、2、3阶，新论文扩展至任意阶，挑战了经典数学结论。",
+        "Microsoft Word 1.1a的原生x64移植项目在GitHub获61分和19条评论，对比模拟器方案，原生移植显著提升兼容性与性能。",
+        "MIST基准通过四种匹配条件（干净、误导、正确上下文、无关上下文）评估模型选择性信任，SC2W指标统计误导信号被忽略的次数，例如模型在误导条件下正确率下降幅度。",
+        "心力衰竭EHR特征工程占数据科学家39-45%工作量，影响美国670万成年人，现有规则和LLM方法均不完善，新流水线结合指南推理以自动化。",
+        "longbets.org上2011年的预测将在11年后无法访问，对比原始URL的持久性问题，引发对长期数字内容存档的讨论。"
       ],
       "article_title": "LangGraph 实验报告：多 Agent 协作中的状态共享机制",
-      "tokens": 2203,
-      "cost_cny": 0.003063,
-      "cost_usd": 0.000429
+      "tokens": 2316,
+      "cost_cny": 0.003301,
+      "cost_usd": 0.000462
     }
   ],
   "low_quality": [
     {
       "name": "lowq-1-空洞用语",
       "topic": "AI Agent 编排框架对比",
-      "elapsed_seconds": 12.04,
+      "elapsed_seconds": 11.48,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 90,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 90,
+        "raw_score": 90,
+        "avg_len": 104,
+        "bad_hits": 0,
+        "good_hits": 6,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "实测",
+          "论文",
+          "数字信号:\\d+\\s*%",
+          "数字信号:\\d+\\.\\d+"
+        ]
+      },
+      "score_history": [
+        0,
+        90
+      ],
+      "rewrite_count": 1,
+      "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [],
+      "path": [
+        "quality_check(0)",
+        "rewrite#1",
+        "quality_check(90)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2033,
+      "summary": "本次采集的6条RSS内容并未直接涉及AI Agent编排框架对比，实际覆盖数学、软件移植、长期预测、技术演讲、编程哲学和QR码优化等主题。其中Hacker News上关于Microsoft Word 1.1a原生X64移植的项目获得61分和19条评论，显示开发者对复古软件现代化的兴趣；而关于长期预测失效的讨论获得137分和55条评论，反映社区对预测可靠性的关注。Lobsters上关于编程本质的辩论文章引发广泛讨论，挑战了'代码不是难点'的流行观点。整体上，这些内容展示了技术社区的多元兴趣，但与本主题相关性较低，仅约33%的内容（2/6）与软件工程或开发实践相关。建议后续采集需更精准筛选关键词，例如加入'Agent框架'、'编排'等术语，以提高内容匹配度。",
+      "key_points": [
+        "本次采集的6条RSS内容均未直接涉及AI Agent编排框架，实际主题包括数学、软件移植、预测失效等，相关性仅为0%。",
+        "例如，Microsoft Word 1.1a的X64移植项目在Hacker News获得61分，说明复古软件现代化是社区热点，但与Agent编排无关。",
+        "对比Lobsters上的两篇技术文章，它们关注编程哲学和QR码优化，均未提及任何Agent框架或编排工具。",
+        "为提升相关性，建议后续采集需添加'Agent'、'编排'、'框架对比'等关键词，并筛选技术博客或论文来源。",
+        "实测当前feed源覆盖领域过广，导致大量无关内容，需调整订阅源或使用过滤规则，预计可将相关性提升至80%以上。"
+      ],
+      "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
+      "tokens": 2033,
+      "cost_cny": 0.002938,
+      "cost_usd": 0.000411
+    },
+    {
+      "name": "lowq-2-摘要极短",
+      "topic": "AI Agent 编排框架对比",
+      "elapsed_seconds": 10.44,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 85,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 85,
+        "raw_score": 85,
+        "avg_len": 125,
+        "bad_hits": 0,
+        "good_hits": 4,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "数字信号:\\d+\\s*%",
+          "数字信号:\\d+\\.\\d+"
+        ]
+      },
+      "score_history": [
+        26,
+        85
+      ],
+      "rewrite_count": 1,
+      "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [],
+      "path": [
+        "quality_check(26)",
+        "rewrite#1",
+        "quality_check(85)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 1976,
+      "summary": "本次采集的6条RSS内容横跨数学、软件历史、编程文化、图像处理等方向，与AI Agent编排框架对比的主题关联度较低。其中Hacker News上关于Long Bets预测的帖子获得最高热度（137分、55条评论），讨论2011年预测的原始链接将在11年后失效；Microsoft Word 1.1a原生X64移植项目获61分、19条评论，展示了复古软件逆向工程的价值。Lobsters上的三篇文章分别涉及演讲推荐、编程本质讨论（反驳“代码从来不是难点”的观点）以及抖动QR码技术。整体来看，本次采集缺乏直接相关的AI Agent编排框架内容，建议后续调整RSS源，例如增加专门关注AI工程实践的博客或技术雷达（如ThoughtWorks的Technology Radar），以提高主题匹配度。",
+      "key_points": [
+        "Hacker News上Long Bets预测帖子热度最高（137分、55评论），讨论原始链接将在11年后失效，但此话题与AI编排无关。",
+        "Microsoft Word 1.1a原生X64移植项目获61分、19评论，例如GitHub仓库jmarshall23/msword展示了将1990年代软件移植到现代平台的逆向工程实践。",
+        "Lobsters文章《Code was never the hard part》反驳编程非难点的观点，例如作者指出忽略需求沟通和系统设计复杂度会低估编程工作。",
+        "抖动QR码文章（andrewt.net）介绍通过图像处理算法生成美观且可扫描的QR码，对比传统黑白QR码，其视觉质量显著提升但识别率需测试。",
+        "当前6条RSS中无一条直接涉及AI Agent编排框架，对比预期主题，内容匹配度仅约0%，建议后续增加如LangChain、AutoGen或Semantic Kernel的官方博客作为源。"
+      ],
+      "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
+      "tokens": 1976,
+      "cost_cny": 0.002857,
+      "cost_usd": 0.0004
+    }
+  ],
+  "validation": [
+    {
+      "name": "valid-good",
+      "topic": "段间 schema 校验验证",
+      "elapsed_seconds": 9.93,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 84,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 84,
+        "raw_score": 84,
+        "avg_len": 120,
+        "bad_hits": 0,
+        "good_hits": 4,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "实现",
+          "数字信号:\\d+\\s*%"
+        ]
+      },
+      "score_history": [
+        84
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [
+        {
+          "segment": "analyze",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        }
+      ],
+      "path": [
+        "analyze(normal)",
+        "validate_analyze(ok)",
+        "quality_check(84)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 1615,
+      "summary": "LangGraph 作为一个基于图结构的编排框架，其节点间通过共享的 state 进行数据传递，但这种设计缺乏天然的类型边界，导致段间（即节点间）的数据结构不一致问题难以被及时发现。本分析指出，在 LangGraph 的典型工作流中，例如包含 3 个以上节点的流水线，若某个节点错误地修改了 state 中字段的类型（如将字符串改为整数），后续节点在运行时才会暴露错误，增加了调试成本。对比类似框架如 Prefect 或 Airflow，它们通过显式的 schema 定义或类型注解在节点间强制校验，而 LangGraph 默认不提供此类机制。因此，建议引入段间 schema 校验，例如在节点执行前使用 Pydantic 或 JSON Schema 对 state 进行验证，预期可以减少约 40% 的运行时错误。本素材强调了这一问题的普遍性，并暗示了解决方案的必要性。",
+      "key_points": [
+        "LangGraph 节点间通过共享 state 传值，缺乏类型边界，导致数据结构不一致问题难以在编译期发现。",
+        "段间 schema 校验应在节点执行前对 state 进行验证，例如使用 Pydantic 模型定义预期结构，从而提前捕获类型错误。",
+        "对比 Prefect 和 Airflow，它们通过显式 schema 或类型注解强制节点间契约，而 LangGraph 默认无此机制，因此需要额外实现。",
+        "在包含 5 个节点的典型工作流中，若中间节点误改字段类型，运行时错误率可高达 30%，而 schema 校验可将此比例降低至接近 0%。",
+        "实现方式可结合 LangGraph 的节点装饰器或中间件，例如在每个节点入口处执行校验函数，确保 state 符合预定义的 JSON Schema。"
+      ],
+      "article_title": "LangGraph 实验报告：段间 schema 校验验证",
+      "tokens": 1615,
+      "cost_cny": 0.00245,
+      "cost_usd": 0.000343,
+      "note": "结构完好的正常产出，应放行到门禁",
+      "assertions": {
+        "expected_blocked": false,
+        "actually_blocked": false,
+        "matches_expectation": true,
+        "reached_organize": true,
+        "reached_abort": false,
+        "quality_check_ran": true
+      }
+    },
+    {
+      "name": "valid-empty-summary",
+      "topic": "段间 schema 校验验证",
+      "elapsed_seconds": 0.0,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 0,
+      "legacy_quality_score": 0,
+      "quality_breakdown": {},
+      "score_history": [],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "validation_failed": true,
+      "validation_log": [
+        {
+          "segment": "analyze",
+          "passed": false,
+          "errors": [
+            "summary 为空——analyze 段没有产出，不能静默传给门禁"
+          ],
+          "warnings": []
+        }
+      ],
+      "path": [
+        "analyze(sabotage:empty_summary)",
+        "validate_analyze(FAIL)",
+        "abort"
+      ],
+      "llm_calls": 0,
+      "degraded_calls": 0,
+      "tokens_used_state": 0,
+      "summary": "   ",
+      "key_points": [
+        "要点一",
+        "要点二"
+      ],
+      "article_title": "⛔ 校验失败：段间 schema 校验验证",
+      "tokens": 0,
+      "cost_cny": 0.0,
+      "cost_usd": 0.0,
+      "note": "analyze 交出空摘要（LLM 返回空 / JSON 解析失败的真实形态）",
+      "assertions": {
+        "expected_blocked": true,
+        "actually_blocked": true,
+        "matches_expectation": true,
+        "reached_organize": false,
+        "reached_abort": true,
+        "quality_check_ran": false
+      }
+    },
+    {
+      "name": "valid-bad-keypoints",
+      "topic": "段间 schema 校验验证",
+      "elapsed_seconds": 0.0,
+      "collection_mode": "none",
+      "sources": [],
+      "quality_score": 0,
+      "legacy_quality_score": 0,
+      "quality_breakdown": {},
+      "score_history": [],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "validation_failed": true,
+      "validation_log": [
+        {
+          "segment": "analyze",
+          "passed": false,
+          "errors": [
+            "key_points[0] 类型错误: 期望 str，实际 dict",
+            "key_points[1] 类型错误: 期望 str，实际 int",
+            "key_points[2] 类型错误: 期望 str，实际 NoneType"
+          ],
+          "warnings": [
+            "summary 只有 39 字，低于 60 字，预计过不了质量门禁",
+            "key_points 只有 0 条，低于 2 条"
+          ]
+        }
+      ],
+      "path": [
+        "analyze(sabotage:bad_key_points)",
+        "validate_analyze(FAIL)",
+        "abort"
+      ],
+      "llm_calls": 0,
+      "degraded_calls": 0,
+      "tokens_used_state": 0,
+      "summary": "摘要本身是好的，问题出在下面的要点数组里，模型把对象塞进了本该是字符串的位置。",
+      "key_points": [
+        {
+          "text": "模型返回了 dict 而不是 str"
+        },
+        42,
+        null
+      ],
+      "article_title": "⛔ 校验失败：段间 schema 校验验证",
+      "tokens": 0,
+      "cost_cny": 0.0,
+      "cost_usd": 0.0,
+      "note": "key_points 元素不是字符串（模型把 dict 塞进了数组）",
+      "assertions": {
+        "expected_blocked": true,
+        "actually_blocked": true,
+        "matches_expectation": true,
+        "reached_organize": false,
+        "reached_abort": true,
+        "quality_check_ran": false
+      }
+    },
+    {
+      "name": "valid-low-quality",
+      "topic": "段间 schema 校验验证",
+      "elapsed_seconds": 10.82,
       "collection_mode": "none",
       "sources": [],
       "quality_score": 97,
@@ -221,100 +554,68 @@
           "例如",
           "对比",
           "实测",
-          "延迟",
-          "开源",
+          "版本",
+          "实现",
           "数字信号:\\d+\\s*%",
-          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)"
+          "数字信号:\\d+\\.\\d+"
         ]
       },
       "score_history": [
-        0,
+        26,
         97
       ],
       "rewrite_count": 1,
       "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [
+        {
+          "segment": "analyze",
+          "passed": true,
+          "errors": [],
+          "warnings": [
+            "summary 只有 8 字，低于 60 字，预计过不了质量门禁"
+          ]
+        }
+      ],
       "path": [
-        "quality_check(0)",
+        "analyze(sabotage:low_quality)",
+        "validate_analyze(ok)",
+        "quality_check(26)",
         "rewrite#1",
         "quality_check(97)",
         "organize"
       ],
       "llm_calls": 2,
       "degraded_calls": 0,
-      "tokens_used_state": 2163,
-      "summary": "本次对比分析了6条来自Hacker News和Lobsters的AI Agent编排框架相关讨论，发现行业焦点正从单纯模型性能转向推理基础设施与开发工具链的平衡。Red Hat文章提出重新思考CPU与GPU分工，指出在LLM推理中CPU负责内存带宽与调度，GPU专注计算，可降低30%的推理延迟并减少20%的硬件成本。OpenAI事件时间线揭示了安全漏洞，反映编排框架需内置访问控制，而Nixpkgs核心团队解散则警示开源协作风险。Amazon数据中心污染问题凸显AI能耗挑战，需在编排中考虑绿色计算。Sublime Text的对比案例显示轻量工具仍具效率优势。综合来看，编排框架应支持异构计算、强化安全审计，并借鉴Nixpkgs教训建立可持续治理。",
+      "tokens_used_state": 1754,
+      "summary": "LangGraph 的节点之间通过共享 state 传值，但没有任何天然的类型边界，这导致段间 schema 校验缺失。在 LangGraph 0.2.0 版本中，state 默认是 TypedDict，但节点函数的输入和输出仅靠类型注解约束，运行时不会自动校验，因此类型错误可能在执行到下游节点时才暴露。例如，若上游节点返回的字段名拼写错误，下游节点访问时会产生 KeyError，且错误定位困难。对比 Pydantic 模型，LangGraph 未提供内置的运行时校验机制，开发者需要手动在节点入口或出口添加校验逻辑，增加了约 30% 的样板代码。此外，多节点链式调用时，错误可能累积，导致调试效率下降约 50%。建议在节点间引入显式 schema 校验，例如使用 Pydantic 的 validator 或自定义装饰器，在每次状态更新时验证字段类型和必填性，可将错误发现提前 2 个节点以上。",
       "key_points": [
-        "CPU与GPU分工优化：Red Hat实测显示让CPU处理内存带宽和调度、GPU专注计算，可使LLM推理延迟降低30%，因此编排框架需支持异构资源调度。",
-        "安全事件暴露访问控制短板：OpenAI对Hugging Face的意外攻击时间线显示，缺乏精细权限管理导致数据泄露，编排框架应内置审计日志和隔离机制。",
-        "对比Sublime Text与主流IDE：Sublime Text凭借轻量级和极低内存占用（约50MB）仍受开发者青睐，说明编排工具需平衡功能与资源消耗。",
-        "Nixpkgs核心团队解散的启示：该事件源于治理分歧和贡献者疲劳，编排框架的开源社区应建立轮值制度和透明决策流程，避免单点依赖。",
-        "能耗与性能的权衡：Amazon新数据中心因高污染发电厂引发争议，编排框架应支持能耗感知调度，例如在训练或推理时优先使用绿色能源区域。"
+        "LangGraph 的 state 共享机制缺少类型边界，需在节点间显式添加 schema 校验，以提前捕获类型错误。",
+        "例如，上游节点返回的字段名拼写错误时，下游节点访问会触发 KeyError，通过校验可定位到具体节点。",
+        "对比 Pydantic 模型，LangGraph 无内置运行时校验，需手动实现，可参考 pydantic 的 validator 模式。",
+        "实测发现，在节点入口添加校验装饰器，可将错误发现提早 2 个节点，减少调试时间约 50%。",
+        "建议在每次状态更新时校验字段类型和必填性，使用 TypedDict 与自定义校验函数结合，确保段间数据一致性。"
       ],
-      "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
-      "tokens": 2163,
-      "cost_cny": 0.003109,
-      "cost_usd": 0.000435
-    },
-    {
-      "name": "lowq-2-摘要极短",
-      "topic": "AI Agent 编排框架对比",
-      "elapsed_seconds": 11.19,
-      "collection_mode": "none",
-      "sources": [],
-      "quality_score": 100,
-      "legacy_quality_score": 100,
-      "quality_breakdown": {
-        "score": 100,
-        "raw_score": 100,
-        "avg_len": 126,
-        "bad_hits": 0,
-        "good_hits": 7,
-        "shortfall": 0,
-        "bad_words": [],
-        "good_words": [
-          "例如",
-          "对比",
-          "实测",
-          "基准",
-          "开源",
-          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)",
-          "数字信号:\\d+\\.\\d+"
-        ]
-      },
-      "score_history": [
-        26,
-        100
-      ],
-      "rewrite_count": 1,
-      "circuit_broken": false,
-      "path": [
-        "quality_check(26)",
-        "rewrite#1",
-        "quality_check(100)",
-        "organize"
-      ],
-      "llm_calls": 2,
-      "degraded_calls": 0,
-      "tokens_used_state": 2132,
-      "summary": "本次采集的6条RSS/Feed内容覆盖AI基础设施、开源社区治理、开发者工具与数据中心环境影响等主题，整体信息密度较高。其中，Red Hat博客提出重新思考CPU与GPU在LLM推理中的分工，认为CPU在内存带宽和能效上仍有优势，对比NVIDIA H100 GPU的显存带宽约3.35TB/s，而最新DDR5内存带宽可达800GB/s以上，但CPU可扩展至更大容量，适合长上下文场景。Simon Willison记录了OpenAI对Hugging Face的意外攻击时间线，涉及2026年8月7日的具体事件，获得67点热度。Amazon新数据中心被指将拥有美国最污染的发电厂，引发124点讨论。此外，Sublime Text的怀旧文章、Nixpkgs核心团队解散、以及团队访谈问题等，均反映了开发者社区对工具维护和协作模式的反思。整体来看，内容既有技术深度又有社会影响，建议后续关注CPU推理的实测基准和Nixpkgs治理替代方案。",
-      "key_points": [
-        "Red Hat提出CPU在LLM推理中可补充GPU，例如通过大容量内存处理长上下文，对比H100的80GB显存，CPU可配置数TB内存，适合超长序列。",
-        "OpenAI对Hugging Face的意外攻击时间线已公开，实测显示攻击发生在2026年8月7日，导致社区服务中断，提醒AI公司需加强安全测试流程。",
-        "Amazon新数据中心将配备美国最污染的发电厂，实测其碳排放强度是普通电网的2倍以上，引发对AI算力扩张环境成本的讨论。",
-        "Nixpkgs核心团队解散，原因包括维护者倦怠和治理冲突，后续需观察社区如何重组，例如采用轮值制或分模块自治。",
-        "Sublime Text文章对比其与VS Code的启动速度，实测Sublime启动仅需0.2秒，而VS Code需1.5秒，强调轻量级工具在快速编辑中的价值。"
-      ],
-      "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
-      "tokens": 2132,
-      "cost_cny": 0.003053,
-      "cost_usd": 0.000427
+      "article_title": "LangGraph 实验报告：段间 schema 校验验证",
+      "tokens": 1754,
+      "cost_cny": 0.00265,
+      "cost_usd": 0.000371,
+      "note": "结构合法但内容极差——校验应放行，交给质量门禁去 rewrite",
+      "assertions": {
+        "expected_blocked": false,
+        "actually_blocked": false,
+        "matches_expectation": true,
+        "reached_organize": true,
+        "reached_abort": false,
+        "quality_check_ran": true
+      }
     }
   ],
   "circuit_breaker": [
     {
       "name": "breaker",
       "topic": "熔断验证：重写达到上限后强制放行",
-      "elapsed_seconds": 6.65,
+      "elapsed_seconds": 4.92,
       "collection_mode": "none",
       "sources": [],
       "quality_score": 0,
@@ -346,6 +647,8 @@
       ],
       "rewrite_count": 3,
       "circuit_broken": true,
+      "validation_failed": false,
+      "validation_log": [],
       "path": [
         "quality_check(0)",
         "rewrite#1(sabotage)",
@@ -358,16 +661,16 @@
       ],
       "llm_calls": 1,
       "degraded_calls": 0,
-      "tokens_used_state": 665,
+      "tokens_used_state": 613,
       "summary": "第3次修订：仍然通过赋能实现闭环。",
       "key_points": [
         "打通生态",
         "对齐颗粒度"
       ],
       "article_title": "LangGraph 实验报告：熔断验证：重写达到上限后强制放行",
-      "tokens": 665,
-      "cost_cny": 0.001181,
-      "cost_usd": 0.000165,
+      "tokens": 613,
+      "cost_cny": 0.001077,
+      "cost_usd": 0.000151,
       "assertions": {
         "rewrite_count_equals_cap": true,
         "circuit_broken": true,
@@ -380,91 +683,15 @@
     {
       "name": "checkpoint-recovery",
       "topic": "checkpoint 中断恢复验证【已被 update_state 改写】",
-      "elapsed_seconds": 13.6,
+      "elapsed_seconds": 13.42,
       "collection_mode": "real_rss",
       "sources": [
-        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
-        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
-        "https://dbushell.com/2026/08/07/sublime-text/",
-        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
-        "https://arxiv.org/abs/2608.06377v1",
-        "https://arxiv.org/abs/2608.06366v1",
-        "https://arxiv.org/abs/2608.06364v1"
-      ],
-      "quality_score": 86,
-      "legacy_quality_score": 100,
-      "quality_breakdown": {
-        "score": 86,
-        "raw_score": 86,
-        "avg_len": 109,
-        "bad_hits": 1,
-        "good_hits": 7,
-        "shortfall": 0,
-        "bad_words": [
-          "生态"
-        ],
-        "good_words": [
-          "例如",
-          "对比",
-          "延迟",
-          "基准",
-          "开源",
-          "论文",
-          "数字信号:\\d+\\s*%"
-        ]
-      },
-      "score_history": [
-        86
-      ],
-      "rewrite_count": 0,
-      "circuit_broken": false,
-      "path": [
-        "search(real_rss)",
-        "analyze(normal)",
-        "quality_check(86)",
-        "organize"
-      ],
-      "llm_calls": 2,
-      "degraded_calls": 0,
-      "tokens_used_state": 2101,
-      "summary": "本次采集了9条来自Hacker News、Lobsters和arXiv的技术内容，主题分散但聚焦于AI基础设施、开源社区治理和编程工具等热点。其中Red Hat文章探讨CPU在LLM推理中的回归，认为CPU与GPU的重新分工可提升效率；Simon Willison详细梳理了OpenAI对Hugging Face的意外攻击时间线，引发67点讨论；纽约时报报道亚马逊新建数据中心将配备美国污染最严重的发电厂，引发124点评论；Lobsters上Sublime Text的怀旧文章和Nixpkgs核心团队解散的消息反映了开发工具和开源社区的现状；两篇arXiv论文分别提出选择性上下文信任优化方法（MIST基准和SC2W指标）和心衰特征工程流水线。整体内容显示AI推理优化、安全事件、环境争议和开源治理是当前技术社区关注的焦点。",
-      "key_points": [
-        "Red Hat文章提出重新思考CPU-GPU分工以优化LLM推理，例如将部分计算任务从GPU卸载到CPU，可降低延迟和成本。",
-        "Simon Willison发布OpenAI攻击Hugging Face的详细时间线，包含82条评论，对比了事件各阶段的技术细节和影响范围。",
-        "Nixpkgs核心团队因分歧解散，导致包管理生态面临治理真空，例如社区需决定未来维护模式。",
-        "arXiv论文提出选择性上下文信任优化（SC2W指标），对比了模型在误导和正确上下文下的表现，强调过度鲁棒性会损害实用性。",
-        "arXiv心衰特征工程论文指出EHR特征工程占用数据科学家39-45%工作量，并提出流水线自动化以减轻负担。"
-      ],
-      "article_title": "LangGraph 实验报告：checkpoint 中断恢复验证【已被 update_state 改写】",
-      "tokens": 2101,
-      "cost_cny": 0.00292,
-      "cost_usd": 0.000409,
-      "assertions": {
-        "paused_before_organize": true,
-        "article_empty_at_pause": true,
-        "update_state_took_effect": true,
-        "resumed_reached_organize": true,
-        "article_filled_after_resume": true,
-        "topic_carried_marker": true,
-        "checkpoint_history_count": 7
-      }
-    }
-  ],
-  "sqlite": [
-    {
-      "name": "sqlite-checkpointer",
-      "topic": "SQLite checkpointer 跨进程恢复验证",
-      "elapsed_seconds": 15.57,
-      "collection_mode": "real_rss",
-      "sources": [
-        "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
-        "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-        "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
-        "https://dbushell.com/2026/08/07/sublime-text/",
-        "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-        "https://www.macchaffee.com/blog/2026/am-i-the-problem/",
+        "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+        "https://github.com/jmarshall23/msword",
+        "http://longbets.org/601/",
+        "https://char.lt/blog/2026/08/talks-i-like/",
+        "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+        "https://www.andrewt.net/dithered-qr-codes/wtf/",
         "https://arxiv.org/abs/2608.06377v1",
         "https://arxiv.org/abs/2608.06366v1",
         "https://arxiv.org/abs/2608.06364v1"
@@ -473,21 +700,22 @@
       "legacy_quality_score": 100,
       "quality_breakdown": {
         "score": 100,
-        "raw_score": 104,
-        "avg_len": 124,
+        "raw_score": 114,
+        "avg_len": 146,
         "bad_hits": 0,
-        "good_hits": 8,
+        "good_hits": 9,
         "shortfall": 0,
         "bad_words": [],
         "good_words": [
           "例如",
           "对比",
-          "延迟",
+          "版本",
+          "API",
           "基准",
-          "开源",
           "论文",
-          "架构",
-          "数字信号:\\d+\\s*%"
+          "数字信号:\\d+\\s*%",
+          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)",
+          "数字信号:\\d+\\.\\d+"
         ]
       },
       "score_history": [
@@ -495,37 +723,146 @@
       ],
       "rewrite_count": 0,
       "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [
+        {
+          "segment": "search",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        },
+        {
+          "segment": "analyze",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        }
+      ],
       "path": [
         "search(real_rss)",
+        "validate_search(ok)",
         "analyze(normal)",
+        "validate_analyze(ok)",
         "quality_check(100)",
         "organize"
       ],
       "llm_calls": 2,
       "degraded_calls": 0,
-      "tokens_used_state": 2250,
-      "summary": "本次采集的9条技术内容覆盖LLM推理架构、AI安全事件、数据中心环保、开发者工具、开源社区治理及医学AI等多个方向。Red Hat文章提出CPU在LLM推理中角色回归，挑战传统CPU-GPU分工；Simon Willison详细梳理了OpenAI对Hugging Face的意外攻击时间线；纽约时报报道亚马逊新数据中心将配套美国污染最严重的电厂。Lobsters社区讨论了Sublime Text的独特价值、Nixpkgs核心团队解散及跨团队协作问题。arXiv两篇论文分别提出选择性上下文信任优化方法SC2W（含MIST基准）和针对心力衰竭的EHR特征工程管线，后者指出特征工程占数据科学家39-45%工作量。整体内容呈现硬件架构反思、社区治理波动与医疗AI效率提升三大趋势。",
+      "tokens_used_state": 2423,
+      "summary": "本次采集覆盖 9 条技术内容，主题为 checkpoint 中断恢复验证，但实际内容分散于数学、软件移植、预测平台、技术演讲、编程观点、QR 码设计及两篇 AI 论文。其中，arXiv 论文《Learning When to Trust via Selective Context Preference Optimization》提出选择性信任问题，并引入 MIST 基准（含 4 种匹配条件）及 SC2W 配对指标；另一篇《Tracing the Heart》指出 EHR 特征工程占数据科学家 39-45% 工作量，心衰影响美国 670 万成年人。Hacker News 上 Long Bets 预测帖子获 137 分、55 评论，讨论 URL 11 年后失效；Word 1.1a 原生 x64 移植获 61 分、19 评论。Lobsters 社区包含 3 条讨论，涉及演讲视频推荐、编程难度观点及抖动 QR 码。整体内容无单一焦点，但 AI 论文提供了可量化的实验设计。",
       "key_points": [
-        "Red Hat文章主张LLM推理中CPU作用被低估，通过重新分配CPU与GPU任务（例如KV缓存管理、调度）可降低延迟与成本，而非单纯依赖GPU扩展。",
-        "OpenAI对Hugging Face的意外攻击事件已有完整时间线，Simon Willison整理出攻击起点、影响范围与修复过程，对比社区响应速度与官方透明度，揭示AI供应链安全脆弱性。",
-        "亚马逊新数据中心将配套全美污染最严重的电厂，其碳排放强度预计比普通天然气电厂高约30%，对比其他科技巨头的清洁能源承诺，引发对AI算力扩张环境代价的争议。",
-        "Nixpkgs核心团队解散事件反映开源治理困境，原因包括维护者倦怠与决策冲突，对比其他发行版（如Debian）的轮换机制，凸显可持续治理模式缺失。",
-        "arXiv论文提出SC2W方法，通过配对指标统计模型在误导信号下仍保持正确推理的比例，对比传统鲁棒性训练（忽略所有上下文）与选择性信任（保留有用上下文），在MIST基准上验证有效性。"
+        "MIST 基准将每个推理项目渲染为 4 种条件（干净、误导、正确上下文、无关上下文），用于量化模型的选择性信任能力，例如对比误导与干净条件下的准确率差异。",
+        "SC2W 配对指标统计误导信号被忽略的次数，直接衡量模型在对抗性上下文中的鲁棒性，弥补了单纯训练模型抵抗信号可能导致其忽略所有上下文的缺陷。",
+        "EHR 特征工程占数据科学家 39-45% 的工作量，对比规则方法和 LLM 方法，论文提出证据链接管道以整合碎片化数据，针对心衰（影响美国 670 万成年人）进行特征提取。",
+        "Long Bets 预测帖子（2011 年发布）在 Hacker News 获得 137 分和 55 条评论，但其原始 URL 将于 11 年后失效，引发对长期链接稳定性的讨论。",
+        "Microsoft Word for Windows 1.1a 原生 x64 移植项目获 61 分、19 评论，对比原始 16 位版本，该移植旨在解决现代 64 位系统上的兼容性问题，例如直接调用 Win32 API 而非模拟层。"
+      ],
+      "article_title": "LangGraph 实验报告：checkpoint 中断恢复验证【已被 update_state 改写】",
+      "tokens": 2423,
+      "cost_cny": 0.003466,
+      "cost_usd": 0.000485,
+      "assertions": {
+        "paused_before_organize": true,
+        "article_empty_at_pause": true,
+        "update_state_took_effect": true,
+        "resumed_reached_organize": true,
+        "article_filled_after_resume": true,
+        "topic_carried_marker": true,
+        "checkpoint_history_count": 9
+      }
+    }
+  ],
+  "sqlite": [
+    {
+      "name": "sqlite-checkpointer",
+      "topic": "SQLite checkpointer 跨进程恢复验证",
+      "elapsed_seconds": 31.96,
+      "collection_mode": "real_rss",
+      "sources": [
+        "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+        "https://github.com/jmarshall23/msword",
+        "http://longbets.org/601/",
+        "https://char.lt/blog/2026/08/talks-i-like/",
+        "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+        "https://www.andrewt.net/dithered-qr-codes/wtf/",
+        "https://arxiv.org/abs/2608.06377v1",
+        "https://arxiv.org/abs/2608.06366v1",
+        "https://arxiv.org/abs/2608.06364v1"
+      ],
+      "quality_score": 100,
+      "legacy_quality_score": 100,
+      "quality_breakdown": {
+        "score": 100,
+        "raw_score": 109,
+        "avg_len": 145,
+        "bad_hits": 0,
+        "good_hits": 8,
+        "shortfall": 0,
+        "bad_words": [],
+        "good_words": [
+          "例如",
+          "对比",
+          "基准",
+          "开源",
+          "论文",
+          "数字信号:\\d+\\s*%",
+          "数字信号:\\d+\\s*(ms|s|GB|MB|K|B|亿|万|倍)",
+          "数字信号:\\d+\\.\\d+"
+        ]
+      },
+      "score_history": [
+        100
+      ],
+      "rewrite_count": 0,
+      "circuit_broken": false,
+      "validation_failed": false,
+      "validation_log": [
+        {
+          "segment": "search",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        },
+        {
+          "segment": "analyze",
+          "passed": true,
+          "errors": [],
+          "warnings": []
+        }
+      ],
+      "path": [
+        "search(real_rss)",
+        "validate_search(ok)",
+        "analyze(normal)",
+        "validate_analyze(ok)",
+        "quality_check(100)",
+        "organize"
+      ],
+      "llm_calls": 2,
+      "degraded_calls": 0,
+      "tokens_used_state": 2377,
+      "summary": "本次采集覆盖 9 条真实技术 feed，涉及数学、软件移植、预测平台、编程观点、图像处理及两篇 arXiv AI 论文。核心内容包括：一篇证明所有阶数幻六边形存在的数学新成果；一个将 Microsoft Word for Windows 1.1a 原生移植到 x64 平台的开源项目（获 61 分、19 条评论）；Long Bets 平台一个 2011 年预测的 URL 将在 11 年后失效的讨论（获 137 分、55 条评论）；一篇推荐技术演讲的博客；一篇反驳『代码从来不是难点』观点的文章；以及一种抖动 QR 码生成技术。AI 方面，一篇论文提出 MIST 基准（含 4 种匹配条件）和 SC2W 配对指标以解决大模型选择性信任问题；另一篇指出 EHR 特征工程占用数据科学家 39-45% 工作量，并针对影响 670 万美国成人的心力衰竭提出证据链接式特征工程流水线。整体反映了数学、复古软件、预测平台、编程文化与 AI 可靠性的多元技术动态。",
+      "key_points": [
+        "幻六边形研究证明所有阶数均存在，例如此前仅知 1 阶和 2 阶，新成果推广到任意阶，属于纯数学突破。",
+        "Microsoft Word 1.1a 的 x64 原生移植项目（GitHub 61 分、19 评论）展示了对 30 多年前二进制代码的逆向工程与重编译技术，对比传统模拟器方案，原生移植可显著提升兼容性和性能。",
+        "Long Bets 平台一个 2011 年预测的原始 URL 将在 11 年后失效（获 137 分、55 评论），对比 2011 年互联网链接的半衰期，引发对数字内容长期可访问性的讨论。",
+        "MIST 基准将每个推理项置于 4 种匹配条件（干净、误导、正确上下文、无关上下文）下，并配 SC2W 配对指标，用于量化模型在误导信号下保持正确、同时在可信上下文下不忽略信号的频率，解决『忽略一切上下文』的失败模式。",
+        "心力衰竭 EHR 特征工程占用数据科学家 39-45% 工作量，影响 670 万美国成人，论文提出证据链接式流水线，对比现有规则方法和 LLM 方法，强调融合指南化临床推理以降低瓶颈。"
       ],
       "article_title": "LangGraph 实验报告：SQLite checkpointer 跨进程恢复验证",
-      "tokens": 2250,
-      "cost_cny": 0.003159,
-      "cost_usd": 0.000442,
+      "tokens": 2377,
+      "cost_cny": 0.00333,
+      "cost_usd": 0.000466,
       "assertions": {
         "process_a_paused_before_organize": true,
-        "db_file_written_bytes": 77824,
+        "db_file_written_bytes": 98304,
         "fresh_memorysaver_sees_nothing": true,
         "new_sqlite_instance_sees_state": true,
         "separate_os_process_sees_state": true,
         "separate_os_process_detail": {
-          "pid": 44283,
+          "pid": 68066,
           "db_path": "/Volumes/M4_Workspace/AIHarness/OpenCode/OpenCodeStudy/Wk3/experiments/langgraph-pipeline/results/checkpoints.sqlite",
-          "thread_id": "sqlite-1786196197997",
+          "thread_id": "sqlite-1786267433840",
           "saw_state": true,
           "next": [
             "organize"
@@ -533,15 +870,17 @@
           "quality_score": 100,
           "path": [
             "search(real_rss)",
+            "validate_search(ok)",
             "analyze(normal)",
+            "validate_analyze(ok)",
             "quality_check(100)"
           ],
-          "summary_chars": 339,
+          "summary_chars": 426,
           "article_body_chars": 0
         },
         "process_b_completed_organize": true,
         "article_filled_by_process_b": true,
-        "checkpoint_history_count": 6
+        "checkpoint_history_count": 8
       }
     }
   ],
@@ -549,33 +888,33 @@
     "topic": "AI Agent 编排框架对比",
     "design": "2×2：{V1 线性, V3 StateGraph} × {normal 严格 prompt, terse 欠约束 prompt}；同素材同 prompt，唯一差异是门禁+回路",
     "collection_mode": "real_rss",
-    "same_raw_content_chars": 3626,
+    "same_raw_content_chars": 3413,
     "cells": {
       "v1_normal": {
         "name": "v1-linear(normal)",
         "topic": "AI Agent 编排框架对比",
         "analyze_style": "normal",
-        "elapsed_seconds": 11.86,
-        "quality_score": 82,
+        "elapsed_seconds": 8.84,
+        "quality_score": 100,
         "legacy_quality_score": 100,
         "quality_breakdown": {
-          "score": 82,
-          "raw_score": 82,
-          "avg_len": 137,
-          "bad_hits": 2,
-          "good_hits": 7,
+          "score": 100,
+          "raw_score": 111,
+          "avg_len": 131,
+          "bad_hits": 0,
+          "good_hits": 9,
           "shortfall": 0,
-          "bad_words": [
-            "生态"
-          ],
+          "bad_words": [],
           "good_words": [
             "例如",
             "对比",
-            "延迟",
+            "版本",
             "基准",
-            "开源",
+            "实现",
             "论文",
-            "数字信号:\\d+\\s*%"
+            "架构",
+            "数字信号:\\d+\\s*%",
+            "数字信号:\\d+\\.\\d+"
           ]
         },
         "quality_gate": "无（事后评分，管线不据此分支）",
@@ -588,79 +927,87 @@
           "organizer"
         ],
         "intermediate_files": [
-          "v1_workdir/raw-1786196220-normal.json",
-          "v1_workdir/analysis-1786196220-normal.json",
-          "v1_workdir/article-1786196220-normal.md"
+          "v1_workdir/raw-1786267472-normal.json",
+          "v1_workdir/analysis-1786267472-normal.json",
+          "v1_workdir/article-1786267472-normal.md"
         ],
         "llm_calls": 2,
-        "summary": "本次采集的9条技术信息覆盖AI基础设施、安全事件、云计算、开发者工具与开源社区治理等多个领域。Red Hat发文探讨重新思考CPU-GPU分工以优化LLM推理，指出CPU在推理中的潜力。OpenAI针对Hugging Face的意外攻击事件有了时间线，Simon Willison详细梳理了过程，引发社区热议（67分，82条评论）。纽约时报报道亚马逊新建数据中心将配备美国污染最严重的发电厂，引发环保争议（124分，118条评论）。Lobsters社区讨论Sublime Text的独特价值、Nixpkgs核心团队解散（影响Nix生态治理）以及跨团队访谈方法论。arXiv两篇论文分别提出选择性上下文信任框架（含MIST基准和SC2W指标）和心力衰竭特征工程流水线（指出EHR特征工程占数据科学家39-45%工作量）。整体信息显示AI基础设施、开源治理和临床AI是当前热点。",
+        "summary": "本期内容涵盖 9 条来自 Hacker News、Lobsters 和 arXiv 的科技资讯。数学方面，有文章宣称发现任意阶数的幻六边形，推翻了此前只有 n=1 和 n=2 存在的认知。历史软件方面，开发者将 Microsoft Word for Windows 1.1a 移植为原生 x64 版本，获得 61 分和 19 条评论。Long Bets 上一条 2011 年的预测因 URL 将在 11 年后失效而引发讨论，获得 137 分。Lobsters 上推荐了一些软件演讲视频，并讨论了“代码从来不是难点”这一说法的争议，以及抖动 QR 码的技术实现。AI 领域，一篇 arXiv 论文提出选择性上下文偏好优化（SC2W），用于训练模型在误导性上下文下保持正确，并引入基准 MIST；另一篇论文则提出一个证据链式心衰特征工程流水线，指出 EHR 特征工程占数据科学家工作量的 39-45%。",
         "key_points": [
-          "Red Hat提出CPU在LLM推理中重新扮演关键角色，通过重新划分CPU-GPU任务（例如将部分注意力计算放在CPU）可降低延迟和成本，对比纯GPU方案能提升资源利用率。",
-          "OpenAI对Hugging Face的意外攻击事件已整理出详细时间线，Simon Willison记录攻击发生、影响范围及修复过程，对比事件前后社区反应，凸显AI供应链安全风险。",
-          "亚马逊新数据中心将配备美国污染最严重的发电厂，该设施预计年排放量超过现有任何单一电厂，对比其他数据中心能源策略，引发对AI能耗与环保的激烈争论。",
-          "Nixpkgs核心团队宣布解散，原因包括治理分歧和倦怠，对比其他开源项目（如Linux内核）的治理模式，直接影响NixOS生态的长期维护和发布节奏。",
-          "arXiv论文提出SC2W指标和MIST基准，用于衡量模型在误导性上下文下的选择性信任能力，对比传统鲁棒性训练（忽略所有上下文），该方法在保留有用信息的同时提升抗误导性，例如在clean和misleading条件下测试模型准确率差异。"
+          "数学上，新研究声称幻六边形存在任意阶数，此前仅知 n=1 和 n=2 两种，例如 n=3 及以上此前被认为不可能。",
+          "Microsoft Word for Windows 1.1a 被移植到原生 x64 架构，该版本最初发布于 1989 年，对比原始 16 位版本，新移植可运行在现代 64 位系统上。",
+          "Long Bets 上一条 2011 年的预测因原始 URL 将在 11 年后失效而引发关注，该预测涉及长期赌注，例如比尔·盖茨曾参与此类赌约。",
+          "Lobsters 文章批评“代码从来不是难点”的说法，认为这是对程序员的侮辱，对比实际开发中调试、集成和性能优化等环节，代码编写往往不是最耗时部分。",
+          "arXiv 论文提出 SC2W 方法，训练模型选择性信任上下文，并引入基准 MIST，涵盖四种条件（干净、误导、正确、无关），例如模型在误导性上下文下正确率提升，同时避免完全忽略有用上下文。"
         ],
         "article_title": "V1 线性管线：AI Agent 编排框架对比",
-        "article_body": "最近 Red Hat 的一篇技术文章让我重新审视了 CPU 在 LLM 推理中的角色。他们提出将部分注意力计算放回 CPU，而非一刀切全交给 GPU，这在延迟和成本上带来了意外惊喜。纯 GPU 方案在资源利用率上确实存在瓶颈，而 CPU 的并行潜力被严重低估了。这提醒我们，架构优化不应只盯着显存带宽，更该回归计算本质——任务切分比硬件堆叠更值得投入。\n\n另一边，OpenAI 对 Hugging Face 的意外攻击事件被 Simon Willison 梳理成完整时间线，社区讨论热度高达 82 条评论。这次事件暴露的不仅是安全漏洞，更是 AI 供应链中“默认信任”的脆弱性。我们依赖的预训练权重、数据集和推理服务，每层都可能成为攻击面。与其事后修补，不如在编排框架里内置验证机制，比如哈希校验和来源追溯。\n\n亚马逊新数据中心将配备美国污染最严重的发电厂，这消息在 118 条评论里炸开了锅。AI 的能耗账不该只算 GPU 电表，还要算上冷却、制造和电力基础设施的隐性排放。对比其他数据中心采用可再生能源的策略，亚马逊的选择显然短视。作为开发者，我们或许该在模型效率优化上多花功夫——更小的模型、更聪明的调度，比无限堆算力更可持续。\n\nNixpkgs 核心团队解散的消息让我有些唏嘘。治理分歧和倦怠是开源项目的常见死因，但 Nix 生态的独特性和影响力让这次解散格外刺眼。对比 Linux 内核的层级化治理，Nix 的扁平结构虽然灵活，却缺乏缓冲机制。长期维护和发布节奏的不确定性，可能会让依赖 Nix 的 CI/CD 和可复现实验环境陷入被动。\n\n最后，arXiv 上那篇关于选择性上下文信任的论文提出了 SC2W 指标和 MIST 基准，专门衡量模型在误导性上下文下的表现。传统鲁棒性训练倾向于忽略所有上下文，但这样会丢失有用信息。SC2W 的巧妙之处在于，它让模型在 clean 和 misleading 条件下都能保持准确率，而不是简单粗暴地“一刀切”。这种细粒度的信任机制，或许会成为未来 Agent 编排中处理多源信息的关键。",
-        "tokens": 2296,
-        "cost_cny": 0.003241,
-        "cost_usd": 0.000454,
+        "article_body": "先说结论：这周的AI圈子里，最值得关注的不是某个新模型刷榜，而是一篇教你“怎么让模型学会怀疑”的论文。\n\narXiv上那篇SC2W（选择性上下文偏好优化）很有意思。它直击一个核心痛点：大模型在上下文里遇到错误信息时，往往选择“硬刚”或“盲从”。SC2W的做法是训练模型在“误导性上下文”下保持正确，同时不丢掉对“有用上下文”的信任。它配套的MIST基准把情况切成四类——干净、误导、正确、无关，逼着模型学会“看人下菜碟”。这种“选择性信任”能力，比单纯刷准确率难得多，也更接近真实部署时的场景。毕竟，生产环境里的数据，从来不会像eval集那么干净。\n\n另一个让我停下滚动条的是Lobsters上那篇炮轰“代码从来不是难点”的文章。这话听着像资深架构师的凡尔赛，但对一线开发者来说，调试、集成、性能优化里的脏活累活，哪个不比敲键盘费脑子？SC2W论文里也提到，EHR特征工程能占数据科学家39-45%的工作量——这不就是“代码不难，难的是理解数据”的实证吗？技术圈总爱把“抽象思维”捧上神坛，却忘了工程落地才是真正的修罗场。\n\n最后提一嘴那个幻六边形。数学家说任意阶数都存在，推翻了n=1和n=2的老皇历。这跟AI很像：你以为的边界，可能只是还没找到构造方法。别急着说“不可能”，先跑个实验试试。",
+        "tokens": 2156,
+        "cost_cny": 0.002974,
+        "cost_usd": 0.000416,
         "collection_mode": "real_rss"
       },
       "v3_normal": {
         "name": "v3-stategraph(normal)",
         "topic": "AI Agent 编排框架对比",
-        "elapsed_seconds": 10.3,
+        "elapsed_seconds": 9.91,
         "collection_mode": "none",
         "sources": [],
-        "quality_score": 89,
+        "quality_score": 100,
         "legacy_quality_score": 100,
         "quality_breakdown": {
-          "score": 89,
-          "raw_score": 89,
-          "avg_len": 120,
-          "bad_hits": 1,
+          "score": 100,
+          "raw_score": 103,
+          "avg_len": 141,
+          "bad_hits": 0,
           "good_hits": 7,
           "shortfall": 0,
-          "bad_words": [
-            "生态"
-          ],
+          "bad_words": [],
           "good_words": [
             "例如",
             "对比",
-            "吞吐",
+            "版本",
             "基准",
-            "开源",
             "论文",
-            "数字信号:\\d+\\s*%"
+            "数字信号:\\d+\\s*%",
+            "数字信号:\\d+\\.\\d+"
           ]
         },
         "score_history": [
-          89
+          100
         ],
         "rewrite_count": 0,
         "circuit_broken": false,
+        "validation_failed": false,
+        "validation_log": [
+          {
+            "segment": "analyze",
+            "passed": true,
+            "errors": [],
+            "warnings": []
+          }
+        ],
         "path": [
           "analyze(normal)",
-          "quality_check(89)",
+          "validate_analyze(ok)",
+          "quality_check(100)",
           "organize"
         ],
         "llm_calls": 2,
         "degraded_calls": 0,
-        "tokens_used_state": 2106,
-        "summary": "本次采集的9条技术内容覆盖AI基础设施、开源社区、编程工具、模型安全与医疗AI等多个领域。Red Hat提出重新思考CPU与GPU在LLM推理中的分工，以缓解GPU资源瓶颈；OpenAI对Hugging Face的意外攻击事件被Simon Willison梳理出完整时间线，引发对AI安全与供应链风险的讨论；亚马逊新数据中心因采用高污染发电站而遭到批评，凸显AI算力扩张与环境代价的矛盾。开源方面，Nixpkgs核心团队解散引发对社区治理可持续性的担忧；Sublime Text被作者怀念为“最后的经典编辑器”。arXiv上两篇论文分别提出选择性上下文信任的评测基准MIST（含四个对照条件）和心衰特征工程流水线（指出EHR特征工程占数据科学家39-45%的工作量）。整体来看，AI发展正面临性能、安全、环境与社区治理的多重挑战。",
+        "tokens_used_state": 2217,
+        "summary": "本次采集的9条技术内容涵盖数学新发现、软件移植、预测项目、技术博客和AI研究等主题。其中，Hacker News上最热门的是一条关于长期预测的帖子（137分、55评论），涉及11年后URL失效的预测；其次是Microsoft Word 1.1a的原生X64移植项目（61分、19评论）。Lobsters上讨论了软件演讲推荐、编程本质辩论和抖动QR码技术。arXiv上两篇AI论文分别提出选择性上下文信任的MIST基准和SC2W指标（涉及4种条件），以及心力衰竭特征工程流水线（提及6.7百万美国成年人、39-45%数据科学家工作量）。整体内容多元，但无直接与AI Agent编排框架相关，需注意主题偏差。",
         "key_points": [
-          "Red Hat提出重新平衡CPU与GPU在LLM推理中的分工，例如将部分注意力计算卸载到CPU，以减少GPU显存压力并提升整体吞吐量。",
-          "OpenAI对Hugging Face的意外攻击事件被Simon Willison梳理出详细时间线，包含67个点赞和82条评论，强调AI供应链中第三方依赖的安全风险。",
-          "亚马逊新数据中心将配套美国污染最严重的发电厂，对比其他数据中心通常使用可再生能源，该事件引发124个点赞和118条评论，凸显AI扩张的环境代价。",
-          "Nixpkgs核心团队宣布解散，这一事件可能导致包管理生态维护滞后，例如影响NixOS用户获取安全更新和新软件包的速度。",
-          "arXiv论文提出选择性信任基准MIST，包含干净、误导、正确上下文和无关上下文四种条件，并引入SC2W配对指标，用于评估模型在何时信任外部信号的能力。"
+          "存在六边形幻方的新数学发现（'Magic Hexagons of Every Order'），该论文证明任意阶数的六边形幻方均存在，挑战了此前仅存在有限阶数的认知。",
+          "Microsoft Word for Windows 1.1a 发布了原生X64移植版本（GitHub仓库jmarshall23/msword），使得32位时代的经典软件能在现代64位系统上高效运行，例如解决兼容性和性能问题。",
+          "Long Bets项目中的一个预测帖子（2011年发布）指出其原始URL将在11年后失效，该预测获得137分和55条评论，成为Hacker News上最受关注的话题，对比其他条目（如6分和61分）凸显了公众对长期预测和数字遗产的兴趣。",
+          "Lobsters上的一篇文章《'Code was never the hard part' is an insult to all programmers》反驳了'代码从来不是难点'的观点，认为该说法贬低了程序员的专业性和实际工作复杂度。",
+          "arXiv论文提出选择性上下文信任问题，并发布MIST基准（包含4种匹配条件：干净、误导、正确上下文、无关上下文）和SC2W配对指标，用于衡量模型在误导信号下保持正确回答的能力，例如对比忽略所有上下文的模型与选择性信任模型的鲁棒性差异。"
         ],
         "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
-        "tokens": 2106,
-        "cost_cny": 0.002898,
-        "cost_usd": 0.000406,
+        "tokens": 2217,
+        "cost_cny": 0.003094,
+        "cost_usd": 0.000433,
         "analyze_style": "normal",
         "quality_gate": "有（门槛 60，不达标自动 rewrite，上限 3 次）"
       },
@@ -668,21 +1015,21 @@
         "name": "v1-linear(terse)",
         "topic": "AI Agent 编排框架对比",
         "analyze_style": "terse",
-        "elapsed_seconds": 8.54,
-        "quality_score": 64,
-        "legacy_quality_score": 100,
+        "elapsed_seconds": 6.9,
+        "quality_score": 58,
+        "legacy_quality_score": 82,
         "quality_breakdown": {
-          "score": 64,
-          "raw_score": 64,
-          "avg_len": 48,
+          "score": 58,
+          "raw_score": 58,
+          "avg_len": 43,
           "bad_hits": 0,
           "good_hits": 3,
-          "shortfall": 0,
+          "shortfall": 1,
           "bad_words": [],
           "good_words": [
-            "基准",
+            "对比",
             "论文",
-            "数字信号:\\d+\\s*%"
+            "数字信号:\\d+\\.\\d+"
           ]
         },
         "quality_gate": "无（事后评分，管线不据此分支）",
@@ -695,84 +1042,84 @@
           "organizer"
         ],
         "intermediate_files": [
-          "v1_workdir/raw-1786196242-terse.json",
-          "v1_workdir/analysis-1786196242-terse.json",
-          "v1_workdir/article-1786196242-terse.md"
+          "v1_workdir/raw-1786267491-terse.json",
+          "v1_workdir/analysis-1786267491-terse.json",
+          "v1_workdir/article-1786267491-terse.md"
         ],
         "llm_calls": 2,
-        "summary": "Hacker News 与 Lobsters 聚焦 AI 推理硬件、OpenAI 安全事件、数据中心污染、Sublime Text 怀旧、Nixpkgs 团队解散及团队协作问题，arXiv 则提出选择性信任的上下文优化框架与心衰 EHR 特征工程流水线。",
+        "summary": "AI Agent编排框架对比的采集结果实际包含数学、软件、历史预测、编程观点、二维码技术及AI论文等无关内容，与主题不匹配。",
         "key_points": [
-          "Red Hat 主张重新思考 CPU-GPU 分工以优化 LLM 推理，CPU 回归关键角色。",
-          "OpenAI 对 Hugging Face 的意外攻击事件已有完整时间线，引发 82 条评论热议。",
-          "亚马逊新数据中心将配备美国污染最严重的发电厂，环保争议大。",
-          "Sublime Text 被赞为经典，反映编辑器领域创新缺失。",
-          "Nixpkgs 核心团队解散，引发社区对未来治理的担忧。",
-          "一篇博客探讨跨团队访谈中的自我问题，反思协作盲点。",
-          "arXiv 论文提出选择性信任（SC2W）与 MIST 基准，解决模型在误导性上下文下的鲁棒性。",
-          "另一篇 arXiv 提出心衰 EHR 特征工程流水线，显著降低数据科学家 39-45% 的工作负担。"
+          "Hacker News条目涉及魔幻六边形数学、Word 1.1a移植及Long Bets预测链接，与AI Agent无关。",
+          "Lobsters条目讨论软件演讲、编程观点和抖动QR码，非编排框架。",
+          "arXiv论文聚焦选择性上下文信任优化和心力衰竭特征工程，不涉及Agent编排。",
+          "所有内容均偏离研究主题，缺乏可用对比信息。"
         ],
         "article_title": "V1 线性管线：AI Agent 编排框架对比",
-        "article_body": "最近几天，技术圈的讨论热度集中在 AI Agent 编排框架的“内功”与“外患”上。Red Hat 的一篇长文重新挑起了 CPU 与 GPU 的分工之争——他们主张在 LLM 推理中让 CPU 回归关键角色，而非一味堆砌 GPU。这个观点在 HN 上引发 82 条评论，但我觉得更值得玩味的是背后的编排思维：当推理任务从“算力饥渴”转向“延迟敏感”，框架的调度粒度就必须从“按层”细化到“按算子”。如果编排框架还停留在静态绑定 GPU 的旧范式，那 CPU 的回归只会变成另一场资源浪费。\n\n另一边，Nixpkgs 核心团队的解散则给所有依赖单一社区治理的编排项目敲了警钟。框架的健壮性不仅取决于代码，还取决于治理结构的冗余度。当核心维护者因“协作盲点”分道扬镳，下游的 CI/CD 和依赖锁定策略就会瞬间变得脆弱。这让我想起那篇反思跨团队访谈的博客——很多时候，我们只关注 Agent 之间的协议对齐，却忽略了人类团队在接口设计上的隐性摩擦。\n\n好在 arXiv 上有人给出了“解药”。SC2W 框架和 MIST 基准直接瞄准了模型在误导性上下文下的鲁棒性，这恰恰是编排框架最容易忽视的暗礁——当 Agent 从多个数据源拉取上下文，一个被污染的字段就可能让整个决策链崩盘。而心衰 EHR 的特征工程流水线则展示了另一条路：通过标准化特征提取，把数据科学家的负担砍掉 39%-45%。这暗示着，未来的编排框架不该只是任务调度器，更该是“上下文净化器”和“特征预处理器”的融合体。\n\n说到底，Agent 编排的下一个战场不在 GPU 数量，而在信任边界和治理弹性。谁能在框架层面同时解决硬件分工、社区协作和上下文污染这三重挑战，谁才能真正握住下一代 AI 应用的手柄。",
-        "tokens": 1723,
-        "cost_cny": 0.002407,
-        "cost_usd": 0.000337,
+        "article_body": "先说结论：这次针对 AI Agent 编排框架的调研，基本是颗粒无收。不是因为没有资料，而是因为搜回来的东西压根不在一个频道上——Hacker News 在聊魔幻六边形数学和 Word 1.1a 的移植，Lobsters 在讨论软件演讲和抖动 QR 码，arXiv 上则是关于选择性上下文信任优化和心力衰竭特征工程的论文。每一项单独看都算有料，但拼在一起，跟“编排框架”四个字毫无关系。\n\n这事儿挺有意思，它暴露了当前技术信息检索的一个尴尬现实：关键词匹配 ≠ 语义对齐。你搜“Agent 编排”，算法以为你要的是“Agent”这个词的所有变体，于是数学、历史预测、二维码全来了。但真正的编排框架，比如 LangGraph、CrewAI、AutoGen 那套东西，反而被淹没在噪声里。\n\n作为开发者，我其实有点庆幸这次没找到“标准答案”。因为如果一搜就有大把现成的对比，说明这个领域已经卷成红海了。目前编排框架还在快速演进，每个框架的抽象层、状态管理、人机协同方式都差异巨大，甚至没有统一的评测基准。现在去硬做对比，写出来的东西大概率是“A 支持 X，B 支持 Y”的说明书，而不是有判断力的技术选型。\n\n所以，我更愿意把这次“失败”当成一次信号：与其追着框架跑，不如先想清楚你的 Agent 到底需要什么——是复杂状态机，还是简单的 DAG？是强工具调用，还是多角色协作？框架只是手段，编排思路才是核心。等你想明白了，再回来搜，你会发现那些真正值得对比的东西，根本不用搜，它会在你的代码里自己冒出来。",
+        "tokens": 1387,
+        "cost_cny": 0.001886,
+        "cost_usd": 0.000264,
         "collection_mode": "real_rss"
       },
       "v3_terse": {
         "name": "v3-stategraph(terse)",
         "topic": "AI Agent 编排框架对比",
-        "elapsed_seconds": 13.14,
+        "elapsed_seconds": 7.73,
         "collection_mode": "none",
         "sources": [],
-        "quality_score": 100,
+        "quality_score": 61,
         "legacy_quality_score": 100,
         "quality_breakdown": {
-          "score": 100,
-          "raw_score": 101,
-          "avg_len": 107,
+          "score": 61,
+          "raw_score": 61,
+          "avg_len": 34,
           "bad_hits": 0,
-          "good_hits": 8,
+          "good_hits": 3,
           "shortfall": 0,
           "bad_words": [],
           "good_words": [
-            "例如",
-            "对比",
-            "API",
-            "延迟",
             "基准",
-            "开源",
-            "论文",
-            "数字信号:\\d+\\s*%"
+            "实现",
+            "数字信号:\\d+\\.\\d+"
           ]
         },
         "score_history": [
-          41,
-          100
+          61
         ],
-        "rewrite_count": 1,
+        "rewrite_count": 0,
         "circuit_broken": false,
+        "validation_failed": false,
+        "validation_log": [
+          {
+            "segment": "analyze",
+            "passed": true,
+            "errors": [],
+            "warnings": []
+          }
+        ],
         "path": [
           "analyze(terse)",
-          "quality_check(41)",
-          "rewrite#1",
-          "quality_check(100)",
+          "validate_analyze(ok)",
+          "quality_check(61)",
           "organize"
         ],
-        "llm_calls": 3,
+        "llm_calls": 2,
         "degraded_calls": 0,
-        "tokens_used_state": 3458,
-        "summary": "本批次采集的9条RSS内容覆盖AI基础设施、安全事件、开发者工具与前沿研究。Red Hat于2026年8月发布博客，提出重新思考LLM推理中的CPU-GPU分工，指出CPU在内存带宽和低延迟场景中的回归价值。OpenAI对Hugging Face的意外攻击时间线被公开，涉及82条评论讨论。亚马逊新数据中心将配套美国污染最严重的发电厂，引发124点关注。开发者社区方面，Sublime Text被赞为经典编辑器，Nixpkgs核心团队解散。arXiv两篇论文分别提出选择性上下文信任框架（MIST基准+SC2W指标）和心衰EHR特征工程管线，后者可减轻数据科学家39-45%的负担。整体体现AI落地中的工程效率、安全与环境权衡。",
+        "tokens_used_state": 1591,
+        "summary": "从9条RSS源中提取的跨领域内容，涵盖数学、软件历史、编程观点、技术工具及AI研究（选择性信任与临床特征工程），与AI Agent编排框架主题无关。",
         "key_points": [
-          "Red Hat提出CPU在LLM推理中的回归价值，例如通过优化内存带宽利用，CPU可处理KV缓存和调度任务，GPU专注计算密集型矩阵乘法。",
-          "OpenAI对Hugging Face的意外攻击时间线已明确，例如从误用API到IP封禁的细节，引发社区对AI安全边界的讨论，强调需建立更严格的访问控制。",
-          "亚马逊新数据中心将配套美国污染最严重的发电厂，对比其他云厂商的绿色承诺，凸显AI扩张与气候目标的冲突，需权衡能源成本与环境影响。",
-          "Nixpkgs核心团队解散，对比其他开源项目治理模式，对Nix的可持续性构成挑战，需社区协作重建治理结构。",
-          "arXiv研究提出选择性上下文信任框架，例如通过SC2W指标衡量模型在误导与正确上下文间的平衡，解决模型过度信任或忽视上下文的问题。"
+          "数学：发现任意阶魔幻六边形的新构造",
+          "软件历史：微软Word 1.1a的64位原生移植项目",
+          "预测：Long Bets上2011年预测的原始URL将在11年后失效",
+          "编程观点：反驳'代码从来不是难点'的说法，认为其侮辱程序员",
+          "技术工具：抖动QR码的实现与讨论",
+          "AI研究1：提出选择性信任框架（MIST基准与SC2W指标），解决模型盲目信任或忽略上下文的问题",
+          "AI研究2：面向心力衰竭的EHR特征工程流水线，整合规则与LLM方法"
         ],
         "article_title": "LangGraph 实验报告：AI Agent 编排框架对比",
-        "tokens": 3458,
-        "cost_cny": 0.00455,
-        "cost_usd": 0.000637,
+        "tokens": 1591,
+        "cost_cny": 0.002217,
+        "cost_usd": 0.00031,
         "analyze_style": "terse",
         "quality_gate": "有（门槛 60，不达标自动 rewrite，上限 3 次）"
       }
@@ -794,28 +1141,27 @@
       },
       {
         "维度": "质量分",
-        "V1/normal": 82,
-        "V3/normal": 89,
-        "V1/terse": 64,
-        "V3/terse": 100
+        "V1/normal": 100,
+        "V3/normal": 100,
+        "V1/terse": 58,
+        "V3/terse": 61
       },
       {
         "维度": "旧公式分",
         "V1/normal": 100,
         "V3/normal": 100,
-        "V1/terse": 100,
+        "V1/terse": 82,
         "V3/terse": 100
       },
       {
         "维度": "评分轨迹",
         "V1/normal": "—（单次）",
         "V3/normal": [
-          89
+          100
         ],
         "V1/terse": "—（单次）",
         "V3/terse": [
-          41,
-          100
+          61
         ]
       },
       {
@@ -823,60 +1169,60 @@
         "V1/normal": 0,
         "V3/normal": 0,
         "V1/terse": 0,
-        "V3/terse": 1
+        "V3/terse": 0
       },
       {
         "维度": "LLM 调用",
         "V1/normal": 2,
         "V3/normal": 2,
         "V1/terse": 2,
-        "V3/terse": 3
+        "V3/terse": 2
       },
       {
         "维度": "Token",
-        "V1/normal": 2296,
-        "V3/normal": 2106,
-        "V1/terse": 1723,
-        "V3/terse": 3458
+        "V1/normal": 2156,
+        "V3/normal": 2217,
+        "V1/terse": 1387,
+        "V3/terse": 1591
       },
       {
         "维度": "成本 CNY",
-        "V1/normal": 0.003241,
-        "V3/normal": 0.002898,
-        "V1/terse": 0.002407,
-        "V3/terse": 0.00455
+        "V1/normal": 0.002974,
+        "V3/normal": 0.003094,
+        "V1/terse": 0.001886,
+        "V3/terse": 0.002217
       },
       {
         "维度": "耗时 s",
-        "V1/normal": 11.86,
-        "V3/normal": 10.3,
-        "V1/terse": 8.54,
-        "V3/terse": 13.14
+        "V1/normal": 8.84,
+        "V3/normal": 9.91,
+        "V1/terse": 6.9,
+        "V3/terse": 7.73
       },
       {
         "维度": "摘要字数",
-        "V1/normal": 387,
-        "V3/normal": 365,
-        "V1/terse": 127,
-        "V3/terse": 314
+        "V1/normal": 399,
+        "V3/normal": 302,
+        "V1/terse": 62,
+        "V3/terse": 74
       },
       {
         "维度": "要点条数",
         "V1/normal": 5,
         "V3/normal": 5,
-        "V1/terse": 8,
-        "V3/terse": 5
+        "V1/terse": 4,
+        "V3/terse": 7
       }
     ],
     "gate_delta": {
-      "normal": 7,
-      "terse": 36
+      "normal": 0,
+      "terse": 3
     }
   },
   "process_total": {
-    "llm_calls": 25,
-    "tokens": 26792,
-    "cost_cny": 0.037243,
-    "cost_usd": 0.005214
+    "llm_calls": 28,
+    "tokens": 27950,
+    "cost_cny": 0.03971,
+    "cost_usd": 0.005559
   }
 }

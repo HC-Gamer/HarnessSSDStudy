@@ -1,52 +1,5 @@
 # V1 线性管线：AI Agent 编排框架对比
 
-> 主题: AI Agent 编排框架对比
-> 质量评分: 58/100（门槛 60，旧公式会给 82）
-> 评分轨迹: [58] | 重写次数: 0
-> 采集方式: real_rss | LLM 调用: 2 次
-> 走过的路径: collector → →file→ → analyzer → →file→ → organizer
-
-## 评分分项
-
-| 分项 | 值 |
-|------|-----|
-| 平均字数 | 43 |
-| 空洞用语命中 | 0 次  |
-| 具体性信号 | 3 个 |
-| 要点缺口 | 1 条 |
-| 原始分 → 最终分 | 58 → 58 |
-
-## 段间校验
-
-| 段 | 结果 | 错误 | 警告 | 明细 |
-|----|:----:|:---:|:---:|------|
-| —（本次未经过校验节点） | | | | |
-
-## 数据来源
-
-- https://gukov.dev/math/2026/08/02/new-magic-hexagons.html
-- https://github.com/jmarshall23/msword
-- http://longbets.org/601/
-- https://char.lt/blog/2026/08/talks-i-like/
-- https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers
-- https://www.andrewt.net/dithered-qr-codes/wtf/
-- https://arxiv.org/abs/2608.06377v1
-- https://arxiv.org/abs/2608.06366v1
-- https://arxiv.org/abs/2608.06364v1
-
-## 摘要
-
-AI Agent编排框架对比的采集结果实际包含数学、软件、历史预测、编程观点、二维码技术及AI论文等无关内容，与主题不匹配。
-
-## 关键要点
-
-- Hacker News条目涉及魔幻六边形数学、Word 1.1a移植及Long Bets预测链接，与AI Agent无关。
-- Lobsters条目讨论软件演讲、编程观点和抖动QR码，非编排框架。
-- arXiv论文聚焦选择性上下文信任优化和心力衰竭特征工程，不涉及Agent编排。
-- 所有内容均偏离研究主题，缺乏可用对比信息。
-
-## 正文
-
 先说结论：这次针对 AI Agent 编排框架的调研，基本是颗粒无收。不是因为没有资料，而是因为搜回来的东西压根不在一个频道上——Hacker News 在聊魔幻六边形数学和 Word 1.1a 的移植，Lobsters 在讨论软件演讲和抖动 QR 码，arXiv 上则是关于选择性上下文信任优化和心力衰竭特征工程的论文。每一项单独看都算有料，但拼在一起，跟“编排框架”四个字毫无关系。
 
 这事儿挺有意思，它暴露了当前技术信息检索的一个尴尬现实：关键词匹配 ≠ 语义对齐。你搜“Agent 编排”，算法以为你要的是“Agent”这个词的所有变体，于是数学、历史预测、二维码全来了。但真正的编排框架，比如 LangGraph、CrewAI、AutoGen 那套东西，反而被淹没在噪声里。
