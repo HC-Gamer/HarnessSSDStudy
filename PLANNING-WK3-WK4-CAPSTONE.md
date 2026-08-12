@@ -356,7 +356,7 @@ M2 全部 ──▶ M3-T3.1 (16-1 Checklist 前置要求「13/14/15 已跑通」
 ## 7. 执行路径
 
 > **委派约定**
-> - **Opus**：架构决策、跨文件重构方案、评分口径设计、报告与博客写作、验收审阅
+> - **AI 辅助**：架构决策、跨文件重构方案、评分口径设计、报告与博客写作、验收审阅
 > - **DeepSeek / OpenCode**：按课件参考实现生成代码、写单测、写脚本（课件每个任务都给了提示词，直接喂）
 > - **OpenCode sub-agent**：批量机械改造（`node_name` 透传、import 路径调整、逐项检查脚本执行）
 > - **人工（不可委派）**：BotFather 建 bot、DM pairing 审批、截图、`gh secret` 配置、代理网络配置
@@ -376,12 +376,12 @@ M2 全部 ──▶ M3-T3.1 (16-1 Checklist 前置要求「13/14/15 已跑通」
 | ID | 任务 | 依赖 | 委派 | 完成标准 |
 |:--|:--|:--|:--|:--|
 | T1.1 | 搭 v3-multi-agent 骨架：迁入 Wk1 的 `AGENTS.md`/`.opencode/`，Wk2 的 `pipeline/`/`hooks/`/`.github/`，建 `knowledge/{raw,articles,pending_review}` | T0.4 | OpenCode | V1/V2 段检查脚本全 `[OK]` |
-| T1.2 | 第 9 节：`patterns/router.py` + `patterns/supervisor.py` | T1.1 | DeepSeek 生成 + Opus 审 | `python -m patterns.router` / `.supervisor` 按 §2.3 通过 |
-| T1.3 | 第 10 节重构：`state.py`(KBState) + 从 `langgraph_experiment.py` 拆出 collector/analyzer/organizer + `graph.py` + `nodes.py` re-export | T1.1 | Opus 出拆分方案 → OpenCode 执行 | KBState 9 字段；`python3 -m workflows.graph` 能跑到 organize |
-| T1.4 | 第 11-1/11-2：`reviewer.py`（5 维加权，Python 重算）+ `reviser.py`（只改不评）+ `human_flag.py` + graph 三路分支 | T1.3 | DeepSeek 生成 + **Opus 审评分口径** | 三路分支均可达；加权分与手算一致 |
+| T1.2 | 第 9 节：`patterns/router.py` + `patterns/supervisor.py` | T1.1 | DeepSeek 生成 + AI 辅助 审 | `python -m patterns.router` / `.supervisor` 按 §2.3 通过 |
+| T1.3 | 第 10 节重构：`state.py`(KBState) + 从 `langgraph_experiment.py` 拆出 collector/analyzer/organizer + `graph.py` + `nodes.py` re-export | T1.1 | AI 辅助 出拆分方案 → OpenCode 执行 | KBState 9 字段；`python3 -m workflows.graph` 能跑到 organize |
+| T1.4 | 第 11-1/11-2：`reviewer.py`（5 维加权，Python 重算）+ `reviser.py`（只改不评）+ `human_flag.py` + graph 三路分支 | T1.3 | DeepSeek 生成 + **AI 辅助 审评分口径** | 三路分支均可达；加权分与手算一致 |
 | T1.5 | 第 11-3：`planner.py` 三档策略 + KBState 加 `plan` + 挂图入口 | T1.4 | DeepSeek | 三档 env 切换生效；11-3 步骤 6 验证清单全过 |
 | T1.6 | 第 12-1/2/3：`tests/{cost_guard,eval_test,security}.py` + `pytest.ini` | T1.1 | DeepSeek | 三个模块独立自测通过；`pytest tests/` 全绿 |
-| T1.7 | **第 12-4 接入**：model_client 记账+熔断、各节点透传 `node_name`、collector 入口 sanitize、organizer 出口 filter、graph 收尾写 `cost-report.json` | T1.5 + T1.6 | OpenCode sub-agent（机械） + Opus 审 | §2.3「第12节」全部勾选，尤其熔断中途停 |
+| T1.7 | **第 12-4 接入**：model_client 记账+熔断、各节点透传 `node_name`、collector 入口 sanitize、organizer 出口 filter、graph 收尾写 `cost-report.json` | T1.5 + T1.6 | OpenCode sub-agent（机械） + AI 辅助 审 | §2.3「第12节」全部勾选，尤其熔断中途停 |
 | T1.8 | V3 整体自查 + 提交（commit message: `feat: wire CostGuard + Security into graph (V3 real completion)`） | T1.7 | OpenCode | 12-4 步骤 6/7/9 三张清单全过 |
 | T1.9 | 加分：接入 `validate.py` 段间校验为 collector/analyzer 后置闸门 | T1.3 | OpenCode | 坏数据被拦，走 human_flag |
 
@@ -389,32 +389,32 @@ M2 全部 ──▶ M3-T3.1 (16-1 Checklist 前置要求「13/14/15 已跑通」
 
 | ID | 任务 | 依赖 | 委派 | 完成标准 |
 |:--|:--|:--|:--|:--|
-| T1.10 | plan-and-execute 实验报告 + 心得 + 博客 8 | — | Opus | 报告含 Plan-and-Execute vs ReAct 的成本/步数/失败模式对照 |
-| T1.11 | v3-pipeline 实验报告 + 心得 + 博客 9 | — | Opus | 含 92 分 / ¥0.0028 那次运行的完整复盘 |
-| T1.12 | LangGraph 报告补「局限性」：评分饱和、单次采样噪声 | — | Opus | 报告新增一节，结论口径收敛 |
+| T1.10 | plan-and-execute 实验报告 + 心得 + 博客 8 | — | AI 辅助 | 报告含 Plan-and-Execute vs ReAct 的成本/步数/失败模式对照 |
+| T1.11 | v3-pipeline 实验报告 + 心得 + 博客 9 | — | AI 辅助 | 含 92 分 / ¥0.0028 那次运行的完整复盘 |
+| T1.12 | LangGraph 报告补「局限性」：评分饱和、单次采样噪声 | — | AI 辅助 | 报告新增一节，结论口径收敛 |
 | T1.13 | V3 CI：`.github/workflows/daily-collect.yml` 指向 v3 工作流并跑通一次 | T1.8 | OpenCode + 人工配 secret | `gh run list` 有 success |
 
 ### M2 · Wk4 实现
 
 | ID | 任务 | 依赖 | 委派 | 完成标准 |
 |:--|:--|:--|:--|:--|
-| T2.0 | **知识库 schema 对齐**：`scripts/build_index.py` 生成 `index.json`，补 `category` + 顶层 `relevance_score`(0-1) | T1.8 | DeepSeek + Opus 定 schema | index.json 字段齐全且幂等可重跑 |
+| T2.0 | **知识库 schema 对齐**：`scripts/build_index.py` 生成 `index.json`，补 `category` + 顶层 `relevance_score`(0-1) | T1.8 | DeepSeek + AI 辅助 定 schema | index.json 字段齐全且幂等可重跑 |
 | T2.1 | 13-1：装 OpenClaw + onboard + 建 Telegram Bot + 渠道 + DM pairing | T0.3 | 人工（BotFather/审批）+ OpenCode 排错 | 13-1 检查清单 8 项全过 |
 | T2.2 | 13-2：v3→v4 `cp -rn` + 切 workspace + 清占位 + 软链 knowledge + 改 `openclaw/AGENTS.md`（messaging profile） | T1.8 + T2.0 + T2.1 | OpenCode | 13-2 检查清单 8 项全过；Telegram 新会话返回准确数字 |
 | T2.3 | 14-1：`distribution/formatter.py` | T2.0 | DeepSeek | 两种格式产出正确；纯函数 |
 | T2.4 | 14-2：`distribution/publisher.py`（异步 + Telegram + 飞书 + MarkdownV2 转义） | T2.3 | DeepSeek | dry-run 不崩；真实推送成功 |
 | T2.5 | 14-3：`daily_digest.py` + `openclaw/skills/daily-digest/SKILL.md` + crontab | T2.4 | DeepSeek + 人工配 cron | 手动跑成功；cron 1 分钟验证法跑出日志 |
 | T2.6 | 15-1：`bot/knowledge_bot.py`（意图 + 加权搜索 + 5 指令 + 权限） | T2.0 | DeepSeek | 意图 6 用例全过；5 handler 可达 |
-| T2.7 | 15-2：`openclaw/skills/top-rated/SKILL.md` | T2.5 | Opus 写 description + OpenCode | Telegram 自然语言可触发，返回准确 Top N |
+| T2.7 | 15-2：`openclaw/skills/top-rated/SKILL.md` | T2.5 | AI 辅助 写 description + OpenCode | Telegram 自然语言可触发，返回准确 Top N |
 | T2.8 | GitHub Actions `daily-collect-v4.yml` + `DEEPSEEK_API_KEY` secret | T1.13 | OpenCode + 人工 | 24h 内有 success，`chore(v4)` commit 入库 |
 
 ### M3 · 毕业交付
 
 | ID | 任务 | 依赖 | 委派 | 完成标准 |
 |:--|:--|:--|:--|:--|
-| T3.1 | 16-1：10 项 Checklist 逐项验证并留证（macOS 命令替换见 §8.3） | M2 全部 | OpenCode 执行 + Opus 审 | 10 项全绿或有明示降级说明 |
+| T3.1 | 16-1：10 项 Checklist 逐项验证并留证（macOS 命令替换见 §8.3） | M2 全部 | OpenCode 执行 + AI 辅助 审 | 10 项全绿或有明示降级说明 |
 | T3.2 | 16-2 步骤 1：V4 完整性检查 18 项 | T3.1 | OpenCode | 全 `[OK]`（Docker 两项按 §7.2 处理） |
-| T3.3 | README.md（7 部分） | T3.2 | Opus | 七部分齐全，架构图为文本框图 |
+| T3.3 | README.md（7 部分） | T3.2 | AI 辅助 | 七部分齐全，架构图为文本框图 |
 | T3.4 | 截图 ≥3 张进 `screenshots/` | T3.1 | 人工 | 三类场景各一张，文件名自解释 |
 | T3.5 | 建独立公开仓 + push + V1→V4 自查清单全勾 | T3.3 + T3.4 | 人工 + OpenCode | 仓库匿名可访问；清单全勾 |
 | T3.6 | 陌生环境冒烟：空目录 clone 按 README 跑通 | T3.5 | OpenCode | 三步走通（Telegram 部分除外） |
