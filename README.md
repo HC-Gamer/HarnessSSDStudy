@@ -73,6 +73,10 @@
 
 ---
 
+
+1. [复杂度路由：一件事该消耗多少推理](blogs/agent-design-patterns/blog20_复杂度路由：一件事该消耗多少推理_2026-08-13.md) (2026-08-13)
+
+   我家 Mac mini 上的 Hermes 有个挺有意思的调度规则：用户的问题默认路由给 Codex CLI，但只要�
 ## 关于
 
 - **作者**: HC-Gamer (patrick.huangchengai@gmail.com)
