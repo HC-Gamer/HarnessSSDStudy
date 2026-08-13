@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260813-009",
+  "title": "A critical review of Xilem in 2026",
+  "source_url": "https://hackmd.io/@s_haMSbyTAOWfoXc1aYNUg/Hka74gCwZg",
+  "summary": "A critical review of Xilem in 2026｜# A critical review of Xilem in 2026 This is a long-overdue review of Xilem s current state, with a focus on pain points and needed changes. My o",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "# A critical review of Xilem in 2026 This is a long-overdue review of Xilem s current state, with a focus on pain points and needed changes. My opinion, which I think is widely shared by people who ve worked on Xilem, is that the current architecture isn t remotely close to working. Making non-trivi"
+  }
+}

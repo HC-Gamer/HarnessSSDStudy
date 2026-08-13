@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260813-004",
+  "title": "GitHub Stacks in Jujutsu",
+  "source_url": "https://alan.norbauer.com/articles/github-stacks-with-jujutsu/",
+  "summary": "GitHub Stacks in Jujutsu｜GitHub Stacks in Jujutsu Published on 2026-08-08 jj vcs github Written by alan View this article's source code Table of Contents Prerequisites Install CLIs",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "GitHub Stacks in Jujutsu Published on 2026-08-08 jj vcs github Written by alan View this article's source code Table of Contents Prerequisites Install CLIs Configure jj Bonus: Learn jj’s bookmark aliases Manual Workflows Create a stack Add a new commit to the TOP of the stack Add a new commit to the"
+  }
+}

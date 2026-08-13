@@ -1,0 +1,19 @@
+{
+  "id": "simonwillison-20260813-001",
+  "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+  "source_url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+  "summary": "DeepSeek V4 Pro 0813 (on OpenRouter)｜DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek",
+  "tags": [
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Interestingly I got very different looking pelicans for the three different r"
+  }
+}

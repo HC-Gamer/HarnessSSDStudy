@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260813-010",
+  "title": "Why tiny JPEGs look different in Chrome",
+  "source_url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+  "summary": "Why tiny JPEGs look different in Chrome｜Guillaume Técher Blog Monday, August 3, 2026 Why Tiny JPEGs Look Different in Chrome What looked like a rendering bug turned out to be a cle",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Guillaume Técher Blog Monday, August 3, 2026 Why Tiny JPEGs Look Different in Chrome What looked like a rendering bug turned out to be a clever JPEG decoding optimization in Chrome. This icon looks better on my colleague’s computer A while back, when chatting with a colleague over their computer, I"
+  }
+}

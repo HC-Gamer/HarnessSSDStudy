@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260813-005",
+  "title": "Principia Mathematica is modern and insightful",
+  "source_url": "https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html",
+  "summary": "Principia Mathematica is modern and insightful｜Article URL: https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html Comments URL: https://news.ycombinator.com/item?",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html Comments URL: https://news.ycombinator.com/item?id=49279928 Points: 143 # Comments: 67"
+  }
+}

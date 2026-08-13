@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260813-005",
+  "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
+  "source_url": "https://arxiv.org/abs/2608.12246v1",
+  "summary": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection｜Evaluating security vulnerability detection tools requires benchmark datasets with vulnerability-inducing comm",
+  "tags": [
+    "agent",
+    "rag",
+    "evaluation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Evaluating security vulnerability detection tools requires benchmark datasets with vulnerability-inducing commits (VICs) - the commits that first introduce vulnerabilities into codebases. VICs are essential for determining the full range of vulnerable software versions. Existing vulnerability datasets suffer from limited programming language coverage, restricted patch complexity, and narrow project scope. Through our dual annotation by human experts and an agentic workflow, we create a benchmark"
+  }
+}

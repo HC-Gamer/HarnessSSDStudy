@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260813-002",
+  "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+  "source_url": "https://arxiv.org/abs/2608.12307v1",
+  "summary": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses｜Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the la",
+  "tags": [
+    "deployment",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. Using four r"
+  }
+}

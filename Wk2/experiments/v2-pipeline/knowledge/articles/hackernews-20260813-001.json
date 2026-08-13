@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260813-001",
+  "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+  "source_url": "https://openai.com/codex/",
+  "summary": "ChatGPT Desktop (Codex Desktop) for Linux｜Article URL: https://openai.com/codex/ Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 75 # Comments: 26",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://openai.com/codex/ Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 75 # Comments: 26"
+  }
+}

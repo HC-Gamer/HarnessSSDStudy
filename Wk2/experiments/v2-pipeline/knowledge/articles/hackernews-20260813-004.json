@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260813-004",
+  "title": "Build Wide, Ship Narrow",
+  "source_url": "https://adapt.com/blog/build-wide-ship-narrow",
+  "summary": "Build Wide, Ship Narrow｜Article URL: https://adapt.com/blog/build-wide-ship-narrow Comments URL: https://news.ycombinator.com/item?id=49280047 Points: 83 # Comments: 23",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://adapt.com/blog/build-wide-ship-narrow Comments URL: https://news.ycombinator.com/item?id=49280047 Points: 83 # Comments: 23"
+  }
+}

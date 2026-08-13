@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260813-003",
+  "title": "Flutter 3.47",
+  "source_url": "https://flutter.dev/blog/whats-new-in-flutter-3-47",
+  "summary": "Flutter 3.47｜Article URL: https://flutter.dev/blog/whats-new-in-flutter-3-47 Comments URL: https://news.ycombinator.com/item?id=49280061 Points: 96 # Comments: 93",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://flutter.dev/blog/whats-new-in-flutter-3-47 Comments URL: https://news.ycombinator.com/item?id=49280061 Points: 96 # Comments: 93"
+  }
+}

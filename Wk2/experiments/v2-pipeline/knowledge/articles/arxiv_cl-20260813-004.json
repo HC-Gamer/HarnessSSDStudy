@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260813-004",
+  "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
+  "source_url": "https://arxiv.org/abs/2608.12253v1",
+  "summary": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL｜Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language mod",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theo"
+  }
+}

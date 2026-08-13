@@ -1,0 +1,1080 @@
+[
+  {
+    "source": "github",
+    "title": "yc-software/qm",
+    "url": "https://github.com/yc-software/qm",
+    "raw_text": "GitHub 仓库 yc-software/qm\n描述: Multiplayer agent harness for work. https://qm.ycombinator.com\n主语言: TypeScript\nStars: 13319\nTopics: ai, assistant, harness, qm",
+    "default_tags": [],
+    "extra": {
+      "stars": 13319,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "harness",
+        "qm"
+      ],
+      "description": "Multiplayer agent harness for work. https://qm.ycombinator.com"
+    }
+  },
+  {
+    "source": "github",
+    "title": "trycompai/crm",
+    "url": "https://github.com/trycompai/crm",
+    "raw_text": "GitHub 仓库 trycompai/crm\n描述: Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.\n主语言: TypeScript\nStars: 8355\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 8355,
+      "language": "TypeScript",
+      "topics": [],
+      "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM."
+    }
+  },
+  {
+    "source": "github",
+    "title": "drumih/turbo-fieldfare",
+    "url": "https://github.com/drumih/turbo-fieldfare",
+    "raw_text": "GitHub 仓库 drumih/turbo-fieldfare\n描述: Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook\n主语言: Swift\nStars: 5902\nTopics: apple-silicon, gemma, gemma4, gemma4-26b-a4b, gpgpu, llm, llm-inference, local-ai, macos, metal, on-device-ai, on-device-llm, swift",
+    "default_tags": [],
+    "extra": {
+      "stars": 5902,
+      "language": "Swift",
+      "topics": [
+        "apple-silicon",
+        "gemma",
+        "gemma4",
+        "gemma4-26b-a4b",
+        "gpgpu",
+        "llm",
+        "llm-inference",
+        "local-ai",
+        "macos",
+        "metal",
+        "on-device-ai",
+        "on-device-llm",
+        "swift"
+      ],
+      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook"
+    }
+  },
+  {
+    "source": "github",
+    "title": "FareedKhan-dev/kimi-k3-in-c",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "raw_text": "GitHub 仓库 FareedKhan-dev/kimi-k3-in-c\n描述: A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.\n主语言: C\nStars: 5323\nTopics: avx2, c99, cpu-inference, deep-learning, from-scratch, inference-engine, kimi-k3, linear-attention, llm, llm-inference, machine-learning, memory-efficient, mixture-of-experts, moe, mxfp4, quantization, simd, systems-programming, transformer, zero-dependencies",
+    "default_tags": [],
+    "extra": {
+      "stars": 5323,
+      "language": "C",
+      "topics": [
+        "avx2",
+        "c99",
+        "cpu-inference",
+        "deep-learning",
+        "from-scratch",
+        "inference-engine",
+        "kimi-k3",
+        "linear-attention",
+        "llm",
+        "llm-inference",
+        "machine-learning",
+        "memory-efficient",
+        "mixture-of-experts",
+        "moe",
+        "mxfp4",
+        "quantization",
+        "simd",
+        "systems-programming",
+        "transformer",
+        "zero-dependencies"
+      ],
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU."
+    }
+  },
+  {
+    "source": "github",
+    "title": "kvcache-ai/AgentENV",
+    "url": "https://github.com/kvcache-ai/AgentENV",
+    "raw_text": "GitHub 仓库 kvcache-ai/AgentENV\n描述: AgentENV (AENV) is a distributed platform for running agent environments at scale.\n主语言: Rust\nStars: 3179\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 3179,
+      "language": "Rust",
+      "topics": [],
+      "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale."
+    }
+  },
+  {
+    "source": "github",
+    "title": "genspark-ai/genoffice",
+    "url": "https://github.com/genspark-ai/genoffice",
+    "raw_text": "GitHub 仓库 genspark-ai/genoffice\n描述: Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.\n主语言: TypeScript\nStars: 2845\nTopics: ai, cross-platform, docx, electron, excel, linux, macos, markdown-editor, office, office-suite, pdf, pdf-editor, powerpoint, pptx, presentation, spreadsheet, windows, word, word-processor, xlsx",
+    "default_tags": [],
+    "extra": {
+      "stars": 2845,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "cross-platform",
+        "docx",
+        "electron",
+        "excel",
+        "linux",
+        "macos",
+        "markdown-editor",
+        "office",
+        "office-suite",
+        "pdf",
+        "pdf-editor",
+        "powerpoint",
+        "pptx",
+        "presentation",
+        "spreadsheet",
+        "windows",
+        "word",
+        "word-processor",
+        "xlsx"
+      ],
+      "description": "Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents."
+    }
+  },
+  {
+    "source": "github",
+    "title": "kirodotdev/KiroCrew",
+    "url": "https://github.com/kirodotdev/KiroCrew",
+    "raw_text": "GitHub 仓库 kirodotdev/KiroCrew\n描述: A persistent workspace for development work that self-improves and continues beyond one session.\n主语言: Python\nStars: 2797\nTopics: agent, agentic-ai, agents, ai-agent, ai-agents, automation, devtools, kiro, llm",
+    "default_tags": [],
+    "extra": {
+      "stars": 2797,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agents",
+        "ai-agent",
+        "ai-agents",
+        "automation",
+        "devtools",
+        "kiro",
+        "llm"
+      ],
+      "description": "A persistent workspace for development work that self-improves and continues beyond one session."
+    }
+  },
+  {
+    "source": "github",
+    "title": "lopopolo/harness-engineering",
+    "url": "https://github.com/lopopolo/harness-engineering",
+    "raw_text": "GitHub 仓库 lopopolo/harness-engineering\n描述: 🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering\n主语言: Python\nStars: 2483\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2483,
+      "language": "Python",
+      "topics": [],
+      "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering"
+    }
+  },
+  {
+    "source": "github",
+    "title": "QwenLM/Qwen-MM-Plugins",
+    "url": "https://github.com/QwenLM/Qwen-MM-Plugins",
+    "raw_text": "GitHub 仓库 QwenLM/Qwen-MM-Plugins\n描述: Make any agent harness multimodal-native.\n主语言: Python\nStars: 2350\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2350,
+      "language": "Python",
+      "topics": [],
+      "description": "Make any agent harness multimodal-native."
+    }
+  },
+  {
+    "source": "github",
+    "title": "Jakubantalik/thinking-orbs",
+    "url": "https://github.com/Jakubantalik/thinking-orbs",
+    "raw_text": "GitHub 仓库 Jakubantalik/thinking-orbs\n描述: Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light\n主语言: TypeScript\nStars: 2304\nTopics: ai, ai-agents, chat, loader, ui, ux",
+    "default_tags": [],
+    "extra": {
+      "stars": 2304,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "chat",
+        "loader",
+        "ui",
+        "ux"
+      ],
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+    "url": "https://openai.com/codex/",
+    "raw_text": "标题: ChatGPT Desktop (Codex Desktop) for Linux\n来源: hackernews\n摘要: Article URL: https://openai.com/codex/ Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 75 # Comments: 26",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://openai.com/codex/ Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 75 # Comments: 26"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
+    "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
+    "raw_text": "标题: Happy 45th Birthday to the IBM PC and Model F/XT\n来源: hackernews\n摘要: Article URL: https://sharktastica.co.uk/articles/pc-fxt-45 Comments URL: https://news.ycombinator.com/item?id=49280103 Points: 84 # Comments: 21",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://sharktastica.co.uk/articles/pc-fxt-45 Comments URL: https://news.ycombinator.com/item?id=49280103 Points: 84 # Comments: 21"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Flutter 3.47",
+    "url": "https://flutter.dev/blog/whats-new-in-flutter-3-47",
+    "raw_text": "标题: Flutter 3.47\n来源: hackernews\n摘要: Article URL: https://flutter.dev/blog/whats-new-in-flutter-3-47 Comments URL: https://news.ycombinator.com/item?id=49280061 Points: 96 # Comments: 93",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://flutter.dev/blog/whats-new-in-flutter-3-47 Comments URL: https://news.ycombinator.com/item?id=49280061 Points: 96 # Comments: 93"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Build Wide, Ship Narrow",
+    "url": "https://adapt.com/blog/build-wide-ship-narrow",
+    "raw_text": "标题: Build Wide, Ship Narrow\n来源: hackernews\n摘要: Article URL: https://adapt.com/blog/build-wide-ship-narrow Comments URL: https://news.ycombinator.com/item?id=49280047 Points: 83 # Comments: 23",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://adapt.com/blog/build-wide-ship-narrow Comments URL: https://news.ycombinator.com/item?id=49280047 Points: 83 # Comments: 23"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Principia Mathematica is modern and insightful",
+    "url": "https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html",
+    "raw_text": "标题: Principia Mathematica is modern and insightful\n来源: hackernews\n摘要: Article URL: https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html Comments URL: https://news.ycombinator.com/item?id=49279928 Points: 143 # Comments: 67",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html Comments URL: https://news.ycombinator.com/item?id=49279928 Points: 143 # Comments: 67"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
+    "url": "https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/",
+    "raw_text": "标题: Thanks to social media, canned sardines are a scarcity on the supermarket shelf\n来源: hackernews\n摘要: Article URL: https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/ Comments URL: https://news.ycombinator.com/item?id=49279013 Points: 116 # Comments: 140",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/ Comments URL: https://news.ycombinator.com/item?id=49279013 Points: 116 # Comments: 140"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Breaking the WAL",
+    "url": "https://antithesis.com/blog/2026/wal-reset-bug/",
+    "raw_text": "标题: Breaking the WAL\n来源: hackernews\n摘要: Article URL: https://antithesis.com/blog/2026/wal-reset-bug/ Comments URL: https://news.ycombinator.com/item?id=49277799 Points: 101 # Comments: 42",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://antithesis.com/blog/2026/wal-reset-bug/ Comments URL: https://news.ycombinator.com/item?id=49277799 Points: 101 # Comments: 42"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Delta",
+    "url": "https://zed.dev/blog/introducing-delta",
+    "raw_text": "标题: Delta\n来源: hackernews\n摘要: Article URL: https://zed.dev/blog/introducing-delta Comments URL: https://news.ycombinator.com/item?id=49276574 Points: 535 # Comments: 188",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://zed.dev/blog/introducing-delta Comments URL: https://news.ycombinator.com/item?id=49276574 Points: 535 # Comments: 188"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Reflex (YC W23) Is hiring Growth and GTM Roles",
+    "url": "https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer",
+    "raw_text": "标题: Reflex (YC W23) Is hiring Growth and GTM Roles\n来源: hackernews\n摘要: Article URL: https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer Comments URL: https://news.ycombinator.com/item?id=49275465 Points: 0 # Comments: 0",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer Comments URL: https://news.ycombinator.com/item?id=49275465 Points: 0 # Comments: 0"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "HTML over WebSockets: real-time SPAs with barely any JavaScript",
+    "url": "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/",
+    "raw_text": "标题: HTML over WebSockets: real-time SPAs with barely any JavaScript\n来源: hackernews\n摘要: Article URL: https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/ Comments URL: https://news.ycombinator.com/item?id=49275335 Points: 194 # Comments: 135",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/ Comments URL: https://news.ycombinator.com/item?id=49275335 Points: 194 # Comments: 135"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "python's pre-declared constants are kinda weird",
+    "url": "https://sebsite.pw/w/20260801-pythonconstants.html",
+    "raw_text": "标题: python's pre-declared constants are kinda weird\n来源: lobsters\n摘要: sebsite python's pre-declared constants are kinda weird 2026-08-01 python has 6 pre-declared \"constants\": True , False , None , __debug__ , Ellipsis (or equivalently ... ), and NotImplemented . but they all behave slightly differently, for some reason. True , False , and None True , False , and None",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "sebsite python's pre-declared constants are kinda weird 2026-08-01 python has 6 pre-declared \"constants\": True , False , None , __debug__ , Ellipsis (or equivalently ... ), and NotImplemented . but they all behave slightly differently, for some reason. True , False , and None True , False , and None"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "I hate packaging my software for Linux",
+    "url": "https://getfresh.dev/docs/blog/packaging-for-linux/",
+    "raw_text": "标题: I hate packaging my software for Linux\n来源: lobsters\n摘要: Skip to content Fresh Search K Main Navigation Homepage Getting Started Blog Download Menu Return to top Sidebar Navigation Blog Packaging for Linux One Editor, Every Worktree Fresh 0.4.0 The Architecture of Fresh Fresh 0.3.0 More… RSS Feed Getting Started Features Overview Editing Command Palette N",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Skip to content Fresh Search K Main Navigation Homepage Getting Started Blog Download Menu Return to top Sidebar Navigation Blog Packaging for Linux One Editor, Every Worktree Fresh 0.4.0 The Architecture of Fresh Fresh 0.3.0 More… RSS Feed Getting Started Features Overview Editing Command Palette N"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "How Tailscale helped find the SQLite WAL-Reset bug",
+    "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+    "raw_text": "标题: How Tailscale helped find the SQLite WAL-Reset bug\n来源: lobsters\n摘要: Join us in San Francisco for TailscaleUp! Grab your ticket - Blog Docs Download Contact Sales Platform Meet Tailscale How Tailscale Works WireGuard® for Enterprises Features Integrations Docs Download Compare Tailscale Products Business VPN PAM CI/CD Connectivity Secure Access to AI Workload Connect",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Join us in San Francisco for TailscaleUp! Grab your ticket - Blog Docs Download Contact Sales Platform Meet Tailscale How Tailscale Works WireGuard® for Enterprises Features Integrations Docs Download Compare Tailscale Products Business VPN PAM CI/CD Connectivity Secure Access to AI Workload Connect"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "GitHub Stacks in Jujutsu",
+    "url": "https://alan.norbauer.com/articles/github-stacks-with-jujutsu/",
+    "raw_text": "标题: GitHub Stacks in Jujutsu\n来源: lobsters\n摘要: GitHub Stacks in Jujutsu Published on 2026-08-08 jj vcs github Written by alan View this article's source code Table of Contents Prerequisites Install CLIs Configure jj Bonus: Learn jj’s bookmark aliases Manual Workflows Create a stack Add a new commit to the TOP of the stack Add a new commit to the",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "GitHub Stacks in Jujutsu Published on 2026-08-08 jj vcs github Written by alan View this article's source code Table of Contents Prerequisites Install CLIs Configure jj Bonus: Learn jj’s bookmark aliases Manual Workflows Create a stack Add a new commit to the TOP of the stack Add a new commit to the"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Guide to (not) fucking up QR codes",
+    "url": "https://infosec.exchange/@rebane2001/117078420917152774",
+    "raw_text": "标题: Guide to (not) fucking up QR codes\n来源: lobsters\n摘要: Guide to (not) fucking up QR codes。这是 lobsters 收录的技术条目，原文站点 infosec.exchange；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：code-generation。",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Guide to (not) fucking up QR codes。这是 lobsters 收录的技术条目，原文站点 infosec.exchange；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：code-generation。"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "My Homelab Got Hacked - A Postmortem",
+    "url": "https://phunky.cafe/my-homelab-got-hacked/",
+    "raw_text": "标题: My Homelab Got Hacked - A Postmortem\n来源: lobsters\n摘要: Phunky Cafe Home Blog Gallery My Homelab Got Hacked - A Postmortem 10 Aug, 2026 Welp. My Forgejo instance got popped with an RCE two days ago by CVE-2026-60004 . Luckily, I noticed the following morning and had the day free to figure out what happened. Let's dive in! The Incident I woke up on Saturd",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Phunky Cafe Home Blog Gallery My Homelab Got Hacked - A Postmortem 10 Aug, 2026 Welp. My Forgejo instance got popped with an RCE two days ago by CVE-2026-60004 . Luckily, I noticed the following morning and had the day free to figure out what happened. Let's dive in! The Incident I woke up on Saturd"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Does anyone run Postgres without PgBouncer?",
+    "url": "https://brandur.org/fragments/postgres-without-pgbouncer",
+    "raw_text": "标题: Does anyone run Postgres without PgBouncer?\n来源: lobsters\n摘要: brandur.org Articles Atoms Fragments Newsletter Sequences Now Uses About Auto Does anyone run Postgres without PgBouncer? Fragment 🔗 Does anyone run Postgres without PgBouncer? Published Aug 12, 2026 I'm on X/Twitter at @brandur . Aug 12, 2026 I got a nice shout-out from Ben Dicken over the weekend",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "brandur.org Articles Atoms Fragments Newsletter Sequences Now Uses About Auto Does anyone run Postgres without PgBouncer? Fragment 🔗 Does anyone run Postgres without PgBouncer? Published Aug 12, 2026 I'm on X/Twitter at @brandur . Aug 12, 2026 I got a nice shout-out from Ben Dicken over the weekend"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "I'm done using AI",
+    "url": "https://brettcodes.com/im-done-using-ai/",
+    "raw_text": "标题: I'm done using AI\n来源: lobsters\n摘要: Brett Codes Home Blog I m done using AI 10 Aug, 2026 I've been programming for 20 years. It started as a hobby as a teen, making fansites and little video games. Then it turned into a career. And it's something I've largely enjoyed doing. I like learning, I like problem solving, and I like making th",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Brett Codes Home Blog I m done using AI 10 Aug, 2026 I've been programming for 20 years. It started as a hobby as a teen, making fansites and little video games. Then it turned into a career. And it's something I've largely enjoyed doing. I like learning, I like problem solving, and I like making th"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "A critical review of Xilem in 2026",
+    "url": "https://hackmd.io/@s_haMSbyTAOWfoXc1aYNUg/Hka74gCwZg",
+    "raw_text": "标题: A critical review of Xilem in 2026\n来源: lobsters\n摘要: # A critical review of Xilem in 2026 This is a long-overdue review of Xilem s current state, with a focus on pain points and needed changes. My opinion, which I think is widely shared by people who ve worked on Xilem, is that the current architecture isn t remotely close to working. Making non-trivi",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "# A critical review of Xilem in 2026 This is a long-overdue review of Xilem s current state, with a focus on pain points and needed changes. My opinion, which I think is widely shared by people who ve worked on Xilem, is that the current architecture isn t remotely close to working. Making non-trivi"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Why tiny JPEGs look different in Chrome",
+    "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+    "raw_text": "标题: Why tiny JPEGs look different in Chrome\n来源: lobsters\n摘要: Guillaume Técher Blog Monday, August 3, 2026 Why Tiny JPEGs Look Different in Chrome What looked like a rendering bug turned out to be a clever JPEG decoding optimization in Chrome. This icon looks better on my colleague’s computer A while back, when chatting with a colleague over their computer, I",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Guillaume Técher Blog Monday, August 3, 2026 Why Tiny JPEGs Look Different in Chrome What looked like a rendering bug turned out to be a clever JPEG decoding optimization in Chrome. This icon looks better on my colleague’s computer A while back, when chatting with a colleague over their computer, I"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+    "url": "https://arxiv.org/abs/2608.12308v1",
+    "raw_text": "标题: DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation\n来源: arxiv_ai\n摘要: Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them to aerial navigation remains challenging due to limited historical context, short planning horizons, and unreliable implicit termination. To address these challenges, we propose DreamFly, a diffusion-based aerial VLN framework built on Dream-VLA. DreamFly introduces a causally aligned historical memory that augments the current visual representation using only observations preceding the current decision step, enabling temporal reasoning without future information leakage. We further formulate nav",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them to aerial navigation remains challenging due to limited historical context, short planning horizons, and unreliable implicit termination. To address these challenges, we propose DreamFly, a diffusion-b"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+    "url": "https://arxiv.org/abs/2608.12307v1",
+    "raw_text": "标题: AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses\n来源: arxiv_ai\n摘要: Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. Using four representative Theory-of-Mind benchmarks, each builder model uses 5% of the data as a validation set to iteratively refine its harness over multiple rounds, after which the finalized harness is evaluated on the full test set. Empirically, this form of test-time capability transfer is highly effective",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. Using four r"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+    "url": "https://arxiv.org/abs/2608.12306v1",
+    "raw_text": "标题: Redistribution-based Cost Inference Improves Sparse Safe Offline RL\n来源: arxiv_ai\n摘要: Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Redistribution-based Cost Inference (RCI) framework, which converts sparse stop-feedback into dense per-step costs via return decomposition, then trains a constrained offline policy on the augmented dataset. We show that return-equivalent redistribution preserves the feasible policy set and the optimal Lagrangian in a CMDP, establishing that the transformation is lossless in theory while yielding better-conditioned cost critic learning in practice. Experiments on highway driving and robotic manipu",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Redistribution-based Cost Inference (RCI) framework, which converts sparse stop-feedback into dense per-step costs via return decomposition, then trains a constrained offline policy on the augmented dat"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+    "url": "https://arxiv.org/abs/2608.12304v1",
+    "raw_text": "标题: Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models\n来源: arxiv_ai\n摘要: Dynamic Master Logic (DML) provides a hierarchical framework for representing system behavior by linking functional objectives to underlying structural elements. However, DML construction typically relies on expert interpretation of technical documentation, limiting scalability for complex systems. This study presents a framework for automated construction of DML models from system descriptions and their representation as Knowledge Graphs (KG-DML), using Retrieval-Augmented Generation and Large Language Models as enabling tools. Building on prior work with small-scale systems, the framework extends automated KG-DML construction and evaluation to substantially larger and more complex systems. Model construction proceeds across the DML hierarchy using targeted retrieval while preserving func",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Dynamic Master Logic (DML) provides a hierarchical framework for representing system behavior by linking functional objectives to underlying structural elements. However, DML construction typically relies on expert interpretation of technical documentation, limiting scalability for complex systems. This study presents a framework for automated construction of DML models from system descriptions and their representation as Knowledge Graphs (KG-DML), using Retrieval-Augmented Generation and Large "
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations",
+    "url": "https://arxiv.org/abs/2608.12299v1",
+    "raw_text": "标题: Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations\n来源: arxiv_ai\n摘要: Class activation mapping (CAM) is one of the most widely used visual explanation families in explainable artificial intelligence. Its purpose is intuitive: it converts internal model evidence into a heatmap that highlights the image regions, convolutional channels, tokens, or patches that support a target class or concept. Since the first CAM formulation in 2016, the field has moved far beyond global-average-pooled CNN classifiers. CAM-style methods now include gradient-based post-hoc explanations, gradient-free score and ablation methods, high-resolution upscaling, weakly supervised localization and segmentation, transformer token attribution, causal and debiasing methods, and foundation-model-era approaches that use CLIP, DINO, SAM, or feature-distribution comparisons. This review synthe",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Class activation mapping (CAM) is one of the most widely used visual explanation families in explainable artificial intelligence. Its purpose is intuitive: it converts internal model evidence into a heatmap that highlights the image regions, convolutional channels, tokens, or patches that support a target class or concept. Since the first CAM formulation in 2016, the field has moved far beyond global-average-pooled CNN classifiers. CAM-style methods now include gradient-based post-hoc explanatio"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+    "url": "https://arxiv.org/abs/2608.12290v1",
+    "raw_text": "标题: Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence\n来源: arxiv_ai\n摘要: Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or hyperparameters to yield drastically different outputs often necessitating inefficient, brute-force trial-and-error processes. To address these limitations, we introduce the ``Agentic Self-Improvement\" framework, which reframes video synthesis into a closed-loop, goal-directed optimization. Our framework systematically navigates the generation parameter space using a novel two-stage approach. In the first stage, an iterative prompt optimization loop uses a multimodal Large Language Model (mLLM) to refi",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or hyperparameters to yield drastically different outputs often necessitating inefficient, brute-force trial-and-error processes. To address these limitations, we introduce the ``Agentic Self-Improvement\" frame"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies",
+    "url": "https://arxiv.org/abs/2608.12282v1",
+    "raw_text": "标题: VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies\n来源: arxiv_ai\n摘要: Agents deployed in enterprise settings must reason across structured APIs and document collections, yet existing benchmarks evaluate these capabilities in isolation. We introduce VAKRA (e\\textbf{V}aluating \\textbf{A}PI and \\textbf{K}nowledge \\textbf{R}etrieval \\textbf{A}gents), a benchmark of over $8{,}000$ executable APIs across $62$ domains with tasks spanning three settings of increasing difficulty: diverse API interaction styles, multi-hop reasoning over structured APIs, and multi-source reasoning with natural-language tool-use policy constraints. Correctness is verified by re-executing predicted tool calls against live APIs, accommodating multiple valid paths. Using a fixed ReAct harness to isolate model capabilities from agent architecture, we evaluate frontier and open-weight models",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Agents deployed in enterprise settings must reason across structured APIs and document collections, yet existing benchmarks evaluate these capabilities in isolation. We introduce VAKRA (e\\textbf{V}aluating \\textbf{A}PI and \\textbf{K}nowledge \\textbf{R}etrieval \\textbf{A}gents), a benchmark of over $8{,}000$ executable APIs across $62$ domains with tasks spanning three settings of increasing difficulty: diverse API interaction styles, multi-hop reasoning over structured APIs, and multi-source rea"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Structural Silence: When AI Infrastructure Fails Speakers of Underrepresented Languages",
+    "url": "https://arxiv.org/abs/2608.12278v1",
+    "raw_text": "标题: Structural Silence: When AI Infrastructure Fails Speakers of Underrepresented Languages\n来源: arxiv_ai\n摘要: Artificial intelligence tools for education and language support are increasingly framed as scalable responses to access gaps in under-resourced communities. Yet the infrastructure underlying these tools, including training corpora, tokenization schemes, evaluation benchmarks, and deployment architectures, can systematically disadvantage speakers of underrepresented languages before a model is trained. This paper examines these structural barriers through Bengali, one of the world's most widely spoken languages, focusing on AI-assisted education in low-connectivity environments. We identify four interlocking failures: a severe web presence gap, with Bengali accounting for less than 0.5% of global web content despite representing nearly 4% of the global population; a 67:1 training-token def",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Artificial intelligence tools for education and language support are increasingly framed as scalable responses to access gaps in under-resourced communities. Yet the infrastructure underlying these tools, including training corpora, tokenization schemes, evaluation benchmarks, and deployment architectures, can systematically disadvantage speakers of underrepresented languages before a model is trained. This paper examines these structural barriers through Bengali, one of the world's most widely "
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery",
+    "url": "https://arxiv.org/abs/2608.12274v1",
+    "raw_text": "标题: A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery\n来源: arxiv_ai\n摘要: Background: Accurate segmentation of the Left Anterior Descending (LAD) artery in 3D free-breathing, non-contrast CT is critical for cardiac dose sparing in thoracic radiotherapy. The LAD is extremely small, has poor soft-tissue contrast, and varies substantially across patients; even manual contours show limited inter-observer agreement, underscoring the ambiguity of the vessel boundaries. Purpose: To develop a transformer-based framework that improves LAD delineation in low-contrast, imbalanced CT through local-global context modeling and uncertainty-guided optimization. Methods: We propose NA-UNETR, a 3D transformer-based segmentation model whose Neighborhood Attention (NA) and Dilated NA (DiNA) blocks jointly capture fine structural detail and long-range context. Given the scarcity of ",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Background: Accurate segmentation of the Left Anterior Descending (LAD) artery in 3D free-breathing, non-contrast CT is critical for cardiac dose sparing in thoracic radiotherapy. The LAD is extremely small, has poor soft-tissue contrast, and varies substantially across patients; even manual contours show limited inter-observer agreement, underscoring the ambiguity of the vessel boundaries. Purpose: To develop a transformer-based framework that improves LAD delineation in low-contrast, imbalance"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents",
+    "url": "https://arxiv.org/abs/2608.12273v1",
+    "raw_text": "标题: Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents\n来源: arxiv_ai\n摘要: LLM agents increasingly rely on third-party skills, using natural-language descriptions for selection and instruction bodies for planning. This progressive-disclosure design exposes two sequential control points to untrusted publishers: a static skill may steer an otherwise correct task onto an unnecessarily costly trajectory. Prior work studies selection manipulation, malicious skill instructions, and tool-chain resource amplification largely separately, leaving their end-to-end composition unclear. We introduce Convergent Detour Hijacking (CDH), a text-only, runtime-independent attack that couples these stages. Under shared semantic cover, a description establishes relevance during selection, while an aligned body reuses that rationale to fabricate plausible dependencies during planning.",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "LLM agents increasingly rely on third-party skills, using natural-language descriptions for selection and instruction bodies for planning. This progressive-disclosure design exposes two sequential control points to untrusted publishers: a static skill may steer an otherwise correct task onto an unnecessarily costly trajectory. Prior work studies selection manipulation, malicious skill instructions, and tool-chain resource amplification largely separately, leaving their end-to-end composition unc"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+    "url": "https://arxiv.org/abs/2608.12313v1",
+    "raw_text": "标题: AVA-Encoder: Towards Agent-Native Video Representation Learning\n来源: arxiv_cl\n摘要: Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding. AVA-Encoder transforms a video into a knowledge graph (KG) representation and then reconstructs it back into video. Its hierarchy and state nodes store structured text, while a linked asset layer holds generated images, audio, and video. Typed edges preserve the relations between these text descriptions and assets in a f",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding. AVA-Encoder transforms"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+    "url": "https://arxiv.org/abs/2608.12307v1",
+    "raw_text": "标题: AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses\n来源: arxiv_cl\n摘要: Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. Using four representative Theory-of-Mind benchmarks, each builder model uses 5% of the data as a validation set to iteratively refine its harness over multiple rounds, after which the finalized harness is evaluated on the full test set. Empirically, this form of test-time capability transfer is highly effective",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. Using four r"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+    "url": "https://arxiv.org/abs/2608.12283v1",
+    "raw_text": "标题: Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals\n来源: arxiv_cl\n摘要: Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. We study an uncertainty-aware construction that feeds model-predicted risk -- decomposed into aleatoric and epistemic components -- directly into the covariance matrix of portfolio allocators, rather than treating portfolio risk as fixed or adjusting only expected returns. We evaluate the pipeline on Russell 2000 equities under three stock-selection regimes: a pure-alpha trigger that isolates abnormal stock moves not explained by macro indicators, a pure-beta trigger that captures macro-indicator moves before the stock itself fires, and a beta trigger in which both channels agree. Across the full holding-period gr",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. We study an uncertainty-aware construction that feeds model-predicted risk -- decomposed into aleatoric and epistemic components -- directly into the covariance matrix of portfolio allocators, rather than treating portfolio risk as fixed or adjusting only expected returns. We evaluate the pipeline on Russell 2000 equiti"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Structural Silence: When AI Infrastructure Fails Speakers of Underrepresented Languages",
+    "url": "https://arxiv.org/abs/2608.12278v1",
+    "raw_text": "标题: Structural Silence: When AI Infrastructure Fails Speakers of Underrepresented Languages\n来源: arxiv_cl\n摘要: Artificial intelligence tools for education and language support are increasingly framed as scalable responses to access gaps in under-resourced communities. Yet the infrastructure underlying these tools, including training corpora, tokenization schemes, evaluation benchmarks, and deployment architectures, can systematically disadvantage speakers of underrepresented languages before a model is trained. This paper examines these structural barriers through Bengali, one of the world's most widely spoken languages, focusing on AI-assisted education in low-connectivity environments. We identify four interlocking failures: a severe web presence gap, with Bengali accounting for less than 0.5% of global web content despite representing nearly 4% of the global population; a 67:1 training-token def",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Artificial intelligence tools for education and language support are increasingly framed as scalable responses to access gaps in under-resourced communities. Yet the infrastructure underlying these tools, including training corpora, tokenization schemes, evaluation benchmarks, and deployment architectures, can systematically disadvantage speakers of underrepresented languages before a model is trained. This paper examines these structural barriers through Bengali, one of the world's most widely "
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "A Cascaded Unsupervised-Supervised NLP Pipeline for Detecting Accusatory Language in Public Procurement",
+    "url": "https://arxiv.org/abs/2608.12269v1",
+    "raw_text": "标题: A Cascaded Unsupervised-Supervised NLP Pipeline for Detecting Accusatory Language in Public Procurement\n来源: arxiv_cl\n摘要: Public procurement involves the allocation of substantial financial resources; therefore, continuous oversight through audits, controls, and monitoring mechanisms is essential. However, stakeholder comments and publicly available government data are often underutilized, despite their potential to reveal procedural irregularities. To address this gap, this paper analyzes metadata from Ecuador's Sistema Oficial de Contratación Pública (SOCE, Official Public Procurement System), with particular emphasis on participant comments generated during the pre-contractual phase. We propose a hybrid modeling framework that integrates unsupervised clustering and supervised classification within a natural language processing (NLP) pipeline to uncover latent patterns and detect potentially irregular procu",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Public procurement involves the allocation of substantial financial resources; therefore, continuous oversight through audits, controls, and monitoring mechanisms is essential. However, stakeholder comments and publicly available government data are often underutilized, despite their potential to reveal procedural irregularities. To address this gap, this paper analyzes metadata from Ecuador's Sistema Oficial de Contratación Pública (SOCE, Official Public Procurement System), with particular emp"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
+    "url": "https://arxiv.org/abs/2608.12253v1",
+    "raw_text": "标题: One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL\n来源: arxiv_cl\n摘要: Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theoretically and propose two complementary solutions, one at inference time and one at training time. The inference-time solution, Verbalized Sampling, broadens the simulator's behavior by sampling from a verbalized response distribution, reducing mode collapse. The training-time solution, Co-Training,",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theo"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
+    "url": "https://arxiv.org/abs/2608.12246v1",
+    "raw_text": "标题: VICBench: A Multi-Language Benchmark for Code Vulnerability Detection\n来源: arxiv_cl\n摘要: Evaluating security vulnerability detection tools requires benchmark datasets with vulnerability-inducing commits (VICs) - the commits that first introduce vulnerabilities into codebases. VICs are essential for determining the full range of vulnerable software versions. Existing vulnerability datasets suffer from limited programming language coverage, restricted patch complexity, and narrow project scope. Through our dual annotation by human experts and an agentic workflow, we create a benchmark - VICBench - of 100 verified VICs for 100 CVEs across 88 projects in Python, Java, and C++, covering 48 CWE types. VICBench features complex real-world vulnerability fixes averaging 38.6 lines and corresponding VICs of 252.5 lines - significantly larger than prior work. Our evaluation shows that st",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Evaluating security vulnerability detection tools requires benchmark datasets with vulnerability-inducing commits (VICs) - the commits that first introduce vulnerabilities into codebases. VICs are essential for determining the full range of vulnerable software versions. Existing vulnerability datasets suffer from limited programming language coverage, restricted patch complexity, and narrow project scope. Through our dual annotation by human experts and an agentic workflow, we create a benchmark"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge",
+    "url": "https://arxiv.org/abs/2608.12218v1",
+    "raw_text": "标题: Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge\n来源: arxiv_cl\n摘要: Large language models are increasingly trained and deployed with long contexts that span documents, code repositories, and interaction histories. This scaling reflects the implicit assumption that training on longer contexts will only help the model by exposing it to richer evidence. We challenge this view by studying how the context window shapes a model's mode of learning, shifting it between parametric internalization and contextualization. We propose the Information Abundance Paradox, which hypothesizes that abundant relevant information in the training context can reduce the incentive to encode that information parametrically, thereby increasing reliance on context. In pretraining with long documents, increasing the context window improves language modeling, natural language understan",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Large language models are increasingly trained and deployed with long contexts that span documents, code repositories, and interaction histories. This scaling reflects the implicit assumption that training on longer contexts will only help the model by exposing it to richer evidence. We challenge this view by studying how the context window shapes a model's mode of learning, shifting it between parametric internalization and contextualization. We propose the Information Abundance Paradox, which "
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation",
+    "url": "https://arxiv.org/abs/2608.12150v1",
+    "raw_text": "标题: Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation\n来源: arxiv_cl\n摘要: Standard evaluation of large language models assumes stable model rankings across inference conditions. We challenge this assumption by varying the token generation budget, i.e., the maximum tokens a model may produce, across seven levels (64--4,096), evaluating four models on three reasoning benchmarks (56,476 inferences). We report four findings: (i) 3--19% of items exhibit non-monotone behavior (accuracy decreasing with more budget), even after controlling for truncation, and this phenomenon is model-specific (cross-model overlap: 6--14%). (ii) Model rankings reverse across budgets on all benchmarks ($p {<} 0.01$, McNemar). (iii) Oracle analysis reveals model complementarity up to $+27.8$pp, most pronounced at constrained budgets. (iv) A budget-aware router captures 14.1% of the oracle ",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Standard evaluation of large language models assumes stable model rankings across inference conditions. We challenge this assumption by varying the token generation budget, i.e., the maximum tokens a model may produce, across seven levels (64--4,096), evaluating four models on three reasoning benchmarks (56,476 inferences). We report four findings: (i) 3--19% of items exhibit non-monotone behavior (accuracy decreasing with more budget), even after controlling for truncation, and this phenomenon "
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+    "url": "https://arxiv.org/abs/2608.12149v1",
+    "raw_text": "标题: Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus\n来源: arxiv_cl\n摘要: We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attention layers, giving rise to inter-spike plateaus (ISP). As full attention becomes denser, successive PAS become increasingly connected through ISP, ultimately recovering the stable MA morphology of full attention LLMs. We establish the recurrence of this organization across five linear attention architectures, six hybridization configurations, five data domains, and representative open-source hybrid models spanning 1.2B to 397B total parameters. Controlled pretraining of GDN-based hybrids at scales",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attention layers, giving rise to inter-spike plateaus (ISP). As full attention becomes denser, successive PAS become increasingly connected through ISP, ultimately recovering the stable MA morphology of full "
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "raw_text": "标题: Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+    "raw_text": "标题: LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+    "raw_text": "标题: Thinking of ACE? We Can Do It with Fewer Tokens\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+    "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "raw_text": "标题: Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+    "raw_text": "标题: Making Knowledge Distillation Cheap Enough to Run at Scale\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+    "url": "https://huggingface.co/blog/muse-glimmer",
+    "raw_text": "标题: Meta is back with Muse Glimmer: local, agentic, multimodal, and open source\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Baseten on Hugging Face Inference Providers 🔥",
+    "url": "https://huggingface.co/blog/baseten",
+    "raw_text": "标题: Baseten on Hugging Face Inference Providers 🔥\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+    "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+    "raw_text": "标题: GPU Management: Why Idle GPUs Are the New Grounded Aircraft\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+    "raw_text": "标题: NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+    "raw_text": "标题: Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "raw_text": "标题: From assistance to execution: How enterprises put AI to work\n来源: openai_news\n摘要: OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "url": "https://openai.com/index/ringcentral",
+    "raw_text": "标题: How RingCentral builds AI-native work from engineering to ops\n来源: openai_news\n摘要: See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Testing ads in ChatGPT",
+    "url": "https://openai.com/index/testing-ads-in-chatgpt",
+    "raw_text": "标题: Testing ads in ChatGPT\n来源: openai_news\n摘要: OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Daybreak models are now available on AWS",
+    "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "raw_text": "标题: Daybreak models are now available on AWS\n来源: openai_news\n摘要: OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+    "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+    "raw_text": "标题: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas\n来源: openai_news\n摘要: OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+    "url": "https://openai.com/index/model-ml",
+    "raw_text": "标题: Model ML completes finance work more efficiently with GPT-5.6 Sol\n来源: openai_news\n摘要: Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "What building an AI-native finance function taught me",
+    "url": "https://openai.com/index/building-an-ai-native-finance-function",
+    "raw_text": "标题: What building an AI-native finance function taught me\n来源: openai_news\n摘要: OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Putting frontier cyber models in more trusted hands",
+    "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+    "raw_text": "标题: Putting frontier cyber models in more trusted hands\n来源: openai_news\n摘要: Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+    "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+    "raw_text": "标题: Expanding Daybreak as the Cyber Defense Window Narrows\n来源: openai_news\n摘要: Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+    "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+    "raw_text": "标题: Virgin Atlantic sharpens customer journeys with ChatGPT Work\n来源: openai_news\n摘要: Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey."
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+    "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+    "raw_text": "标题: DeepSeek V4 Pro 0813 (on OpenRouter)\n来源: simonwillison\n摘要: DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Interestingly I got very different looking pelicans for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model: Low: Medium: High: In terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into a post on Reddit which was deleted by the ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Interestingly I got very different looking pelicans for the three different r"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "alchemy-utils 0.1a0",
+    "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+    "raw_text": "标题: alchemy-utils 0.1a0\n来源: simonwillison\n摘要: Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines Test against PostgreSQL and SQLite and duckdb Use ~/dev/sqlite-utils for reference Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard f",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but bac"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Quoting Florian Herrengt",
+    "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+    "raw_text": "标题: Quoting Florian Herrengt\n来源: simonwillison\n摘要: But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...] This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on. Florian Herrengt , AI is removing the middle class of software engineering Tags: ai-misuse , cognitive-debt , generative-ai , ai , llms , ai-",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confiden"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "There are no lossless transformations of natural-language text",
+    "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
+    "raw_text": "标题: There are no lossless transformations of natural-language text\n来源: simonwillison\n摘要: There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You must stand behind every idea and every sentence in your docs . It is your responsibility to make sure that the entire document is representative of your own thoughts before you share it. If a reviewer asks, “What did you mean by this line?”, it’s not acceptable to reply with “Oh sorry, AI wrote that, just ignore it.” You will confuse your readers (and waste their time) if you present them things that are not genuinely representative of your thoughts. The \"no lossless transfor",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You must stand behind every idea and every sentence in your docs . It is your responsibility to make sure that the entire document is representative of your own thoughts before you sha"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+    "raw_text": "标题: Stealing Reasoning Traces from Proprietary LLM APIs\n来源: simonwillison\n摘要: Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidden reasoning in plaintext You can see an example of these encrypted blocks by running: curl https://api.openai.com/v1/responses \\ -H \" Content-Type: application/json \" \\ -H \" Authorization: Bearer $( llm keys get openai ) \" \\ -d ' { \"model\": \"gpt-5.6-luna\", \"input\": \"Solve step by step: What is the smallest positive integer divisible by every integer from 1 through 20?\", \"reasoning\": { \"effort\": \"m",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidden reasoning in plaintext You can see an example of these encrypted blocks by running: curl https://a"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "datasette-upload-dbs 0.5a0",
+    "url": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/",
+    "raw_text": "标题: datasette-upload-dbs 0.5a0\n来源: simonwillison\n摘要: Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance. It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so /name starts serving the new one. The new release adds a formalized API, so you can replace an existing database (or add a new one) like this: curl -X POST \\ -H \"Authorization: Bearer $API_TOKEN\" \\ -H \"Accept: application/json\" \\ -F \"db=@content.db\" \\ -F \"db_name=content\" \\ https://your-instance.example.com/-/upload-dbs This means you can build fresh databases in an environment such as GitHub Actions and swap them in ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance. It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so /name starts serving the new one. The new release adds a formalized API, so you can replace an existing database (or add "
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Introducing Muse Glimmer",
+    "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
+    "raw_text": "标题: Introducing Muse Glimmer\n来源: simonwillison\n摘要: Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish. Reliable Tool Use. The model handles a wide range of function calls, invoking tools with precise schemas throughout extended workflows. Multi-Step Reasoning. Muse Glimmer chains reasoning over long horizons, sustaining coherent",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, wri"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Quoting OpenClaw (running Opus 4.6)",
+    "url": "https://simonwillison.net/2026/Aug/10/openclaw/",
+    "raw_text": "标题: Quoting OpenClaw (running Opus 4.6)\n来源: simonwillison\n摘要: The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. OpenClaw (running Opus 4.6) , hacking an Australian gym-booking website Tags: ai-ethics , generative-ai , openclaw , ai , ai-security-research , llms",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. OpenClaw (running Opus 4.6) , hacking an Australian gym-booking website Tags: ai-ethics , generative-ai , openclaw , ai , ai-security-research , llms"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Quoting Claude Opus 5 system prompt",
+    "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+    "raw_text": "标题: Quoting Claude Opus 5 system prompt\n来源: simonwillison\n摘要: Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "GitHub Models is now retired",
+    "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/",
+    "raw_text": "标题: GitHub Models is now retired\n来源: simonwillison\n摘要: GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code running in GitHub Actions could use the GitHub API key already present in that environment to execute prompts. This made it easy to build things that fit GitHub Next's Continuous AI concept. GitHub didn't share the reason behind the shutdown, but my bet is that it fits the pattern where coding agent patte",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code runnin"
+    }
+  }
+]

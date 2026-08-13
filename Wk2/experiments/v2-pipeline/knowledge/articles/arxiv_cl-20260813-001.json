@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260813-001",
+  "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+  "source_url": "https://arxiv.org/abs/2608.12313v1",
+  "summary": "AVA-Encoder: Towards Agent-Native Video Representation Learning｜Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produc",
+  "tags": [
+    "agent",
+    "reasoning",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding. AVA-Encoder transforms"
+  }
+}

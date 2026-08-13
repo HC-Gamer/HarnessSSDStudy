@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260813-003",
+  "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+  "source_url": "https://arxiv.org/abs/2608.12306v1",
+  "summary": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL｜Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide",
+  "tags": [
+    "deployment",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Redistribution-based Cost Inference (RCI) framework, which converts sparse stop-feedback into dense per-step costs via return decomposition, then trains a constrained offline policy on the augmented dat"
+  }
+}

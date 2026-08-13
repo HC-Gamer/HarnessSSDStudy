@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260813-007",
+  "title": "Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation",
+  "source_url": "https://arxiv.org/abs/2608.12150v1",
+  "summary": "Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation｜Standard evaluation of large language models assumes stable model rankings across infe",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Standard evaluation of large language models assumes stable model rankings across inference conditions. We challenge this assumption by varying the token generation budget, i.e., the maximum tokens a model may produce, across seven levels (64--4,096), evaluating four models on three reasoning benchmarks (56,476 inferences). We report four findings: (i) 3--19% of items exhibit non-monotone behavior (accuracy decreasing with more budget), even after controlling for truncation, and this phenomenon "
+  }
+}

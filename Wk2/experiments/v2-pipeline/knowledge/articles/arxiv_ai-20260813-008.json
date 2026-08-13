@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260813-008",
+  "title": "Structural Silence: When AI Infrastructure Fails Speakers of Underrepresented Languages",
+  "source_url": "https://arxiv.org/abs/2608.12278v1",
+  "summary": "Structural Silence: When AI Infrastructure Fails Speakers of Underrepresented Languages｜Artificial intelligence tools for education and language support are increasingly framed as",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Artificial intelligence tools for education and language support are increasingly framed as scalable responses to access gaps in under-resourced communities. Yet the infrastructure underlying these tools, including training corpora, tokenization schemes, evaluation benchmarks, and deployment architectures, can systematically disadvantage speakers of underrepresented languages before a model is trained. This paper examines these structural barriers through Bengali, one of the world's most widely "
+  }
+}

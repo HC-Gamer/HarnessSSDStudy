@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260813-008",
+  "title": "Quoting OpenClaw (running Opus 4.6)",
+  "source_url": "https://simonwillison.net/2026/Aug/10/openclaw/",
+  "summary": "Quoting OpenClaw (running Opus 4.6)｜The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and i",
+  "tags": [
+    "security",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. OpenClaw (running Opus 4.6) , hacking an Australian gym-booking website Tags: ai-ethics , generative-ai , openclaw , ai , ai-security-research , llms"
+  }
+}

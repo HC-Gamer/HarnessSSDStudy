@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260813-008",
+  "title": "Delta",
+  "source_url": "https://zed.dev/blog/introducing-delta",
+  "summary": "Delta｜Article URL: https://zed.dev/blog/introducing-delta Comments URL: https://news.ycombinator.com/item?id=49276574 Points: 535 # Comments: 188",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://zed.dev/blog/introducing-delta Comments URL: https://news.ycombinator.com/item?id=49276574 Points: 535 # Comments: 188"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260813-005",
+  "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+  "source_url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+  "summary": "Stealing Reasoning Traces from Proprietary LLM APIs｜Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, O",
+  "tags": [
+    "security",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidden reasoning in plaintext You can see an example of these encrypted blocks by running: curl https://a"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260813-006",
+  "title": "Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge",
+  "source_url": "https://arxiv.org/abs/2608.12218v1",
+  "summary": "Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge｜Large language models are increasingly trained and deployed with long contexts that span docume",
+  "tags": [
+    "deployment",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large language models are increasingly trained and deployed with long contexts that span documents, code repositories, and interaction histories. This scaling reflects the implicit assumption that training on longer contexts will only help the model by exposing it to richer evidence. We challenge this view by studying how the context window shapes a model's mode of learning, shifting it between parametric internalization and contextualization. We propose the Information Abundance Paradox, which "
+  }
+}

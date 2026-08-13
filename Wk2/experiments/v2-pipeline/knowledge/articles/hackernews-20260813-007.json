@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260813-007",
+  "title": "Breaking the WAL",
+  "source_url": "https://antithesis.com/blog/2026/wal-reset-bug/",
+  "summary": "Breaking the WAL｜Article URL: https://antithesis.com/blog/2026/wal-reset-bug/ Comments URL: https://news.ycombinator.com/item?id=49277799 Points: 101 # Comments: 42",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://antithesis.com/blog/2026/wal-reset-bug/ Comments URL: https://news.ycombinator.com/item?id=49277799 Points: 101 # Comments: 42"
+  }
+}

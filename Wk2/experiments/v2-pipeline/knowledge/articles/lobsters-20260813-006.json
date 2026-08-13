@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260813-006",
+  "title": "My Homelab Got Hacked - A Postmortem",
+  "source_url": "https://phunky.cafe/my-homelab-got-hacked/",
+  "summary": "My Homelab Got Hacked - A Postmortem｜Phunky Cafe Home Blog Gallery My Homelab Got Hacked - A Postmortem 10 Aug, 2026 Welp. My Forgejo instance got popped with an RCE two days ago b",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Phunky Cafe Home Blog Gallery My Homelab Got Hacked - A Postmortem 10 Aug, 2026 Welp. My Forgejo instance got popped with an RCE two days ago by CVE-2026-60004 . Luckily, I noticed the following morning and had the day free to figure out what happened. Let's dive in! The Incident I woke up on Saturd"
+  }
+}

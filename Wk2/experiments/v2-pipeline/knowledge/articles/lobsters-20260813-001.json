@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260813-001",
+  "title": "python's pre-declared constants are kinda weird",
+  "source_url": "https://sebsite.pw/w/20260801-pythonconstants.html",
+  "summary": "python's pre-declared constants are kinda weird｜sebsite python's pre-declared constants are kinda weird 2026-08-01 python has 6 pre-declared \"constants\": True , False , None , __de",
+  "tags": [
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "sebsite python's pre-declared constants are kinda weird 2026-08-01 python has 6 pre-declared \"constants\": True , False , None , __debug__ , Ellipsis (or equivalently ... ), and NotImplemented . but they all behave slightly differently, for some reason. True , False , and None True , False , and None"
+  }
+}

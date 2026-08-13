@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260813-010",
+  "title": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents",
+  "source_url": "https://arxiv.org/abs/2608.12273v1",
+  "summary": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents｜LLM agents increasingly rely on third-party skills, using natural-language description",
+  "tags": [
+    "agent",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "LLM agents increasingly rely on third-party skills, using natural-language descriptions for selection and instruction bodies for planning. This progressive-disclosure design exposes two sequential control points to untrusted publishers: a static skill may steer an otherwise correct task onto an unnecessarily costly trajectory. Prior work studies selection manipulation, malicious skill instructions, and tool-chain resource amplification largely separately, leaving their end-to-end composition unc"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260813-006",
+  "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+  "source_url": "https://arxiv.org/abs/2608.12290v1",
+  "summary": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence｜Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, ye",
+  "tags": [
+    "agent",
+    "prompt-engineering",
+    "vision"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-13T09:04:05.865453+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or hyperparameters to yield drastically different outputs often necessitating inefficient, brute-force trial-and-error processes. To address these limitations, we introduce the ``Agentic Self-Improvement\" frame"
+  }
+}
