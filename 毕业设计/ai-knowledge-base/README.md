@@ -55,6 +55,21 @@ TARGET_COUNT=5 ./run.sh
 #   日志:   logs/
 ```
 
+### 钉钉群里查知识库
+
+在钉钉群 @ 机器人即可检索（`/search <关键词>` / `/today` / `/top N` / `/subscribe` / `/help`）：
+
+```bash
+cd v4-production
+pgrep -fl dingtalk    # 同一 app_key 只允许一个 Stream 实例，先确认没在跑
+../.venv/bin/python3 -u openclaw/dingtalk_knowledge_bot.py \
+    > /tmp/dingtalk_knowledge_bot.log 2>&1 &
+```
+
+日志出现 `endpoint is wss://...` 即连接成功。凭证放 `.env`（`DINGTALK_APP_KEY` / `DINGTALK_APP_SECRET`），
+钉钉后台需把消息接收模式设为 Stream 模式。完整说明见
+[`v4-production/docs/dingtalk-channel.md`](v4-production/docs/dingtalk-channel.md)。
+
 ## ③ 目录结构
 
 ```
@@ -71,9 +86,10 @@ ai-knowledge-base/
 │   ├── patterns/          #   router/supervisor/planner 等核心模式
 │   ├── workflows/         #   LangGraph 工作流（含 human-in-the-loop 人工复核）
 │   ├── distribution/      #   格式化器 + 分发器
-│   ├── bot/               #   渠道机器人（Telegram 预留 / 钉钉桥）
+│   ├── bot/               #   知识库检索 Bot（本地规则，不调 LLM）
+│   ├── docs/              #   验收证据 + 钉钉渠道接入说明
 │   ├── knowledge/         #   知识库存储（articles / raw / pending_review）
-│   ├── openclaw/          #   OpenClaw 模型网关集成
+│   ├── openclaw/          #   OpenClaw 模型网关集成 + 钉钉 Stream 机器人
 │   ├── scripts/           #   运维脚本
 │   ├── tests/             #   测试（pytest 全绿）
 │   ├── validate.py        #   验收门禁
@@ -97,7 +113,7 @@ ai-knowledge-base/
 | 数据源 | RSS (feedparser) / HTTP (httpx) / YAML 配置 |
 | 模型 | DeepSeek（默认）/ DashScope / OpenAI（可切换） |
 | 网关 | OpenClaw（模型路由 + 成本治理） |
-| 渠道 | 钉钉（已接通）/ Telegram（预留） |
+| 渠道 | 钉钉群机器人（Stream 模式，已接通知识库检索） |
 | 测试 | pytest（全部钉死版本） |
 | 工程 | .env 配置、pytest.ini、AGENTS.md、validate.py 门禁 |
 
