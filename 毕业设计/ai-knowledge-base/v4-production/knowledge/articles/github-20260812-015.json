@@ -1,0 +1,34 @@
+{
+  "id": "github-20260812-015",
+  "title": "continuedev/continue",
+  "source": "github",
+  "source_url": "https://github.com/continuedev/continue",
+  "summary": "Continue 是一个开源的 AI 编程助手（coding agent），以 IDE 插件和 CLI 形式提供，支持 VS Code、JetBrains 等主流编辑器。它允许开发者连接任意 LLM（包括本地模型、云端 API 或自建模型），通过对话、代码补全、编辑、重构、自动修复等功能辅助编程。其核心优势在于高度可定制：用户可配置模型、提示词、规则和自动化流程，并支持多模型切换与对比。与 GitHub Copilot 等闭源产品相比，Continue 强调数据隐私、模型自由度和透明性，同时通过开源社区驱动快速迭代。它解决了开发者对模型锁定、隐私泄露和定制化不足的痛点，适合追求灵活性和自主控制权的个人及团队。项目活跃，Star 数高，是开源编程助手领域的重要代表。",
+  "key_insight": "Continue 通过开源和模型无关的设计，打破了编程助手对特定厂商的依赖，让开发者真正掌控自己的 AI 工具链。",
+  "tags": [
+    "coding-agent",
+    "ide-plugin",
+    "open-source",
+    "llm",
+    "developer-tools"
+  ],
+  "keywords": [
+    "coding-agent",
+    "ide-plugin",
+    "open-source"
+  ],
+  "category": "tools",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "fetched_at": "2026-08-12T06:43:51.737557+00:00",
+  "analyzed_at": "2026-08-12T06:45:04.305532+00:00",
+  "published_at": null,
+  "metadata": {
+    "stars": 35445,
+    "language": "TypeScript",
+    "author": "continuedev",
+    "upvotes": 0,
+    "comments": 0,
+    "collection_mode": "github"
+  }
+}

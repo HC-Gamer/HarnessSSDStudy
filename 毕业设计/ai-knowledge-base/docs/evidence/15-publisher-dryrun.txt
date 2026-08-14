@@ -1,0 +1,29 @@
+2026-08-14 22:07:39,620 [INFO] [dry-run] telegram 推送预览（前 500 字）：📚 <b>AI 知识库每日简报</b>（19 条）
+
+📌 <a href="https://github.com/langgenius/dify"><b>langgenius/dify</b></a>
+Dify 将 LLM 应用开发从代码工程转变为可视化配置，是 Agent 和 RAG 技术走向生产实践的关键桥梁。
+📊 相关性：🟢 0.95 | 来源：github
+#llm #agent #rag #workflow #opensource
+
+📌 <a href="https://github.com/lobehub/lobehub"><b>lobehub/lobehub</b></a>
+LobeHub 将 AI 智能体从工具提升为可编排的“员工”，通过团队化调度和报告机制，重新定义了人机协作的生产力边界。
+📊 相关性：🟢 0.95 | 来源：github
+#ai-agent #orchestration #workflow #open-source #multi-agent
+
+📌 <a href="https://github.com/koala73/worldmonitor"><b
+=== [dry-run] Telegram 推送预览 ===
+📚 <b>AI 知识库每日简报</b>（19 条）
+
+📌 <a href="https://github.com/langgenius/dify"><b>langgenius/dify</b></a>
+Dify 将 LLM 应用开发从代码工程转变为可视化配置，是 Agent 和 RAG 技术走向生产实践的关键桥梁。
+📊 相关性：🟢 0.95 | 来源：github
+#llm #agent #rag #workflow #opensource
+
+📌 <a href="https://github.com/lobehub/lobehub"><b>lobehub/lobehub</b></a>
+LobeHub 将 AI 智能体从工具提升为可编排的“员工”，通过团队化调度和报告机制，重新定义了人机协作的生产力边界。
+📊 相关性：🟢 0.95 | 来源：github
+#ai-agent #orchestration #workflow #open-source #multi-agent
+
+📌 <a href="https://github.com/koala73/worldmonitor"><b
+2026-08-14 22:07:39,620 [INFO] [发布] 完成：1/1 个渠道成功
+✅ telegram/dry-run: OK

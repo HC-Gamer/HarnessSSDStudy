@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-14-140713",
+  "reason": "validation_failed",
+  "iterations_used": 3,
+  "max_iterations": 3,
+  "strategy": "standard",
+  "last_feedback": "[加权总分 5.2/10] 摘要过于空洞",
+  "validation_errors": [
+    "sources: sources 为空 —— 采集段没交出任何内容，不能让 analyze 凭空发挥",
+    "analyses: analyses[0] relevance_score 类型错误: None，应为 0-1 之间的数值",
+    "analyses: analyses[0] tags 类型错误: 期望 list，实际 NoneType"
+  ],
+  "item_count": 1,
+  "analyses": [
+    {
+      "title": "demo",
+      "summary": "自测条目"
+    }
+  ]
+}

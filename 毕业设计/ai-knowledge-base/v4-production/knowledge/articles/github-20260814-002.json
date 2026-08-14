@@ -1,0 +1,21 @@
+{
+  "id": "github-20260814-002",
+  "title": "trycompai/crm",
+  "source_url": "https://github.com/trycompai/crm",
+  "summary": "trycompai/crm｜Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+  "tags": [
+    "agent"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 8424,
+    "language": "TypeScript",
+    "topics": [],
+    "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM."
+  }
+}

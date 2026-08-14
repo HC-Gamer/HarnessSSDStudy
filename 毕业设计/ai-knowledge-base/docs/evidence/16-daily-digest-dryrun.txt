@@ -1,0 +1,35 @@
+==================================================
+  AI 知识库 — 每日摘要推送
+==================================================
+本次简报文章数：10
+2026-08-14 22:07:39,688 [INFO] [dry-run] telegram 推送预览（前 500 字）：📚 <b>AI 知识库每日简报</b>（10 条）
+
+📌 <a href="https://github.com/alibaba/page-agent"><b>alibaba/page-agent</b></a>
+它把 LLM 的意图理解能力直接嵌入浏览器页面，让自然语言成为操控任何网页的通用接口，降低了自动化门槛，可能重塑 RPA 和网页交互方式。
+📊 相关性：🟢 0.95 | 来源：github
+#llm #browser-automation #gui-agent #natural-language #dom
+
+📌 <a href="https://github.com/assafelovic/gpt-researcher"><b>assafelovic/gpt-researcher</b></a>
+它把 RAG 从单轮问答升级为多轮自主研究流程，通过迭代搜索和证据链生成，显著提升 LLM 输出的可验证性和深度。
+📊 相关性：🟢 0.95 | 来源：github
+#autonomous-agent #research #rag #llm #web-search
+
+📌 <a hre
+=== [dry-run] Telegram 推送预览 ===
+📚 <b>AI 知识库每日简报</b>（10 条）
+
+📌 <a href="https://github.com/alibaba/page-agent"><b>alibaba/page-agent</b></a>
+它把 LLM 的意图理解能力直接嵌入浏览器页面，让自然语言成为操控任何网页的通用接口，降低了自动化门槛，可能重塑 RPA 和网页交互方式。
+📊 相关性：🟢 0.95 | 来源：github
+#llm #browser-automation #gui-agent #natural-language #dom
+
+📌 <a href="https://github.com/assafelovic/gpt-researcher"><b>assafelovic/gpt-researcher</b></a>
+它把 RAG 从单轮问答升级为多轮自主研究流程，通过迭代搜索和证据链生成，显著提升 LLM 输出的可验证性和深度。
+📊 相关性：🟢 0.95 | 来源：github
+#autonomous-agent #research #rag #llm #web-search
+
+📌 <a hre
+2026-08-14 22:07:39,688 [INFO] [发布] 完成：1/1 个渠道成功
+
+推送结果: 1/1 个渠道成功
+  ✅ telegram/dry-run: OK

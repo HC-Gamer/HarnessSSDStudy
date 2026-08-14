@@ -1,0 +1,6 @@
+=== 加权总分自测（纯 Python，不调 LLM）===
+  [OK] {'summary_quality': 8, 'technical_depth': 8, 'relevance': 8, 'originality': 8, 'formatting': 8} → 8.0（期望 8.0）
+  [OK] {'summary_quality': 10, 'technical_depth': 10, 'relevance': 10, 'originality': 0, 'formatting': 0} → 7.0（期望 7.0）
+  [OK] {'summary_quality': 6, 'technical_depth': 5, 'relevance': 7, 'originality': 4, 'formatting': 6} → 5.65（期望 5.65）
+
+权重合计 = 1.00（应为 1.00）

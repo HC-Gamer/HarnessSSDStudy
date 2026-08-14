@@ -1,0 +1,34 @@
+{
+  "id": "github-20260812-019",
+  "title": "alibaba/page-agent",
+  "source": "github",
+  "source_url": "https://github.com/alibaba/page-agent",
+  "summary": "alibaba/page-agent 是一个基于 JavaScript 的页面内 GUI 代理，允许用户通过自然语言指令控制网页界面。它解决了传统浏览器自动化工具（如 Selenium、Playwright）需要编写复杂脚本或选择器的问题，将自然语言理解与 DOM 操作结合，实现类似人类用户的交互。与同类项目（如 browser-use、Playwright MCP）相比，page-agent 强调在页面内运行，无需外部浏览器驱动，且专注于 GUI 元素级操作，而非仅限 API 或命令行。它利用 LLM 解析用户意图，生成可执行的 DOM 操作序列，并支持多步骤任务。该项目在 GitHub 上拥有 28.5k 星，表明其社区关注度高，可能成为浏览器自动化领域的重要工具。",
+  "key_insight": "它把 LLM 的意图理解能力直接嵌入浏览器页面，让自然语言成为操控任何网页的通用接口，降低了自动化门槛，可能重塑 RPA 和网页交互方式。",
+  "tags": [
+    "llm",
+    "browser-automation",
+    "gui-agent",
+    "natural-language",
+    "dom"
+  ],
+  "keywords": [
+    "llm",
+    "browser-automation",
+    "gui-agent"
+  ],
+  "category": "agent",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "fetched_at": "2026-08-12T06:43:51.737575+00:00",
+  "analyzed_at": "2026-08-12T06:45:04.305602+00:00",
+  "published_at": null,
+  "metadata": {
+    "stars": 28589,
+    "language": "TypeScript",
+    "author": "alibaba",
+    "upvotes": 0,
+    "comments": 0,
+    "collection_mode": "github"
+  }
+}

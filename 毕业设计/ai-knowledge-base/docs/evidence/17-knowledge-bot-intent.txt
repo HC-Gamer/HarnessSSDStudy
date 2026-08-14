@@ -1,0 +1,62 @@
+=== 意图识别自测 ===
+  '/search agent'      -> SEARCH       payload='agent'
+  '/today'             -> TODAY        payload=''
+  '/top 3'             -> TOP          payload='3'
+  '/help'              -> HELP         payload=''
+  '搜一下 RAG'            -> SEARCH       payload='RAG'
+  '随便聊聊'               -> UNKNOWN      payload='随便聊聊'
+
+=== Bot 消息处理自测 ===
+输入: /help
+回复: 🤖 可用指令：
+/search <关键词> — 按关键词检索知识库
+/today — 查看今日入库文章
+/top [N] — 查看相关性最高的 N 篇（默认 5）
+/subscribe <关键词> — 订阅关键词，未来简报优先展示
+/unsubscribe <关键词> — 取消订阅
+/help — 显示本帮助
+
+输入: /search agent
+回复: 🔍 找到 5 条与「agent」相关的内容：
+
+📌 1. e2b-dev/awesome-ai-agents
+   📊 0.95 | github | 2026-08-12 | ai-agents, awesome-list, autonomous-agents, frameworks, resources
+📌 2. alibaba/page-agent
+   📊 0.95 | github | 2026-08-12 | llm, browser-automation, gui-agent, natural-language, dom
+📌 3. reworkd/AgentGPT
+   📊 0.90 | github | 2026-08-12 | autonomous-agent, browser-based, task-planning, gpt, open-source
+📌 4. langgenius/dify
+   📊 0.95 | github | 2026-08-12 | llm, agent, rag, workflow, opensource
+📌 5. bytedance/deer-flow
+   📊 0.95 | github | 2026-08-12 | agent, long-horizon, sandbox, workflow, open-source
+
+输入: /today
+回复: 🔍 找到 5 条与「今日入库」相关的内容：
+
+📌 1. langgenius/dify
+   📊 0.95 | github | 2026-08-12 | llm, agent, rag, workflow, opensource
+📌 2. lobehub/lobehub
+   📊 0.95 | github | 2026-08-12 | ai-agent, orchestration, workflow, open-source, multi-agent
+📌 3. bytedance/deer-flow
+   📊 0.95 | github | 2026-08-12 | agent, long-horizon, sandbox, workflow, open-source
+📌 4. Leonxlnx/taste-skill
+   📊 0.95 | github | 2026-08-12 | ai-content, style-control, personalization, llm, open-source
+📌 5. hiyouga/LlamaFactory
+   📊 0.95 | github | 2026-08-12 | fine-tuning, llm, lora, efficient, framework
+
+输入: /top 3
+回复: 🔍 找到 3 条与「Top 3」相关的内容：
+
+📌 1. langgenius/dify
+   📊 0.95 | github | 2026-08-12 | llm, agent, rag, workflow, opensource
+📌 2. lobehub/lobehub
+   📊 0.95 | github | 2026-08-12 | ai-agent, orchestration, workflow, open-source, multi-agent
+📌 3. bytedance/deer-flow
+   📊 0.95 | github | 2026-08-12 | agent, long-horizon, sandbox, workflow, open-source
+
+输入: /subscribe rag
+回复: ✅ 已订阅关键词「rag」
+
+输入: 搜索 RAG 相关
+回复: 🔍 没有找到与「RAG 相关」相关的内容
+

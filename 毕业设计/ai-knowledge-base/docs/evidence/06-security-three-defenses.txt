@@ -1,0 +1,21 @@
+=== 测试 1：输入清洗（防 Prompt 注入）===
+  正常输入 警告数: 0（应为 0）
+  英文注入 警告数: 2（应 >= 1）
+  中文注入 警告数: 3（应 >= 1）
+
+=== 测试 2：输出过滤（PII 检测）===
+  原文: 联系电话 13812345678，邮箱 user@example.com，IP 192.168.1.1
+  过滤后: 联系电话 [PHONE_CN_MASKED]，邮箱 [EMAIL_MASKED]，IP [IP_ADDRESS_MASKED]
+  检测到: ['email: 检测到 1 处', 'phone_cn: 检测到 1 处', 'ip_address: 检测到 1 处']
+
+=== 测试 3：速率限制 ===
+[Security] 限流触发 client=user_a
+[Security] 限流触发 client=user_a
+  5 次连续调用结果: [True, True, True, False, False]
+  user_a 剩余次数: 0
+
+=== 测试 4：审计日志 ===
+  总事件数: 3
+  按类型: {'input': 1, 'output': 1, 'security': 1}
+
+所有测试通过！

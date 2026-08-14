@@ -1,0 +1,18 @@
+### 检查 9：OpenClaw 网关 / 模型可用性（V4 新增）
+$ node -v    # OpenClaw 需 Node >=25.9（默认 26.4 触发 SQLite 守卫，见备注）
+v25.9.0
+
+$ openclaw config get agents.defaults.workspace
+/Users/huangcheng/ai-knowledge-base/v4-production/openclaw
+
+$ openclaw capability model auth status --json | jq .defaultModel
+deepseek/deepseek-v4-flash
+  期望 ≠ openai/gpt-5.5 占位符 ✅
+
+$ openclaw capability model run --model deepseek/deepseek-v4-flash --prompt 'ping'
+[33m[provider-transport-fetch][39m [36m[model-fetch] response provider=deepseek api=openai-completions model=deepseek-v4-flash status=200 elapsedMs=151 contentType=text/event-stream; charset=utf-8[39m
+model.run via local
+provider: deepseek
+model: deepseek-v4-flash
+outputs: 1
+pong

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260814-001",
+  "title": "France's tax authority had data stolen on 680k taxpayers",
+  "source_url": "https://korben.info/en/france-tax-authority-data-breach-680000-taxpayers.html",
+  "summary": "France's tax authority had data stolen on 680k taxpayers｜Article URL: https://korben.info/en/france-tax-authority-data-breach-680000-taxpayers.html Comments URL: https://news.ycomb",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://korben.info/en/france-tax-authority-data-breach-680000-taxpayers.html Comments URL: https://news.ycombinator.com/item?id=49298303 Points: 36 # Comments: 13"
+  }
+}

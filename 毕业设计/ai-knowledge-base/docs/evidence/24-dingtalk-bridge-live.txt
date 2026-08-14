@@ -1,0 +1,14 @@
+### 钉钉 Bot 桥接（Telegram 的国内替代通道，13 节交付物）
+$ ps -o pid,etime,command -p 67907
+  PID ELAPSED COMMAND
+67907   45:48 /opt/homebrew/Cellar/python@3.12/3.12.10_1/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -u v4-production/openclaw/dingtalk_bridge.py
+
+$ cat openclaw/bridge.log
+[bridge] 正在连接钉钉 Stream（Ctrl+C 退出）...
+2026-08-14 21:35:07,133 dingtalk_stream.client INFO     open connection, url=https://api.dingtalk.com/v1.0/gateway/connections/open [stream.py:149]
+2026-08-14 21:35:07,265 dingtalk_stream.client INFO     endpoint is {'endpoint': 'wss://wss-open-connection-union.dingtalk.com:443/connect', 'ticket': 'f6e59134-97e4-11f1-87fb-86c73f8daf12'} [stream.py:71]
+
+$ tail -12 /tmp/dingtalk_bridge.log
+[bridge] 正在连接钉钉 Stream（Ctrl+C 退出）...
+2026-08-14 21:24:16,191 dingtalk_stream.client INFO     open connection, url=https://api.dingtalk.com/v1.0/gateway/connections/open [stream.py:149]
+2026-08-14 21:24:16,365 dingtalk_stream.client INFO     endpoint is {'endpoint': 'wss://wss-open-connection-union.dingtalk.com:443/connect', 'ticket': '72ec84f8-97e3-11f1-aede-a6cdff5a123b'} [stream.py:71]

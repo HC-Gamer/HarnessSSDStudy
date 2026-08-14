@@ -1,0 +1,3 @@
+target= 5 → lite     目标 5 条，启用精简模式（成本优先）
+target=15 → standard 目标 15 条，启用标准模式（平衡）
+target=30 → full     目标 30 条，启用深度模式（质量优先）

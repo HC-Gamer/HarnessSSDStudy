@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260814-005",
+  "title": "How RingCentral builds AI-native work from engineering to ops",
+  "source_url": "https://openai.com/index/ringcentral",
+  "summary": "How RingCentral builds AI-native work from engineering to ops｜See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intell",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
+  }
+}

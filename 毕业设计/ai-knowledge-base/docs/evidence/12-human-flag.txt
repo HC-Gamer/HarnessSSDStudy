@@ -1,0 +1,4 @@
+[HumanFlag] ⚠️ 段间校验未通过，3 条硬错误，转人工
+[HumanFlag] 最后反馈: [加权总分 5.2/10] 摘要过于空洞
+[HumanFlag] 已保存 1 条到 /Volumes/M4_Workspace/AIHarness/OpenCode/OpenCodeStudy/毕业设计/ai-knowledge-base/v4-production/knowledge/pending_review/pending-2026-08-14-140713.json
+{'needs_human_review': True}

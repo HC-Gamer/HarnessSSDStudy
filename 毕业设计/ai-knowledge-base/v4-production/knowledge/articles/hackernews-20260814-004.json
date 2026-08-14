@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260814-004",
+  "title": "DeepSeek peak/off-peak pricing update",
+  "source_url": "https://api-docs.deepseek.com/news/news260813/",
+  "summary": "DeepSeek peak/off-peak pricing update｜Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 125 # Comments",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 125 # Comments: 58"
+  }
+}

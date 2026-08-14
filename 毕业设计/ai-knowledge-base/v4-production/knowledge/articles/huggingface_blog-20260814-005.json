@@ -1,0 +1,19 @@
+{
+  "id": "huggingface_blog-20260814-005",
+  "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+  "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+  "summary": "Thinking of ACE? We Can Do It with Fewer Tokens｜Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organization",
+  "tags": [
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "huggingface_blog",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+  }
+}

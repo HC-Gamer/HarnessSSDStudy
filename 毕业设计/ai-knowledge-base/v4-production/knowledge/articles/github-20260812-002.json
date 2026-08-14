@@ -1,0 +1,34 @@
+{
+  "id": "github-20260812-002",
+  "title": "lobehub/lobehub",
+  "source": "github",
+  "source_url": "https://github.com/lobehub/lobehub",
+  "summary": "LobeHub 是一个开源的 AI 智能体编排平台，旨在将多个 AI 智能体组织为可 7×24 小时运行的团队。它允许用户创建、雇佣、调度和监控 AI 智能体，并生成工作报告。项目解决了个人或团队管理多个 AI 工具和智能体时缺乏统一调度和协作的问题。与同类项目（如 Dify、Flowise）相比，LobeHub 更强调智能体的“团队化”管理，提供类似操作系统的界面，支持多智能体协作和任务自动化。其核心是“首席智能体操作员”概念，将智能体视为可管理的员工，通过自然语言或可视化界面进行任务分配和绩效追踪。该项目在 GitHub 上拥有 81k+ star，社区活跃，且与主流模型（如 GPT、Claude）兼容，支持本地部署，适合开发者、研究者和企业用户快速构建 AI 工作流。",
+  "key_insight": "LobeHub 将 AI 智能体从工具提升为可编排的“员工”，通过团队化调度和报告机制，重新定义了人机协作的生产力边界。",
+  "tags": [
+    "ai-agent",
+    "orchestration",
+    "workflow",
+    "open-source",
+    "multi-agent"
+  ],
+  "keywords": [
+    "ai-agent",
+    "orchestration",
+    "workflow"
+  ],
+  "category": "agent",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "fetched_at": "2026-08-12T06:43:51.737490+00:00",
+  "analyzed_at": "2026-08-12T06:45:04.305346+00:00",
+  "published_at": null,
+  "metadata": {
+    "stars": 81535,
+    "language": "TypeScript",
+    "author": "lobehub",
+    "upvotes": 0,
+    "comments": 0,
+    "collection_mode": "github"
+  }
+}

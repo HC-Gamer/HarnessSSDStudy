@@ -1,0 +1,98 @@
+==============================================================================
+  validate.py 自测：已知好 / 已知坏样本
+==============================================================================
+
+✅ collector 好样本
+   （无错误、无警告）
+   → 期望 通过，实际 通过（0 错 / 0 警）— 符合预期
+
+❌ collector 坏样本
+   ✗ items[0] 缺少必填字段 url
+   ✗ items[1] stars 越界: -5，不能为负
+   ✗ items[1] url 格式错误: 'not-a-url'，应以 http:// 或 https:// 开头
+   ✗ items[1] name 重复: 'a/b'（首次出现在 items[0]，spec 要求去重）
+   ⚠ items 只有 3 条，spec 要求 >= 15 条
+   ⚠ items[1] topics 为空，无法用 spec 的 ai/llm/agent/ml 过滤条件复核
+   ⚠ items[2] summary 只有 1 字，信息量可疑
+   ⚠ items 未按 stars 降序排列（spec 第 16 行）
+   → 期望 拦截，实际 拦截（4 错 / 4 警）— 符合预期
+
+✅ analyzer 好样本
+   （无错误、无警告）
+   → 期望 通过，实际 通过（0 错 / 0 警）— 符合预期
+
+❌ analyzer 坏样本
+   ✗ items[0] 缺少必填字段 score_reason
+   ✗ items[2] relevance_score 越界: 99，应在 1-10 之间
+   ⚠ trends 为空（spec 第 18 行要求有趋势发现）
+   ⚠ items[0] summary 75 字，超过 spec 的 50 字
+   ⚠ items[0] highlights 1 条，spec 要求 2-3 条
+   ⚠ items[0] tags 5 个，spec 要求 1-3 个
+   ⚠ items[1] score_reason 只有 1 字，等于没给理由
+   ⚠ 评分区分度不足: 极差只有 0（9-9），低于阈值 3
+   ⚠ 评分区分度不足: 2 条只用了 1 种分值，低于阈值 3
+   → 期望 拦截，实际 拦截（2 错 / 7 警）— 符合预期
+
+✅ organizer 好样本
+   （无错误、无警告）
+   → 期望 通过，实际 通过（0 错 / 0 警）— 符合预期
+
+❌ organizer 坏样本
+   ✗ [0] id 格式错误: 'repo0'，应为 YYYY-MM-DD-source-slug
+   ✗ [0] status 非法: 'pending'，可选 ['draft', 'published', 'reviewed']
+   ✗ [1] source_url 重复: https://github.com/org0/repo0（首次出现在 [0]，spec 要求按 URL hash 去重）
+   ✗ [0] 疑似篡改: 'org0/repo0' 的 analysis.score_reason 下游 '理由文本够长可以通过。' ≠ 上游 '给出了可复现的对照实验和成本数据。'
+   ✗ [0] 疑似编造: 'org0/repo0' 的 tech_highlights 有 2 条上游没有的内容，首条 '亮点一'
+   ✗ [1] 疑似篡改: 'org0/repo0' 的 analysis.relevance_score 下游 3 ≠ 上游 9
+   ✗ [1] 疑似篡改: 'org0/repo0' 的 analysis.score_reason 下游 '理由文本够长可以通过。' ≠ 上游 '给出了可复现的对照实验和成本数据。'
+   ✗ [1] 疑似编造: 'org0/repo0' 的 tech_highlights 有 2 条上游没有的内容，首条 '亮点一'
+   ✗ [2] 疑似编造: title 'ghost/repo' 在上游 analyzer 的 3 条产出里不存在
+   ⚠ [0] 改写: 'org0/repo0' 的 summary 下游 'id 少了日期前缀。' ≠ 上游 '多 Agent 编排框架，用图描述协作拓扑。'
+   ⚠ [1] 改写: 'org0/repo0' 的 summary 下游 'source_url 与上一条重复。' ≠ 上游 '多 Agent 编排框架，用图描述协作拓扑。'
+   ⚠ 上游 3 条里有 2 条在下游没出现（去重可能是合法原因）：org1/repo1、org2/repo2
+   → 期望 拦截，实际 拦截（9 错 / 3 警）— 符合预期
+
+✅ organizer 编造样本(单段校验)
+   （无错误、无警告）
+   → 期望 通过，实际 通过（0 错 / 0 警）— 符合预期
+
+❌ organizer 编造样本(跨段校验)
+   ✗ [1] 疑似填补: 'org1/repo1' 上游没有 relevance_score，下游却给了 analysis.relevance_score=8，且未标记为推断值
+   → 期望 拦截，实际 拦截（1 错 / 0 警）— 符合预期
+
+✅ search 好样本
+   （无错误、无警告）
+   → 期望 通过，实际 通过（0 错 / 0 警）— 符合预期
+
+❌ search 坏样本(空内容)
+   ✗ raw_content 为空——采集段没交出任何内容，不能让 analyze 凭空发挥
+   ⚠ sources 为空，产出将无法溯源
+   → 期望 拦截，实际 拦截（1 错 / 1 警）— 符合预期
+
+❌ search 坏样本(模式非法)
+   ✗ collection_mode 非法: 'magic'，可选 ['degraded', 'github_trending_file', 'llm_mock', 'none', 'real_rss']
+   → 期望 拦截，实际 拦截（1 错 / 0 警）— 符合预期
+
+✅ analyze 好样本
+   （无错误、无警告）
+   → 期望 通过，实际 通过（0 错 / 0 警）— 符合预期
+
+❌ analyze 坏样本(空摘要)
+   ✗ summary 为空——analyze 段没有产出，不能静默传给门禁
+   → 期望 拦截，实际 拦截（1 错 / 0 警）— 符合预期
+
+❌ analyze 坏样本(要点类型错)
+   ✗ key_points[0] 类型错误: 期望 str，实际 int
+   ✗ key_points[1] 类型错误: 期望 str，实际 int
+   ✗ key_points[2] 类型错误: 期望 str，实际 int
+   ⚠ key_points 只有 0 条，低于 2 条
+   → 期望 拦截，实际 拦截（3 错 / 1 警）— 符合预期
+
+✅ analyze 边界(低质但结构合法→放行给门禁)
+   ⚠ summary 只有 8 字，低于 60 字，预计过不了质量门禁
+   ⚠ key_points 只有 1 条，低于 2 条
+   → 期望 通过，实际 通过（0 错 / 2 警）— 符合预期
+
+------------------------------------------------------------------------------
+共 15 个样本，15 个符合预期，0 个不符
+==============================================================================

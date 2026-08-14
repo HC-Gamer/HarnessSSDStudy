@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260814-001",
+  "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+  "source_url": "https://arxiv.org/abs/2608.13560v1",
+  "summary": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design｜Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualize",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empirical exploration to drive recursive self-improvement, existing paradigms remain static and fall short of this capability. In this paper, we present AutoDesign, a framework that aligns with human design "
+  }
+}

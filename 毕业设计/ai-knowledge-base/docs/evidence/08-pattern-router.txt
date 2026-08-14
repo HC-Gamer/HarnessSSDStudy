@@ -1,0 +1,27 @@
+============================================================
+Router 模式演示 —— 三类查询分类
+============================================================
+
+查询: 搜索最近的 AI Agent 框架仓库
+  意图: github_search（期望 github_search）— OK · 关键词命中（零成本）
+
+查询: 知识库里有什么关于 RAG 的内容
+  意图: knowledge_query（期望 knowledge_query）— OK · 关键词命中（零成本）
+HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+第 1/3 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+第 2/3 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，4.0s 后重试
+HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+重试 3 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+[Router] LLM 分类失败，降级为 general_chat：调用 deepseek 失败（已重试 3 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+
+查询: LangGraph 和 CrewAI 有什么区别
+  意图: general_chat（期望 general_chat）— OK · LLM 兜底
+
+------------------------------------------------------------
+分类正确 3/3
+
+=== 实际路由一条（会真的调处理器）===
+[Router] 意图: knowledge_query（关键词命中，零成本）
+查询: 知识库里有什么关于 RAG 的内容
+知识库共 19 条，但没有匹配「知识库里有什么关于 RAG 的内容」的条目。

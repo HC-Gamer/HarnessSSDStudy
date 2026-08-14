@@ -1,0 +1,263 @@
+2026-08-14 21:59:52,522 [INFO] pipeline: [Step 1] GitHub 采集: q='llm OR agent OR rag OR mcp OR gpt' since=2026-07-15 limit=5
+2026-08-14 21:59:56,101 [INFO] httpx: HTTP Request: GET https://api.github.com/search/repositories?q=llm+OR+agent+OR+rag+OR+mcp+OR+gpt+created%3A%3E2026-07-15&sort=stars&order=desc&per_page=5 "HTTP/1.1 200 OK"
+2026-08-14 21:59:56,104 [INFO] pipeline: [Step 1] GitHub 采集完成，获得 5 条
+2026-08-14 21:59:56,109 [INFO] pipeline: [Step 2] RSS 配置加载: 8 个源，其中启用 7 个
+2026-08-14 21:59:59,454 [INFO] httpx: HTTP Request: GET https://hnrss.org/frontpage "HTTP/1.1 200 OK"
+2026-08-14 21:59:59,460 [INFO] pipeline: [Step 2] hackernews 采集 5 条（回源补正文 0 条）
+2026-08-14 22:00:03,738 [INFO] httpx: HTTP Request: GET https://lobste.rs/rss "HTTP/1.1 200 OK"
+2026-08-14 22:00:04,722 [INFO] httpx: HTTP Request: GET https://domenkozar.com/2026/08/13/i-want-extern-fil-c/ "HTTP/1.1 200 OK"
+2026-08-14 22:00:08,834 [INFO] httpx: HTTP Request: GET https://www.simplermachines.com/lets-not-call-it-tech-debt-its-just-mess/ "HTTP/1.1 200 OK"
+2026-08-14 22:00:10,691 [INFO] httpx: HTTP Request: GET https://devblogs.microsoft.com/oldnewthing/20260812-00/?p=112607 "HTTP/1.1 200 OK"
+2026-08-14 22:00:13,545 [INFO] httpx: HTTP Request: GET https://sebsite.pw/w/20260801-pythonconstants.html "HTTP/1.1 200 OK"
+2026-08-14 22:00:13,549 [INFO] pipeline: [Step 2] lobsters 采集 5 条（回源补正文 4 条）
+2026-08-14 22:00:14,054 [INFO] httpx: HTTP Request: GET https://export.arxiv.org/api/query?search_query=cat:cs.AI&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending "HTTP/1.1 200 OK"
+2026-08-14 22:00:14,853 [INFO] pipeline: [Step 2] arxiv_ai 采集 5 条（回源补正文 0 条）
+2026-08-14 22:00:15,513 [INFO] httpx: HTTP Request: GET https://export.arxiv.org/api/query?search_query=cat:cs.CL&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending "HTTP/1.1 200 OK"
+2026-08-14 22:00:15,569 [INFO] pipeline: [Step 2] arxiv_cl 采集 5 条（回源补正文 0 条）
+2026-08-14 22:00:17,383 [INFO] httpx: HTTP Request: GET https://huggingface.co/blog/feed "HTTP/1.1 404 Not Found"
+2026-08-14 22:00:17,771 [WARNING] pipeline: [Step 2] huggingface_blog https://huggingface.co/blog/feed → HTTP 404（不重试）
+2026-08-14 22:00:19,223 [INFO] httpx: HTTP Request: GET https://huggingface.co/blog/feed.xml "HTTP/1.1 200 OK"
+2026-08-14 22:00:21,056 [INFO] pipeline: [Step 2] huggingface_blog 主地址失败，改用备用地址 https://huggingface.co/blog/feed.xml
+2026-08-14 22:00:22,097 [INFO] httpx: HTTP Request: GET https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop "HTTP/1.1 200 OK"
+2026-08-14 22:00:23,956 [INFO] httpx: HTTP Request: GET https://huggingface.co/blog/icml-2026-open-reproductions "HTTP/1.1 200 OK"
+2026-08-14 22:00:25,744 [INFO] httpx: HTTP Request: GET https://huggingface.co/blog/allenai/olmoearth-embeddings "HTTP/1.1 200 OK"
+2026-08-14 22:00:27,334 [INFO] httpx: HTTP Request: GET https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b "HTTP/1.1 200 OK"
+2026-08-14 22:00:29,435 [INFO] httpx: HTTP Request: GET https://huggingface.co/blog/ibm-research/altk-evolve-sldd "HTTP/1.1 200 OK"
+2026-08-14 22:00:29,784 [INFO] pipeline: [Step 2] huggingface_blog 采集 5 条（回源补正文 5 条）
+2026-08-14 22:00:30,528 [INFO] httpx: HTTP Request: GET https://openai.com/news/rss.xml "HTTP/1.1 200 OK"
+2026-08-14 22:00:31,237 [INFO] pipeline: [Step 2] openai_news 采集 5 条（回源补正文 0 条）
+2026-08-14 22:00:31,779 [INFO] httpx: HTTP Request: GET https://simonwillison.net/atom/everything/ "HTTP/1.1 200 OK"
+2026-08-14 22:00:32,257 [INFO] pipeline: [Step 2] simonwillison 采集 5 条（回源补正文 0 条）
+2026-08-14 22:00:32,257 [INFO] pipeline: [Step 2] RSS 采集完成：成功 7 源 / 失败 0 源，共 35 条
+2026-08-14 22:00:32,259 [INFO] pipeline: [Step 4] 原始数据已保存: knowledge/raw/raw-20260814-140032.json
+2026-08-14 22:00:32,259 [INFO] pipeline: [Step 3] 使用 deepseek / deepseek-chat 分析 40 条
+2026-08-14 22:00:32,385 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:32,388 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:34,521 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:34,525 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:34,525 [WARNING] pipeline: [Step 3] (1/40) yc-software/qm 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:34,636 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:34,638 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:36,767 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:36,771 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:36,771 [WARNING] pipeline: [Step 3] (2/40) trycompai/crm 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:36,918 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:36,921 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:39,063 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:39,064 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:39,064 [WARNING] pipeline: [Step 3] (3/40) drumih/turbo-fieldfare 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:39,174 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:39,175 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:41,315 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:41,319 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:41,319 [WARNING] pipeline: [Step 3] (4/40) FareedKhan-dev/kimi-k3-in-c 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:41,455 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:41,460 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:43,595 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:43,599 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:43,600 [WARNING] pipeline: [Step 3] (5/40) kvcache-ai/AgentENV 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:43,720 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:43,724 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:45,851 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:45,853 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:45,853 [WARNING] pipeline: [Step 3] (6/40) France's tax authority had data stolen o 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:46,009 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:46,010 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:48,148 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:48,152 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:48,152 [WARNING] pipeline: [Step 3] (7/40) Dear people who work at the airport 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:48,283 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:48,286 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:50,481 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:50,492 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:50,492 [WARNING] pipeline: [Step 3] (8/40) Why does Opus 5 feel worse to work with? 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:50,666 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:50,670 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:52,807 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:52,811 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:52,811 [WARNING] pipeline: [Step 3] (9/40) DeepSeek peak/off-peak pricing update 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:52,945 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:52,949 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:55,089 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:55,092 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:55,092 [WARNING] pipeline: [Step 3] (10/40) Ruby 4.0 Universal RCE Deserialization G 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:55,230 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:55,234 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:57,373 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:57,377 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:57,377 [WARNING] pipeline: [Step 3] (11/40) I want extern "fil-c" 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:57,495 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:57,499 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:00:59,630 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:59,634 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:00:59,634 [WARNING] pipeline: [Step 3] (12/40) Let's not call it "tech debt," it's just 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:00:59,780 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:00:59,784 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:02,611 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:02,618 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:02,618 [WARNING] pipeline: [Step 3] (13/40) Comments in the code vs PR description 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:02,919 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:02,924 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:05,049 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:05,053 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:05,053 [WARNING] pipeline: [Step 3] (14/40) What are you doing this weekend? 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:05,178 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:05,183 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:07,326 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:07,330 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:07,330 [WARNING] pipeline: [Step 3] (15/40) python's pre-declared constants are kind 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:07,449 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:07,453 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:09,593 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:09,597 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:09,597 [WARNING] pipeline: [Step 3] (16/40) AutoDesign: Meta-Harness Optimization fo 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:09,762 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:09,766 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:11,924 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:11,928 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:11,928 [WARNING] pipeline: [Step 3] (17/40) OmniScientist: An Omni-Modal Omni-Discip 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:12,051 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:12,055 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:14,190 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:14,194 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:14,194 [WARNING] pipeline: [Step 3] (18/40) HumanTracker: Towards Comprehensive and  分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:14,328 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:14,333 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:16,469 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:16,473 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:16,474 [WARNING] pipeline: [Step 3] (19/40) QuoteBench: How Matched Scores Can Hide  分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:16,593 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:16,597 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:18,732 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:18,736 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:18,736 [WARNING] pipeline: [Step 3] (20/40) LittleLearner: Language Models Under Ped 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:18,876 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:18,880 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:21,028 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:21,033 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:21,033 [WARNING] pipeline: [Step 3] (21/40) AutoDesign: Meta-Harness Optimization fo 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:21,164 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:21,168 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:23,340 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:23,344 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:23,344 [WARNING] pipeline: [Step 3] (22/40) OmniScientist: An Omni-Modal Omni-Discip 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:23,505 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:23,509 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:25,641 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:25,645 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:25,645 [WARNING] pipeline: [Step 3] (23/40) LittleLearner: Language Models Under Ped 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:25,770 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:25,774 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:27,939 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:27,951 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:27,951 [WARNING] pipeline: [Step 3] (24/40) SAEVerbalizer: Generating Explanations f 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:28,088 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:28,092 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:30,224 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:30,228 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:30,228 [WARNING] pipeline: [Step 3] (25/40) DFM Mimir v1: An Open HRM Delivering Fro 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:30,348 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:30,352 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:32,507 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:32,511 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:32,511 [WARNING] pipeline: [Step 3] (26/40) Record, train, and deploy from one place 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:32,646 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:32,650 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:34,798 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:34,803 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:34,803 [WARNING] pipeline: [Step 3] (27/40) What We Learned by Reproducing 2,200 pap 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:34,945 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:34,949 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:37,090 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:37,093 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:37,093 [WARNING] pipeline: [Step 3] (28/40) Introducing OlmoEarth embeddings: Custom 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:37,227 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:37,231 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:39,416 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:39,421 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:39,421 [WARNING] pipeline: [Step 3] (29/40) LFM2.5-VL-3B for Better and Faster Visio 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:39,532 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:39,536 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:41,734 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:41,737 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:41,738 [WARNING] pipeline: [Step 3] (30/40) Thinking of ACE? We Can Do It with Fewer 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:41,860 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:41,865 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:44,043 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:44,047 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:44,047 [WARNING] pipeline: [Step 3] (31/40) The builder’s guide to GPT‑5.6 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:44,191 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:44,196 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:46,317 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:46,321 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:46,321 [WARNING] pipeline: [Step 3] (32/40) Previewing Ultrafast mode: GPT-5.6 Sol a 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:46,461 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:46,465 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:48,618 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:48,623 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:48,623 [WARNING] pipeline: [Step 3] (33/40) OpenAI appoints Dali Rajic as Chief Reve 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:48,837 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:48,842 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:50,988 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:50,992 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:50,992 [WARNING] pipeline: [Step 3] (34/40) From assistance to execution: How enterp 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:51,117 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:51,122 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:53,249 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:53,253 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:53,253 [WARNING] pipeline: [Step 3] (35/40) How RingCentral builds AI-native work fr 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:53,369 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:53,373 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:55,506 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:55,511 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:55,511 [WARNING] pipeline: [Step 3] (36/40) sqlite-utils 4.2.1 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:55,637 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:55,641 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:01:57,771 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:57,775 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:01:57,775 [WARNING] pipeline: [Step 3] (37/40) sqlite-utils 4.2 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:01:57,963 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:01:57,969 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:02:00,114 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:02:00,118 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:02:00,119 [WARNING] pipeline: [Step 3] (38/40) llm-gemini 0.33 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:02:00,251 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:02:00,255 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:02:02,897 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:02:02,901 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:02:02,901 [WARNING] pipeline: [Step 3] (39/40) alchemy-utils 0.1a1 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:02:03,094 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:02:03,098 [WARNING] pipeline.model_client: 第 1/2 次调用失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，2.0s 后重试
+2026-08-14 22:02:05,233 [INFO] httpx: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Authorization Required"
+2026-08-14 22:02:05,237 [ERROR] pipeline.model_client: 重试 2 次后仍然失败: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2026-08-14 22:02:05,238 [WARNING] pipeline: [Step 3] (40/40) DeepSeek V4 Pro 0813 (on OpenRouter) 分析失败: 调用 deepseek 失败（已重试 2 次）: HTTP 401: {"error":{"message":"Authentication Fails, Your api key: ****292d is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}，降级
+2026-08-14 22:02:05,262 [INFO] pipeline: [Step 4] 入库完成：写入 37 条，跳过重复 3 条
+
+====================================================
+流水线执行汇总
+====================================================
+Step 1 GitHub 采集: 5 条
+Step 2 RSS 采集:    35 条（成功 7 源 / 失败 0 源）
+Step 3 AI 分析:     LLM 0 条 / 规则降级 40 条
+Step 4 入库:        写入 37 条，跳过重复 3 条
+         平均技术深度评分: 5.1/10
+         样例:
+           · [github-20260814-001] yc-software/qm
+             yc-software/qm｜Multiplayer agent harness for work....
+           · [github-20260814-002] trycompai/crm
+             trycompai/crm｜Comp AI CRM is an open source, CRM designed for AI agent...
+           · [github-20260814-003] drumih/turbo-fieldfare
+             drumih/turbo-fieldfare｜Gemma 4 26B-A4B inference in ~2 GB of RAM on an...
+====================================================
+
+2026-08-14 22:02:05,262 [INFO] pipeline.model_client: 成本报告
+====================================================
+LLM 成本报告
+====================================================
+暂无调用记录
+====================================================
+====================================================
+LLM 成本报告
+====================================================
+暂无调用记录
+====================================================

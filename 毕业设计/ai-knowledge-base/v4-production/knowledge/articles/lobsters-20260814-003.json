@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260814-003",
+  "title": "Comments in the code vs PR description",
+  "source_url": "https://devblogs.microsoft.com/oldnewthing/20260812-00/?p=112607",
+  "summary": "Comments in the code vs PR description｜Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entity Framework C C# F# TypeScript NuGet Servicing .NET Blog",
+  "tags": [
+    "agent",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entity Framework C C# F# TypeScript NuGet Servicing .NET Blog in Chinese Microsoft for Developers Agent Framework Develop from the cloud Xcode ISE Developer TypeScript PowerShell Python Java Java Blog in Chinese Go Micros"
+  }
+}

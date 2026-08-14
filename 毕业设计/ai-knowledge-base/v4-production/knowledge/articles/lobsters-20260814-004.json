@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260814-004",
+  "title": "What are you doing this weekend?",
+  "source_url": "https://lobste.rs/s/n3pkuh/what_are_you_doing_this_weekend",
+  "summary": "What are you doing this weekend?｜Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!"
+  }
+}

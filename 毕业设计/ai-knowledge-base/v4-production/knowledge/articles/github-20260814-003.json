@@ -1,0 +1,35 @@
+{
+  "id": "github-20260814-003",
+  "title": "drumih/turbo-fieldfare",
+  "source_url": "https://github.com/drumih/turbo-fieldfare",
+  "summary": "drumih/turbo-fieldfare｜Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+  "tags": [
+    "deployment"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 5952,
+    "language": "Swift",
+    "topics": [
+      "apple-silicon",
+      "gemma",
+      "gemma4",
+      "gemma4-26b-a4b",
+      "gpgpu",
+      "llm",
+      "llm-inference",
+      "local-ai",
+      "macos",
+      "metal",
+      "on-device-ai",
+      "on-device-llm",
+      "swift"
+    ],
+    "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook"
+  }
+}

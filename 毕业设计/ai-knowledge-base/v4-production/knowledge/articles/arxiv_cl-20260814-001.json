@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260814-001",
+  "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+  "source_url": "https://arxiv.org/abs/2608.13538v1",
+  "summary": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization｜Sparse autoencoders (SAEs) are proposed to extract numerous features from la",
+  "tags": [
+    "fine-tuning",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This reliance leads to superficial explanations inferred from observed model behavior and computational inefficiency from collecting such behavioral evidence at scale. We introduce SAEVerbalizer, a framework that injects SAE decoder directions into an LLM's representations and fine-tunes the LLM's downs"
+  }
+}

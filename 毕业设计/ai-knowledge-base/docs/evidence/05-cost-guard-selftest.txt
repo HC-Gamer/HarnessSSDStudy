@@ -1,0 +1,18 @@
+=== 测试 1：成本追踪 ===
+  调用次数: 3
+  总成本: ¥0.0083
+  按节点: {'collect': 0.0002, 'analyze': 0.004, 'review': 0.0041}
+  预算状态: ok
+
+=== 测试 2：预算超限（熔断）===
+  预算超限检测通过: 成本已超出预算！当前: ¥0.3000, 预算: ¥0.0010
+
+=== 测试 3：预警阈值 ===
+[CostGuard] [预警] 成本已达预算的 90%！
+  预警状态: warning — [预警] 成本已达预算的 90%！
+
+=== 测试 4：报告落盘 ===
+[CostGuard] 成本报告已写入 /Volumes/M4_Workspace/AIHarness/OpenCode/OpenCodeStudy/毕业设计/ai-knowledge-base/v4-production/knowledge/cost-report.selftest.json
+  报告结构正确（cost_by_node 含 3 个节点）
+
+所有测试通过！

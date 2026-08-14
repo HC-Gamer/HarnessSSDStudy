@@ -1,0 +1,64 @@
+共加载 19 篇文章
+
+==================== Markdown 预览（前 800 字） ====================
+# 📚 AI 知识库简报（19 条）
+
+---
+
+### langgenius/dify
+
+- **来源**：github
+- **日期**：2026-08-12
+- **相关性**：🟢 0.95
+- **标签**：`llm`, `agent`, `rag`, `workflow`, `opensource`
+
+Dify 将 LLM 应用开发从代码工程转变为可视化配置，是 Agent 和 RAG 技术走向生产实践的关键桥梁。
+
+🔗 [原文链接](https://github.com/langgenius/dify)
+
+---
+
+### lobehub/lobehub
+
+- **来源**：github
+- **日期**：2026-08-12
+- **相关性**：🟢 0.95
+- **标签**：`ai-agent`, `orchestration`, `workflow`, `open-source`, `multi-agent`
+
+LobeHub 将 AI 智能体从工具提升为可编排的“员工”，通过团队化调度和报告机制，重新定义了人机协作的生产力边界。
+
+🔗 [原文链接](https://github.com/lobehub/lobehub)
+
+---
+
+### koala73/worldmonitor
+
+- **来源**：github
+- **日期**：2026-08-12
+- **相关性**：🟡 0.75
+- **标签**：`ai-news`, `geopolitics`, `dashboard`, `real-time`, `monitoring`
+
+该项目将 AI 新闻聚合与地缘政治/基础设施监控结合，形成高价值的情报仪表盘，反映了 AI 在实时决策支持领域的落地趋势。
+
+🔗 [原文链接](https://github.com/koala73/worldmonitor)
+
+==================== Telegram 预览（前 800 字） ====================
+📚 <b>AI 知识库每日简报</b>（19 条）
+
+📌 <a href="https://github.com/langgenius/dify"><b>langgenius/dify</b></a>
+Dify 将 LLM 应用开发从代码工程转变为可视化配置，是 Agent 和 RAG 技术走向生产实践的关键桥梁。
+📊 相关性：🟢 0.95 | 来源：github
+#llm #agent #rag #workflow #opensource
+
+📌 <a href="https://github.com/lobehub/lobehub"><b>lobehub/lobehub</b></a>
+LobeHub 将 AI 智能体从工具提升为可编排的“员工”，通过团队化调度和报告机制，重新定义了人机协作的生产力边界。
+📊 相关性：🟢 0.95 | 来源：github
+#ai-agent #orchestration #workflow #open-source #multi-agent
+
+📌 <a href="https://github.com/koala73/worldmonitor"><b>koala73/worldmonitor</b></a>
+该项目将 AI 新闻聚合与地缘政治/基础设施监控结合，形成高价值的情报仪表盘，反映了 AI 在实时决策支持领域的落地趋势。
+📊 相关性：🟡 0.75 | 来源：github
+#ai-news #geopolitics #dashboard #real-time #monitoring
+
+📌 <a href="https://github.com/bytedance/deer-flow"><b>bytedance/deer-flow</b></a>
+deer-flow 通过沙箱、记忆和子代理的协同设计，将代理从短时交互推向可信任的长时程

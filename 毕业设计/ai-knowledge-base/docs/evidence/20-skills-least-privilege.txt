@@ -1,0 +1,16 @@
+### 检查 2：权限策略（最小权限）
+$ grep -r -A3 'allowed-tools' openclaw/skills/
+openclaw/skills/daily-digest/SKILL.md:allowed-tools:
+openclaw/skills/daily-digest/SKILL.md-  - Bash
+openclaw/skills/daily-digest/SKILL.md-  - Read
+openclaw/skills/daily-digest/SKILL.md----
+openclaw/skills/top-rated/SKILL.md:allowed-tools:
+openclaw/skills/top-rated/SKILL.md-  - Read
+openclaw/skills/top-rated/SKILL.md----
+openclaw/skills/top-rated/SKILL.md-
+
+$ grep -rn -i 'glob|grep|exec' openclaw/skills/*/SKILL.md openclaw/AGENTS.md AGENTS.md
+openclaw/skills/top-rated/SKILL.md:40:- **禁止 Glob / Grep 目录**：不要尝试列目录或搜文件名，直接 `Read` 索引文件。
+
+$ openclaw config get tools     （需 Node 25，见 checklist 备注）
+{ "profile": "coding" }   ← 期望 messaging + alsoAllow=["read"]，见 16-1 备注

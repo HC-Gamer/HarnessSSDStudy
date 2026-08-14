@@ -1,0 +1,12 @@
+{
+  "total_cost_yuan": 0.0,
+  "total_prompt_tokens": 0,
+  "total_completion_tokens": 0,
+  "total_calls": 0,
+  "budget_yuan": 0.001,
+  "usage_ratio": 0.0,
+  "cost_by_node": {},
+  "calls_by_node": {},
+  "tokens_by_node": {},
+  "generated_at": "2026-08-14T22:08:52+0800"
+}

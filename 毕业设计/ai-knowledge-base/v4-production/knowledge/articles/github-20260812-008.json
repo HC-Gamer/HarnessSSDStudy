@@ -1,0 +1,34 @@
+{
+  "id": "github-20260812-008",
+  "title": "calesthio/OpenMontage",
+  "source": "github",
+  "source_url": "https://github.com/calesthio/OpenMontage",
+  "summary": "OpenMontage 是全球首个开源的智能体视频制作系统，旨在将 AI 编程助手（如 Cursor、Copilot）转化为完整的视频制作工作室。它包含 12 条生产流水线、100 多个工具以及 700 多个智能体技能和生产知识文件，覆盖从脚本撰写、分镜设计、素材生成、剪辑、配音到最终渲染的全流程。该系统通过智能体编排和工具调用，自动化视频制作中的重复性任务，降低专业视频制作的门槛。与同类项目（如基于单一模型的视频生成工具）相比，OpenMontage 强调系统性和可扩展性，提供模块化流水线和丰富的知识库，支持用户自定义工作流，并可与现有 AI 编程环境无缝集成。其开源特性允许社区贡献和定制，适合内容创作者、教育者和企业快速生成高质量视频。",
+  "key_insight": "OpenMontage 将视频制作从单点 AI 工具升级为可编程的智能体流水线，使 AI 编程助手成为全能视频工作室，重新定义了内容生产的自动化边界。",
+  "tags": [
+    "agent",
+    "video-production",
+    "open-source",
+    "workflow",
+    "multimodal"
+  ],
+  "keywords": [
+    "agent",
+    "video-production",
+    "open-source"
+  ],
+  "category": "agent",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "fetched_at": "2026-08-12T06:43:51.737524+00:00",
+  "analyzed_at": "2026-08-12T06:45:04.305461+00:00",
+  "published_at": null,
+  "metadata": {
+    "stars": 47539,
+    "language": "Python",
+    "author": "calesthio",
+    "upvotes": 0,
+    "comments": 0,
+    "collection_mode": "github"
+  }
+}

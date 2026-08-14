@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260814-005",
+  "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
+  "source_url": "https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
+  "summary": "Ruby 4.0 Universal RCE Deserialization Gadget Chain｜Article URL: https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain Comments URL: https://news.ycombina",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain Comments URL: https://news.ycombinator.com/item?id=49295238 Points: 59 # Comments: 15"
+  }
+}

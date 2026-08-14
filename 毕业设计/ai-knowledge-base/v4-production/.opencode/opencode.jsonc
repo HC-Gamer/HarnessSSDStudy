@@ -1,0 +1,51 @@
+{
+  // ── HarnessSSDStudy · 项目级 OpenCode 配置 ──────────────────────────
+  //
+  // 本项目所有 LLM 调用统一走 DeepSeek（OpenAI 兼容接口），
+  // 与 Wk2 `pipeline/model_client.py` 里的 provider 配置保持一致。
+  //
+  // 密钥来源：环境变量 DEEPSEEK_API_KEY，从 .env 读取（.env 已 gitignore）。
+  // 详见 specs/coding-standards.md §7.1「密钥存储」。
+  //
+  // ⚠️ 字段名说明（2026-08-08 实测，OpenCode 1.17.10）：
+  //    直觉上会想写成
+  //        "providers": { "deepseek": { "base_url": ..., "api_key_env": ..., "models": [...] } },
+  //        "default_provider": "deepseek",
+  //        "default_model": "deepseek-chat"
+  //    但 OpenCode **不认这几个 key**，会直接报
+  //        Error: Configuration is invalid ... Unrecognized keys: providers, default_provider, default_model
+  //    并导致整份配置失效。官方 schema 用的是单数 `provider` + `model`，
+  //    provider 内部是 `options.baseURL` / `options.apiKey` / `models` 对象（不是数组）。
+  //    对照关系：
+  //        providers        → provider
+  //        base_url         → options.baseURL
+  //        api_key_env      → options.apiKey 里写 "{env:VAR}"
+  //        models: [...]    → models: { "<id>": { ... } }
+  //        default_provider + default_model → model: "<provider>/<model>"
+  //
+  // 官方 schema: https://opencode.ai/config.json
+
+  "$schema": "https://opencode.ai/config.json",
+
+  "provider": {
+    "deepseek": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "DeepSeek",
+      "options": {
+        "baseURL": "https://api.deepseek.com/v1",
+        "apiKey": "{env:DEEPSEEK_API_KEY}"
+      },
+      "models": {
+        "deepseek-chat": {
+          "name": "DeepSeek Chat (V3)"
+        },
+        "deepseek-reasoner": {
+          "name": "DeepSeek Reasoner (R1)"
+        }
+      }
+    }
+  },
+
+  // 默认模型 = <provider>/<model>，等价于 default_provider + default_model
+  "model": "deepseek/deepseek-chat"
+}

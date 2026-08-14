@@ -1,0 +1,19 @@
+{
+  "id": "simonwillison-20260814-004",
+  "title": "alchemy-utils 0.1a1",
+  "source_url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+  "summary": "alchemy-utils 0.1a1｜Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+  "tags": [
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T14:02:05.238339+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here ."
+  }
+}

@@ -1,0 +1,61 @@
+### 知识库产出统计
+$ ls knowledge/articles/*.json | wc -l
+      57
+$ du -sh knowledge/
+328K	knowledge/
+
+$ cat knowledge/cost-report.json
+{
+  "total_cost_yuan": 0.0,
+  "total_prompt_tokens": 0,
+  "total_completion_tokens": 0,
+  "total_calls": 0,
+  "budget_yuan": 0.001,
+  "usage_ratio": 0.0,
+  "cost_by_node": {},
+  "calls_by_node": {},
+  "tokens_by_node": {},
+  "generated_at": "2026-08-14T22:08:52+0800"
+}
+$ head -c 700 knowledge/articles/index.json
+[
+  {
+    "id": "github-20260812-001",
+    "title": "langgenius/dify",
+    "category": "agent",
+    "tags": [
+      "llm",
+      "agent",
+      "rag",
+      "workflow",
+      "opensource"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/langgenius/dify",
+    "collected_at": "2026-08-12T06:43:51.737481+00:00",
+    "status": "draft"
+  },
+  {
+    "id": "github-20260812-002",
+    "title": "lobehub/lobehub",
+    "category": "agent",
+    "tags": [
+      "ai-agent",
+      "orchestration",
+      "workflow",
+      "open-source",
+      "multi-agent"
+    ],
+    "relevance_score": 0.95,
+    "source_url": "https://github.com/lobehub/lobehub",
+    "collected_at": "2026-08-12T06:43
+
+$ ls -lt knowledge/articles/ | head -8
+total 464
+-rw-r--r--@ 1 huangcheng  staff  1133 Aug 14 22:02 simonwillison-20260814-005.json
+-rw-r--r--@ 1 huangcheng  staff   635 Aug 14 22:02 simonwillison-20260814-004.json
+-rw-r--r--@ 1 huangcheng  staff  1127 Aug 14 22:02 simonwillison-20260814-003.json
+-rw-r--r--@ 1 huangcheng  staff  1105 Aug 14 22:02 simonwillison-20260814-002.json
+-rw-r--r--@ 1 huangcheng  staff  1132 Aug 14 22:02 simonwillison-20260814-001.json
+-rw-r--r--@ 1 huangcheng  staff   797 Aug 14 22:02 openai_news-20260814-005.json
+-rw-r--r--@ 1 huangcheng  staff   815 Aug 14 22:02 openai_news-20260814-004.json
