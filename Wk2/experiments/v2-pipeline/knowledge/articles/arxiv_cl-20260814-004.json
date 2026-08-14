@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260814-004",
+  "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+  "source_url": "https://arxiv.org/abs/2608.13482v1",
+  "summary": "Synthetic Persona Pretraining: Alignment from Token Zero｜As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of hum",
+  "tags": [
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical. Today, alignment, and the assistant identity itself, are typically introduced only after pretraining, once behavioral priors are already established. This can make values a thin overlay, rather than deeply rooted, and facilitate subsequent misalignment. Pursuing a different paradigm, we introduce Synthetic Persona Pretraining (SPP), which installs the d"
+  }
+}

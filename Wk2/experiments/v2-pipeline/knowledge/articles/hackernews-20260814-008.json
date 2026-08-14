@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260814-008",
+  "title": "NP-overrated",
+  "source_url": "https://gruhn.me/blog/2026-08-13/",
+  "summary": "NP-overrated｜Article URL: https://gruhn.me/blog/2026-08-13/ Comments URL: https://news.ycombinator.com/item?id=49291268 Points: 203 # Comments: 142",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://gruhn.me/blog/2026-08-13/ Comments URL: https://news.ycombinator.com/item?id=49291268 Points: 203 # Comments: 142"
+  }
+}

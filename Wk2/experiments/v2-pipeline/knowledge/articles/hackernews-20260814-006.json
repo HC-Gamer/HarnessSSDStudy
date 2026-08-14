@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260814-006",
+  "title": "Bluesky Protocol Services",
+  "source_url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
+  "summary": "Bluesky Protocol Services｜Article URL: https://atproto.com/blog/introducing-bluesky-protocol-services Comments URL: https://news.ycombinator.com/item?id=49293324 Points: 160 # Comm",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://atproto.com/blog/introducing-bluesky-protocol-services Comments URL: https://news.ycombinator.com/item?id=49293324 Points: 160 # Comments: 30"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260814-003",
+  "title": "Let's not call it \"tech debt,\" it's just \"mess\"",
+  "source_url": "https://www.simplermachines.com/lets-not-call-it-tech-debt-its-just-mess/",
+  "summary": "Let's not call it \"tech debt,\" it's just \"mess\"｜Simpler Machines Home About Support this Website Sign in Subscribe Let s not call it tech debt, it s just mess The problem with sayi",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Simpler Machines Home About Support this Website Sign in Subscribe Let s not call it tech debt, it s just mess The problem with saying technical debt in these situations is it makes you look unserious. If you use technical debt to mean a problem we didn t realize would be there when we made this dec"
+  }
+}

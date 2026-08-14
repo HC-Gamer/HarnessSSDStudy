@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260814-005",
+  "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+  "source_url": "https://arxiv.org/abs/2608.13545v1",
+  "summary": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure｜Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-token pretraining corpus tailored to U.S. elementary school material, explicitly excluding concepts, facts, and vocabulary taught above Grade 5. Training a 5B-parameter LLM from scratch on LITTLECURRICULUM yields LITTLELE"
+  }
+}

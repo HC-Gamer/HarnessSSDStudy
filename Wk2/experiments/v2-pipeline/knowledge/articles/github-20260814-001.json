@@ -1,0 +1,21 @@
+{
+  "id": "github-20260814-001",
+  "title": "thebuggeddev/anatomy",
+  "source_url": "https://github.com/thebuggeddev/anatomy",
+  "summary": "thebuggeddev/anatomy｜An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2384,
+    "language": "TypeScript",
+    "topics": [],
+    "description": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol"
+  }
+}

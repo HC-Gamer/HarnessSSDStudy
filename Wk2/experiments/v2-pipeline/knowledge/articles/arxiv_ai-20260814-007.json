@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260814-007",
+  "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
+  "source_url": "https://arxiv.org/abs/2608.13520v1",
+  "summary": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity｜We study masking diffusion for discrete sampling and introduce a path-resolved m",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes. In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computatio"
+  }
+}

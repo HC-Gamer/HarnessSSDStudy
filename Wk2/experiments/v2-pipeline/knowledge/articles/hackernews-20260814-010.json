@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260814-010",
+  "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+  "source_url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+  "summary": "How Organizations Use AI: Evidence from ChatGPT [pdf]｜Article URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf Comments URL: https://news.ycombinator.com/item?id=4",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf Comments URL: https://news.ycombinator.com/item?id=49290768 Points: 105 # Comments: 62"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260814-003",
+  "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+  "source_url": "https://arxiv.org/abs/2608.13555v1",
+  "summary": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark｜Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often",
+  "tags": [
+    "rag",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs. Meanwhile, widely used test suites are small and lack the diversity needed to stress contact-rich, long-horizon behaviors. We introduce HumanTracker to"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260814-010",
+  "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
+  "source_url": "https://arxiv.org/abs/2608.13484v1",
+  "summary": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity｜When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausi",
+  "tags": [
+    "evaluation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-14T09:01:17.644180+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer, more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats up the specificity hierarchy, trading informativeness for truthfulness. We ask whether LLMs have the ingredients to perform this retreat. Using a T-REx-based benchmark that varies entity familiarity and referent specificit"
+  }
+}
