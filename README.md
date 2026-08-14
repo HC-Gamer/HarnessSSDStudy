@@ -77,6 +77,10 @@
 1. [复杂度路由：一件事该消耗多少推理](blogs/agent-design-patterns/blog20_复杂度路由：一件事该消耗多少推理_2026-08-13.md) (2026-08-13)
 
    我家 Mac mini 上的 Hermes 有个挺有意思的调度规则：用户的问题默认路由给 Codex CLI，但只要�
+
+1. [并行探索：一题多解，择优录取](blogs/agent-design-patterns/blog21_并行探索：一题多解，择优录取_2026-08-14.md) (2026-08-14)
+
+   上周我的 UE5 项目遇到一个编译错误，我同时让 Codex 和 Claude Code 各诊断了一次。两个模型�
 ## 关于
 
 - **作者**: HC-Gamer (patrick.huangchengai@gmail.com)
