@@ -81,6 +81,10 @@
 1. [并行探索：一题多解，择优录取](blogs/agent-design-patterns/blog21_并行探索：一题多解，择优录取_2026-08-14.md) (2026-08-14)
 
    上周我的 UE5 项目遇到一个编译错误，我同时让 Codex 和 Claude Code 各诊断了一次。两个模型�
+
+1. [迭代假设验证：用科学方法猜至证据的收敛](blogs/agent-design-patterns/blog22_迭代假设验证：用科学方法猜至证据的收敛_2026-08-15.md) (2026-08-15)
+
+   昨晚 UE5 项目又编译失败了。按照我的老习惯，我立刻让模型"再试一次"——结果它在同一�
 ## 关于
 
 - **作者**: HC-Gamer (patrick.huangchengai@gmail.com)
