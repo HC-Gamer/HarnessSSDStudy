@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260815-005",
+  "title": "Curl Performance",
+  "source_url": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
+  "summary": "Curl Performance｜Skip to content daniel.haxx.se Search Primary Menu About Privacy Search for: cURL and libcurl curl performance August 14, 2026 Daniel Stenberg 4 Comments tldr: the",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-15T08:17:10.916851+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content daniel.haxx.se Search Primary Menu About Privacy Search for: cURL and libcurl curl performance August 14, 2026 Daniel Stenberg 4 Comments tldr: the live version is here: https://curl.se/perf/ How fast is fast and is it good enough? Does it run as fast now as it did before or was ther"
+  }
+}

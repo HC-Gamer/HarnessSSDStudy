@@ -1,0 +1,20 @@
+{
+  "id": "hackernews-20260815-010",
+  "title": "Show HN: Mole – Deep research agent for your terminal",
+  "source_url": "https://github.com/lajosdeme/mole",
+  "summary": "Show HN: Mole – Deep research agent for your terminal｜Doing research with agents is fun until they blow way past budget, jumble the sources, and don't even give you the best possib",
+  "tags": [
+    "agent",
+    "prompt-engineering",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-15T08:17:10.916851+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Doing research with agents is fun until they blow way past budget, jumble the sources, and don't even give you the best possible answer, just sound confident. And if you want to run some research task on local data - you have no idea where your data ends up after the prompt consumes it. So I built this tool: a deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data. 1. Never spend more than you budgeted (measured overshoot is 0%). 2. Every claim carrie"
+  }
+}

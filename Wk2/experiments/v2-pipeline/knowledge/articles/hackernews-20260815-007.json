@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260815-007",
+  "title": "eigendrum",
+  "source_url": "https://eigendrum.com/#p=circle",
+  "summary": "eigendrum｜Article URL: https://eigendrum.com/#p=circle Comments URL: https://news.ycombinator.com/item?id=49305250 Points: 137 # Comments: 29",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-15T08:17:10.916851+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://eigendrum.com/#p=circle Comments URL: https://news.ycombinator.com/item?id=49305250 Points: 137 # Comments: 29"
+  }
+}

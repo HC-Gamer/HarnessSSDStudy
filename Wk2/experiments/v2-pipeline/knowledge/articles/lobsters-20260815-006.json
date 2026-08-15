@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260815-006",
+  "title": "We implemented the IPv8 Internet-Draft in the Linux Kernel, Musl Libc, and BGP",
+  "source_url": "https://goonhost.rocks/blog/implementing-ipv8-internet-draft",
+  "summary": "We implemented the IPv8 Internet-Draft in the Linux Kernel, Musl Libc, and BGP｜All Blog Posts Dashboard We implemented the IPv8 Internet-Draft in the Linux Kernel, Musl Libc, and B",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-15T08:17:10.916851+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "All Blog Posts Dashboard We implemented the IPv8 Internet-Draft in the Linux Kernel, Musl Libc, and BGP TurboRigby • August 14, 2026 • 6 min read Show HN: We implemented the IPv8 Internet-Draft in the Linux Kernel, Musl Libc, and BGP The Hook: Why We Built This A few weeks ago, an Internet-Draft tit"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260815-004",
+  "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+  "summary": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia｜Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive Comments URL: https://news.ycombinator.c",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-15T08:17:10.916851+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive Comments URL: https://news.ycombinator.com/item?id=49306577 Points: 180 # Comments: 43"
+  }
+}

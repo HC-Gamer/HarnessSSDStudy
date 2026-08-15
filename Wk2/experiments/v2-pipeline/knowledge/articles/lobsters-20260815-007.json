@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260815-007",
+  "title": "The Art of CHIP-8",
+  "source_url": "https://beyondloom.com/blog/artofchip8.html",
+  "summary": "The Art of CHIP-8｜The Art of CHIP-8 CHIP-8 is a programming language originally developed for the 1977 COSMAC VIP kit computer. CHIP-8 programs are composed of a series of two-byte",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-15T08:17:10.916851+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The Art of CHIP-8 CHIP-8 is a programming language originally developed for the 1977 COSMAC VIP kit computer. CHIP-8 programs are composed of a series of two-byte instructions resembling machine-code for a simple virtual instruction-set architecture, so CHIP-8 interpreters are often also referred to"
+  }
+}

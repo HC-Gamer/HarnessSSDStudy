@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260815-009",
+  "title": "Firefox is now the last major browser that still supports uBlock Origin",
+  "source_url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+  "summary": "Firefox is now the last major browser that still supports uBlock Origin｜Article URL: https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-suppor",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-15T08:17:10.916851+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html Comments URL: https://news.ycombinator.com/item?id=49303202 Points: 893 # Comments: 332"
+  }
+}
