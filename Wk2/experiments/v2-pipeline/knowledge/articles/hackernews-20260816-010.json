@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260816-010",
+  "title": "Big Pickle on SWE Atlas – Codebase QnA",
+  "source_url": "https://github.com/PhillipChaffee/big-pickle-swe-atlas",
+  "summary": "Big Pickle on SWE Atlas – Codebase QnA｜Article URL: https://github.com/PhillipChaffee/big-pickle-swe-atlas Comments URL: https://news.ycombinator.com/item?id=49315563 Points: 4 # C",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-16T08:18:38.676757+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/PhillipChaffee/big-pickle-swe-atlas Comments URL: https://news.ycombinator.com/item?id=49315563 Points: 4 # Comments: 0"
+  }
+}

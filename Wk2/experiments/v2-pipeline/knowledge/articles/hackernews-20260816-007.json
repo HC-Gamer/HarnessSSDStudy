@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260816-007",
+  "title": "Patterns and problems in emerging multi-agent systems",
+  "source_url": "https://www.anthropic.com/research/multiagent-systems",
+  "summary": "Patterns and problems in emerging multi-agent systems｜Article URL: https://www.anthropic.com/research/multiagent-systems Comments URL: https://news.ycombinator.com/item?id=49316271",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-16T08:18:38.676757+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.anthropic.com/research/multiagent-systems Comments URL: https://news.ycombinator.com/item?id=49316271 Points: 65 # Comments: 24"
+  }
+}

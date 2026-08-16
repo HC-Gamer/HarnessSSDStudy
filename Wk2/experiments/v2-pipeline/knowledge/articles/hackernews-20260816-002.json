@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260816-002",
+  "title": "Show HN: Laptop is the last place your secrets are still in plaintext",
+  "source_url": "https://github.com/jitpass/jit",
+  "summary": "Show HN: Laptop is the last place your secrets are still in plaintext｜Article URL: https://github.com/jitpass/jit Comments URL: https://news.ycombinator.com/item?id=49317546 Points",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-16T08:18:38.676757+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/jitpass/jit Comments URL: https://news.ycombinator.com/item?id=49317546 Points: 37 # Comments: 35"
+  }
+}

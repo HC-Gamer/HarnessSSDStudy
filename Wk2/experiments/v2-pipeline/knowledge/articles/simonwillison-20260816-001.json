@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260816-001",
+  "title": "CORS Chat",
+  "source_url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+  "summary": "CORS Chat｜Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provide",
+  "tags": [
+    "vision",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-16T08:18:38.676757+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressi"
+  }
+}

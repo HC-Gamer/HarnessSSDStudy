@@ -1,0 +1,21 @@
+{
+  "id": "github-20260816-001",
+  "title": "AminBlg/SimpleEnglish",
+  "source_url": "https://github.com/AminBlg/SimpleEnglish",
+  "summary": "AminBlg/SimpleEnglish｜Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical",
+  "tags": [
+    "agent"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-16T08:18:38.676757+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2411,
+    "language": "Python",
+    "topics": [],
+    "description": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical"
+  }
+}

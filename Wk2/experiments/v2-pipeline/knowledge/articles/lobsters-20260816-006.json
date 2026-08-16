@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260816-006",
+  "title": "What's missing to have reproducible builds on PyPI",
+  "source_url": "https://snarky.ca/whats-missing-to-have-reproducible-builds-on-pypi/",
+  "summary": "What's missing to have reproducible builds on PyPI｜Tall, Snarky Canadian Sponsor GitHub Mastodon Bluesky Notes Sign in Subscribe 15 Aug 2026 4 min read Python What s missing to hav",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-16T08:18:38.676757+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Tall, Snarky Canadian Sponsor GitHub Mastodon Bluesky Notes Sign in Subscribe 15 Aug 2026 4 min read Python What s missing to have reproducible builds on PyPI While writing the section of my 2026 Python Packaging Council (PPC) nomination on secure supply chain, I realized that one thing related to h"
+  }
+}

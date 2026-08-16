@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260816-003",
+  "title": "Health benefits of Tai Chi",
+  "source_url": "https://www.health.harvard.edu/exercise-and-fitness/the-health-benefits-of-tai-chi",
+  "summary": "Health benefits of Tai Chi｜Article URL: https://www.health.harvard.edu/exercise-and-fitness/the-health-benefits-of-tai-chi Comments URL: https://news.ycombinator.com/item?id=493172",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-16T08:18:38.676757+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.health.harvard.edu/exercise-and-fitness/the-health-benefits-of-tai-chi Comments URL: https://news.ycombinator.com/item?id=49317279 Points: 10 # Comments: 5"
+  }
+}
