@@ -85,6 +85,10 @@
 1. [迭代假设验证：用科学方法猜至证据的收敛](blogs/agent-design-patterns/blog22_迭代假设验证：用科学方法猜至证据的收敛_2026-08-15.md) (2026-08-15)
 
    昨晚 UE5 项目又编译失败了。按照我的老习惯，我立刻让模型"再试一次"——结果它在同一�
+
+1. [行动模块导论：把任务安全地做好](blogs/agent-design-patterns/blog23_行动模块导论：把任务安全地做好_2026-08-16.md) (2026-08-16)
+
+   今天下午 5 点，每日写博管线照常触发。第一步拉文章，API 返回 HTTP 200、`code: -1`、`column_ha
 ## 关于
 
 - **作者**: HC-Gamer (patrick.huangchengai@gmail.com)
