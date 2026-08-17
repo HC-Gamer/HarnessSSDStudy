@@ -1,0 +1,36 @@
+{
+  "id": "github-20260817-001",
+  "title": "QwenAudio/qwen-audio-agent",
+  "source_url": "https://github.com/QwenAudio/qwen-audio-agent",
+  "summary": "QwenAudio/qwen-audio-agent｜A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
+  "tags": [
+    "agent",
+    "audio"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2162,
+    "language": "JavaScript",
+    "topics": [
+      "acp",
+      "agent",
+      "agentic-ai",
+      "ai-coding",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "opencode",
+      "speech-recognition",
+      "text-to-speech",
+      "voice-agent",
+      "voice-ai",
+      "voice-chat"
+    ],
+    "description": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents"
+  }
+}

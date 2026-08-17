@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260817-008",
+  "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
+  "source_url": "https://arxiv.org/abs/2608.14502v1",
+  "summary": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials｜Free energies govern solid-state phase stability, yet computational materials discovery still relies largel",
+  "tags": [
+    "rag",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We introduce the thermodynamic interatomic potential (TIP), which extends an interatomic potential from its static energy to a thermodynamically consistent Gibbs free energy model, with thermodynamic responses following from temperature and pressure by automatic differentiation. We implement TIP[UMA] usin"
+  }
+}

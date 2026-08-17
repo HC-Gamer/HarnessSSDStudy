@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260817-008",
+  "title": "A Four-Axis Trustworthiness Benchmark for LLM-as-Judge in Principle-Based Regulation",
+  "source_url": "https://arxiv.org/abs/2608.14329v1",
+  "summary": "A Four-Axis Trustworthiness Benchmark for LLM-as-Judge in Principle-Based Regulation｜Principle-based regulation, with evaluative standards such as \"fair, clear, and not misleading\"",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Principle-based regulation, with evaluative standards such as \"fair, clear, and not misleading\" or \"deliver good outcomes\", cannot be reduced to binary predicates, and LLM-as-judge is increasingly used as the substitute. Our position is that any such judge must be evaluated on four axes: accuracy, paraphrase robustness, adversarial robustness, and calibration. We release Principle-Bench, 168 cryptoasset financial-promotion scenarios mapped to two UK FCA principles, with paraphrase, adversarial k"
+  }
+}

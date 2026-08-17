@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260817-005",
+  "title": "A Survey of Large Models in Sports",
+  "source_url": "https://arxiv.org/abs/2608.14377v1",
+  "summary": "A Survey of Large Models in Sports｜Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connecti",
+  "tags": [
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connection, and economic growth. The rapid advancement of large models, particularly (multimodal) large language models (M)LLMs, has demonstrated transformative potential to reshape sports understanding, analysis, and interaction across diverse domains. This paper presents a comprehensive survey of large models in sports, including (i) an overview of tasks and "
+  }
+}

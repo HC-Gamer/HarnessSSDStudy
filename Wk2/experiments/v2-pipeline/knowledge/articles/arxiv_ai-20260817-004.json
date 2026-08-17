@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260817-004",
+  "title": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers",
+  "source_url": "https://arxiv.org/abs/2608.14522v1",
+  "summary": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers｜As AI systems make more morally loaded decisions across society, one response has been moral preference elic",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation. In this approach, researchers poll participants on hypothetical dilemmas and use the aggregated votes to train a policy that an AI model then applies at scale. Before any vote is cast, developers make three key choices in the moral AI elicitation pipeline: feature scoping, voter sampling, and question framing. In other words, they decide which features go to a vote, which voters t"
+  }
+}

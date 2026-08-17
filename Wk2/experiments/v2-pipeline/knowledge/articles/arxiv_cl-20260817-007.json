@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260817-007",
+  "title": "Local and Global Regimes of Geometric Complexity in Language Model Representations",
+  "source_url": "https://arxiv.org/abs/2608.14361v1",
+  "summary": "Local and Global Regimes of Geometric Complexity in Language Model Representations｜Intrinsic dimensionality (ID) is widely used to probe the representational complexity of language",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Intrinsic dimensionality (ID) is widely used to probe the representational complexity of language models, but it remains unclear whether ID differences reflect properties of language itself or artefacts of how the underlying dataset was constructed. In this paper, we focus specifically on how lexical diversity, the number of unique last-token items present in a dataset, affects ID estimates of that dataset. We find a scale-dependent transition between two regimes: at low lexical diversity, condi"
+  }
+}

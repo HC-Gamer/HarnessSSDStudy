@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260817-009",
+  "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
+  "source_url": "https://arxiv.org/abs/2608.14496v1",
+  "summary": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer｜Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and",
+  "tags": [
+    "evaluation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generation methods are largely restricted to single-input-table scenarios and struggle to effectively handle multiple heterogeneous tables with diverse feature sets. To address this limitation, we propose a two-stage framework for cross-tabular data generation. In the first stage, each heterogeneous raw tabl"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260817-002",
+  "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+  "source_url": "https://arxiv.org/abs/2608.14530v1",
+  "summary": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance｜Interactive game world models typically autoregress visual observations directly in pixel or latent spa",
+  "tags": [
+    "rag",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, errors in these latent world properties accumulate, making consistency and controllability fragile. We explicitly model the evolving world state, delegate exact geometric computation to a fixed, zero-parameter renderer, and leave the neural mod"
+  }
+}

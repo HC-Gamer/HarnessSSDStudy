@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260817-008",
+  "title": "Models Are Getting Dumber on Purpose",
+  "source_url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+  "summary": "Models Are Getting Dumber on Purpose｜Skip to content W4G1 2026-08-17 Models Are Getting Dumber on Purpose Walter van der Giessen Reasoning scores keep climbing while per-token comp",
+  "tags": [
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content W4G1 2026-08-17 Models Are Getting Dumber on Purpose Walter van der Giessen Reasoning scores keep climbing while per-token compute keeps dropping. GLM-5.2 scores 99.2% on AIME 2026 with about 40 billion parameters active per token. Qwen3.5 scores 91.3% with 17 billion active. DeepSee"
+  }
+}

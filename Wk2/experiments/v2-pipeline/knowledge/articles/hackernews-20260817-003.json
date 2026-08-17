@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260817-003",
+  "title": "GIMP Development Update",
+  "source_url": "https://www.gimp.org/news/2026/08/16/dev-update-august-2026/",
+  "summary": "GIMP Development Update｜Article URL: https://www.gimp.org/news/2026/08/16/dev-update-august-2026/ Comments URL: https://news.ycombinator.com/item?id=49326156 Points: 92 # Comments:",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.gimp.org/news/2026/08/16/dev-update-august-2026/ Comments URL: https://news.ycombinator.com/item?id=49326156 Points: 92 # Comments: 39"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260817-006",
+  "title": "Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Messages",
+  "source_url": "https://arxiv.org/abs/2608.14375v1",
+  "summary": "Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Messages｜Multi-agent reasoning systems often use agreement, confidence, or automated scores to decide wh",
+  "tags": [
+    "agent",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Multi-agent reasoning systems often use agreement, confidence, or automated scores to decide which messages should shape a final answer. Such filtering assumes that a message likely to be correct is also worth keeping. Yet a wrong answer can contain a useful decomposition, constraint, or scientific principle. We test this distinction with Diverse Hypothesis Deliberation (DHD), a controlled measurement protocol that caches five independently generated messages and replays the same downstream solv"
+  }
+}

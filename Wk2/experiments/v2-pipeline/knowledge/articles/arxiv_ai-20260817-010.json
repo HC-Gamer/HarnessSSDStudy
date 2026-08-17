@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260817-010",
+  "title": "Optimal Scheduling of Road Maintenance Jobs Considering Impact on Traffic Flows",
+  "source_url": "https://arxiv.org/abs/2608.14491v1",
+  "summary": "Optimal Scheduling of Road Maintenance Jobs Considering Impact on Traffic Flows｜Network-level maintenance planning requires repeated evaluations of equilibrium traffic flows under",
+  "tags": [
+    "evaluation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Network-level maintenance planning requires repeated evaluations of equilibrium traffic flows under road capacity reductions. While equilibrium traffic assignment models are well established, their repeated solution quickly becomes computationally prohibitive and challenging to embed within maintenance scheduling problems. This paper investigates data-driven surrogate models that approximate equilibrium arc flows directly from origin-destination demand, using optimization-based equilibrium solut"
+  }
+}

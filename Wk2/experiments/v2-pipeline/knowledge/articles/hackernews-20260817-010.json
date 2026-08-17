@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260817-010",
+  "title": "The Life and Death of Direct File [pdf]",
+  "source_url": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
+  "summary": "The Life and Death of Direct File [pdf]｜Article URL: https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf Comments URL: https://news.ycombinator.com/item?id=493",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf Comments URL: https://news.ycombinator.com/item?id=49325185 Points: 184 # Comments: 91"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260817-007",
+  "title": "RecipeNet: A Hierarchical Transformer for Recipe Data",
+  "source_url": "https://arxiv.org/abs/2608.14505v1",
+  "summary": "RecipeNet: A Hierarchical Transformer for Recipe Data｜Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where pro",
+  "tags": [
+    "code-generation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogeneous structured fields. Existing tabular learning methods typically flatten this structure into fixed-schema representations, limiting their ability to capture hierarchical field interactions and procedural dependencies. We propose RecipeNet, a hierarchical Transformer architecture that encodes fiel"
+  }
+}

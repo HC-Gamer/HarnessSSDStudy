@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260817-002",
+  "title": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation",
+  "source_url": "https://arxiv.org/abs/2608.14457v1",
+  "summary": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation｜The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERT",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERTScore) or specific desired properties (e.g., readability, factuality). However, these metrics fail to measure the utility of a summary to an individual user. For example, a biomedical researcher learning about the latest vaccine research will have different informational needs from a family doctor. Query-focused summarization captures part of this need, but in practice, users rarely state everyt"
+  }
+}

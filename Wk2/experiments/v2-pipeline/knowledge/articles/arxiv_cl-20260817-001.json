@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260817-001",
+  "title": "You Only Pass Once: Answering and Abstaining Together in a Single Forward Pass of a Frozen Language Model",
+  "source_url": "https://arxiv.org/abs/2608.14465v1",
+  "summary": "You Only Pass Once: Answering and Abstaining Together in a Single Forward Pass of a Frozen Language Model｜A frozen language model on reasoning tasks has two coupled weaknesses: it",
+  "tags": [
+    "reasoning",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "A frozen language model on reasoning tasks has two coupled weaknesses: it under-uses evidence its own residual stream already encodes, and it fails to detect when the input is insufficient to answer, so it confabulates. This paper consolidates two research lines that address these on the same residual stream: a conditional steering probe writes the stream at mid-stack layers and recovers reasoning accuracy from a frozen backbone, and a zero-shot sufficiency direction reads the stream and abstain"
+  }
+}

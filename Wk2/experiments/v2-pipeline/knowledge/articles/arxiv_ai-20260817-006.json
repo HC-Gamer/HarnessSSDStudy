@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260817-006",
+  "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
+  "source_url": "https://arxiv.org/abs/2608.14509v1",
+  "summary": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation｜Systems that ask a language model to reach a conclusion from many sources usually concatenate them int",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return nothing. Once separated, the design problem becomes the interface between them. We propose a four-field evidence tuple (hypothesis, reliability bucket, rationale, p"
+  }
+}

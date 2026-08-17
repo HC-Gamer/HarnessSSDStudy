@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260817-007",
+  "title": "People of ACM - Russ Cox",
+  "source_url": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
+  "summary": "People of ACM - Russ Cox｜People of ACM - Russ Cox。这是 lobsters 收录的技术条目，原文站点 acm.org；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "People of ACM - Russ Cox。这是 lobsters 收录的技术条目，原文站点 acm.org；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。"
+  }
+}

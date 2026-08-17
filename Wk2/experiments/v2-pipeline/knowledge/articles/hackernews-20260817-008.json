@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260817-008",
+  "title": "Rhombus 1.1 is now available",
+  "source_url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+  "summary": "Rhombus 1.1 is now available｜Article URL: https://blog.racket-lang.org/2026/08/rhombus-v1.1.html Comments URL: https://news.ycombinator.com/item?id=49325384 Points: 72 # Comments:",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://blog.racket-lang.org/2026/08/rhombus-v1.1.html Comments URL: https://news.ycombinator.com/item?id=49325384 Points: 72 # Comments: 24"
+  }
+}

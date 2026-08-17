@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260817-003",
+  "title": "Handover of In-Context Learning State Across Session Boundaries",
+  "source_url": "https://arxiv.org/abs/2608.14528v1",
+  "summary": "Handover of In-Context Learning State Across Session Boundaries｜This study investigates the methodological and theoretical properties of session handover in applications that use l",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches the model's input limit, when the application restarts, or when another agent is asked to finish the task. The application must then decide which information from the earlier session to pass on. We formulate handover as the transfer of a task-relative in-context learning (ICL) state and distinguish "
+  }
+}

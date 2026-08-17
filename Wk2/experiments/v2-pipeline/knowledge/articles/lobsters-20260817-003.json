@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260817-003",
+  "title": "A faster way to calculate the day-of-the-week",
+  "source_url": "https://www.benjoffe.com/fast-day-of-week",
+  "summary": "A faster way to calculate the day-of-the-week｜Ben Joffe Articles Lab RSS Feed X (Twitter) LinkedIn Other Date/Time Articles: Article 1: The Julian Map Article 2: Overflow Safety (3",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Ben Joffe Articles Lab RSS Feed X (Twitter) LinkedIn Other Date/Time Articles: Article 1: The Julian Map Article 2: Overflow Safety (32-Bit) Article 3: Very Fast Date (64-Bit) Article 4: Fast Leap Year Article 5: Fast Day-of-Week Smoital System - Time on Mars Weekle - Weekday Guessing Game A faster"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260817-010",
+  "title": "A Tour of Magit's Status Interface",
+  "source_url": "https://heiwiper.com/posts/magit-status-tour/",
+  "summary": "A Tour of Magit's Status Interface｜Skip to content HEIWIPER HEIWIPER HOME POSTS GALLERY ABOUT CONTACT HOME POSTS GALLERY ABOUT CONTACT A Tour of Magit's Status Interface The reposi",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content HEIWIPER HEIWIPER HOME POSTS GALLERY ABOUT CONTACT HOME POSTS GALLERY ABOUT CONTACT A Tour of Magit's Status Interface The repository state Magit surfaces at a glance and the commands it puts at your fingertips. Published Aug 15, 2026 · 3 min read #emacs #git #magit Table of Contents"
+  }
+}

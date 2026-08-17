@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260817-005",
+  "title": "A Third World Embedded Engineer Responds to \"RISC-V: They Should Have Known Better\"",
+  "source_url": "https://rvembedded.com/blog_post/12/",
+  "summary": "A Third World Embedded Engineer Responds to \"RISC-V: They Should Have Known Better\"｜menu Move to RISC-V Migration swap_horiz Arduino to RISC-V Migration guide Getting Started memor",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "menu Move to RISC-V Migration swap_horiz Arduino to RISC-V Migration guide Getting Started memory CH32V003 32-bit RISC-V MCU developer_board Orange Pi RV2 RISC-V SBC Products Software code RV Systems Studio RISC-V IDE developer_board RV Circuit Studio CircuitPython IDE Hardware precision_manufacturi"
+  }
+}

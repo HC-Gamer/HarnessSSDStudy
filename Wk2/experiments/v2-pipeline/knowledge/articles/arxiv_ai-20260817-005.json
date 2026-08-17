@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260817-005",
+  "title": "Learning-to-Transition for Large-scale and High-Order MIMO Detection",
+  "source_url": "https://arxiv.org/abs/2608.14511v1",
+  "summary": "Learning-to-Transition for Large-scale and High-Order MIMO Detection｜High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symb",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-transition (L2T) framework that formulates MIMO detection as a stochastic sequence of complete-vector transitions. At each transition, a channel-coupled Transformer updates both the instance embedding and the sampling policy, while a blockwise autoregressive factorization captures "
+  }
+}

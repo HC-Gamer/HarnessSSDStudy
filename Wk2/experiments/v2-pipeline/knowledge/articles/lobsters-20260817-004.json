@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260817-004",
+  "title": "Protecting the Rust standard library from accidental breakage",
+  "source_url": "https://predr.ag/blog/protecting-the-rust-stdlib-from-breakage/",
+  "summary": "Protecting the Rust standard library from accidental breakage｜Predrag's blog Home About Talks Follow Subscribe Protecting the Rust standard library from accidental breakage August",
+  "tags": [
+    "rag",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Predrag's blog Home About Talks Follow Subscribe Protecting the Rust standard library from accidental breakage August 15, 2026 semver rust Accidental breakage can happen in any codebase . The Rust standard library isn't magically exempt from this — so it too now uses cargo-semver-checks to prevent a"
+  }
+}

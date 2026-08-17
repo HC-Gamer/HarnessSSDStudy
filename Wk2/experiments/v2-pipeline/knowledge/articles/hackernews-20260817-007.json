@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260817-007",
+  "title": "Prolly: A content-addressed ordered map built on prolly trees",
+  "source_url": "https://github.com/crabbuild/prolly",
+  "summary": "Prolly: A content-addressed ordered map built on prolly trees｜Article URL: https://github.com/crabbuild/prolly Comments URL: https://news.ycombinator.com/item?id=49325458 Points: 4",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-17T08:33:44.510171+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/crabbuild/prolly Comments URL: https://news.ycombinator.com/item?id=49325458 Points: 42 # Comments: 3"
+  }
+}
