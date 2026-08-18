@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260818-003",
+  "title": "The Benchmarkpocalypse",
+  "source_url": "https://danluu.com/benchpocalypse/",
+  "summary": "The Benchmarkpocalypse｜Article URL: https://danluu.com/benchpocalypse/ Comments URL: https://news.ycombinator.com/item?id=49340299 Points: 80 # Comments: 19",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://danluu.com/benchpocalypse/ Comments URL: https://news.ycombinator.com/item?id=49340299 Points: 80 # Comments: 19"
+  }
+}

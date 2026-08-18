@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260818-007",
+  "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+  "source_url": "https://arxiv.org/abs/2608.16837v1",
+  "summary": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL｜Humanoid robots hold great promise as general-purpose age",
+  "tags": [
+    "agent",
+    "vision",
+    "robotics"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively. Moreover, policies trained through offline behavior cloning can "
+  }
+}

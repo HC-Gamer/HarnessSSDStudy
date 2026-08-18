@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260818-007",
+  "title": "Writing a Fast Compiler",
+  "source_url": "https://tibleiz.net/blog/2024-02-04-writing-a-fast-compiler.html",
+  "summary": "Writing a Fast Compiler｜Marc Kerbiquet Blog Projects About Writing a Fast Compiler 2024-02-04 I m going to describe the various tricks I used to write fast compilers for my program",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Marc Kerbiquet Blog Projects About Writing a Fast Compiler 2024-02-04 I m going to describe the various tricks I used to write fast compilers for my programming languages. By fast compilation, I mean compiling at least 500.000 lines of code per second (excluding blank lines and comments) on a single"
+  }
+}

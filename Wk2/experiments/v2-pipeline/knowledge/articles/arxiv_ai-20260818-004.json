@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260818-004",
+  "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+  "source_url": "https://arxiv.org/abs/2608.16868v1",
+  "summary": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text｜A language model's output does not by itself provide verifiable evidence about the internal compu",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a modular feed-forward neural network and a transformer-based model. Both architectures are trained on the same arithmetic task with a mandatory pathway through two disc"
+  }
+}

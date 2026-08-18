@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260818-009",
+  "title": "GPT-5.6 Sol Pricing Cut by 50%",
+  "source_url": "https://openrouter.ai/openai/gpt-5.6-sol",
+  "summary": "GPT-5.6 Sol Pricing Cut by 50%｜Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 402 # Comments: 226",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 402 # Comments: 226"
+  }
+}

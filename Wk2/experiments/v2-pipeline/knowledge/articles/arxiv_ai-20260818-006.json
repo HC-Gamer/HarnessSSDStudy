@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260818-006",
+  "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+  "source_url": "https://arxiv.org/abs/2608.16844v1",
+  "summary": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling｜The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of re",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens face no compression pressure, they occupy too many degrees of freedom and \"pollute\" the memory state, leaving little capacity for later context and increasing interference between what is stored and what"
+  }
+}

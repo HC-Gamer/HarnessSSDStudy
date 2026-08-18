@@ -1,0 +1,20 @@
+{
+  "id": "lobsters-20260818-005",
+  "title": "Vetted AI code is hard to justify",
+  "source_url": "https://amoffat.github.io/blog/vetting-burnout.html",
+  "summary": "Vetted AI code is hard to justify｜when embedding for real --> Vetted AI code is hard to justify Andrew · 17 August 2026 · 3 min read I have been reflecting on a large optimization",
+  "tags": [
+    "agent",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "when embedding for real --> Vetted AI code is hard to justify Andrew · 17 August 2026 · 3 min read I have been reflecting on a large optimization I built for my game with the assistance of a frontier coding agent. This optimization took me several days to plan with the agent, about a week to compreh"
+  }
+}

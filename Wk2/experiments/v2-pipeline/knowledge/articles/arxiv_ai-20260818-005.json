@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260818-005",
+  "title": "What Do Compliance Detectors Read? An Audit of Activation Probes and Guard Models",
+  "source_url": "https://arxiv.org/abs/2608.16852v1",
+  "summary": "What Do Compliance Detectors Read? An Audit of Activation Probes and Guard Models｜Regulatory compliance monitoring in deployed language models is increasingly implemented as a lega",
+  "tags": [
+    "deployment",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Regulatory compliance monitoring in deployed language models is increasingly implemented as a legal and audit control, checking model outputs against written rules spanning data protection, healthcare, financial regulation, and platform policy. Such monitoring is meaningful only if a detector's verdict depends on the stated rule rather than on surface features of the scenario. We show this condition fails across the current class of compliance detectors, a failure we call rule blindness. Deletin"
+  }
+}

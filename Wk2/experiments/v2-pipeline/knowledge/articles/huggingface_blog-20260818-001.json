@@ -1,0 +1,19 @@
+{
+  "id": "huggingface_blog-20260818-001",
+  "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+  "summary": "Same Cluster, 33 Points More Utilization: What Changed Was the Order｜Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections L",
+  "tags": [
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "huggingface_blog",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+  }
+}

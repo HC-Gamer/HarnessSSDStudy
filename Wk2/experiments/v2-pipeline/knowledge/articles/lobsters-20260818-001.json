@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260818-001",
+  "title": "GitHub has alternatives, but no replacement",
+  "source_url": "https://lalitm.com/post/github-alternatives/",
+  "summary": "GitHub has alternatives, but no replacement｜Lalit Maganti Subscribe About RSS GitHub has alternatives, but no replacement Aug 1, 2026 at 16:00 · #git #software-engineering Discusse",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Lalit Maganti Subscribe About RSS GitHub has alternatives, but no replacement Aug 1, 2026 at 16:00 · #git #software-engineering Discussed on Hacker News . Codeberg , a Git code hosting platform, recently took a decision to prohibit projects that mostly consist of generative-AI-written code which has"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260818-001",
+  "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+  "source_url": "https://arxiv.org/abs/2608.16798v1",
+  "summary": "ClawGym II: Exploring Black-Box RL on Agent Harness｜Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the enviro",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment. However, reinforcement learning through complex harnesses remains largely unexplored, as scaling such training to long-horizon agent tasks introduces fundamental challenges. In this work, we present a unified black-box RL framework for stable and scalable optimization of general agents through complex harnesses. Concretely, we first build a sandbox-based executio"
+  }
+}

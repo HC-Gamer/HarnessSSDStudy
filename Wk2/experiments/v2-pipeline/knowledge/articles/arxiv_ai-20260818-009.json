@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260818-009",
+  "title": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning",
+  "source_url": "https://arxiv.org/abs/2608.16831v1",
+  "summary": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning｜Generative pretraining established reusable task representations; later work on language-base",
+  "tags": [
+    "evaluation",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Generative pretraining established reusable task representations; later work on language-based task conditioning and in-context learning showed that a fixed model could adapt its behavior from instructions and demonstrations. Policy Iteration with Human Feedback (PIHF) builds on this development and the recurrent evaluate-and-improve structure of generalized policy iteration. PIHF uses a pretrained language model as its execution substrate and moves persistent revision to a versioned natural-lan"
+  }
+}

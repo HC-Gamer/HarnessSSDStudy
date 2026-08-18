@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260818-010",
+  "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+  "source_url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+  "summary": "Israel creates fake think tank in likely attempt to dupe AI chatbots｜Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 429 # Comments: 275"
+  }
+}

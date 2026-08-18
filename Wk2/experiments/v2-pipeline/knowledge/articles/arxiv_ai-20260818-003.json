@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260818-003",
+  "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+  "source_url": "https://arxiv.org/abs/2608.16876v1",
+  "summary": "AutoSR: Automatic Symbolic Regression by Searching Research States｜We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Sy",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility. Existing approaches largely focus on improving expressions, y"
+  }
+}

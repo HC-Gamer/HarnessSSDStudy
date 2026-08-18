@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260818-001",
+  "title": "The Defender’s Window",
+  "source_url": "https://openai.com/index/the-defenders-window",
+  "summary": "The Defender’s Window｜AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now."
+  }
+}

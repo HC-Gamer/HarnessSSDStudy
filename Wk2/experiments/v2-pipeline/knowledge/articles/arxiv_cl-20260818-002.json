@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260818-002",
+  "title": "Neurosymbolic Embodied Agents",
+  "source_url": "https://arxiv.org/abs/2608.16794v1",
+  "summary": "Neurosymbolic Embodied Agents｜Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dyn",
+  "tags": [
+    "agent",
+    "vision",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual exploration and constrained symbolic planning. In the first phase, a vision-language model and exploration harness acquire goal-relevant predicates and instance bindings from egocentric observations and"
+  }
+}

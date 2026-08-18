@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260818-010",
+  "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+  "source_url": "https://arxiv.org/abs/2608.16829v1",
+  "summary": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?｜Video world models approximate the stochastic distribution of physical outcomes through generati",
+  "tags": [
+    "evaluation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Video world models approximate the stochastic distribution of physical outcomes through generative sampling, but existing benchmarks score individual generations or compare distributions coarsely over a whole dataset, leaving the fine-grained aleatoric uncertainty of specific phenomena untested. We introduce CaliBench, which scores outcomes in a physically interpretable discrete space - a bin index, a die face, a suit, a colour - rather than a learned feature space such as in FID, so the distanc"
+  }
+}

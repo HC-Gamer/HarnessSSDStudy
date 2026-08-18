@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260818-004",
+  "title": "Repair Cafe – Fix Your Broken Items",
+  "source_url": "https://www.repaircafe.org/",
+  "summary": "Repair Cafe – Fix Your Broken Items｜Article URL: https://www.repaircafe.org/ Comments URL: https://news.ycombinator.com/item?id=49339097 Points: 94 # Comments: 15",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://www.repaircafe.org/ Comments URL: https://news.ycombinator.com/item?id=49339097 Points: 94 # Comments: 15"
+  }
+}

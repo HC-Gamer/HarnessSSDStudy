@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260818-004",
+  "title": "A Preview of DuckDB v2.0",
+  "source_url": "https://duckdb.org/2026/08/17/duckdb-20-highlights.html",
+  "summary": "A Preview of DuckDB v2.0｜Documentation Getting Started Installation Quack Remote Protocol Guides Data Import Client APIs SQL Introduction Why DuckDB Resources Blog Library Events E",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Documentation Getting Started Installation Quack Remote Protocol Guides Data Import Client APIs SQL Introduction Why DuckDB Resources Blog Library Events Everywhere Webshop Design FAQ GitHub 40.3k Support Support A Preview of DuckDB v2.0 Mark Raasveldt and Hannes Mühleisen 2026-08-17 | 15 min TL;DR:"
+  }
+}

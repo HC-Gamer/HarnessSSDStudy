@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260818-002",
+  "title": "Does it make sense to switch to a Github Alternative ?",
+  "source_url": "https://lobste.rs/s/0zdh32/does_it_make_sense_switch_github",
+  "summary": "Does it make sense to switch to a Github Alternative ?｜Github has been down consistently over the last few months - does it make sense to switch to alternatives now? When do you th",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Github has been down consistently over the last few months - does it make sense to switch to alternatives now? When do you think majority will switch? Edit : My thoughts on this - https://dhruv2038.bearblog.dev/github-has-an-availability-problem-is-it-time-to-look-elsewhere/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260818-002",
+  "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+  "source_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+  "summary": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility｜We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of r",
+  "tags": [
+    "rag",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-18T08:25:56.929338+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they re"
+  }
+}
