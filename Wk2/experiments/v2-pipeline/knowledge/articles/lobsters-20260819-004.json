@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260819-004",
+  "title": "Bun 1.4 Rust rewrite is not looking good",
+  "source_url": "https://tipiirai.com/writing/bun-rust-rewrite-worries",
+  "summary": "Bun 1.4 Rust rewrite is not looking good｜Tero Piirainen About Writing Bun 1.4 Rust rewrite is not looking good I care about Bun. I have been rooting for it since the initial releas",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Tero Piirainen About Writing Bun 1.4 Rust rewrite is not looking good I care about Bun. I have been rooting for it since the initial release in 2022. I switched all my development from Node to Bun. I used it in the development of the Nue framework and now with my new project Hertta . The last three"
+  }
+}

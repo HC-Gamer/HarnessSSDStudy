@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260819-003",
+  "title": "Partnering with CodeAI to prepare the first AI generation",
+  "source_url": "https://openai.com/index/partnering-with-codeai",
+  "summary": "Partnering with CodeAI to prepare the first AI generation｜OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
+  }
+}

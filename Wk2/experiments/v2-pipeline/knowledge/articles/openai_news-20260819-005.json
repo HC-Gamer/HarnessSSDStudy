@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260819-005",
+  "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+  "source_url": "https://openai.com/index/chatgpt-for-teens",
+  "summary": "Introducing ChatGPT for Teens: Built for learning, backed by protections｜ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in p",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
+  }
+}

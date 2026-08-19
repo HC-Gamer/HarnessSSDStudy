@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260819-009",
+  "title": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+  "source_url": "https://arxiv.org/abs/2608.18008v1",
+  "summary": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents｜Combining large language models with reinforcement learning is increasingly explored, yet the th",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the LLM per-state progress score is used as a bounded potential function, the resulting shaping term preserves the optimal policy set even when the LLM scores are inaccurate. This guarantee is stronger t"
+  }
+}

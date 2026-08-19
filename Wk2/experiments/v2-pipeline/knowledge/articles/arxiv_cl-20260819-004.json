@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260819-004",
+  "title": "Chain-of-Experience for Continual LLM Improvement",
+  "source_url": "https://arxiv.org/abs/2608.18027v1",
+  "summary": "Chain-of-Experience for Continual LLM Improvement｜Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability",
+  "tags": [
+    "evaluation",
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience (CoE), where models accumulate experiential traces through iterative interactions with self or environmental feedback to form a continual improvement loop beyond zero-shot inference. We instantiate C"
+  }
+}

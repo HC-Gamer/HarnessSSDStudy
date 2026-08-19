@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260819-001",
+  "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+  "source_url": "https://arxiv.org/abs/2608.18076v1",
+  "summary": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation｜Large-scale image generation has benefited from advances in data scale, qua",
+  "tags": [
+    "vision",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterogeneous supervision according to the dependencies among generative capabilities. We present a \\textbf{capability-driven data infrastructure} that couples capability-specific supervision construction wi"
+  }
+}

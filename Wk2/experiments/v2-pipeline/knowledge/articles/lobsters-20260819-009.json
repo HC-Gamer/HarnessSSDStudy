@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260819-009",
+  "title": "CSS: the bomb inside your inbox",
+  "source_url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+  "summary": "CSS: the bomb inside your inbox｜Login Products Solutions Research Academy Support Company Customers About Blog Careers Legal Contact Resellers My account Customers About Blog Caree",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Login Products Solutions Research Academy Support Company Customers About Blog Careers Legal Contact Resellers My account Customers About Blog Careers Legal Contact Resellers Burp AT Agentic AI that extends human-led pentesting. Burp Suite DAST The enterprise-enabled dynamic web vulnerability scanne"
+  }
+}

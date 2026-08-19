@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260819-005",
+  "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+  "source_url": "https://arxiv.org/abs/2608.18050v1",
+  "summary": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents｜AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code r",
+  "tags": [
+    "agent",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every view should be explicitly tied to a version of the evolving workspace state. Coding agents partly a"
+  }
+}

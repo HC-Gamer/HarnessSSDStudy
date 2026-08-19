@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260819-004",
+  "title": "Pacing model development in an era of cyber-critical capabilities",
+  "source_url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+  "summary": "Pacing model development in an era of cyber-critical capabilities｜OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are gui",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development."
+  }
+}

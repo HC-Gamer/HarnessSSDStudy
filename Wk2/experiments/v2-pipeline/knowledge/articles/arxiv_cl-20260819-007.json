@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260819-007",
+  "title": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+  "source_url": "https://arxiv.org/abs/2608.17987v1",
+  "summary": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media｜The rapid growth of social media has greatly influenced political disc",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics. This task faces challenges such as data scarcity, abundant non-political content, costly and bias-prone manual annotation, and difficulty in modeling future ideological inclinations. To address these issues, we propose TSN4PI, a unified framework for tracking the evolution of political ideologies on social media. It includes"
+  }
+}

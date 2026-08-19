@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260819-006",
+  "title": "How NVIDIA scales expertise with ChatGPT Work",
+  "source_url": "https://openai.com/index/nvidia/chatgpt-work",
+  "summary": "How NVIDIA scales expertise with ChatGPT Work｜NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally."
+  }
+}

@@ -1,0 +1,1056 @@
+[
+  {
+    "source": "github",
+    "title": "yc-software/qm",
+    "url": "https://github.com/yc-software/qm",
+    "raw_text": "GitHub 仓库 yc-software/qm\n描述: Multiplayer agent harness for work.\n主语言: TypeScript\nStars: 13917\nTopics: ai, assistant, harness, qm",
+    "default_tags": [],
+    "extra": {
+      "stars": 13917,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "harness",
+        "qm"
+      ],
+      "description": "Multiplayer agent harness for work."
+    }
+  },
+  {
+    "source": "github",
+    "title": "trycompai/crm",
+    "url": "https://github.com/trycompai/crm",
+    "raw_text": "GitHub 仓库 trycompai/crm\n描述: Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.\n主语言: TypeScript\nStars: 8631\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 8631,
+      "language": "TypeScript",
+      "topics": [],
+      "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM."
+    }
+  },
+  {
+    "source": "github",
+    "title": "FareedKhan-dev/kimi-k3-in-c",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "raw_text": "GitHub 仓库 FareedKhan-dev/kimi-k3-in-c\n描述: A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.\n主语言: C\nStars: 6046\nTopics: avx2, c99, cpu-inference, deep-learning, from-scratch, inference-engine, kimi-k3, linear-attention, llm, llm-inference, machine-learning, memory-efficient, mixture-of-experts, moe, mxfp4, quantization, simd, systems-programming, transformer, zero-dependencies",
+    "default_tags": [],
+    "extra": {
+      "stars": 6046,
+      "language": "C",
+      "topics": [
+        "avx2",
+        "c99",
+        "cpu-inference",
+        "deep-learning",
+        "from-scratch",
+        "inference-engine",
+        "kimi-k3",
+        "linear-attention",
+        "llm",
+        "llm-inference",
+        "machine-learning",
+        "memory-efficient",
+        "mixture-of-experts",
+        "moe",
+        "mxfp4",
+        "quantization",
+        "simd",
+        "systems-programming",
+        "transformer",
+        "zero-dependencies"
+      ],
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU."
+    }
+  },
+  {
+    "source": "github",
+    "title": "genspark-ai/genoffice",
+    "url": "https://github.com/genspark-ai/genoffice",
+    "raw_text": "GitHub 仓库 genspark-ai/genoffice\n描述: Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.\n主语言: TypeScript\nStars: 3337\nTopics: ai, cross-platform, docx, electron, excel, linux, macos, markdown-editor, office, office-suite, pdf, pdf-editor, powerpoint, pptx, presentation, spreadsheet, windows, word, word-processor, xlsx",
+    "default_tags": [],
+    "extra": {
+      "stars": 3337,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "cross-platform",
+        "docx",
+        "electron",
+        "excel",
+        "linux",
+        "macos",
+        "markdown-editor",
+        "office",
+        "office-suite",
+        "pdf",
+        "pdf-editor",
+        "powerpoint",
+        "pptx",
+        "presentation",
+        "spreadsheet",
+        "windows",
+        "word",
+        "word-processor",
+        "xlsx"
+      ],
+      "description": "Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents."
+    }
+  },
+  {
+    "source": "github",
+    "title": "kvcache-ai/AgentENV",
+    "url": "https://github.com/kvcache-ai/AgentENV",
+    "raw_text": "GitHub 仓库 kvcache-ai/AgentENV\n描述: AgentENV (AENV) is a distributed platform for running agent environments at scale.\n主语言: Rust\nStars: 3228\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 3228,
+      "language": "Rust",
+      "topics": [],
+      "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale."
+    }
+  },
+  {
+    "source": "github",
+    "title": "QwenLM/Qwen-MM-Plugins",
+    "url": "https://github.com/QwenLM/Qwen-MM-Plugins",
+    "raw_text": "GitHub 仓库 QwenLM/Qwen-MM-Plugins\n描述: Make any agent harness multimodal-native.\n主语言: HTML\nStars: 2715\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2715,
+      "language": "HTML",
+      "topics": [],
+      "description": "Make any agent harness multimodal-native."
+    }
+  },
+  {
+    "source": "github",
+    "title": "yetone/cumora",
+    "url": "https://github.com/yetone/cumora",
+    "raw_text": "GitHub 仓库 yetone/cumora\n描述: Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.\n主语言: TypeScript\nStars: 2551\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2551,
+      "language": "TypeScript",
+      "topics": [],
+      "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains."
+    }
+  },
+  {
+    "source": "github",
+    "title": "Jakubantalik/thinking-orbs",
+    "url": "https://github.com/Jakubantalik/thinking-orbs",
+    "raw_text": "GitHub 仓库 Jakubantalik/thinking-orbs\n描述: Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light\n主语言: TypeScript\nStars: 2527\nTopics: ai, ai-agents, chat, loader, ui, ux",
+    "default_tags": [],
+    "extra": {
+      "stars": 2527,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "chat",
+        "loader",
+        "ui",
+        "ux"
+      ],
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light"
+    }
+  },
+  {
+    "source": "github",
+    "title": "AminBlg/SimpleEnglish",
+    "url": "https://github.com/AminBlg/SimpleEnglish",
+    "raw_text": "GitHub 仓库 AminBlg/SimpleEnglish\n描述: Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical\n主语言: Python\nStars: 2517\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2517,
+      "language": "Python",
+      "topics": [],
+      "description": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical"
+    }
+  },
+  {
+    "source": "github",
+    "title": "thebuggeddev/anatomy",
+    "url": "https://github.com/thebuggeddev/anatomy",
+    "raw_text": "GitHub 仓库 thebuggeddev/anatomy\n描述: An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol\n主语言: TypeScript\nStars: 2504\nTopics: 无",
+    "default_tags": [],
+    "extra": {
+      "stars": 2504,
+      "language": "TypeScript",
+      "topics": [],
+      "description": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Where Human Sleep Went Wrong",
+    "url": "https://nautil.us/where-human-sleep-went-wrong-1283797",
+    "raw_text": "标题: Where Human Sleep Went Wrong\n来源: hackernews\n摘要: Article URL: https://nautil.us/where-human-sleep-went-wrong-1283797 Comments URL: https://news.ycombinator.com/item?id=49358259 Points: 6 # Comments: 0",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://nautil.us/where-human-sleep-went-wrong-1283797 Comments URL: https://news.ycombinator.com/item?id=49358259 Points: 6 # Comments: 0"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Berd",
+    "url": "https://berd.xyz",
+    "raw_text": "标题: Berd\n来源: hackernews\n摘要: Article URL: https://berd.xyz Comments URL: https://news.ycombinator.com/item?id=49357967 Points: 9 # Comments: 1",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://berd.xyz Comments URL: https://news.ycombinator.com/item?id=49357967 Points: 9 # Comments: 1"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "λλ: A Programming Language for Silicon Photonics",
+    "url": "https://dl.acm.org/doi/10.1145/3789240.3829151",
+    "raw_text": "标题: λλ: A Programming Language for Silicon Photonics\n来源: hackernews\n摘要: Article URL: https://dl.acm.org/doi/10.1145/3789240.3829151 Comments URL: https://news.ycombinator.com/item?id=49357501 Points: 6 # Comments: 0",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://dl.acm.org/doi/10.1145/3789240.3829151 Comments URL: https://news.ycombinator.com/item?id=49357501 Points: 6 # Comments: 0"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Palomar: A registry of Lean verified mathematics",
+    "url": "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/",
+    "raw_text": "标题: Palomar: A registry of Lean verified mathematics\n来源: hackernews\n摘要: Article URL: https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49355968 Points: 89 # Comments: 17",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49355968 Points: 89 # Comments: 17"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Meta's blockbuster trial draws parallels to big tobacco",
+    "url": "https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco",
+    "raw_text": "标题: Meta's blockbuster trial draws parallels to big tobacco\n来源: hackernews\n摘要: https://archive.ph/a3165 Comments URL: https://news.ycombinator.com/item?id=49355825 Points: 212 # Comments: 164",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "https://archive.ph/a3165 Comments URL: https://news.ycombinator.com/item?id=49355825 Points: 212 # Comments: 164"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
+    "url": "https://github.com/katiahayati/lucasartsifier/",
+    "raw_text": "标题: Show HN: Automatically detect and patch walking-dead states in Sierra games\n来源: hackernews\n摘要: Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner. So I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can be placed alongside the original game resources. There's no game-specific code involved; all the logic is generic, though of course Sierra introduces new idioms and mechanics in every game so every new supported game needs a bunch of engine work. So for example in Leisure Suit Larry 2, the patched ",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner. So I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "OpenLogi",
+    "url": "https://openlogi.org/en",
+    "raw_text": "标题: OpenLogi\n来源: hackernews\n摘要: Article URL: https://openlogi.org/en Comments URL: https://news.ycombinator.com/item?id=49355606 Points: 484 # Comments: 133",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://openlogi.org/en Comments URL: https://news.ycombinator.com/item?id=49355606 Points: 484 # Comments: 133"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "The Vietnam Binh Chau (Chau Tan) Late Tang Wreck",
+    "url": "https://www.koh-antique.com/client/tangwreck/tangwreck.html",
+    "raw_text": "标题: The Vietnam Binh Chau (Chau Tan) Late Tang Wreck\n来源: hackernews\n摘要: Video and explanation on the ship discovery: Why This Wood Costs US$360/kg : https://www.youtube.com/watch?v=u5b5bKlvdhQ Comments URL: https://news.ycombinator.com/item?id=49355451 Points: 35 # Comments: 0",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Video and explanation on the ship discovery: Why This Wood Costs US$360/kg : https://www.youtube.com/watch?v=u5b5bKlvdhQ Comments URL: https://news.ycombinator.com/item?id=49355451 Points: 35 # Comments: 0"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "That Disgraceful, Disreputable, (Wonderful) Form of Punctuation: The Parenthesis",
+    "url": "https://lithub.com/on-that-disgraceful-disreputable-wonderful-form-of-punctuation-the-parenthesis/",
+    "raw_text": "标题: That Disgraceful, Disreputable, (Wonderful) Form of Punctuation: The Parenthesis\n来源: hackernews\n摘要: Article URL: https://lithub.com/on-that-disgraceful-disreputable-wonderful-form-of-punctuation-the-parenthesis/ Comments URL: https://news.ycombinator.com/item?id=49355360 Points: 30 # Comments: 18",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://lithub.com/on-that-disgraceful-disreputable-wonderful-form-of-punctuation-the-parenthesis/ Comments URL: https://news.ycombinator.com/item?id=49355360 Points: 30 # Comments: 18"
+    }
+  },
+  {
+    "source": "hackernews",
+    "title": "Tiny satellite will use the dark side of the Moon as a shield",
+    "url": "https://www.cam.ac.uk/research/news/tiny-satellite-will-use-the-dark-side-of-the-moon-to-eavesdrop-on-whispers-from-the-early-universe",
+    "raw_text": "标题: Tiny satellite will use the dark side of the Moon as a shield\n来源: hackernews\n摘要: Article URL: https://www.cam.ac.uk/research/news/tiny-satellite-will-use-the-dark-side-of-the-moon-to-eavesdrop-on-whispers-from-the-early-universe Comments URL: https://news.ycombinator.com/item?id=49355232 Points: 38 # Comments: 5",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Article URL: https://www.cam.ac.uk/research/news/tiny-satellite-will-use-the-dark-side-of-the-moon-to-eavesdrop-on-whispers-from-the-early-universe Comments URL: https://news.ycombinator.com/item?id=49355232 Points: 38 # Comments: 5"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "How I browse the Web with uBlock (Hard Mode)",
+    "url": "https://untrusem.party/blog/how-I-browse-the-web-with-Ublock-Hard-Mode.html",
+    "raw_text": "标题: How I browse the Web with uBlock (Hard Mode)\n来源: lobsters\n摘要: Home About Blog Feed How I browse the Web with uBlock (Hard Mode) Figure 1: Actually I surf with Images off 32K I have been asked quite a few times, whenever I show my browsing setup to people, Why don't you use the web as a normal user? , Well Isn't it normal to see or read what you actually want,",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Home About Blog Feed How I browse the Web with uBlock (Hard Mode) Figure 1: Actually I surf with Images off 32K I have been asked quite a few times, whenever I show my browsing setup to people, Why don't you use the web as a normal user? , Well Isn't it normal to see or read what you actually want,"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Mojo is now open source",
+    "url": "https://www.modular.com/blog/mojo-open-source",
+    "raw_text": "标题: Mojo is now open source\n来源: lobsters\n摘要: ModCon is today! Watch the livestream. Back Product Solutions Resources Open Source Docs Blog Company Request a demo Sign up Inference Products Shared Endpoints Access frontier models via an API Dedicated Endpoints Mission critical reliability Custom models Your model, peak performance Deployment Op",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "ModCon is today! Watch the livestream. Back Product Solutions Resources Open Source Docs Blog Company Request a demo Sign up Inference Products Shared Endpoints Access frontier models via an API Dedicated Endpoints Mission critical reliability Custom models Your model, peak performance Deployment Op"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "What software do you use daily in 2026?",
+    "url": "https://lobste.rs/s/ttxwdz/what_software_do_you_use_daily_2026",
+    "raw_text": "标题: What software do you use daily in 2026?\n来源: lobsters\n摘要: There was a similar thread here six years ago, and I'm curious how people's daily setups have changed since then. What does the software side of your daily setup look like in 2026? Operating system, desktop environment or window manager, terminal, shell, editor, browser, and any other tools you consider essential to your daily workflow. I'm especially interested in the small or less obvious tools that have become indispensable to you.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "There was a similar thread here six years ago, and I'm curious how people's daily setups have changed since then. What does the software side of your daily setup look like in 2026? Operating system, desktop environment or window manager, terminal, shell, editor, browser, and any other tools you consider essential to your daily workflow. I'm especially interested in the small or less obvious tools that have become indispensable to you."
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Bun 1.4 Rust rewrite is not looking good",
+    "url": "https://tipiirai.com/writing/bun-rust-rewrite-worries",
+    "raw_text": "标题: Bun 1.4 Rust rewrite is not looking good\n来源: lobsters\n摘要: Tero Piirainen About Writing Bun 1.4 Rust rewrite is not looking good I care about Bun. I have been rooting for it since the initial release in 2022. I switched all my development from Node to Bun. I used it in the development of the Nue framework and now with my new project Hertta . The last three",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Tero Piirainen About Writing Bun 1.4 Rust rewrite is not looking good I care about Bun. I have been rooting for it since the initial release in 2022. I switched all my development from Node to Bun. I used it in the development of the Nue framework and now with my new project Hertta . The last three"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Mastodon 5.0: Laying the foundation",
+    "url": "https://blog.joinmastodon.org/2026/08/5.0-laying-the-foundation/",
+    "raw_text": "标题: Mastodon 5.0: Laying the foundation\n来源: lobsters\n摘要: Skip to content Back Aug 18, 2026 New Features Share on 5.0: Laying the foundation Imani Joy Head of Design Two weeks ago, we shared insights from Mastodon’s first Discovery Week and how it’s informing our roadmap. Today, we’re offering a deeper dive on what’s in store for Mastodon 5.0 – not an exha",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Skip to content Back Aug 18, 2026 New Features Share on 5.0: Laying the foundation Imani Joy Head of Design Two weeks ago, we shared insights from Mastodon’s first Discovery Week and how it’s informing our roadmap. Today, we’re offering a deeper dive on what’s in store for Mastodon 5.0 – not an exha"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Kakoune code editor",
+    "url": "https://kakoune.org/",
+    "raw_text": "标题: Kakoune code editor\n来源: lobsters\n摘要: Kakoune Get started! Documentation Issue Tracker Design Notes Gallery Plugins Community Wiki Community Writings Forums Matrix IRC Mailing List SubReddit Translation English French Hungarian Italian Kakoune code editor Modal editor · Faster as in fewer keystrokes · Multiple selections · Orthogonal de",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Kakoune Get started! Documentation Issue Tracker Design Notes Gallery Plugins Community Wiki Community Writings Forums Matrix IRC Mailing List SubReddit Translation English French Hungarian Italian Kakoune code editor Modal editor · Faster as in fewer keystrokes · Multiple selections · Orthogonal de"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Rethinking Database Programming",
+    "url": "https://acadia.engineering/blog/rethinking-database-programming",
+    "raw_text": "标题: Rethinking Database Programming\n来源: lobsters\n摘要: Rethinking Database Programming。这是 lobsters 收录的技术条目，原文站点 acadia.engineering；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Rethinking Database Programming。这是 lobsters 收录的技术条目，原文站点 acadia.engineering；该源的 feed 只给出标题、未提供正文摘要，回源抓取正文也未成功，以下为基于标题的关键词提取结果：标题中未出现白名单技术词。"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Fixing a bricked AMD 7040 series Framework 13” laptop with $20 tools",
+    "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+    "raw_text": "标题: Fixing a bricked AMD 7040 series Framework 13” laptop with $20 tools\n来源: lobsters\n摘要: Quantum Projects DMOJ Referrals About Guanzhong Theme Automatic Light Dark Fixing a bricked AMD 7040 series Framework 13 laptop with $20 tools Aug 16, 2026 Sysadmin , Electronics 38 minutes Quantum qt.ax/ffw In 2023, I was in need of a new laptop that should hopefully last me for a while. While look",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Quantum Projects DMOJ Referrals About Guanzhong Theme Automatic Light Dark Fixing a bricked AMD 7040 series Framework 13 laptop with $20 tools Aug 16, 2026 Sysadmin , Electronics 38 minutes Quantum qt.ax/ffw In 2023, I was in need of a new laptop that should hopefully last me for a while. While look"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "CSS: the bomb inside your inbox",
+    "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+    "raw_text": "标题: CSS: the bomb inside your inbox\n来源: lobsters\n摘要: Login Products Solutions Research Academy Support Company Customers About Blog Careers Legal Contact Resellers My account Customers About Blog Careers Legal Contact Resellers Burp AT Agentic AI that extends human-led pentesting. Burp Suite DAST The enterprise-enabled dynamic web vulnerability scanne",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Login Products Solutions Research Academy Support Company Customers About Blog Careers Legal Contact Resellers My account Customers About Blog Careers Legal Contact Resellers Burp AT Agentic AI that extends human-led pentesting. Burp Suite DAST The enterprise-enabled dynamic web vulnerability scanne"
+    }
+  },
+  {
+    "source": "lobsters",
+    "title": "Using the railway network as a flatbed scanner",
+    "url": "https://philo.gay/linecam/",
+    "raw_text": "标题: Using the railway network as a flatbed scanner\n来源: lobsters\n摘要: Philo's Website Using the railway network as a flatbed scanner August 17 th , 2026 4,600 words Over the past few months, I've been working on using an industrial linear scanning camera to take very wide photos out of trains and ferries. Getting it working has been quite the challenge, but I think th",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Philo's Website Using the railway network as a flatbed scanner August 17 th , 2026 4,600 words Over the past few months, I've been working on using an industrial linear scanning camera to take very wide photos out of trains and ferries. Getting it working has been quite the challenge, but I think th"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+    "url": "https://arxiv.org/abs/2608.18076v1",
+    "raw_text": "标题: From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation\n来源: arxiv_ai\n摘要: Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterogeneous supervision according to the dependencies among generative capabilities. We present a \\textbf{capability-driven data infrastructure} that couples capability-specific supervision construction with capability-aligned curriculum scheduling. Its three specialized yet interoperable data engines build complementary relational supervision for text-image grounding, inter-image transformation, and image-knowledge association, while caption experts align T2I and editing supervision across tasks and",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterogeneous supervision according to the dependencies among generative capabilities. We present a \\textbf{capability-driven data infrastructure} that couples capability-specific supervision construction wi"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+    "url": "https://arxiv.org/abs/2608.18066v1",
+    "raw_text": "标题: On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification\n来源: arxiv_ai\n摘要: Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to i"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+    "url": "https://arxiv.org/abs/2608.18058v1",
+    "raw_text": "标题: Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating\n来源: arxiv_ai\n摘要: Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We study this condition using two large-scale surveys of active users of a major dating platform (N=2,894 on generative profile features; N=2,617 on autonomous conversational agents, fielded in two languages). We develop a latent-variable measurement model of agent receptivity based on graded response models with latent regression, and show via model comparison that willingness to send and willingness to receive agent communication are distinct constructs: highly correlated (rho=0.92) but separable (D",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We study this condition using two large-scale surveys of active users of a major dating platform (N=2,894 on generative profile features; N=2,617 on autonomous conversational agents, fielded in two language"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance",
+    "url": "https://arxiv.org/abs/2608.18056v1",
+    "raw_text": "标题: HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance\n来源: arxiv_ai\n摘要: Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that essentially every on-road vehicle is replanned every decision period. We propose HLSR, a selective hybrid live--forecast vehicle rerouting framework that fuses live edge speeds with short-horizon forecasts under limited intervention scope. Building on dual-threshold congestion detection, calibrated upstream selection, and driver-tailored travel-time prediction, HLSR further introduces approaching-vehicle expansion, travel-time-weighted k-shortest-path generation, and a horizon-dependent hybrid live--forecast segment speed used in multi-cost route allocation.",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that essentially every on-road vehicle is replanned every decision period. We propose HLSR, a selective hybrid live--forecast vehicle rerouting framework that fuses live edge speeds with short-horizon forecasts under limited intervention scope. Building on dual-threshold congestion detection, calibrated ups"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+    "url": "https://arxiv.org/abs/2608.18050v1",
+    "raw_text": "标题: StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents\n来源: arxiv_ai\n摘要: AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every view should be explicitly tied to a version of the evolving workspace state. Coding agents partly address this need through repository contracts for search, diffs, and tests, whereas an analogous contract is less explicit for PDFs, spreadsheets, slides, notebooks, and mixed-format project folders. We propose StagedWorkspace, a versioned workspace for knowledge-work agents. The workspace binds par",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every view should be explicitly tied to a version of the evolving workspace state. Coding agents partly a"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors",
+    "url": "https://arxiv.org/abs/2608.18036v1",
+    "raw_text": "标题: Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors\n来源: arxiv_ai\n摘要: MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that magnitude-only measurements may provide complementary information for signal recovery. However, their use in MRI reconstruction remains largely unexplored, due to lack of practical settings where informative magnitude measurements can be obtained without additional scan time. In this work, we investigate the use of auxiliary k-space magnitude information for accelerated steady-state dynamic MRI reconstruction, and demonstrate strong consistency of k-space magnitudes across time-frames. Building on this observation, we propose $\\mathbb{C}+\\text{Mag}$, a magnitude-informed physics-driven deep learning reconstruction method. Th",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that magnitude-only measurements may provide complementary information for signal recovery. However, their use in MRI reconstruction remains largely unexplored, due to lack of practical settings where informative magnitude measurements can be obtained without additional scan time. In this work, we investigate the use of auxiliary k-spa"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Why GPT-Style Models Do Not Directly Transfer to Symbolic Music: Compression in the Wrong Coordinate System",
+    "url": "https://arxiv.org/abs/2608.18025v1",
+    "raw_text": "标题: Why GPT-Style Models Do Not Directly Transfer to Symbolic Music: Compression in the Wrong Coordinate System\n来源: arxiv_ai\n摘要: GPT-style models achieve strong performance by representing language with finite vocabularies of reusable discrete tokens. This success has motivated symbolic music tokenizations to treat recurring musical structures, such as chords, motifs, and phrases, as reusable units analogous to linguistic tokens. However, tokenization derives its advantage not from reusable combinations alone, but from compression: effective compression requires coordinates in which recurring regularities form stable and predictable conditional distributions. The key problem is therefore not to find larger musical combinations, but to discover the coordinate system in which musical facts become predictively compressible. We formulate the Effectiveness--Losslessness Framework and define tokenization as the constructi",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "GPT-style models achieve strong performance by representing language with finite vocabularies of reusable discrete tokens. This success has motivated symbolic music tokenizations to treat recurring musical structures, such as chords, motifs, and phrases, as reusable units analogous to linguistic tokens. However, tokenization derives its advantage not from reusable combinations alone, but from compression: effective compression requires coordinates in which recurring regularities form stable and "
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach",
+    "url": "https://arxiv.org/abs/2608.18017v1",
+    "raw_text": "标题: Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach\n来源: arxiv_ai\n摘要: Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of pilot control behavior. Existing explainable AI techniques, such as feature importance maps, often require considerable domain knowledge to translate them into operationally meaningful explanations. Large Language Models (LLMs), which excel at language reasoning, bring a promising solution to this issue. However, applying LLMs in this domain presents key challenges such as modal inconsistency, limited classification ability, scarcity of task-specific data for fine-tuning, and lack of domain knowledge. To overcome these challenges, we propose FlightLLM, a prior-guided semantic LLM-based approach for interpretable ",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of pilot control behavior. Existing explainable AI techniques, such as feature importance maps, often require considerable domain knowledge to translate them into operationally meaningful explanations. Large Language Models (LLMs), which excel at language reasoning, bring a promising solution to this issue. However, apply"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+    "url": "https://arxiv.org/abs/2608.18008v1",
+    "raw_text": "标题: Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents\n来源: arxiv_ai\n摘要: Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the LLM per-state progress score is used as a bounded potential function, the resulting shaping term preserves the optimal policy set even when the LLM scores are inaccurate. This guarantee is stronger than what general LLM-as-reward approaches provide. We verify the result numerically on a small MDP under four potential configurations, including an adversarial one scaled to twenty times the base reward magnitude.",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the LLM per-state progress score is used as a bounded potential function, the resulting shaping term preserves the optimal policy set even when the LLM scores are inaccurate. This guarantee is stronger t"
+    }
+  },
+  {
+    "source": "arxiv_ai",
+    "title": "Traceable Trust for action-ready artificial intelligence in bioscience",
+    "url": "https://arxiv.org/abs/2608.17997v1",
+    "raw_text": "标题: Traceable Trust for action-ready artificial intelligence in bioscience\n来源: arxiv_ai\n摘要: Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences. AI models can predict biomolecular structures, design proteins, rank variants, annotate images, recommend strains and optimise experimental conditions. We argue that the decision to use an AI output to guide laboratory action is a key juncture for trustworthy research and should follow a defined, reviewable process. We propose Traceable Trust as a proportionate assessment-and-design framework for this output-to-action boundary. It asks what evidence supports the output, what capability is being claimed, what agency has been delegated, what threshold authorises action, who can override it and how outcomes inform later decisions. We illustrate the framework through three case studies spanning ecos",
+    "default_tags": [
+      "llm",
+      "reasoning"
+    ],
+    "extra": {
+      "description": "Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences. AI models can predict biomolecular structures, design proteins, rank variants, annotate images, recommend strains and optimise experimental conditions. We argue that the decision to use an AI output to guide laboratory action is a key juncture for trustworthy research and should follow a defined, reviewable process. We propose Traceable Trust as a proportionate assessment-and-design framework for this"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+    "url": "https://arxiv.org/abs/2608.18072v1",
+    "raw_text": "标题: Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation\n来源: arxiv_cl\n摘要: Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radiologists in 2023 and 2024. A multi-agent AI pipeline was developed to perform report structuring and quality assurance (QA). The system structured the report into standardized anatomical sections at the sentence level using regex rules and local large language models. It also detected mismatches between the Findings and Impression sections, or within sections; gender-anatomy conflicts; and undocumented communication of critical findings. Two board-certified radiologists independently evaluated a ",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radiologists in 2023 and 2024. A multi-agent AI pipeline was developed to perform report structuring and quality assurance (QA). The system structured the report into standardized anatomical sections at th"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+    "url": "https://arxiv.org/abs/2608.18066v1",
+    "raw_text": "标题: On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification\n来源: arxiv_cl\n摘要: Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to i"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "TokEval: A Tokenizer Evaluation Suite",
+    "url": "https://arxiv.org/abs/2608.18062v1",
+    "raw_text": "标题: TokEval: A Tokenizer Evaluation Suite\n来源: arxiv_cl\n摘要: Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce TokEval, a framework of tokenizer evaluation metrics that goes beyond standard measures like fertility and compression rate to capture linguistically and structurally meaningful properties, e.g., UTF-8 character boundary integrity and digit place-value boundary alignment for mathematics. To validate whether these metrics are predictive of downstream model performance, we conduct controlled language model pretraining experiments, varying solely the tokenizers' training data mixture, pretokenizat",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce TokEval, a framework of tokenizer evaluation metrics that goes beyond standard measures like fertility and compression rate to capture linguistically and structurally meaningful properties, e.g., UTF"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
+    "url": "https://arxiv.org/abs/2608.18041v1",
+    "raw_text": "标题: Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation\n来源: arxiv_cl\n摘要: Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learned from a corpus do not supply. Phase exists only between meanings: it determines how coactivated meanings combine, and it can reverse what a meaning contributes while that meaning stays fully present. A speaker can set phase in the signal through linguistic form; encounters install phase relations and history distributes them. Population averaging deletes history-indexed phase: agent-deindexed corpora identify the population marginal state and determine no individual or dyadic state, at any scal",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learned from a corpus do not supply. Phase exists only between meanings: it determines how coactivated meanings combine, and it can reverse what a meaning contributes while that meaning stays fully present."
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Chain-of-Experience for Continual LLM Improvement",
+    "url": "https://arxiv.org/abs/2608.18027v1",
+    "raw_text": "标题: Chain-of-Experience for Continual LLM Improvement\n来源: arxiv_cl\n摘要: Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience (CoE), where models accumulate experiential traces through iterative interactions with self or environmental feedback to form a continual improvement loop beyond zero-shot inference. We instantiate CoE with diverse feedback mechanisms, including model self-feedback and environmental signals such as correctness or public coding test pass rates, and evaluate across math, coding, and knowledge domains using 8 LLMs, including GPT-5, Gemini-2.5 Pro, Claude-4.5 Sonnet. Our study shows that leveraging",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience (CoE), where models accumulate experiential traces through iterative interactions with self or environmental feedback to form a continual improvement loop beyond zero-shot inference. We instantiate C"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning",
+    "url": "https://arxiv.org/abs/2608.18011v1",
+    "raw_text": "标题: The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning\n来源: arxiv_cl\n摘要: Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems of the International Linguistics Olympiad (IOL) 2026 Individual Contest, evaluated both automatically and, for the first time, by members of the official IOL Jury under the same rubrics applied to human contestants. The challenge drew 731 submissions from 46 teams under a strict compute budget (one T4, 30 mins). We additionally benchmark 15 unconstrained frontier and open models, with Claude Opus 4.8 earning a jury score equivalent to a gold medal, while both resource-constrained systems we subm",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems of the International Linguistics Olympiad (IOL) 2026 Individual Contest, evaluated both automatically and, for the first time, by members of the official IOL Jury under the same rubrics applied to hum"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees",
+    "url": "https://arxiv.org/abs/2608.17994v1",
+    "raw_text": "标题: Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees\n来源: arxiv_cl\n摘要: Using LLMs as judges has become standard practice for evaluating model outputs at scale. This is particularly common for subjective, open-ended tasks such as assessing helpfulness or alignment, where no single reference answer exists. However, objective tasks introduce a distinct reliability challenge for reference-free LLM judging. In the absence of a reference answer, the judge evaluates factual correctness either through its parametric knowledge or through tool augmentation. Although the former enables efficient evaluation, the judge may hallucinate or lack sufficient evidence for its verdict. Conversely, tool augmentation can provide additional evidence but introduces extra computational cost and requires an appropriate mechanism to determine when and how that evidence should be used r",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Using LLMs as judges has become standard practice for evaluating model outputs at scale. This is particularly common for subjective, open-ended tasks such as assessing helpfulness or alignment, where no single reference answer exists. However, objective tasks introduce a distinct reliability challenge for reference-free LLM judging. In the absence of a reference answer, the judge evaluates factual correctness either through its parametric knowledge or through tool augmentation. Although the form"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+    "url": "https://arxiv.org/abs/2608.17987v1",
+    "raw_text": "标题: Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media\n来源: arxiv_cl\n摘要: The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics. This task faces challenges such as data scarcity, abundant non-political content, costly and bias-prone manual annotation, and difficulty in modeling future ideological inclinations. To address these issues, we propose TSN4PI, a unified framework for tracking the evolution of political ideologies on social media. It includes two core modules. The PIDN uses large language models with style transfer and unsupervised domain adaptation to enable robust ideology detection and filter irrelevant content from noisy, cross-domain data. The PIPN employs temporal graph neural networks to predict future ideological shifts, enablin",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics. This task faces challenges such as data scarcity, abundant non-political content, costly and bias-prone manual annotation, and difficulty in modeling future ideological inclinations. To address these issues, we propose TSN4PI, a unified framework for tracking the evolution of political ideologies on social media. It includes"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "When Writing Style Drifts: Benchmarking Authorship Verification under Distribution Shifts in Genre, Time and the AI-Era",
+    "url": "https://arxiv.org/abs/2608.17979v1",
+    "raw_text": "标题: When Writing Style Drifts: Benchmarking Authorship Verification under Distribution Shifts in Genre, Time and the AI-Era\n来源: arxiv_cl\n摘要: Authorship verification (AV) assumes that an author's writing style remains sufficiently stable to distinguish it from that of other writers. In practice, however, this assumption is challenged by distribution shifts caused by changes in genre, time, and AI-assisted writing. Existing AV benchmarks typically study these factors in isolation and focus predominantly on English, limiting our understanding of model robustness under realistic conditions. We introduce AVShift, the first German benchmark for systematically evaluating AV under multiple distribution shifts. AVShift comprises over 150,000 text pairs spanning three genres and 21 years, enabling controlled evaluation of cross-genre, temporal, and AI-era shifts within a unified framework. We benchmark representative feature-based, embed",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Authorship verification (AV) assumes that an author's writing style remains sufficiently stable to distinguish it from that of other writers. In practice, however, this assumption is challenged by distribution shifts caused by changes in genre, time, and AI-assisted writing. Existing AV benchmarks typically study these factors in isolation and focus predominantly on English, limiting our understanding of model robustness under realistic conditions. We introduce AVShift, the first German benchmar"
+    }
+  },
+  {
+    "source": "arxiv_cl",
+    "title": "Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds",
+    "url": "https://arxiv.org/abs/2608.17950v1",
+    "raw_text": "标题: Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds\n来源: arxiv_cl\n摘要: Large Language Models (LLMs) demonstrate remarkable multi-hop reasoning capabilities over long contexts, yet the internal mechanisms enabling these distant cognitive leaps remain poorly understood. Traditional attention-based interpretability often fails to capture true semantic proximity due to routing artifacts like attention sinks. In this paper, we bypass attention weights to directly analyze the dynamic geometry of the hidden state manifold, proving that deep LLM latent spaces natively organize into Small-World networks. By sparsifying the continuous similarity matrices of long-context representations into unweighted graphs, we trace the connectivity between highly disjoint semantic anchors across two distinct architectures. Our findings reveal a sharp topological phase transition: wh",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Large Language Models (LLMs) demonstrate remarkable multi-hop reasoning capabilities over long contexts, yet the internal mechanisms enabling these distant cognitive leaps remain poorly understood. Traditional attention-based interpretability often fails to capture true semantic proximity due to routing artifacts like attention sinks. In this paper, we bypass attention weights to directly analyze the dynamic geometry of the hidden state manifold, proving that deep LLM latent spaces natively orga"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "How Much Memory Does Your Agent Actually Need?",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "raw_text": "标题: How Much Memory Does Your Agent Actually Need?\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+    "url": "https://huggingface.co/blog/multi-vector-encoder",
+    "raw_text": "标题: Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+    "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+    "raw_text": "标题: Same Cluster, 33 Points More Utilization: What Changed Was the Order\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "State of Open Models: Summer 2026 Observations",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "raw_text": "标题: State of Open Models: Summer 2026 Observations\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "raw_text": "标题: Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "What We Learned by Reproducing 2,200 papers from ICML",
+    "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+    "raw_text": "标题: What We Learned by Reproducing 2,200 papers from ICML\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "raw_text": "标题: Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+    "raw_text": "标题: LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+    "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "raw_text": "标题: Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "huggingface_blog",
+    "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+    "raw_text": "标题: Making Knowledge Distillation Cheap Enough to Run at Scale\n来源: huggingface_blog\n摘要: Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp",
+    "default_tags": [
+      "llm",
+      "deployment"
+    ],
+    "extra": {
+      "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "ChatGPT Ads expands across Europe",
+    "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+    "raw_text": "标题: ChatGPT Ads expands across Europe\n来源: openai_news\n摘要: ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Strengthening democratic oversight in national security",
+    "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+    "raw_text": "标题: Strengthening democratic oversight in national security\n来源: openai_news\n摘要: OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Partnering with CodeAI to prepare the first AI generation",
+    "url": "https://openai.com/index/partnering-with-codeai",
+    "raw_text": "标题: Partnering with CodeAI to prepare the first AI generation\n来源: openai_news\n摘要: OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Pacing model development in an era of cyber-critical capabilities",
+    "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "raw_text": "标题: Pacing model development in an era of cyber-critical capabilities\n来源: openai_news\n摘要: OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+    "url": "https://openai.com/index/chatgpt-for-teens",
+    "raw_text": "标题: Introducing ChatGPT for Teens: Built for learning, backed by protections\n来源: openai_news\n摘要: ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "How NVIDIA scales expertise with ChatGPT Work",
+    "url": "https://openai.com/index/nvidia/chatgpt-work",
+    "raw_text": "标题: How NVIDIA scales expertise with ChatGPT Work\n来源: openai_news\n摘要: NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+    "url": "https://openai.com/index/asana",
+    "raw_text": "标题: Asana cleared 5 years of engineering work in 2 weeks with Codex\n来源: openai_news\n摘要: Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "The Defender’s Window",
+    "url": "https://openai.com/index/the-defenders-window",
+    "raw_text": "标题: The Defender’s Window\n来源: openai_news\n摘要: AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now."
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "OpenAI joins PORTS-Pike project",
+    "url": "https://openai.com/index/openai-joins-ports-pike-project",
+    "raw_text": "标题: OpenAI joins PORTS-Pike project\n来源: openai_news\n摘要: OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs"
+    }
+  },
+  {
+    "source": "openai_news",
+    "title": "New policy ideas for the Intelligence Age",
+    "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+    "raw_text": "标题: New policy ideas for the Intelligence Age\n来源: openai_news\n摘要: OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+    "default_tags": [
+      "llm"
+    ],
+    "extra": {
+      "description": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age."
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Mojo🔥 is now open source",
+    "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+    "raw_text": "标题: Mojo🔥 is now open source\n来源: simonwillison\n摘要: Mojo🔥 is now open source Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed around August 2025 : Mojo may or may not evolve into a full superset of Python, and it’s okay if it doesn’t. We’re encouraged by how well AI-assisted coding tools already help migrate Python to Mojo today, and we’re confident that future tooling and ecosystem maturity will make this evolution even smoother. Today Mojo is its own la",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Mojo🔥 is now open source Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed around August 2025 : Mojo may or "
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+    "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+    "raw_text": "标题: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index\n来源: simonwillison\n摘要: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+    "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+    "raw_text": "标题: We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility\n来源: simonwillison\n摘要: We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this ",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they re"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Markdown SVG upgrades",
+    "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+    "raw_text": "标题: Markdown SVG upgrades\n来源: simonwillison\n摘要: I started building my markdown-svg-renderer tool in May , but I've since added enough features to it that it's worth talking about here again. It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my proclivity for drawing pelicans riding bicycles this is a problem that I needed to solve! The tool is very simple. Navigate to markdown-svg-renderer in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly URL or a GitHub Gist and paste in a URL to that document. The URL option will give you a bookmarkable page, for example https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657 - which bakes in the URL to this Gist . If you v",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "I started building my markdown-svg-renderer tool in May , but I've since added enough features to it that it's worth talking about here again. It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my proclivity for drawing pelicans riding bicycles this is a problem that I needed to solve! The tool is very simple. Navigate to markdown-svg-renderer in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly "
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+    "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+    "raw_text": "标题: Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things\n来源: simonwillison\n摘要: Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B and the closed-weight Qwen 3.7-Plus, which was one of Qwen's strongest models of any size as recently as May this year . It will be interesting to hear what independent benchmarks have to say about the model. I've been running the model on two different machines: my 128GB M5 Max MacBook Pro, and an NVIDIA DGX Spark . On both machines I'm running LM Studio and their 17GB Q4_K_M quantized build . I al",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B and the closed-weight Qwen 3.7-Plus, which was one of Qwen's strongest models of any size as recently "
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Quoting Dario Amodei",
+    "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+    "raw_text": "标题: Quoting Dario Amodei\n来源: simonwillison\n摘要: I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is actually curing cancer . I t",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy mar"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "CORS Chat",
+    "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+    "raw_text": "标题: CORS Chat\n来源: simonwillison\n摘要: Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in. Tags: svg , ai , generative-ai , llms , cors , openrouter , lm-studio",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressi"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Northern Gannet",
+    "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+    "raw_text": "标题: Northern Gannet\n来源: simonwillison\n摘要: Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They showed up in the Farallon Islands off the coast of San Francisco 14 years ago . They have since made Pillar Point harbor their home, where they are quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier. Tags: photography , wildlife , half-moon-bay",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They showed up in the Farallon Islands off the coast of San Francisco 14 years ago . They have since made Pillar Point harbor their home, where they are quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the com"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "Don't classify. Hallucinate!",
+    "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+    "raw_text": "标题: Don't classify. Hallucinate!\n来源: simonwillison\n摘要: Don t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit! His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess: Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query. Product classifications might look like: Furniture / L",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Don t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit! Hi"
+    }
+  },
+  {
+    "source": "simonwillison",
+    "title": "sqlite-utils 4.2.1",
+    "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+    "raw_text": "标题: sqlite-utils 4.2.1\n来源: simonwillison\n摘要: Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout: uv run --isolated --no-default-groups sqlite-utils --help The --no-default-groups argument prevents it from installing that default dev group, and --isolated means that even if there is a .venv/ folder containing extra dependenc",
+    "default_tags": [
+      "llm",
+      "tool-use"
+    ],
+    "extra": {
+      "description": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even with"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260819-002",
+  "title": "Strengthening democratic oversight in national security",
+  "source_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+  "summary": "Strengthening democratic oversight in national security｜OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government instituti",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise."
+  }
+}

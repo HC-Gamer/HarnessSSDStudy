@@ -1,0 +1,22 @@
+{
+  "id": "github-20260819-001",
+  "title": "yetone/cumora",
+  "source_url": "https://github.com/yetone/cumora",
+  "summary": "yetone/cumora｜Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+  "tags": [
+    "agent",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2551,
+    "language": "TypeScript",
+    "topics": [],
+    "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains."
+  }
+}

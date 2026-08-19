@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260819-002",
+  "title": "Mojo is now open source",
+  "source_url": "https://www.modular.com/blog/mojo-open-source",
+  "summary": "Mojo is now open source｜ModCon is today! Watch the livestream. Back Product Solutions Resources Open Source Docs Blog Company Request a demo Sign up Inference Products Shared Endpo",
+  "tags": [
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "ModCon is today! Watch the livestream. Back Product Solutions Resources Open Source Docs Blog Company Request a demo Sign up Inference Products Shared Endpoints Access frontier models via an API Dedicated Endpoints Mission critical reliability Custom models Your model, peak performance Deployment Op"
+  }
+}

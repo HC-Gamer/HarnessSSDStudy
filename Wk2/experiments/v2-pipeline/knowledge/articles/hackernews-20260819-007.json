@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260819-007",
+  "title": "OpenLogi",
+  "source_url": "https://openlogi.org/en",
+  "summary": "OpenLogi｜Article URL: https://openlogi.org/en Comments URL: https://news.ycombinator.com/item?id=49355606 Points: 484 # Comments: 133",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://openlogi.org/en Comments URL: https://news.ycombinator.com/item?id=49355606 Points: 484 # Comments: 133"
+  }
+}

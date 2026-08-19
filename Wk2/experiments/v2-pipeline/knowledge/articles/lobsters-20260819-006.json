@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260819-006",
+  "title": "Kakoune code editor",
+  "source_url": "https://kakoune.org/",
+  "summary": "Kakoune code editor｜Kakoune Get started! Documentation Issue Tracker Design Notes Gallery Plugins Community Wiki Community Writings Forums Matrix IRC Mailing List SubReddit Transla",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Kakoune Get started! Documentation Issue Tracker Design Notes Gallery Plugins Community Wiki Community Writings Forums Matrix IRC Mailing List SubReddit Translation English French Hungarian Italian Kakoune code editor Modal editor · Faster as in fewer keystrokes · Multiple selections · Orthogonal de"
+  }
+}

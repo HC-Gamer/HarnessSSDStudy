@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260819-010",
+  "title": "Using the railway network as a flatbed scanner",
+  "source_url": "https://philo.gay/linecam/",
+  "summary": "Using the railway network as a flatbed scanner｜Philo's Website Using the railway network as a flatbed scanner August 17 th , 2026 4,600 words Over the past few months, I've been wo",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Philo's Website Using the railway network as a flatbed scanner August 17 th , 2026 4,600 words Over the past few months, I've been working on using an industrial linear scanning camera to take very wide photos out of trains and ferries. Getting it working has been quite the challenge, but I think th"
+  }
+}

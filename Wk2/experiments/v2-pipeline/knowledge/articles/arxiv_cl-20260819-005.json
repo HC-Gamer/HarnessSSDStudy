@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260819-005",
+  "title": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning",
+  "source_url": "https://arxiv.org/abs/2608.18011v1",
+  "summary": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning｜Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics a",
+  "tags": [
+    "evaluation",
+    "reasoning",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems of the International Linguistics Olympiad (IOL) 2026 Individual Contest, evaluated both automatically and, for the first time, by members of the official IOL Jury under the same rubrics applied to hum"
+  }
+}

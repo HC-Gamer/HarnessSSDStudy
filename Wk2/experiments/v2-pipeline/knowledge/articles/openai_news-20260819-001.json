@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260819-001",
+  "title": "ChatGPT Ads expands across Europe",
+  "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+  "summary": "ChatGPT Ads expands across Europe｜ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions."
+  }
+}

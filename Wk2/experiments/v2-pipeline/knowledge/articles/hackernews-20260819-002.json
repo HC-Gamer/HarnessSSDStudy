@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260819-002",
+  "title": "Berd",
+  "source_url": "https://berd.xyz",
+  "summary": "Berd｜Article URL: https://berd.xyz Comments URL: https://news.ycombinator.com/item?id=49357967 Points: 9 # Comments: 1",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://berd.xyz Comments URL: https://news.ycombinator.com/item?id=49357967 Points: 9 # Comments: 1"
+  }
+}

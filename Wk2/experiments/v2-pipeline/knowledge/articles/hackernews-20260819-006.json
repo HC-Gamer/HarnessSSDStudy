@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260819-006",
+  "title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
+  "source_url": "https://github.com/katiahayati/lucasartsifier/",
+  "summary": "Show HN: Automatically detect and patch walking-dead states in Sierra games｜Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-19T08:26:31.554001+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner. So I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can"
+  }
+}
