@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260820-004",
+  "title": "Reclaim the terminal",
+  "source_url": "https://nishantjosh.dev/blogs/reclaim-the-terminal/",
+  "summary": "Reclaim the terminal｜Nishant Joshi / Reclaim the terminal Reclaim the terminal aug 19, 2026 1,650 words public Pipe a file into less and it still responds when you press j . But if",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Nishant Joshi / Reclaim the terminal Reclaim the terminal aug 19, 2026 1,650 words public Pipe a file into less and it still responds when you press j . But if less is reading the file from stdin, where is it reading your keystrokes from? I ran into the same question while connecting piped input to"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260820-006",
+  "title": "SQLite for Everything",
+  "source_url": "https://joecode.com/2026-08-19-sqlite3/",
+  "summary": "SQLite for Everything｜SQLite for Everything | JoeCode JoeCode About Contact Resume Noise Bookmarks [Solis] SQLite for Everything Aug 19, 2026 Dr. Raphael Bauer penned an excellent",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "SQLite for Everything | JoeCode JoeCode About Contact Resume Noise Bookmarks [Solis] SQLite for Everything Aug 19, 2026 Dr. Raphael Bauer penned an excellent article ( PostgreSQL for Everything ) on the value of using PostgreSQL to power your enterprise. I’ve taken the liberty of correcting a couple"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-20260820-001",
+  "title": "s1dashu/ip-as-logo-skill",
+  "source_url": "https://github.com/s1dashu/ip-as-logo-skill",
+  "summary": "s1dashu/ip-as-logo-skill｜A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+  "tags": [
+    "agent"
+  ],
+  "status": "review",
+  "score": 6,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "github",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "stars": 2567,
+    "language": null,
+    "topics": [
+      "codex",
+      "codex-skill",
+      "image-generation",
+      "logo-design",
+      "mascot-design"
+    ],
+    "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos."
+  }
+}

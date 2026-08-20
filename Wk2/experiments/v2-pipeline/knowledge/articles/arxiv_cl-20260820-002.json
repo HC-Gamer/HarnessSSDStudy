@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260820-002",
+  "title": "Comment-level Topic Drift Analysis in the Reddit Corpus",
+  "source_url": "https://arxiv.org/abs/2608.19133v1",
+  "summary": "Comment-level Topic Drift Analysis in the Reddit Corpus｜We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at th",
+  "tags": [
+    "rag",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we analyzed 12.7 billion Reddit comments spanning 2006 to 2022. Using unsupervised methods on these embeddings, we identify dynamically evolving topic clusters over time. Our primary contribution is a methodology for analysis of semant"
+  }
+}

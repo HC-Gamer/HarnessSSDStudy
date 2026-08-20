@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260820-001",
+  "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+  "source_url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+  "summary": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript｜Research: smolmachines / smolvm as a sandbox for untrusted Python JavaScript I tasked Claude Fable 5 running in",
+  "tags": [
+    "code-generation",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Research: smolmachines / smolvm as a sandbox for untrusted Python JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal is t"
+  }
+}

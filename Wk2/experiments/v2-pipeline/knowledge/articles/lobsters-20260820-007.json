@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260820-007",
+  "title": "Introducing Microlighter",
+  "source_url": "https://daverupert.com/2026/08/microlighter/",
+  "summary": "Introducing Microlighter｜About Archives Projects Stories Bookshelf microlighter Oops. I made a syntax highlighter. August 19, 2026 #projects , #blogging , #code I made a smol clien",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "About Archives Projects Stories Bookshelf microlighter Oops. I made a syntax highlighter. August 19, 2026 #projects , #blogging , #code I made a smol client-side syntax highlighter that uses the CSS Custom Highlights API called MicroLighter . I’ll talk about why I made it in a bit but first I wanted"
+  }
+}

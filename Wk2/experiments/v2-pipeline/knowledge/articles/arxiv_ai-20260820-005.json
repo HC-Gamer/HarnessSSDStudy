@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260820-005",
+  "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
+  "source_url": "https://arxiv.org/abs/2608.19163v1",
+  "summary": "Interpretable AI predicts a 2026 summer dry anomaly in central China｜Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predi",
+  "tags": [
+    "evaluation",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning model that translates dynamical circulation predictions into precipitation estimates. Predictions initialized from March to May consistently indicate a dry anomaly over central China in summer 2026. Retrospective evaluations revealed higher predictive skill in the analogue years, which also tended to "
+  }
+}

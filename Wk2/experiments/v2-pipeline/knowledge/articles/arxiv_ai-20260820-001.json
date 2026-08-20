@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260820-001",
+  "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+  "source_url": "https://arxiv.org/abs/2608.19197v1",
+  "summary": "SPADE: Self-Play in Adaptive Synthetic Executable Environments｜Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260820-005",
+  "title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
+  "source_url": "https://os8088.com/spotlight/",
+  "summary": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a｜Article URL: https://os8088.com/spotlight/ Comments URL: https://news.ycombinator.com/item?id=49367",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://os8088.com/spotlight/ Comments URL: https://news.ycombinator.com/item?id=49367256 Points: 84 # Comments: 39"
+  }
+}

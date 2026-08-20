@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260820-007",
+  "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+  "source_url": "https://arxiv.org/abs/2608.19147v1",
+  "summary": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets｜Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they s",
+  "tags": [
+    "deployment",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models beyond the capability of any single one. We use pipeline parallelism: a model is split by layer into per-stage shards, each pre-compiled into an OpenVINO graph, so that every machine runs one shard and p"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_cl-20260820-007",
+  "title": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
+  "source_url": "https://arxiv.org/abs/2608.19029v1",
+  "summary": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering｜Accurate and responsible medical question answering (QA) is important in healthcare, where complex",
+  "tags": [
+    "agent",
+    "rag",
+    "evaluation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Accurate and responsible medical question answering (QA) is important in healthcare, where complex cases require factual knowledge and nuanced reasoning. Existing medical QA systems, typically based on single-agent architectures and static retrieval, often lack adaptability, persistent memory, and structured decision-making. This work introduces an adaptive memory and reflection (AMR) agentic system, a multi-agent framework in which specialized agents use dedicated memory and reflection-based fe"
+  }
+}

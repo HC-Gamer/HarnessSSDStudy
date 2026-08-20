@@ -1,0 +1,18 @@
+{
+  "id": "arxiv_cl-20260820-001",
+  "title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
+  "source_url": "https://arxiv.org/abs/2608.19165v1",
+  "summary": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos｜ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted to SponsorBlock, an open-source crowdsourced browser extension whose users mark sponsor segments so that others can skip them. We pair the segment with its available transcript, video and channel information, and a sales or service page linked from the video description. Systems determine what kind "
+  }
+}

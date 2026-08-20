@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260820-001",
+  "title": "HTML Can Do That",
+  "source_url": "https://chrisburnell.com/html-can-do-that/",
+  "summary": "HTML Can Do That｜HTML Can Do That HTML has been gobbling up swathes of what used to be JavaScript’s remit. This page lists a bunch of dynamic functionality that we can now achieve",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "HTML Can Do That HTML has been gobbling up swathes of what used to be JavaScript’s remit. This page lists a bunch of dynamic functionality that we can now achieve with just HTML. popover Available since January 2025 Chrome 114+ Edge 114+ Firefox 125+ Opera 100+ Safari 17+ Chrome Android 114+ Firefox"
+  }
+}

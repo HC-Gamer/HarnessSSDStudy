@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260820-010",
+  "title": "Google has stopped pushing Git tags for some Android source code",
+  "source_url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+  "summary": "Google has stopped pushing Git tags for some Android source code｜Article URL: https://grapheneos.social/@GrapheneOS/117057099753905023 Comments URL: https://news.ycombinator.com/it",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://grapheneos.social/@GrapheneOS/117057099753905023 Comments URL: https://news.ycombinator.com/item?id=49364745 Points: 499 # Comments: 205"
+  }
+}

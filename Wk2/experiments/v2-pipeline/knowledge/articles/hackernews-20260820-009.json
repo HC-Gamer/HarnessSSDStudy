@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260820-009",
+  "title": "Go 1.27",
+  "source_url": "https://go.dev/blog/go1.27",
+  "summary": "Go 1.27｜Article URL: https://go.dev/blog/go1.27 Comments URL: https://news.ycombinator.com/item?id=49365405 Points: 609 # Comments: 166",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://go.dev/blog/go1.27 Comments URL: https://news.ycombinator.com/item?id=49365405 Points: 609 # Comments: 166"
+  }
+}

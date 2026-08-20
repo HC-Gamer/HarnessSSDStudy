@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260820-008",
+  "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+  "source_url": "https://arxiv.org/abs/2608.19140v1",
+  "summary": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems｜Frontier language models are compared, marketed, and benchmarked on capability --",
+  "tags": [
+    "rag",
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Frontier language models are compared, marketed, and benchmarked on capability -- what their best or average output can achieve. I argue this measures the wrong axis. The models have saturated accuracy: their mean output lands on the target. What now separates one system from another in practice is precision: how tightly concentrated their outputs are around that target across repeated, identical requests. Borrowing the marksman's distinction, capability is where the average shot lands; reliabil"
+  }
+}

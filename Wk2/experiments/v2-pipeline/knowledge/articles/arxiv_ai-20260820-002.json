@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260820-002",
+  "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+  "source_url": "https://arxiv.org/abs/2608.19182v1",
+  "summary": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning｜We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcem",
+  "tags": [
+    "robotics",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT pretrains a dexterous policy on a generic object reposing task, then post-trains downstream policies with this pretrained behavior as a prior. ADEPT enables learning new behaviors that are otherwise d"
+  }
+}

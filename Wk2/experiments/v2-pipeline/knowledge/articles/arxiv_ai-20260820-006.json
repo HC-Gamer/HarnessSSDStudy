@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260820-006",
+  "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+  "source_url": "https://arxiv.org/abs/2608.19161v1",
+  "summary": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication｜Language-model agents can communicate through continuous hidden states that are invisible",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communication channels. For every monitored decision, VLA links the private latent-state record and channel status to the resulting public action using a shared event identifier, enabling matched causal analysi"
+  }
+}

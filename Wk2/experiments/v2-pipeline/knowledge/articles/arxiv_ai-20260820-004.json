@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260820-004",
+  "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+  "source_url": "https://arxiv.org/abs/2608.19174v1",
+  "summary": "Finetuning Strategies for Querying Sounds by Vocal Imitation｜This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by voc",
+  "tags": [
+    "fine-tuning",
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include details released after the challenge."
+  }
+}

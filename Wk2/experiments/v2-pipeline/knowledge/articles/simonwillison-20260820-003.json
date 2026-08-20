@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260820-003",
+  "title": "Conceptual integrity and counting lines of code",
+  "source_url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+  "summary": "Conceptual integrity and counting lines of code｜Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software",
+  "tags": [
+    "agent",
+    "prompt-engineering",
+    "code-generation"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\"). This is the latest version of an argument I've been trying to build about why sometimes it does make sense to talk about lines of code as an indicator of productivity with coding agents, "
+  }
+}

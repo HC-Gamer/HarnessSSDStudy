@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260820-009",
+  "title": "Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles",
+  "source_url": "https://arxiv.org/abs/2608.19127v1",
+  "summary": "Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles｜A gradient-boosted ensemble predicts by summing one leaf value per tree. Read those values",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "A gradient-boosted ensemble predicts by summing one leaf value per tree. Read those values as coordinates rather than as intermediate results, and every instance becomes a point in R^M on which the model acts linearly: the score is the sum of the coordinates. This small change of view makes contrastive explanation exact. The difference between two instances is a vector that is identically zero wherever they share a leaf, so the gap between a rejected applicant and an accepted one is carried by a"
+  }
+}

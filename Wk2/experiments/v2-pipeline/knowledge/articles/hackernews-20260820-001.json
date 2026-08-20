@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260820-001",
+  "title": "Windows brings out the Rorschach test in everyone",
+  "source_url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+  "summary": "Windows brings out the Rorschach test in everyone｜Article URL: https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803 Comments URL: https://news.ycombinator.com/item?id=49",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-20T08:27:48.780821+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803 Comments URL: https://news.ycombinator.com/item?id=49371006 Points: 101 # Comments: 29"
+  }
+}
