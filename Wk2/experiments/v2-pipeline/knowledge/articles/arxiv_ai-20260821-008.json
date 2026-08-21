@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260821-008",
+  "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+  "source_url": "https://arxiv.org/abs/2608.20281v1",
+  "summary": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization｜Large language models often fail to answer questions about a bounded document col",
+  "tags": [
+    "rag",
+    "evaluation",
+    "deployment"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question answering. We propose IAR (Inject, Align, and Recover), a three-stage post-training framework that separates structured document knowledge injection, QA behavior alignment, and general ability recover"
+  }
+}

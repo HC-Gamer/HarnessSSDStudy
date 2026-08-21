@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260821-001",
+  "title": "Bun 1.4",
+  "source_url": "https://bun.com/blog/bun-v1.4",
+  "summary": "Bun 1.4｜Skip to content Docs Guides Reference Blog Search docs, APIs, guides… / Install Home Docs Guides Reference Blog Install Bun v 1.4.0 Blog Bun 1.4 Jarred , Ciro , Dylan , Ali",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Skip to content Docs Guides Reference Blog Search docs, APIs, guides… / Install Home Docs Guides Reference Blog Install Bun v 1.4.0 Blog Bun 1.4 Jarred , Ciro , Dylan , Alistair Sosuke · August 20, 2026 Bun is the complete toolkit for building and testing full-stack JavaScript and TypeScript applica"
+  }
+}

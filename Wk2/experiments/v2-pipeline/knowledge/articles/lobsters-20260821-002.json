@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260821-002",
+  "title": "Announcing Rust 1.98.0",
+  "source_url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+  "summary": "Announcing Rust 1.98.0｜Rust Blog Rust Install Learn Tools Governance Community 🖌 Light Dark System Announcing Rust 1.98.0 Aug. 20, 2026 The Rust Release Team The Rust team is happy",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Rust Blog Rust Install Learn Tools Governance Community 🖌 Light Dark System Announcing Rust 1.98.0 Aug. 20, 2026 The Rust Release Team The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you"
+  }
+}

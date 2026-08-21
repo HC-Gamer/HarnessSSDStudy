@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260821-006",
+  "title": "Seed: Minimal, self-modifying agent harness",
+  "source_url": "https://github.com/vivekhaldar/seed",
+  "summary": "Seed: Minimal, self-modifying agent harness｜Article URL: https://github.com/vivekhaldar/seed Comments URL: https://news.ycombinator.com/item?id=49384113 Points: 16 # Comments: 3",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://github.com/vivekhaldar/seed Comments URL: https://news.ycombinator.com/item?id=49384113 Points: 16 # Comments: 3"
+  }
+}

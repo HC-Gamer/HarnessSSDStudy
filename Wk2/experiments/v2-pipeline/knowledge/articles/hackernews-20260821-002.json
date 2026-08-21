@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260821-002",
+  "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
+  "source_url": "https://encore.dev/blog/firecracker-apple-silicon",
+  "summary": "We Rebuilt the Linux MicroVM Stack on Apple Silicon｜Article URL: https://encore.dev/blog/firecracker-apple-silicon Comments URL: https://news.ycombinator.com/item?id=49384716 Point",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://encore.dev/blog/firecracker-apple-silicon Comments URL: https://news.ycombinator.com/item?id=49384716 Points: 30 # Comments: 3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260821-003",
+  "title": "Inducing Task Models from Computer-Use Traces",
+  "source_url": "https://arxiv.org/abs/2608.20319v1",
+  "summary": "Inducing Task Models from Computer-Use Traces｜Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving s",
+  "tags": [
+    "agent",
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing such task models is challenging, as activity is observed only as low-level events and real-world wor"
+  }
+}

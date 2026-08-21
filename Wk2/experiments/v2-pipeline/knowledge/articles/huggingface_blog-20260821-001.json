@@ -1,0 +1,19 @@
+{
+  "id": "huggingface_blog-20260821-001",
+  "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+  "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+  "summary": "Up to 3.2x Faster Inference with LFM2.5-DSpark｜Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations",
+  "tags": [
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "huggingface_blog",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endp"
+  }
+}

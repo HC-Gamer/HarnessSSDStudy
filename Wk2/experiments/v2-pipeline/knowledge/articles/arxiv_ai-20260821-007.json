@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260821-007",
+  "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
+  "source_url": "https://arxiv.org/abs/2608.20290v1",
+  "summary": "Phantom Gains: Auditing Self-Improvement Against a Measured Null｜Whether a language model has improved itself is increasingly judged not by mean accuracy but by which individual pr",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Whether a language model has improved itself is increasingly judged not by mean accuracy but by which individual problems it gains and loses. Tracking these transitions means differencing two noisy estimates, leaving them vulnerable to measurement artifacts. Auditing three rounds of rank-$32$ LoRA self-training on Qwen3-8B against a frozen control pushed through the identical pipeline, we identify seven measurement failures, each of which inverts a reported finding when its control is absent. Se"
+  }
+}

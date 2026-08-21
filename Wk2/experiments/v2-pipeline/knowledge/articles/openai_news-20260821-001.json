@@ -1,0 +1,18 @@
+{
+  "id": "openai_news-20260821-001",
+  "title": "Introducing AI Futures",
+  "source_url": "https://openai.com/index/introducing-ai-futures",
+  "summary": "Introducing AI Futures｜Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+  }
+}

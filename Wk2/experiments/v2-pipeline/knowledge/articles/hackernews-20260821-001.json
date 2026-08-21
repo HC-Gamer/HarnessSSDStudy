@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260821-001",
+  "title": "The Lost Treasure of Sid Meier's Pirates",
+  "source_url": "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/",
+  "summary": "The Lost Treasure of Sid Meier's Pirates｜Article URL: https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/ Comments URL: https://news.ycombinator.com/item?id=49",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/ Comments URL: https://news.ycombinator.com/item?id=49384896 Points: 30 # Comments: 3"
+  }
+}

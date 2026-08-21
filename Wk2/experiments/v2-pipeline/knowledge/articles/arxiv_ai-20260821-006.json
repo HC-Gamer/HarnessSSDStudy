@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260821-006",
+  "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+  "source_url": "https://arxiv.org/abs/2608.20314v1",
+  "summary": "MidTool: Mid-training Data Synthesis for Agentic Tool Use｜Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent",
+  "tags": [
+    "agent",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as math and science, and can also improve agentic capabilities in software-engineering settings. In this work, we study the parallel but less explored agentic capability: general tool use. We present MidTool, an open corpus construction pipeline for agentic tool-use mid-training that c"
+  }
+}

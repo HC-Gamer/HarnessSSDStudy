@@ -1,0 +1,19 @@
+{
+  "id": "openai_news-20260821-002",
+  "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+  "source_url": "https://openai.com/index/stampli",
+  "summary": "Stampli cuts launch hours by 68% using ChatGPT Work｜With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch",
+  "tags": [
+    "code-generation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "openai_news",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
+  }
+}

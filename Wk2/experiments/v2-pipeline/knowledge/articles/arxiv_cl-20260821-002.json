@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_cl-20260821-002",
+  "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+  "source_url": "https://arxiv.org/abs/2608.20210v1",
+  "summary": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference｜Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the",
+  "tags": [
+    "deployment",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "arxiv_cl",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary CPU, and chose the architecture to suit it. The result keeps full attention in only 6 of its 18 blocks. The other 12 use short convolutions whose memory is two timesteps wide no matter how long the conversation gets, so two thirds of the network never re-reads a growing cache. Trained from scratch o"
+  }
+}

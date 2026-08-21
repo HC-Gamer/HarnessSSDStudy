@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260821-009",
+  "title": "Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH",
+  "source_url": "https://www.ethanheilman.com/x/33/index.html",
+  "summary": "Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH｜Ethan Heilman Main || Writing Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Ethan Heilman Main || Writing Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH 05-11-2025 11:40PM (ET) OPKSSH makes it easy to SSH with single sign-on technologies like OpenID Connect, thereby removing the need to manually manage and configure SSH keys. It does this without"
+  }
+}

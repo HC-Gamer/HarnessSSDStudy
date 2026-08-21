@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260821-006",
+  "title": "Btrfs Snapshot Integration in KDE",
+  "source_url": "https://bharadwajraju.com/posts/btrfs-snapshots-in-kde/",
+  "summary": "Btrfs Snapshot Integration in KDE｜~ bharadwaj Posts Background What it is How it works Allied work KDE Linux Release Btrfs Snapshot Integration in KDE the 20th of August, 2026 I ha",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "~ bharadwaj Posts Background What it is How it works Allied work KDE Linux Release Btrfs Snapshot Integration in KDE the 20th of August, 2026 I have been working on integrating Btrfs snapshots into KDE software. The central part of this work has been realized in the form of KIO Snapshot , which has"
+  }
+}

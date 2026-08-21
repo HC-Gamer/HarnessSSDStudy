@@ -1,0 +1,19 @@
+{
+  "id": "arxiv_ai-20260821-010",
+  "title": "Catching the Rug: Early Prediction of Fraudulent Memecoins on Solana via Machine Learning",
+  "source_url": "https://arxiv.org/abs/2608.20271v1",
+  "summary": "Catching the Rug: Early Prediction of Fraudulent Memecoins on Solana via Machine Learning｜The rapid proliferation of memecoins on blockchain platforms has increased the risk of fra",
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "The rapid proliferation of memecoins on blockchain platforms has increased the risk of fraudulent activities, particularly rug pulls. While previous studies have focused on Ethereum-based tokens, this paper shifts the spotlight to Solana, the leading blockchain for memecoins by trading volume and token count. Unlike Ethereum, where rug pulls often exploit smart contract backdoors, Solana memecoin rug pulls are predominantly driven by liquidity manipulation and social dynamics. This research pion"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arxiv_ai-20260821-009",
+  "title": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
+  "source_url": "https://arxiv.org/abs/2608.20274v1",
+  "summary": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents｜Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capabl",
+  "tags": [
+    "agent",
+    "rag",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "arxiv_ai",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capable with experience. In practice, induced skills may transfer unreliably and can even harm the agent that retrieves them. When agent-induced skills transfer reliably across tasks remains an open question. We conduct a comprehensive and controlled study of how the way skills are induced shapes their transfer across tasks. Specifically, we compare task-level with subtask-level skill induc"
+  }
+}

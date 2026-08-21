@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260821-007",
+  "title": "AliExpress keeps multipoint Bluetooth headphones active with WebAudio fingerprinting",
+  "source_url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+  "summary": "AliExpress keeps multipoint Bluetooth headphones active with WebAudio fingerprinting｜laserphile Thursday, 20 August 2026 AliExpress webpage keeping multipoint Bluetooth headphones",
+  "tags": [
+    "audio",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "laserphile Thursday, 20 August 2026 AliExpress webpage keeping multipoint Bluetooth headphones active with WebAudio fingerprinting Recently I ran into a strange problem with my Bluetooth headphones. They support multipoint Bluetooth audio, so they can be connected to my PC and phone at the same time"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260821-008",
+  "title": "What Zig felt like, coming from Rust",
+  "source_url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+  "summary": "What Zig felt like, coming from Rust｜besok Posts Tags About rss What Zig felt like, coming from Rust Intro I ve spent the last 7 years as a Rust developer, working mostly on open s",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-21T08:29:32.455563+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "besok Posts Tags About rss What Zig felt like, coming from Rust Intro I ve spent the last 7 years as a Rust developer, working mostly on open source projects, and I d like to think I ve built a solid feel for the language and its ecosystem along the way. I gravitate toward the functional side of Rus"
+  }
+}
