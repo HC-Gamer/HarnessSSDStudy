@@ -1,0 +1,19 @@
+{
+  "id": "lobsters-20260822-003",
+  "title": "Felony Bench: Be AI, Do Crime",
+  "source_url": "https://www.felonybench.com/",
+  "summary": "Felony Bench: Be AI, Do Crime｜Felony Bench A benchmark you really don't want models to be saturated with. Learn more ↓ Model Evaluator Score ↖ Most illegal Least illegal ↘ 8 Anthro",
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Felony Bench A benchmark you really don't want models to be saturated with. Learn more ↓ Model Evaluator Score ↖ Most illegal Least illegal ↘ 8 Anthropic 8 OpenAI 1 Meta 0 Google 0 Moonshot Scores indicate count of illegal activity. Higher is... you decide. Company Felonies Description Date Source A"
+  }
+}

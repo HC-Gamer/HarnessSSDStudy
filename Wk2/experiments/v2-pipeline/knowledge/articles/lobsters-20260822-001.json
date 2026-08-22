@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260822-001",
+  "title": "Enabling the next-generation trait solver on nightly",
+  "source_url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+  "summary": "Enabling the next-generation trait solver on nightly｜Rust Blog Rust Install Learn Tools Governance Community 🖌 Light Dark System Enabling the next-generation trait solver on nightl",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Rust Blog Rust Install Learn Tools Governance Community 🖌 Light Dark System Enabling the next-generation trait solver on nightly Aug. 21, 2026 lcnr on behalf of The Rustc Trait System Refactor Initiative After nearly 4 years of active development, the next-generation trait solver is close to stabili"
+  }
+}

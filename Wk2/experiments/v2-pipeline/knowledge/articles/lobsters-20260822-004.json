@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260822-004",
+  "title": "Better Batteries",
+  "source_url": "https://matklad.github.io/2026/08/20/better-batteries.html",
+  "summary": "Better Batteries｜matklad About Links Blogroll Better Batteries Aug 20, 2026 One of the eternal schisms in programming is over the question of whether the standard library should be",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "matklad About Links Blogroll Better Batteries Aug 20, 2026 One of the eternal schisms in programming is over the question of whether the standard library should be minimal or encompassing. This is the wrong question to ask. The right one is: Which social architecture creates a high-quality standard"
+  }
+}

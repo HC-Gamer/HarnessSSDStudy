@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260822-002",
+  "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+  "source_url": "https://lina.sh/blog/hijacking-e164-arpa",
+  "summary": "I accidentally logged hundreds of thousands of phone calls to military bases｜back home back to blogs I accidentally logged hundreds of thousands of phone calls to military bases Ho",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "back home back to blogs I accidentally logged hundreds of thousands of phone calls to military bases How an expired nameserver let me take over e164.arpa zones for multiple territories, and why I probably should have checked my logs sooner. 2026-07-30 short: https://lina.sh/-e164 DNS hijacking is si"
+  }
+}

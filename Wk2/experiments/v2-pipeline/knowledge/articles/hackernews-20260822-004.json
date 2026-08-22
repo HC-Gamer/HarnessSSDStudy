@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260822-004",
+  "title": "HN: The Good Parts (2016)",
+  "source_url": "https://danluu.com/hn-comments/",
+  "summary": "HN: The Good Parts (2016)｜Article URL: https://danluu.com/hn-comments/ Comments URL: https://news.ycombinator.com/item?id=49395171 Points: 43 # Comments: 8",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://danluu.com/hn-comments/ Comments URL: https://news.ycombinator.com/item?id=49395171 Points: 43 # Comments: 8"
+  }
+}

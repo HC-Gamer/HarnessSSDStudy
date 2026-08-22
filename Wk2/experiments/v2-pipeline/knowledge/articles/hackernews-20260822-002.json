@@ -1,0 +1,19 @@
+{
+  "id": "hackernews-20260822-002",
+  "title": "There's no reason for software to be slow anymore",
+  "source_url": "https://danluu.com/perf-opt/",
+  "summary": "There's no reason for software to be slow anymore｜Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 356 # Comments: 259",
+  "tags": [
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 356 # Comments: 259"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lobsters-20260822-006",
+  "title": "Compile-Time Improvements in LLVM 23",
+  "source_url": "https://aengelke.net/llvm23-ct.html",
+  "summary": "Compile-Time Improvements in LLVM 23｜aengelke.net Compile-Time Improvements in LLVM 23 2026-08-21 LLVM 23 has seen substantial compile-time improvements of -6.75% (sqlite3: -10.53%",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "lobsters",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "aengelke.net Compile-Time Improvements in LLVM 23 2026-08-21 LLVM 23 has seen substantial compile-time improvements of -6.75% (sqlite3: -10.53%) in -O3 builds. This article describes the major sources of these improvements. All performance numbers refer to the the stage2-O3 configuration on LLVM com"
+  }
+}

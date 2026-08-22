@@ -1,0 +1,18 @@
+{
+  "id": "hackernews-20260822-009",
+  "title": "Optimizing meshoptimizer to process billions of triangles in minutes (2025)",
+  "source_url": "https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/",
+  "summary": "Optimizing meshoptimizer to process billions of triangles in minutes (2025)｜Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.yco",
+  "tags": [
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 16 # Comments: 0"
+  }
+}

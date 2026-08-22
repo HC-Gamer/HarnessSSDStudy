@@ -1,0 +1,20 @@
+{
+  "id": "simonwillison-20260822-002",
+  "title": "llm-openrouter 0.7",
+  "source_url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+  "summary": "llm-openrouter 0.7｜Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated f",
+  "tags": [
+    "reasoning",
+    "llm",
+    "tool-use"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "simonwillison",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch . Tags: llm , openrouter"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hackernews-20260822-005",
+  "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+  "source_url": "https://ozbrain.com",
+  "summary": "Show HN: OzBrain, a shared brain for knowledge between agents and your team｜I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go aw",
+  "tags": [
+    "agent",
+    "reasoning",
+    "llm"
+  ],
+  "status": "review",
+  "score": 5,
+  "collected_at": "2026-08-22T08:18:48.453346+00:00",
+  "source": "hackernews",
+  "audience": "intermediate",
+  "analyzed_by": "rule-based",
+  "extra": {
+    "description": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me. A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for humans… I don’t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work. What I built Oz"
+  }
+}
